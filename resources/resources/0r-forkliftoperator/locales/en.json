@@ -1,0 +1,76 @@
+{
+    "employer": {
+        "interaction_label": "Talk to Employer"
+    },
+    "notification": {
+        "error": {
+            "enter_player_id": "Please enter a valid player ID.",
+            "not_team_owner": "You are not the team owner.",
+            "already_in_team": "The player is already in team.",
+            "you_are_in_team": "You are already in a team.",
+            "team_full": "Your team is full.",
+            "too_far_for_invite": "The player is too far away to send an invitation.",
+            "not_in_team": "You are not in a team.",
+            "cant_invite_self": "You cannot invite yourself."
+        },
+        "info": {
+            "invite_declined": "%s has declined your multiplayer team invitation.",
+            "invite_accepted": "%s has accepted your multiplayer team invitation.",
+            "left_team": "You have left the multiplayer team.",
+            "kicked_from_team": "You have been kicked from the multiplayer team by %s.",
+            "job_completed": "Congratulations! You have completed the job. Talk to your employer and get your awards."
+        }
+    },
+    "target": {
+        "controller": {
+            "label": "Start Transporter"
+        },
+        "management": {
+            "stop_job": "Stop Job",
+            "complete_job": "Complete Job"
+        }
+    },
+    "alert": {
+        "multiplayer_invite": {
+            "title": "Multiplayer Team Invite",
+            "content": "You have been invited to join a multiplayer team by %s. Do you want to accept the invitation?",
+            "accept_button": "Accept",
+            "decline_button": "Decline"
+        }
+    },
+    "web": {
+        "header": {
+            "trucker": "FORKLIFT",
+            "job": "JOB",
+            "description": "Complete delivery missions with your team and earn rewards together!"
+        },
+        "tabs": {
+            "player_list": "Player List",
+            "task_type": "Task Type",
+            "profile": "Profile",
+            "job_details": "Job Details",
+            "job_clothings": "Job Clothings"
+        },
+        "buttons": {
+            "start_job": "Start Job",
+            "invite_player": "Invite Player",
+            "change_clothes": "Change Clothes"
+        },
+        "labels": {
+            "awards": "Awards",
+            "nickname": "Nickname",
+            "level": "Level",
+            "xp": "XP",
+            "job_step": "Information",
+            "job_step_description": "If you work the night shift between 10:00 PM and 6:00 AM, you will earn additional overtime pay.",
+            "empty_slot": "Empty Slot",
+            "info_header": "Multiplayer Team Info",
+            "info_description": "Work together with your team!",
+            "leader": "Leader",
+            "member": "Member"
+        },
+        "inputs": {
+            "enter_player_id": "Enter player ID..."
+        }
+    }
+}

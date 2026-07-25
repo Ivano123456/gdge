@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="nui://jamaica_utils/html/jamaica-panel.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root" class="hidden">
+        <div class="panel">
+            <div class="panel-glow"></div>
+
+            <header class="panel-head">
+                <div class="head-left">
+                    <div class="logo">
+                        <i class="fa-solid fa-terminal"></i>
+                    </div>
+                    <div>
+                        <h1 class="panel-title">Haker</h1>
+                        <p class="panel-sub">Brisanje dosijea i poternica</p>
+                    </div>
+                </div>
+                <div class="head-right">
+                    <div class="days-chip" title="Preostali dani">
+                        <i class="fa-regular fa-clock"></i>
+                        <span><span id="daysLeft">0</span> dana</span>
+                    </div>
+                    <button type="button" id="btnClose" class="btn-icon" aria-label="Zatvori">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </header>
+
+            <div class="search-row">
+                <div class="search-field">
+                    <i class="fa-solid fa-hashtag"></i>
+                    <input type="text" id="playerId" inputmode="numeric" placeholder="ID igrača" autocomplete="off" maxlength="6">
+                </div>
+                <button type="button" id="btnSearch" class="btn primary">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Pretraži
+                </button>
+            </div>
+
+            <div id="emptyState" class="empty-state">
+                <div class="empty-icon"><i class="fa-solid fa-user-secret"></i></div>
+                <strong>Nema aktivne pretrage</strong>
+                <span>Unesi ID igrača da vidiš dosijee i poternice.</span>
+            </div>
+
+            <div id="resultWrap" class="hidden">
+                <div class="target-bar">
+                    <div class="target-avatar">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="target-info">
+                        <span class="target-name" id="targetName">—</span>
+                        <span class="target-id">ID <span id="targetId">—</span></span>
+                    </div>
+                    <span class="target-count" id="targetCount">0 zapisa</span>
+                </div>
+                <div class="records" id="recordsList"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

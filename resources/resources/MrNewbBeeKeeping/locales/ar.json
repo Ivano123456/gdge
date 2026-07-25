@@ -1,0 +1,274 @@
+{
+    "SubmitText": "إرسال",
+    "BeeShop": {
+        "Invalid": "هذا المتجر غير صالح. يرجى إبلاغ مالك الخادم لضبط الإعدادات.",
+        "OpenMenu": "مربي النحل",
+        "TargetShop": "تحدث مع مربي النحل",
+        "ShopTitle": "شراء مستلزمات تربية النحل",
+        "SellItems": "بيع العناصر",
+        "InputSellAmount": "أدخل الكمية للبيع",
+        "ShopDescription": "اشترِ عناصر متنوعة لمساعدتك في تربية النحل.",
+        "SellDescription": "بيع عناصر تربية النحل الخاصة بك.",
+        "SellTitle": "بيع عناصر متعلقة بالنحل",
+        "SellItemFor": "بيع %s مقابل $%s لكل واحدة.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "العناصر القابلة للبيع",
+        "TransactionCompleted": "تمت عملية البيع مقابل $%s.",
+        "IconColor": "برتقالي",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "العودة إلى القائمة السابقة"
+    },
+    "HiveChange": {
+        "Dismantle": "تفكيك الخلية",
+        "PlacingHive": "جاري إعداد الخلية",
+        "ExtractWax": "استخراج شمع %s",
+        "ExtractHoney": "استخراج عسل %s",
+        "RemovingWorkers": "إزالة %s من النحل العامل",
+        "AddingWorkers": "إضافة %s من النحل العامل",
+        "RemovingQueen": "إزالة ملكة النحل",
+        "AddingQueen": "إضافة ملكة النحل",
+        "Placing": "وضع الخلية في الموقع",
+        "Accessing": "فحص الخلية",
+        "Adding": "إضافة إلى الخلية",
+        "Removing": "إزالة من الخلية",
+        "MissingItem": "تفتقد العنصر المطلوب لإتمام هذا الإجراء."
+    },
+    "ProgressBars": {
+        "Dismantle": "جاري تفكيك الخلية...",
+        "Accessing": "جاري الوصول إلى الخلية...",
+        "Placing": "جاري وضع الخلية...",
+        "Adding": "جاري الإضافة إلى الخلية...",
+        "Extracting": "جاري الاستخراج من الخلية..."
+    },
+    "HiveMenu": {
+        "Color": "برتقالي",
+        "WorkerInputHeader": "عدد النحل العامل",
+        "WorkersToAdd": "النحل العامل المراد إضافته",
+        "WorkersToRemove": "النحل العامل المراد إزالته",
+        "Slider_Add_Label": "الحد الأقصى للإضافة",
+        "Slider__Remove_Label": "الحد الأقصى للإزالة",
+        "ItemCountCheck": "ليس لديك ما يكفي من هذا العنصر للقيام بذلك.",
+        "Title": "إدارة الخلية",
+        "HiveHealthTitle": "نظرة عامة على صحة الخلية",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "حالة صحة الخلية الحالية: ",
+        "WaxCountTitle": "إدارة شمع النحل",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "إدارة إنتاج شمع النحل",
+        "HoneyCountTitle": "إدارة العسل",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "الإشراف على إنتاج العسل",
+        "QueenCountTitle": "حالة ملكة النحل",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "إدارة عدد ملكات النحل",
+        "WorkerCountTitle": "إدارة النحل العامل",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "إدارة عدد النحل العامل",
+        "DestroyHiveTitle": "تفكيك الخلية",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "سيتم تفكيك الخلية بشكل دائم.",
+        "ManageAccess": "إدارة الخلية",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "إدارة من يمكنه الوصول إلى الخلية.",
+        "AddPlayerTitle": "إضافة %s إلى وصول الخلية.",
+        "AddPlayerDescription": "سيسمح لـ %s بالوصول إلى الخلية دون تفكيكها.",
+        "TooFarFromHive": "أنت بعيد جدًا عن الخلية.",
+        "TargetTooFarFromHive": "الهدف بعيد جدًا عن الخلية.",
+        "Removing": "إزالة من الخلية",
+        "WaxToRemove": "الشمع المراد إزالته",
+        "HoneyToRemove": "العسل المراد إزالته"
+    },
+    "QueenMenu": {
+        "Color": "برتقالي",
+        "Title": "إدارة ملكة النحل",
+        "DisplayQueenTitle": "ملكة النحل في الخلية",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "عدد ملكات النحل في الخلية: %s ",
+        "AddQueenTitle": "إضافة ملكة النحل",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "إضافة ملكة نحل إلى الخلية",
+        "RemoveQueenTitle": "إزالة ملكة النحل",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "إزالة ملكة نحل من الخلية",
+        "ItemCountCheck": "ليس لديك ما يكفي من الملكات لوضع أي منها.",
+        "HiveFilled": "هناك بالفعل ملكة في هذه الخلية.",
+        "NoQueenInHive": "لا توجد ملكة في هذه الخلية لإزالتها."
+    },
+    "WorkerMenu": {
+        "Color": "برتقالي",
+        "Title": "إدارة النحل العامل",
+        "AddWorkerTitle": "إضافة نحل عامل",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "النحل العامل في الخلية",
+        "AddWorkerDescription": "إضافة نحل عامل إلى الخلية",
+        "DisplayWorkerDescription": "عدد النحل العامل في الخلية: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "إزالة نحل عامل",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "إزالة نحل عامل من الخلية",
+        "NoWorkers": "لا يوجد نحل عامل في هذه الخلية.",
+        "HiveFilled": "هناك بالفعل الحد الأقصى من النحل العامل في هذه الخلية.",
+        "WorkerInvCheck": "ليس لديك ما يكفي من النحل العامل للقيام بذلك."
+    },
+    "HoneyMenu": {
+        "Color": "برتقالي",
+        "Title": "إدارة العسل",
+        "DisplayHoneyType": "نوع العسل",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "هذا العسل من نوع: %s ",
+        "DisplayHoneyCount": "عدد العسل",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "عدد العسل الحالي: %s",
+        "ExtractHoneyTitle": "استخراج العسل",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "استخراج كل العسل من الخلية",
+        "NoHoney": "لا يوجد عسل في هذه الخلية."
+    },
+    "WaxMenu": {
+        "Color": "برتقالي",
+        "Title": "إدارة شمع النحل",
+        "DisplayWaxCount": "عدد شمع النحل",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "عدد شمع النحل الحالي: %s",
+        "ExtractWaxTitle": "استخراج الشمع من الخلية",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "استخراج كل شمع النحل من الخلية",
+        "NoWax": "لا يوجد شمع نحل في هذه الخلية."
+    },
+    "Hive": {
+        "Access": "الوصول إلى الخلية"
+    },
+    "Dismantle": {
+        "title": "هل أنت متأكد؟",
+        "icon": "مطرقة",
+        "description": "سيتم تفكيك الخلية وإرجاع العناصر الموجودة بداخلها."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "تعذر وضع الخلية في هذا الموقع. يرجى المحاولة في مكان آخر.",
+        "BlacklistedZone": "لا يمكنك وضع خلية في منطقة محظورة.",
+        "MaxOwnedHivesReached": "لقد وصلت إلى الحد الأقصى لعدد الخلايا المسموح بها."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "يجب أن تكون المالك لتغيير هذه الخلية."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "يجب أن تكون في قائمة السماح لتغيير هذه الخلية."
+    },
+    "ManageAccess": {
+        "Color": "برتقالي",
+        "Title": "إدارة وصول الخلية",
+        "AddUser": "إضافة مستخدم",
+        "RemovedUser": "تمت إزالة المستخدم من وصول الخلية",
+        "UnableToRemove": "تعذر إزالة المستخدم من وصول الخلية. يجب أن تكون مالك الخلية للقيام بذلك.",
+        "UnableToFindHive": "تعذر العثور على بيانات الخلية. يرجى المحاولة لاحقًا.",
+        "UnableToAccess": "ليس لديك إذن للوصول إلى هذه الخلية.",
+        "AlreadyAdded": "المستخدم مضاف بالفعل إلى وصول الخلية",
+        "UserAdded": "تمت إضافة المستخدم إلى وصول الخلية",
+        "UserList": "قائمة المستخدمين",
+        "AddClosestPersonTitle": "إضافة أقرب شخص",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "إضافة أقرب شخص إلى قائمة وصول الخلية.",
+        "RemovePlayerTitle": "إزالة مستخدم",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "إزالة مستخدم من قائمة وصول الخلية.",
+        "RemovePlayer": "إزالة %s من قائمة وصول الخلية.",
+        "RemovedSuccess": "تمت إزالة المستخدم من وصول الخلية.",
+        "RemovedError": "تعذر إزالة المستخدم من وصول الخلية.",
+        "ViewAccessTitle": "عرض قائمة الوصول",
+        "ViewAccessDescription": "عرض قائمة المستخدمين الذين لديهم وصول إلى هذه الخلية.",
+        "ViewAccessMenuTitle": "قائمة الوصول",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "لديه وصول إلى هذه الخلية.",
+        "SubViewAccessMenuTitle": "قائمة المستخدمين الذين لديهم وصول إلى الخلية",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "إضافة %s إلى وصول الخلية.",
+        "AddPlayerDescription": "سيسمح لـ %s بالوصول إلى الخلية دون تفكيكها.",
+        "TooFarFromHive": "أنت بعيد جدًا عن الخلية.",
+        "TargetTooFarFromHive": "الهدف بعيد جدًا عن الخلية.",
+        "RemoveUserTitle": "إزالة مستخدم",
+        "RemoveUserDescription": "إزالة مستخدم من قائمة وصول الخلية.",
+        "UserListDescription": "قائمة المستخدمين الذين لديهم وصول إلى الخلية",
+        "ManageAccessTitle": "إدارة وصول مستخدمي الخلية",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "إضافة أو إزالة المستخدمين الذين لديهم وصول إلى الخلية.",
+        "YouWereAdded": "تمت إضافتك إلى قائمة وصول الخلية.",
+        "NoPlayerNearby": "لا يوجد لاعب قريب لإضافته."
+    },
+    "Blips": {
+        "HiveBlipText": "خلية نحل"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "لقد أخطأت ولسعتك بعض النحل!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "إزالة خلية النحل حسب المعرف [أمر للمسؤول فقط]",
+            "params": {
+                "name": "معرف",
+                "type": "سلسلة",
+                "help": "معرف خلية النحل من SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "إزالة خلية النحل حسب معرف المالك [أمر للمسؤول فقط]",
+            "params": {
+                "name": "معرف المالك",
+                "type": "سلسلة",
+                "help": "معرف مالك خلية النحل"
+            }
+        },
+        "ShowAllHives": {
+            "help": "عرض جميع الخلايا على الخريطة [أمر للمسؤول فقط]"
+        },
+        "OpenAdminHives": {
+            "help": "فتح قائمة إدارة خلايا المسؤول [أمر للمسؤول فقط]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "الشمع: %s، العسل: %s، العمال: %s، الملكة: %s",
+        "JoinedNames": "%s، مع المعرف %s",
+        "MainMenuTitle": "قائمة المسؤول",
+        "ManageHiveByID": "إدارة خلية المعرف: %s",
+        "ManageHiveDescription": "الوصول إلى إدارة الخلية",
+        "ManageHiveOwnerTitle": "مالك الخلية: %s",
+        "ManageHiveOwnerDescription": "مالك الخلية هو %s",
+        "ManageHiveIDTitle": "معرف الخلية: %s",
+        "ManageHiveIDDescription": "معرف الخلية هو %s",
+        "MarkHiveCoordsTitle": "تحديد إحداثيات الخلية",
+        "MarkHiveCoordsDescription": "تحديد إحداثيات الخلية على الخريطة.",
+        "TeleportToCoordsTitle": "الانتقال إلى إحداثيات الخلية",
+        "TeleportToCoordsDescription": "الانتقال إلى إحداثيات الخلية.",
+        "AccessablePlayersTitle": "تاريخ آخر وصول: ",
+        "AccessablePlayersDescription": "آخر وصول: %s",
+        "HiveStatusTitle": "حالة الخلية: ",
+        "HiveStatusDescription": "الحالة الحالية: %s",
+        "PlayersWithAccessTitle": "اللاعبون الذين لديهم وصول إلى الخلية",
+        "RunSearch": "تشغيل البحث",
+        "RunSearchDescription": "البحث عن معلومات محددة.",
+        "CopyIdToClipBoard": "نسخ معرف الخلية إلى الحافظة",
+        "CopyIdToClipBoardDescription": "يتم نسخ معرف الخلية إلى الحافظة الخاصة بك.",
+        "IconColor": "برتقالي",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "ليس لديك إذن للوصول إلى هذا.",
+        "DeleteHiveTitle": "حذف الخلية",
+        "DeleteHiveDescription": "حذف الخلية نهائيًا بالمعرف: %s",
+        "ShowAllHivesOnMap": "إظهار/إخفاء جميع الخلايا على الخريطة",
+        "ShowAllHivesOnMapDescription": "تبديل عرض جميع الخلايا على الخريطة.",
+        "ListAllHives": "قائمة جميع الخلايا",
+        "ListAllHivesDescription": "قائمة جميع الخلايا في قاعدة البيانات.",
+        "Search": {
+            "InvalidSearchInput": "إدخال بحث غير صالح. يرجى المحاولة مرة أخرى.",
+            "Title": "بحث",
+            "SearchLabel": "البحث عن معلومات محددة.",
+            "SearchDescription": "أدخل المعلومات التي تريد البحث عنها.",
+            "SearchPlaceholder": "أدخل مصطلح البحث...",
+            "Submit": "إرسال"
+        }
+    }
+}

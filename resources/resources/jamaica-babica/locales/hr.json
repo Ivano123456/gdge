@@ -1,0 +1,19 @@
+{
+    "not_near_station" : "Morate biti blizu babice",
+
+    "general_title": "Stanica za oživljavanje",
+    "open_revive_station": "Otvori stanicu za oživljavanje",
+    "medics_online": "Previše je medicinara online!",
+    "no_player_nearby": "Nema igrača u blizini!",
+    "not_enough_money": "Nemate dovoljno novca!",
+    "player_revived": "Uspješno ste oživjeli igrača!",
+    "revive_confirmation_content": "Želite li oživjeti igrača (**%s**) za **$%s**?",
+    "revive_player_description": "Oživi igrača za **$%s**",
+    "player_not_dead": "Igrač nije mrtav!",
+    "player_too_far": "Igrač je predaleko!",
+    "please_wait": "Pričekajte 10 sekundi prije ponovnog korištenja stanice!",
+    "invalid_payment": "Nevažeća uplata!",
+    "player_not_found": "Igrač nije pronađen!",
+    "reviving_player": "Oživljavanje u tijeku...",
+    "revive_cancelled": "Oživljavanje prekinuto!"
+} 

@@ -1,0 +1,182 @@
+{
+    "rightCorner": {
+        "job": "Posao",
+        "gang": "Banda",
+        "bank": "Banka",
+        "cash": "Gotovina",
+        "weapon": "Oružje",
+        "blackMoney": "Prljav novac"
+    },
+    "carhud": {
+        "kmh": "km/h",
+        "mph": "mp/h",
+        "feet": "ft",
+        "airspeed": "Brzina u vazduhu",
+        "waterspeed": "Brzina na vodi"
+    },
+    "quickMenu": {
+        "markText": "Klikni da označiš",
+        "categories": {
+            "nearby": "U blizini",
+            "music": "Muzika",
+            "car": "Vozilo"
+        },
+        "nearby": {
+            "bank": "Banka",
+            "shop": "Prodavnica",
+            "clothing": "Butik",
+            "garage": "Garaža",
+            "mechanic": "Mehaničar",
+            "gunshop": "Oružarnica"
+        },
+        "music": {
+            "placeholder": "Unesi URL pesme",
+            "play": "Pusti",
+            "errorTitle": "Greška muzike",
+            "errorMessages": {
+                "invalidUrl": "Neispravan URL. Unesi ispravan URL pesme.",
+                "invalidVideoData": "Neispravni podaci videa. Proveri URL i pokušaj ponovo.",
+                "apiError": "API greška. Pokušaj ponovo kasnije."
+            }
+        }
+    },
+    "location": {
+        "nearPostal": "Blizu poštanskog koda"
+    },
+    "settingsMenu": {
+        "title": "HUD",
+        "subtitle": "Podešavanja",
+        "reset": "Resetuj podešavanja",
+        "confirm": "Potvrdi",
+        "cancel": "Otkaži",
+
+        "categories": {
+            "general": "Opšte",
+            "carhud": "HUD vozila",
+            "status": "Status HUD",
+            "corner": "Desni ugao"
+        },
+
+        "fuel": {
+            "title": "Tip goriva",
+            "description": "Izaberi tip goriva za vozilo. Litri ili galoni. * Promene će biti sačuvane.",
+
+            "litres": "Litri 100L",
+            "gallons": "Galoni 100G"
+        },
+
+        "map": {
+            "title": "Mapa",
+            "description": "Izaberi format prikaza mape.",
+            "square": "Kvadrat",
+            "circle": "Krug"
+        },
+
+        "cinematic": {
+            "title": "Sinematski režim",
+            "description": "Uključi ili isključi sinematski režim.",
+            "enabled": "Uključeno",
+            "disabled": "Isključeno"
+        },
+
+        "carhuds": {
+            "modern": "Moderan",
+            "agressive": "Agresivan",
+            "sport": "Sport",
+            "simple": "Jednostavan",
+            "simplev2": "Jednostavan V2",
+            "circle": "Krug",
+
+            "changes": "*Tvoje promene će biti sačuvane",
+            "description": "Desno možeš menjati palete boja HUD-a vozila i pronaći svoju boju."
+        },
+
+        "status": {
+            "circle": "Krug",
+            "circlev2": "Krug V2",
+            "circlev3": "Krug V3",
+            "circlev4": "Krug V4",
+            "square": "Kvadrat",
+            "squarev2": "Kvadrat V2",
+            "hexagon": "Heksagon",
+            "wave": "Talas",
+            "simple": "Jednostavan",
+            "simplev2": "Jednostavan V2",
+            "regular": "Standardni",
+
+            "changes": "*Tvoje promene će biti sačuvane",
+            "description": "Desno možeš menjati palete boja HUD-a i pronaći svoju boju."
+        },
+
+        "rightCorner": {
+            "color": {
+                "title": "Izaberi boje",
+                "description": "Izaberi boje za elemente u desnom uglu. Možeš izabrati drugu boju za svaku ikonu i tekst."
+            },
+
+            "old": {
+                "title": "Stari",
+                "description": "Sadrži stari izgled informacija u jednom redu."
+            },
+            "boxed_dynamic": {
+                "title": "Dinamički okvir",
+                "description": "Oblik okvira ima dinamičan izgled. Boje se mogu menjati prema ciklusu jutro/veče."
+            },
+            "modern": {
+                "title": "Moderan",
+                "description": "U okviru je i ima najnoviji izgled. Definitivno preporučeno."
+            },
+
+            "simple": {
+                "title": "Jednostavan",
+                "description": "Jednostavan dizajn bez okvira. Veoma koristan za one koji vole jednostavnost."
+            }
+        },
+
+        "mapRadius": {
+            "title": "Mekoća mape",
+            "description": "Ovde možeš izabrati mekoću ivica kvadratne mape.",
+
+            "enabled": "Uključeno",
+            "disabled": "Isključeno"
+        },
+
+        "performance": {
+            "title": "Režim performansi",
+            "description": "Ovde možeš izabrati režim performansi. Menja performanse HUD-a. Preporučeno za slabije računare.",
+            "balanced": "Balansirano",
+            "performance": "Performanse"
+        },
+
+        "theme_data": {
+            "title": "Izvezi temu",
+            "export": "Izvezi",
+            "description": "Možeš izvesti trenutnu temu. Zameni kopirane podatke podacima u Config.json"
+        },
+
+        "speed": {
+            "title": "Tip brzine",
+            "description": "Izaberi tip brzine koji želiš da vidiš u HUD-u vozila.",
+            "kmh": "KM/H",
+            "mph": "MP/H"
+        },
+
+        "editor": {
+            "title": "Režim prilagođavanja",
+            "description": "Poredaj pozicije HUD elemenata. Postigni željeni izgled.",
+            "button": "Prilagođavanje"
+        },
+
+        "minimap": {
+            "title": "Minimapa",
+            "description": "Ovde možeš sakriti ili prikazati minimapu.",
+            "show": "Prikaži",
+            "hide": "Sakrij"
+        },
+
+        "scale": {
+            "title": "Skala",
+            "description": "Ovde možeš promeniti skalu HUD-a. Menja veličinu HUD elemenata."
+        }
+    }
+}

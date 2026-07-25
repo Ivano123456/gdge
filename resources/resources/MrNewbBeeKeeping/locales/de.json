@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Absenden",
+    "BeeShop": {
+        "Invalid": "Dieser Shop ist ungültig. Bitte informiere den Serverbesitzer, um die Konfiguration anzupassen.",
+        "OpenMenu": "Imker",
+        "TargetShop": "Sprich mit dem Imker",
+        "ShopTitle": "Imkereibedarf kaufen",
+        "SellItems": "Artikel verkaufen",
+        "InputSellAmount": "Menge zum Verkauf eingeben",
+        "ShopDescription": "Kaufe verschiedene Artikel zur Unterstützung der Imkerei.",
+        "SellDescription": "Verkaufe deine Imkereiprodukte.",
+        "SellTitle": "Bienenbezogene Artikel verkaufen",
+        "SellItemFor": "%s für $%s pro Stück verkaufen.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Verkaufbare Artikel",
+        "TransactionCompleted": "Verkauf abgeschlossen für $%s.",
+        "IconColor": "orange",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Zurück zum vorherigen Menü"
+    },
+    "HiveChange": {
+        "Dismantle": "Bienenstock abbauen",
+        "PlacingHive": "Bienenstock wird aufgestellt",
+        "ExtractWax": "%s Wachs wird entnommen",
+        "ExtractHoney": "%s Honig wird entnommen",
+        "RemovingWorkers": "%s Arbeiterbienen werden entfernt",
+        "AddingWorkers": "%s Arbeiterbienen werden hinzugefügt",
+        "RemovingQueen": "Königin wird entfernt",
+        "AddingQueen": "Königin wird hinzugefügt",
+        "Placing": "Bienenstock am Standort platzieren",
+        "Accessing": "Bienenstock inspizieren",
+        "Adding": "Zum Bienenstock hinzufügen",
+        "Removing": "Vom Bienenstock entfernen",
+        "MissingItem": "Du hast das benötigte Item für diese Aktion nicht."
+    },
+    "ProgressBars": {
+        "Dismantle": "Bienenstock wird abgebaut...",
+        "Accessing": "Zugriff auf Bienenstock...",
+        "Placing": "Bienenstock wird platziert...",
+        "Adding": "Wird zum Bienenstock hinzugefügt...",
+        "Extracting": "Wird aus dem Bienenstock entnommen..."
+    },
+    "HiveMenu": {
+        "Color": "orange",
+        "WorkerInputHeader": "Anzahl der Arbeiterbienen",
+        "WorkersToAdd": "Arbeiterbienen zum Hinzufügen",
+        "WorkersToRemove": "Arbeiterbienen zum Entfernen",
+        "Slider_Add_Label": "Maximal hinzuzufügen",
+        "Slider__Remove_Label": "Maximal zu entfernen",
+        "ItemCountCheck": "Du hast nicht genug von diesem Item, um dies zu tun.",
+        "Title": "Bienenstockverwaltung",
+        "HiveHealthTitle": "Bienenstock Gesundheitsübersicht",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Aktueller Gesundheitsstatus des Bienenstocks: ",
+        "WaxCountTitle": "Wachsverwaltung",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Verwalte die Produktion von Bienenwachs",
+        "HoneyCountTitle": "Honigverwaltung",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Überwache die Honigproduktion",
+        "QueenCountTitle": "Königinstatus",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Verwalte die Königinnenpopulation",
+        "WorkerCountTitle": "Arbeiterbienenverwaltung",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Verwalte die Arbeiterbienenpopulation",
+        "DestroyHiveTitle": "Bienenstock abbauen",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Dies wird den Bienenstock dauerhaft abbauen.",
+        "ManageAccess": "Bienenstock verwalten",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Verwalte, wer Zugriff auf den Bienenstock hat.",
+        "AddPlayerTitle": "%s zum Bienenstock-Zugriff hinzufügen.",
+        "AddPlayerDescription": "Dies erlaubt %s den Zugriff auf den Bienenstock, aber nicht das Abbauen.",
+        "TooFarFromHive": "Du bist zu weit vom Bienenstock entfernt.",
+        "TargetTooFarFromHive": "Ziel ist zu weit vom Bienenstock entfernt.",
+        "Removing": "Vom Bienenstock entfernen",
+        "WaxToRemove": "Zu entnehmendes Wachs",
+        "HoneyToRemove": "Zu entnehmender Honig"
+    },
+    "QueenMenu": {
+        "Color": "orange",
+        "Title": "Königinnenverwaltung",
+        "DisplayQueenTitle": "Königinnen im Bienenstock",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Königinnen im Bienenstock: %s ",
+        "AddQueenTitle": "Königin hinzufügen",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Füge eine Königin zum Bienenstock hinzu",
+        "RemoveQueenTitle": "Königin entfernen",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Entferne eine Königin aus dem Bienenstock",
+        "ItemCountCheck": "Du hast nicht genug Königinnen, um welche hinzuzufügen.",
+        "HiveFilled": "Es ist bereits eine Königin in diesem Bienenstock.",
+        "NoQueenInHive": "Es ist keine Königin in diesem Bienenstock zum Entfernen."
+    },
+    "WorkerMenu": {
+        "Color": "orange",
+        "Title": "Arbeiterbienenverwaltung",
+        "AddWorkerTitle": "Arbeiterbiene hinzufügen",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Arbeiterbienen im Bienenstock",
+        "AddWorkerDescription": "Füge eine Arbeiterbiene zum Bienenstock hinzu",
+        "DisplayWorkerDescription": "Arbeiterbienen im Bienenstock: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Arbeiterbiene entfernen",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Entferne eine Arbeiterbiene aus dem Bienenstock",
+        "NoWorkers": "Es sind keine Arbeiterbienen in diesem Bienenstock.",
+        "HiveFilled": "Es sind bereits die maximale Anzahl Arbeiterbienen in diesem Bienenstock.",
+        "WorkerInvCheck": "Du hast nicht genug Arbeiterbienen, um dies zu tun."
+    },
+    "HoneyMenu": {
+        "Color": "orange",
+        "Title": "Honigverwaltung",
+        "DisplayHoneyType": "Honigtyp",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Dieser Honig ist vom Typ: %s ",
+        "DisplayHoneyCount": "Honiganzahl",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Aktuelle Honiganzahl: %s",
+        "ExtractHoneyTitle": "Honig entnehmen",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Entnehme allen Honig aus dem Bienenstock",
+        "NoHoney": "Es ist kein Honig in diesem Bienenstock."
+    },
+    "WaxMenu": {
+        "Color": "orange",
+        "Title": "Wachsverwaltung",
+        "DisplayWaxCount": "Wachsanzahl",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Aktuelle Wachsanzahl: %s",
+        "ExtractWaxTitle": "Wachs aus Bienenstock entnehmen",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Entnehme allen Bienenwachs aus dem Bienenstock",
+        "NoWax": "Es ist kein Bienenwachs in diesem Bienenstock."
+    },
+    "Hive": {
+        "Access": "Zugriff auf Bienenstock"
+    },
+    "Dismantle": {
+        "title": "Bist du sicher?",
+        "icon": "Hammer",
+        "description": "Dies wird den Bienenstock abbauen und die enthaltenen Artikel zurückgeben."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Bienenstock kann an diesem Ort nicht platziert werden. Bitte versuche einen anderen Platz.",
+        "BlacklistedZone": "Du kannst keinen Bienenstock in einer gesperrten Zone platzieren.",
+        "MaxOwnedHivesReached": "Du hast die maximale Anzahl an Bienenstöcken erreicht."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Du musst der Besitzer sein, um diesen Bienenstock zu ändern."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Du musst auf der Erlaubnisliste sein, um diesen Bienenstock zu ändern."
+    },
+    "ManageAccess": {
+        "Color": "orange",
+        "Title": "Bienenstock-Zugriffsverwaltung",
+        "AddUser": "Benutzer hinzufügen",
+        "RemovedUser": "Benutzer aus Bienenstock-Zugriff entfernt",
+        "UnableToRemove": "Benutzer kann nicht aus Bienenstock-Zugriff entfernt werden. Du musst Besitzer sein, um dies zu tun.",
+        "UnableToFindHive": "Bienenstockdaten konnten nicht gefunden werden. Bitte versuche es später erneut.",
+        "UnableToAccess": "Du hast keinen Zugriff auf diesen Bienenstock.",
+        "AlreadyAdded": "Benutzer ist bereits zum Bienenstock-Zugriff hinzugefügt",
+        "UserAdded": "Benutzer zum Bienenstock-Zugriff hinzugefügt",
+        "UserList": "Benutzerliste",
+        "AddClosestPersonTitle": "Nächste Person hinzufügen",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Füge die nächste Person zur Bienenstock-Zugriffsliste hinzu.",
+        "RemovePlayerTitle": "Benutzer entfernen",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Entferne einen Benutzer aus der Bienenstock-Zugriffsliste.",
+        "RemovePlayer": "%s aus der Bienenstock-Zugriffsliste entfernen.",
+        "RemovedSuccess": "Benutzer aus Bienenstock-Zugriff entfernt.",
+        "RemovedError": "Benutzer konnte nicht aus Bienenstock-Zugriff entfernt werden.",
+        "ViewAccessTitle": "Zugriffsliste anzeigen",
+        "ViewAccessDescription": "Zeige die Liste der Benutzer mit Zugriff auf diesen Bienenstock.",
+        "ViewAccessMenuTitle": "Zugriffsliste",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Hat Zugriff auf diesen Bienenstock.",
+        "SubViewAccessMenuTitle": "Liste der Benutzer mit Zugriff auf den Bienenstock",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "%s zum Bienenstock-Zugriff hinzufügen.",
+        "AddPlayerDescription": "Dies erlaubt %s den Zugriff auf den Bienenstock, aber nicht das Abbauen.",
+        "TooFarFromHive": "Du bist zu weit vom Bienenstock entfernt.",
+        "TargetTooFarFromHive": "Ziel ist zu weit vom Bienenstock entfernt.",
+        "RemoveUserTitle": "Benutzer entfernen",
+        "RemoveUserDescription": "Entferne einen Benutzer aus der Bienenstock-Zugriffsliste.",
+        "UserListDescription": "Liste der Benutzer mit Zugriff auf den Bienenstock",
+        "ManageAccessTitle": "Bienenstock-Benutzerzugriffsverwaltung",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Füge Benutzer hinzu oder entferne sie, die Zugriff auf den Bienenstock haben.",
+        "YouWereAdded": "Du wurdest zur Bienenstock-Zugriffsliste hinzugefügt.",
+        "NoPlayerNearby": "Kein Spieler in der Nähe zum Hinzufügen."
+    },
+    "Blips": {
+        "HiveBlipText": "Bienenstock"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Du hast einen Fehler gemacht und einige Bienen haben dich gestochen!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Entfernt den Bienenstock nach ID [NUR ADMIN-BEFEHL]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "Bienenstock-ID aus SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Entfernt den Bienenstock nach Besitzerkennung [NUR ADMIN-BEFEHL]",
+            "params": {
+                "name": "Besitzerkennung",
+                "type": "string",
+                "help": "Bienenstock-Besitzerkennung"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Zeige alle Bienenstöcke auf der Karte [NUR ADMIN-BEFEHL]"
+        },
+        "OpenAdminHives": {
+            "help": "Öffne das Admin-Bienenstockverwaltungsmenü [NUR ADMIN-BEFEHL]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Wachs: %s, Honig: %s, Arbeiter: %s, Königin: %s",
+        "JoinedNames": "%s, mit Kennung %s",
+        "MainMenuTitle": "Admin-Menü",
+        "ManageHiveByID": "Bienenstock-ID verwalten: %s",
+        "ManageHiveDescription": "Zugriff auf Bienenstockverwaltung",
+        "ManageHiveOwnerTitle": "Bienenstockbesitzer: %s",
+        "ManageHiveOwnerDescription": "Besitzer des Bienenstocks ist %s",
+        "ManageHiveIDTitle": "Bienenstock-ID: %s",
+        "ManageHiveIDDescription": "ID des Bienenstocks ist %s",
+        "MarkHiveCoordsTitle": "Bienenstock-Koordinaten markieren",
+        "MarkHiveCoordsDescription": "Markiere die Koordinaten des Bienenstocks auf der Karte.",
+        "TeleportToCoordsTitle": "Zu Bienenstock-Koordinaten teleportieren",
+        "TeleportToCoordsDescription": "Zu den Koordinaten des Bienenstocks teleportieren.",
+        "AccessablePlayersTitle": "Letztes Zugriffsdatum: ",
+        "AccessablePlayersDescription": "Letzter Zugriff: %s",
+        "HiveStatusTitle": "Bienenstockstatus: ",
+        "HiveStatusDescription": "Aktueller Status: %s",
+        "PlayersWithAccessTitle": "Spieler mit Zugriff auf Bienenstock",
+        "RunSearch": "Suche ausführen",
+        "RunSearchDescription": "Nach bestimmten Informationen suchen.",
+        "CopyIdToClipBoard": "Bienenstock-ID in die Zwischenablage kopieren",
+        "CopyIdToClipBoardDescription": "Kopiert die Bienenstock-ID in deine Zwischenablage.",
+        "IconColor": "orange",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Du hast keine Berechtigung für den Zugriff.",
+        "DeleteHiveTitle": "Bienenstock löschen",
+        "DeleteHiveDescription": "Bienenstock dauerhaft löschen mit ID: %s",
+        "ShowAllHivesOnMap": "Alle Bienenstöcke auf Karte anzeigen/verbergen",
+        "ShowAllHivesOnMapDescription": "Anzeige aller Bienenstöcke auf der Karte umschalten.",
+        "ListAllHives": "Alle Bienenstöcke auflisten",
+        "ListAllHivesDescription": "Alle Bienenstöcke in der Datenbank auflisten.",
+        "Search": {
+            "InvalidSearchInput": "Ungültige Sucheingabe. Bitte versuche es erneut.",
+            "Title": "Suche",
+            "SearchLabel": "Nach bestimmten Informationen suchen.",
+            "SearchDescription": "Gib die Informationen ein, nach denen du suchen möchtest.",
+            "SearchPlaceholder": "Suchbegriff eingeben...",
+            "Submit": "Absenden"
+        }
+    }
+}

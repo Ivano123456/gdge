@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CMapParentTxds>
+  <txdRelationships>
+    <Item>
+      <parent>tstudio_jhn_resort_txt_ext</parent>
+      <child>tstudio_jhn_resort_txt_island</child>
+    </Item>
+    <Item>
+      <parent>tstudio_jhn_resort_txt_ext</parent>
+      <child>tstudio_jhn_resort_txt_ext_assets</child>
+    </Item>
+    <Item>
+      <parent>tstudio_jhn_resort_txt_ext</parent>
+      <child>tstudio_jhn_resort_txt_int</child>
+    </Item>
+    <Item>
+      <parent>tstudio_jhn_resort_txt_ext</parent>
+      <child>tstudio_jhn_resort_txt_special_assets</child>
+    </Item>
+    <Item>
+      <parent>tstudio_jhn_resort_txt_lod</parent>
+      <child>tstudio_jhn_resort_txt_ext_lod</child>
+    </Item>
+    <Item>
+      <parent>tstudio_jhn_resort_txt_ext</parent>
+      <child>tstudio_jhn_resort_txt_sprite</child>
+    </Item>
+    <Item>
+      <parent>tstudio_jhn_resort_txt_ext</parent>
+      <child>tstudio_jhn_resort_txt_plants</child>
+    </Item>
+  </txdRelationships>
+</CMapParentTxds>

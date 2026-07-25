@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CMapParentTxds>
+  <txdRelationships>
+    <Item>
+      <parent>tstudio_suburban_int_txt</parent>
+      <child>tstudio_suburban_assets_txt</child>
+    </Item>
+    <Item>
+      <parent>tstudio_suburban_int_txt</parent>
+      <child>tstudio_suburban_decals_txt</child>
+    </Item>
+    <Item>
+      <parent>tstudio_suburban_int_txt</parent>
+      <child>tstudio_suburban_clothes_txt</child>
+    </Item>
+    <Item>
+      <parent>tstudio_suburban_assets_txt</parent>
+      <child>tstudio_suburban_roof_pjtx</child>
+    </Item>
+    <Item>
+      <parent>tstudio_suburban_int_txt</parent>
+      <child>tstudio_suburban_lod_txt</child>
+    </Item>
+  </txdRelationships>
+</CMapParentTxds>

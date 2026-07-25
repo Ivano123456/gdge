@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizacija</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nui://jamaica_utils/html/jamaica-panel.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toast-stack" id="notificationContainer"></div>
+
+    <div class="war-hud" id="warHud" hidden>
+        <div class="war-hud-side war-hud-left">
+            <span class="war-hud-label" id="warHudAttackerLabel">Org A</span>
+            <span class="war-hud-score" id="warHudAttackerKills">0</span>
+        </div>
+        <div class="war-hud-center">
+            <span class="war-hud-title">RAT U TOKU</span>
+            <span class="war-hud-timer" id="warHudTimer">--:--</span>
+        </div>
+        <div class="war-hud-side war-hud-right">
+            <span class="war-hud-label" id="warHudDefenderLabel">Org B</span>
+            <span class="war-hud-score" id="warHudDefenderKills">0</span>
+        </div>
+    </div>
+
+    <div class="dock-panel" id="garageMenu">
+        <div class="dock-inner">
+            <header class="dock-head">
+                <div class="dock-head-icon"><i class="fas fa-warehouse"></i></div>
+                <div>
+                    <h1>Organizaciona garaza</h1>
+                    <p class="org-name" id="garageOrgName">Organizacija</p>
+                </div>
+            </header>
+            <div class="segment-bar">
+                <button type="button" class="segment-btn garage-tab active" data-tab="cars" onclick="switchGarageTab('cars')">
+                    <i class="fas fa-car"></i> Vozila
+                </button>
+                <button type="button" class="segment-btn garage-tab" data-tab="helicopters" onclick="switchGarageTab('helicopters')">
+                    <i class="fas fa-helicopter"></i> Heli
+                </button>
+                <button type="button" class="segment-btn garage-tab" data-tab="boats" onclick="switchGarageTab('boats')">
+                    <i class="fas fa-ship"></i> Brodovi
+                </button>
+            </div>
+            <div class="dock-meta">
+                <span class="dock-meta-item">
+                    <i class="fas fa-car-side"></i>
+                    Izvuceno <strong id="garageSpawnedCount">0</strong> / <strong id="garageLimit">∞</strong>
+                </span>
+                <span class="dock-meta-item" id="garageResetTimer" hidden>
+                    <i class="fas fa-clock"></i> Reset: 00:00
+                </span>
+            </div>
+            <div class="dock-list">
+                <div class="vehicle-scroll" id="garageVehicleList"></div>
+            </div>
+            <footer class="dock-foot">
+                <span><kbd>ESC</kbd> zatvaranje</span>
+            </footer>
+        </div>
+    </div>
+
+    <script src="nui://game/ui/jquery.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

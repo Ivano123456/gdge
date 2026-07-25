@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Enviar",
+    "BeeShop": {
+        "Invalid": "Esta loja é inválida. Por favor, reporte ao proprietário do servidor para configurar a config.",
+        "OpenMenu": "Apicultor",
+        "TargetShop": "Converse com o apicultor",
+        "ShopTitle": "Comprar suprimentos de apicultura",
+        "SellItems": "Vender itens",
+        "InputSellAmount": "Digite a quantidade de venda",
+        "ShopDescription": "Compre vários itens para ajudá-lo na apicultura.",
+        "SellDescription": "Venda seus itens de apicultura.",
+        "SellTitle": "Vender itens relacionados a abelhas",
+        "SellItemFor": "Vender %s por $%s cada.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Itens para vender",
+        "TransactionCompleted": "Venda concluída por $%s.",
+        "IconColor": "laranja",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Voltar ao menu anterior"
+    },
+    "HiveChange": {
+        "Dismantle": "Desmontar colmeia",
+        "PlacingHive": "Colocando colmeia",
+        "ExtractWax": "Extraindo %s cera",
+        "ExtractHoney": "Extraindo %s mel",
+        "RemovingWorkers": "Removendo %s abelhas operárias",
+        "AddingWorkers": "Adicionando %s abelhas operárias",
+        "RemovingQueen": "Removendo rainha",
+        "AddingQueen": "Adicionando rainha",
+        "Placing": "Colocando colmeia",
+        "Accessing": "Acessando colmeia",
+        "Adding": "Adicionando à colmeia",
+        "Removing": "Removendo da colmeia",
+        "MissingItem": "Você não tem o item necessário para esta ação."
+    },
+    "ProgressBars": {
+        "Dismantle": "Desmontando colmeia...",
+        "Accessing": "Acessando colmeia...",
+        "Placing": "Colocando colmeia...",
+        "Adding": "Adicionando à colmeia...",
+        "Extracting": "Extraindo da colmeia..."
+    },
+    "HiveMenu": {
+        "Color": "laranja",
+        "WorkerInputHeader": "Número de abelhas operárias",
+        "WorkersToAdd": "Operárias para adicionar",
+        "WorkersToRemove": "Operárias para remover",
+        "Slider_Add_Label": "Máximo para adicionar",
+        "Slider__Remove_Label": "Máximo para remover",
+        "ItemCountCheck": "Você não tem o suficiente deste item para isso.",
+        "Title": "Gerenciamento da colmeia",
+        "HiveHealthTitle": "Visão geral da saúde da colmeia",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Estado atual de saúde da colmeia: ",
+        "WaxCountTitle": "Gerenciamento de cera de abelha",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Gerenciar produção de cera de abelha",
+        "HoneyCountTitle": "Gerenciamento de mel",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Monitorar produção de mel",
+        "QueenCountTitle": "Status da rainha",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Gerenciar número de rainhas",
+        "WorkerCountTitle": "Gerenciamento de abelhas operárias",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Gerenciar número de abelhas operárias",
+        "DestroyHiveTitle": "Destruir colmeia",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Isso destruirá permanentemente a colmeia.",
+        "ManageAccess": "Gerenciar colmeia",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Gerenciar quem pode acessar a colmeia.",
+        "AddPlayerTitle": "Adicionar %s ao acesso da colmeia.",
+        "AddPlayerDescription": "Isso dará acesso a %s à colmeia, mas não o direito de destruí-la.",
+        "TooFarFromHive": "Você está muito longe da colmeia.",
+        "TargetTooFarFromHive": "O alvo está muito longe da colmeia.",
+        "Removing": "Removendo da colmeia",
+        "WaxToRemove": "Cera para remover",
+        "HoneyToRemove": "Mel para remover"
+    },
+    "QueenMenu": {
+        "Color": "laranja",
+        "Title": "Gerenciamento da rainha",
+        "DisplayQueenTitle": "Rainhas na colmeia",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Rainhas na colmeia: %s ",
+        "AddQueenTitle": "Adicionar rainha",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Adicionar uma rainha à colmeia",
+        "RemoveQueenTitle": "Remover rainha",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Remover a rainha da colmeia",
+        "ItemCountCheck": "Você não tem rainhas suficientes para adicionar.",
+        "HiveFilled": "Esta colmeia já tem uma rainha.",
+        "NoQueenInHive": "Esta colmeia não tem uma rainha para remover."
+    },
+    "WorkerMenu": {
+        "Color": "laranja",
+        "Title": "Gerenciamento de abelhas operárias",
+        "AddWorkerTitle": "Adicionar abelha operária",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Abelhas operárias na colmeia",
+        "AddWorkerDescription": "Adicionar uma abelha operária à colmeia",
+        "DisplayWorkerDescription": "Abelhas operárias na colmeia: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Remover abelha operária",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Remover uma abelha operária da colmeia",
+        "NoWorkers": "Esta colmeia não tem abelhas operárias.",
+        "HiveFilled": "Esta colmeia já tem o número máximo de abelhas operárias.",
+        "WorkerInvCheck": "Você não tem abelhas operárias suficientes para isso."
+    },
+    "HoneyMenu": {
+        "Color": "laranja",
+        "Title": "Gerenciamento de mel",
+        "DisplayHoneyType": "Tipo de mel",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Este mel é do tipo: %s ",
+        "DisplayHoneyCount": "Quantidade de mel",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Quantidade atual de mel: %s",
+        "ExtractHoneyTitle": "Extrair mel",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Extrair todo o mel da colmeia",
+        "NoHoney": "Esta colmeia não tem mel."
+    },
+    "WaxMenu": {
+        "Color": "laranja",
+        "Title": "Gerenciamento de cera de abelha",
+        "DisplayWaxCount": "Quantidade de cera de abelha",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Quantidade atual de cera de abelha: %s",
+        "ExtractWaxTitle": "Extrair cera da colmeia",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Extrair toda a cera de abelha da colmeia",
+        "NoWax": "Esta colmeia não tem cera de abelha."
+    },
+    "Hive": {
+        "Access": "Acessar colmeia"
+    },
+    "Dismantle": {
+        "title": "Tem certeza?",
+        "icon": "martelo",
+        "description": "Isso desmontará a colmeia e retornará os itens dentro dela."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Não foi possível colocar a colmeia aqui. Tente outro local.",
+        "BlacklistedZone": "Você não pode colocar uma colmeia em uma zona proibida.",
+        "MaxOwnedHivesReached": "Você atingiu o número máximo de colmeias permitidas."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Você deve ser o proprietário para modificar esta colmeia."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Você deve estar na lista de permitidos para modificar esta colmeia."
+    },
+    "ManageAccess": {
+        "Color": "laranja",
+        "Title": "Gerenciar acesso à colmeia",
+        "AddUser": "Adicionar usuário",
+        "RemovedUser": "Usuário removido do acesso à colmeia",
+        "UnableToRemove": "Não é possível remover usuário do acesso à colmeia. Você deve ser o proprietário para fazer isso.",
+        "UnableToFindHive": "Não é possível encontrar dados da colmeia. Tente novamente mais tarde.",
+        "UnableToAccess": "Você não tem acesso a esta colmeia.",
+        "AlreadyAdded": "Usuário já foi adicionado ao acesso da colmeia",
+        "UserAdded": "Usuário adicionado ao acesso da colmeia",
+        "UserList": "Lista de usuários",
+        "AddClosestPersonTitle": "Adicionar pessoa mais próxima",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Adicionar a pessoa mais próxima à lista de acesso da colmeia.",
+        "RemovePlayerTitle": "Remover usuário",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Remover um usuário da lista de acesso da colmeia.",
+        "RemovePlayer": "Remover %s da lista de acesso da colmeia.",
+        "RemovedSuccess": "Usuário removido do acesso à colmeia.",
+        "RemovedError": "Não é possível remover usuário do acesso à colmeia.",
+        "ViewAccessTitle": "Ver lista de acesso",
+        "ViewAccessDescription": "Ver a lista de usuários que têm acesso a esta colmeia.",
+        "ViewAccessMenuTitle": "Lista de acesso",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Tem acesso a esta colmeia.",
+        "SubViewAccessMenuTitle": "Lista de usuários com acesso à colmeia",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Adicionar %s ao acesso da colmeia.",
+        "AddPlayerDescription": "Isso dará acesso a %s à colmeia, mas não o direito de destruí-la.",
+        "TooFarFromHive": "Você está muito longe da colmeia.",
+        "TargetTooFarFromHive": "O alvo está muito longe da colmeia.",
+        "RemoveUserTitle": "Remover usuário",
+        "RemoveUserDescription": "Remover um usuário da lista de acesso da colmeia.",
+        "UserListDescription": "Lista de usuários com acesso à colmeia",
+        "ManageAccessTitle": "Gerenciar acesso de usuário à colmeia",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Adicionar ou remover usuários com acesso à colmeia.",
+        "YouWereAdded": "Você foi adicionado à lista de acesso da colmeia.",
+        "NoPlayerNearby": "Nenhum jogador próximo para adicionar."
+    },
+    "Blips": {
+        "HiveBlipText": "Colmeia de abelhas"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Você cometeu um erro e algumas abelhas te picaram!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Remover colmeia por ID [APENAS COMANDO ADMIN]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "O ID da colmeia do SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Remover colmeia por identificador do proprietário [APENAS COMANDO ADMIN]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "O identificador do proprietário da colmeia"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Mostrar todas as colmeias no mapa [APENAS COMANDO ADMIN]"
+        },
+        "OpenAdminHives": {
+            "help": "Abrir menu de gerenciamento admin de colmeias [APENAS COMANDO ADMIN]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Cera: %s, Mel: %s, Operárias: %s, Rainha: %s",
+        "JoinedNames": "%s, com identificador %s",
+        "MainMenuTitle": "Menu Admin",
+        "ManageHiveByID": "Gerenciar colmeia ID: %s",
+        "ManageHiveDescription": "Acesso ao gerenciamento da colmeia",
+        "ManageHiveOwnerTitle": "Proprietário da colmeia: %s",
+        "ManageHiveOwnerDescription": "O proprietário da colmeia é %s",
+        "ManageHiveIDTitle": "ID da colmeia: %s",
+        "ManageHiveIDDescription": "O ID da colmeia é %s",
+        "MarkHiveCoordsTitle": "Marcar coordenadas da colmeia",
+        "MarkHiveCoordsDescription": "Marcar as coordenadas da colmeia no mapa.",
+        "TeleportToCoordsTitle": "Teletransportar para coordenadas da colmeia",
+        "TeleportToCoordsDescription": "Teletransportar para as coordenadas da colmeia.",
+        "AccessablePlayersTitle": "Último acesso: ",
+        "AccessablePlayersDescription": "Último acesso: %s",
+        "HiveStatusTitle": "Status da colmeia: ",
+        "HiveStatusDescription": "Status atual: %s",
+        "PlayersWithAccessTitle": "Jogadores com acesso à colmeia",
+        "RunSearch": "Executar busca",
+        "RunSearchDescription": "Buscar dados específicos.",
+        "CopyIdToClipBoard": "Copiar ID da colmeia para área de transferência",
+        "CopyIdToClipBoardDescription": "Copiar o ID da colmeia para sua área de transferência.",
+        "IconColor": "laranja",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Você não tem permissão para usar isso.",
+        "DeleteHiveTitle": "Excluir colmeia",
+        "DeleteHiveDescription": "Excluir permanentemente colmeia com ID: %s",
+        "ShowAllHivesOnMap": "Mostrar/Ocultar todas as colmeias no mapa",
+        "ShowAllHivesOnMapDescription": "Alternar exibição de todas as colmeias no mapa.",
+        "ListAllHives": "Listar todas as colmeias",
+        "ListAllHivesDescription": "Listar todas as colmeias no banco de dados.",
+        "Search": {
+            "InvalidSearchInput": "Entrada de busca inválida. Tente novamente.",
+            "Title": "Busca",
+            "SearchLabel": "Buscar dados específicos.",
+            "SearchDescription": "Digite os dados que você quer buscar.",
+            "SearchPlaceholder": "Digite o termo de busca...",
+            "Submit": "Enviar"
+        }
+    }
+}

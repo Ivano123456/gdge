@@ -1,0 +1,524 @@
+{
+  "hello": "Hola",
+  "loading": "Cargando...",
+  "permissions": "Permisos",
+  "permission_group": "Grupo de permisos",
+  "permissions_source": "Fuente de permisos",
+  "group_tier": "Nivel de grupo",
+  "change": "Cambiar",
+  "browsing_history": "Historial",
+  "browsing_history_empty": "El historial de navegación está vacío",
+  "player": "Jugador",
+  "select_player": "Seleccionar jugador...",
+  "start_typing_to_search_player": "Empieza a escribir para buscar jugadores...",
+  "no_players_found": "No se encontraron jugadores.",
+  "group": "Grupo",
+  "select_group": "Seleccionar grupo de permisos...",
+  "search_group": "Buscar grupo de permisos...",
+  "no_groups_found": "No se encontraron grupos de permisos.",
+  "session_time": "Tiempo de sesión",
+  "search_placeholder": "Buscar...",
+  "health": "Salud",
+  "armor": "Armadura",
+  "playtime": "Tiempo de juego",
+  "trust_score": "Puntaje de confianza",
+  "joined_at": "Se unió",
+  "actions": {
+    "open_profile": "Abrir perfil",
+    "revive": "Revivir",
+    "heal": "Curar",
+    "spectate": "Espectar",
+    "spectate_stop": "Dejar de espectar",
+    "previous_next_player": "Anterior/Siguiente jugador",
+    "take_screenshot": "Tomar captura de pantalla",
+    "teleport": "Teletransportar",
+    "bring": "Traer",
+    "bring_back": "Devolver",
+    "view_inv": "Abrir inventario",
+    "clear_inv": "Limpiar inventario",
+    "confiscate_inv": "Confiscar inventario",
+    "return_inv": "Devolver inventario",
+    "set_routing_bucket": "Establecer Routing Bucket",
+    "routing_bucket_description": "Establecer el Routing Bucket del jugador (Predeterminado: 0)",
+    "ban": "Prohibir",
+    "kick": "Expulsar"
+  },
+  "admin_chat": {
+    "title": "Admin Chat",
+    "send_player_profile": "Enviar perfil de jugador",
+    "send_report": "Enviar informe",
+    "input_placeholder": "Mensaje...",
+    "open_report": "Abrir informe",
+    "share_on_admin_chat": "Compartir en Admin Chat"
+  },
+  "modals": {
+    "submit": "Enviar",
+    "save": "Guardar",
+    "continue": "Continuar",
+    "next": "Siguiente",
+    "open": "Abrir",
+    "back": "Atrás",
+    "close": "Cerrar",
+    "delete": "Borrar",
+    "yes": "Sí",
+    "no": "No",
+    "add": "Agregar",
+    "are_you_sure": "¿Estás seguro?",
+    "enter_details": "Introducir detalles",
+    "disconnect_instantly": "Desconectar inmediatamente",
+    "ban": {
+      "title": "Prohibiendo jugador",
+      "presets": "Preconfigurado",
+      "custom": "Personalizado",
+      "duration_placeholder": "Elegir duración",
+      "reason_placeholder": "Razón..."
+    },
+    "kick": {
+      "title": "Expulsando jugador",
+      "description": "Introducir razón de expulsión",
+      "placeholder": "Razón..."
+    },
+    "offline_ban": {
+      "title": "Prohibir a jugador desconectado",
+      "description": "Para prohibir a un jugador desconectado, necesitas buscar su conjunto de identificadores. Puedes hacerlo escribiendo uno de ellos abajo con el prefijo.",
+      "player_not_found": "Jugador no encontrado"
+    },
+    "announcement": {
+      "title": "Anuncio",
+      "description": "Introducir mensaje del anuncio y elegir duración.",
+      "placeholder": "Mensaje...",
+      "duration": "Duración",
+      "send_to_discord": "Enviar a Discord"
+    },
+    "link_confirmation": {
+      "title": "Estás saliendo del menú de administración",
+      "description": "¿Deseas continuar? Serás redirigido a:"
+    },
+    "add_admin": {
+      "trigger": "Agregar administrador",
+      "title": "Agregando administrador"
+    },
+    "admin_profile": "Perfil del administrador",
+    "edit_profile": "Editar perfil",
+    "create_permission_group": {
+      "title": "Crear grupo de permisos",
+      "group_name": "Nombre del grupo",
+      "use_custom_tier": "Usar nivel personalizado",
+      "custom_tier_placeholder": "Ingresa nivel personalizado (1-999)...",
+      "discord_role_id_placeholder": "Ingresa el ID del rol de Discord...",
+      "group_name_placeholder": "Ingresa el nombre del grupo...",
+      "create_group": "Crear grupo",
+      "creating": "Creando...",
+      "group_name_required": "El nombre del grupo es obligatorio",
+      "custom_tier_invalid": "El nivel personalizado debe ser un número entre 1-999",
+      "group_name_already_exists": "El nombre del grupo ya existe",
+      "cannot_create_group": "No puedes crear un grupo con un nivel mayor o igual al tuyo",
+      "failed_to_create_group": "No se pudo crear el grupo de permisos"
+    },
+    "change_order_of_permission_groups": "¿Seguro que quieres cambiar el orden de los grupos de permisos?",
+    "update_permission_group_permissions": "¿Seguro que quieres guardar los permisos de este grupo?",
+    "permission_group_info": {
+      "title": "Información del grupo de permisos",
+      "non_editable_label": "No editable",
+      "non_editable": "Este grupo no es editable. Solo puede ser editado por los desarrolladores del servidor."
+    },
+    "delete_permission_group": "¿Seguro que quieres eliminar el grupo \"%s\"? Este grupo está siendo utilizado actualmente por %s administrador(es).",
+    "logout": "Vas a cerrar sesión en el panel de administración y terminar tu sesión de administrador.",
+    "find_report_by_id": {
+      "trigger": "Buscar por ID",
+      "title": "Buscar informe por ID"
+    }
+  },
+  "tables": {
+    "sort_by": "Ordenar por",
+    "order_by": "Orden",
+    "ascending": "Ascendente",
+    "descending": "Descendente",
+    "page": "Página",
+    "of": "de",
+    "rows_per_page": "Filas por página",
+    "view": "Ver",
+    "refresh": "Actualizar"
+  },
+  "sidebar": {
+    "dashboard": "Panel",
+    "member_since": "Miembro desde",
+    "player_list": "Players",
+    "reports": "Informes",
+    "player_profile": "Perfil del jugador",
+    "ban_list": "Lista de prohibiciones",
+    "admin_list": "Administradores",
+    "permission_groups": "Grupos de permisos",
+    "resources": "Recursos",
+    "preferences": "Preferencias",
+    "announcement": "Anuncio",
+    "online": "EN LÍNEA"
+  },
+  "admin_functions": {
+    "admin_crosshair": "Admin Crosshair",
+    "player_names": "Player Names",
+    "esp": "ESP",
+    "noclip": "NoClip",
+    "freecam": "FreeCam",
+    "invisibility": "Invisibility",
+    "godmode": "GodMode"
+  },
+  "dashboard": {
+    "current_players": "Jugadores actuales",
+    "avg_players_24h": "Prom. jugadores (24H)",
+    "online_administrators": "Administradores en línea",
+    "players_per_administrator": "Jugadores por admin",
+    "active_players_per_hour": "Jugadores activos (%sH)",
+    "latest_activity": "Actividad reciente",
+    "clear_feed": "Limpiar",
+    "tabs": {
+      "activity_stats": "Estadísticas de actividad",
+      "world_options": "Opciones del mundo"
+    },
+    "world_options": {
+      "current_weather": "Clima actual",
+      "weather_options": "Opciones de clima",
+      "weather": "Clima",
+      "select_weather": "Seleccionar un clima...",
+      "blackout": "Blackout",
+      "dynamic_weather": "Clima dinámico",
+      "tsunami": "Tsunami",
+      "time": "Tiempo",
+      "time_options": "Opciones de tiempo",
+      "hour": "Hora",
+      "minute": "Minuto",
+      "freeze_time": "Tiempo congelado",
+      "time_scale": "Escala de tiempo",
+      "time_scale_description": "1 minuto en GTA = %s segundos"
+    }
+  },
+  "user_page": {
+    "identifiers_modal": {
+      "trigger": "Identificadores",
+      "title": "Identificadores",
+      "description": "Clic para copiar."
+    },
+    "overview": {
+      "title": "Resumen",
+      "character_info": "Información",
+      "high_balance_warning": "¡Advertencia! Este jugador tiene $",
+      "licenses": "Licencias",
+      "account_edit_modal": {
+        "title": "Actualizando cuenta",
+        "description": "Ingresar nuevo saldo de cuenta"
+      },
+      "character_edit_modal": {
+        "trigger": "Editar",
+        "title": "Edición de detalles del jugador"
+      }
+    },
+    "vehicles": {
+      "title": "Vehículos",
+      "search_placeholder": "Placa, modelo",
+      "table": {
+        "plate": "Placa",
+        "model": "Modelo"
+      },
+      "add_modal": {
+        "trigger": "Agregar vehículo",
+        "title": "Agregando vehículo",
+        "description": "Ingresar modelo válido",
+        "placeholder": "Modelo"
+      },
+      "delete_modal": {
+        "trigger": "Eliminar vehículo",
+        "description": "¿Estás seguro de que quieres eliminar ese vehículo?"
+      }
+    },
+    "actions": "Acciones",
+    "history": {
+      "title": "Historial",
+      "history_empty": "El historial de este jugador está vacío.",
+      "note": "Nota",
+      "add_modal": {
+        "trigger": "Agregar",
+        "title": "Nueva nota",
+        "description": "Ingresar descripción de la nota",
+        "placeholder": "Descripción..."
+      },
+      "delete_modal": {
+        "description": "¿Estás seguro de que quieres eliminar esa nota?"
+      }
+    }
+  },
+  "bans": {
+    "no_bans_to_show": "No hay prohibiciones... aún",
+    "table": {
+      "id": "ID de prohibición",
+      "nick": "Apodo",
+      "reason": "Razón",
+      "expiration": "Expiración",
+      "banned_by": "Administrador",
+      "edit_ban_modal": {
+        "trigger": "Editar prohibición",
+        "current_duration": "Duración actual de la prohibición"
+      },
+      "unban_modal": {
+        "trigger": "Desbanear",
+        "description": "¿Estás seguro de que quieres eliminar esa prohibición?"
+      }
+    }
+  },
+  "admin_list": {
+    "member_since": "Miembro desde",
+    "online_first": "Primero en línea",
+    "offline_first": "Primero desconectados",
+    "most_recent_login_first": "Inicio de sesión más reciente primero",
+    "oldest_login_first": "Inicio de sesión más antiguo primero",
+    "stats": {
+      "title": "Estadísticas",
+      "last_login": "Último inicio de sesión",
+      "playtime": "Tiempo de juego",
+      "players_spectated": "Jugadores observados",
+      "players_banned": "Jugadores prohibidos",
+      "players_kicked": "Jugadores expulsados",
+      "reports_involved_in": "Informes en los que participó",
+      "reports_closed": "Informes cerrados",
+      "bans_deleted": "Prohibiciones eliminadas",
+      "player_notes_added": "Notas de jugador agregadas",
+      "player_notes_deleted": "Notas de jugador eliminadas",
+      "accounts_edited": "Cuentas editadas",
+      "characters_edited": "Personajes editados",
+      "announcements_sent": "Anuncios enviados"
+    },
+    "change_group": {
+      "title": "Cambiar grupo de administrador",
+      "cant_change_own_group": "No puedes cambiar tu propio grupo de permisos.",
+      "select_group": "Seleccionar grupo de permisos...",
+      "search_group": "Buscar grupo de permisos...",
+      "no_permission_group_found": "No se encontró grupo de permisos.",
+      "instructions": [
+        "Editar el grupo de este administrador cambiará su fuente de permisos a \"database\".",
+        "Significa que sus permisos del Framework y ACE serán ignorados y tendrá acceso al panel hasta que sea eliminado manualmente de la página de Administradores.",
+        "¿Deseas continuar?"
+      ]
+    },
+    "revoke_access": {
+      "title": "Revocar acceso",
+      "description": "¿Estás seguro de que quieres eliminar a este usuario como administrador?"
+    }
+  },
+  "reports": {
+    "report": "Informe",
+    "player_report": "Informe de jugador",
+    "your_reports": "Tus informes",
+    "report_default_message_author": "Administración",
+    "report_default_message": "Si quieres añadir algunos detalles, puedes hacerlo en este chat.",
+    "report_description": "Descripción del informe:",
+    "successfully_sent_report": "Administración notificada con éxito, ID del informe: %s",
+    "report_sending_error": "No se pudo enviar el informe. Por favor, contacta a la administración en nuestro servidor de discord.",
+    "open_report_creator": "Abrir perfil",
+    "chat": "Chat",
+    "report_type": "Tipo de informe",
+    "active": "Activo",
+    "closed": "Cerrado",
+    "read_status": "Estado de lectura",
+    "all": "Todos",
+    "unread": "No leído",
+    "read": "Leído",
+    "recent_activity": "Actividad reciente",
+    "mark_all_as_read": "Marcar todo como leído",
+    "no_report_selected": "No se ha seleccionado ningún informe. Elige uno de la lista para comenzar.",
+    "report_not_found": "El informe con este ID no existe.",
+    "no_active_reports": "No hay informes activos todavía.",
+    "no_closed_reports": "No hay informes cerrados todavía.",
+    "window": {
+      "title": "Tickets",
+      "choose_type": "Elegir tipo de informe",
+      "error": "Error",
+      "suggestion": "Sugerencia",
+      "textarea_placeholder": "Describe tu problema / sugerencia (Mínimo 10 caracteres)",
+      "send_report": "Enviar informe",
+      "no_reports": "No tienes informes activos.",
+      "chat_input_placeholder": "Ingresa tu mensaje",
+      "report_closed": "Este ticket ha sido cerrado"
+    }
+  },
+  "notifications": {
+    "unable_to_open_profile": {
+      "title": "No se pudieron recuperar los datos del jugador.",
+      "description": "Por favor, inténtalo de nuevo más tarde."
+    },
+    "new_report": {
+      "title": "Nuevo informe",
+      "description": "Alguien acaba de enviar un nuevo informe."
+    },
+    "new_report_message": {
+      "title": "Nuevo mensaje",
+      "description": "Alguien acaba de enviar un nuevo mensaje en un informe con ID: %s"
+    },
+    "character_edit_success": "Personaje guardado correctamente.",
+    "character_edit_failed": {
+      "title": "No se pudo guardar el personaje",
+      "description": "Asegúrate de que los datos ingresados sean válidos."
+    },
+    "administrator_add": {
+      "success": "Se agregó un nuevo administrador correctamente",
+      "not_online": "Este jugador no está en línea",
+      "unknown_error": "Error al agregar un nuevo administrador"
+    },
+    "trust_score": {
+      "recently_resetted": {
+        "title": "No se puede restablecer el puntaje de confianza",
+        "description": "El puntaje de confianza de este jugador se restableció recientemente. Se podrá hacer de nuevo en %s segundo(s)"
+      },
+      "recently_decreased": {
+        "title": "No se puede disminuir el puntaje de confianza",
+        "description": "El puntaje de confianza de este jugador se disminuyó recientemente. Se podrá hacer de nuevo en %s segundo(s)"
+      },
+      "recently_increased": {
+        "title": "No se puede aumentar el puntaje de confianza",
+        "description": "El puntaje de confianza de este jugador se aumentó recientemente. Se podrá hacer de nuevo en %s segundo(s)"
+      }
+    },
+    "cant_delete_permission_group": "No puedes eliminar un grupo con un nivel mayor o igual al tuyo",
+    "cant_update_permission_group_permissions": "No puedes actualizar un grupo con un nivel mayor o igual al tuyo",
+    "cant_update_permission_group_discord_role_id": "No puedes actualizar un grupo con un nivel mayor o igual al tuyo",
+    "cant_update_admin_group": "No puedes actualizar un grupo con un nivel mayor o igual al tuyo",
+    "cant_update_admin_group_permissions": "No puedes actualizar un grupo con un nivel mayor o igual al tuyo",
+    "cant_stop_admin_menu_resource": "No puedes detener el recurso del menú de administración desde aquí.",
+    "cant_restart_admin_menu_resource": "No puedes reiniciar el recurso del menú de administración desde aquí.",
+    "resource_restarted_successfully": "Recurso reiniciado correctamente.",
+    "multiple_sessions_warning": {
+      "title": "Se detectaron múltiples sesiones",
+      "description": "Ahora has iniciado sesión desde varios clientes. Esto puede causar inestabilidad."
+    },
+    "session_closed": {
+      "title": "Sesión cerrada",
+      "description": "Tu otra sesión de administrador ha sido cerrada."
+    },
+    "welcome": {
+      "title": "¡Bienvenido %s!",
+      "description": "Se ha iniciado la sesión de administrador."
+    },
+    "permission_group_not_found": {
+      "title": "Grupo de permisos inválido",
+      "description": "Tienes un grupo de permisos inválido (**%s**).\n\nTus permisos se han establecido por defecto.\n\nTienes acceso limitado al menú de administración."
+    },
+    "nickname_taken": {
+      "title": "Apodo ya en uso",
+      "description": "Por favor elige un nombre diferente."
+    },
+    "cannot_add_admin": {
+      "title": "No se puede agregar administrador",
+      "description": "No puedes agregar un administrador con un nivel mayor o igual al tuyo."
+    },
+    "this_admin_already_exists": {
+      "title": "No se puede agregar administrador",
+      "description": "Este jugador ya es administrador."
+    },
+    "player_offline": "Este jugador no está en línea",
+    "cannot_revoke_access": {
+      "title": "No se puede revocar el acceso",
+      "description": "No puedes revocar el acceso de un administrador con un nivel mayor o igual al tuyo."
+    },
+    "logged_out": {
+      "title": "Sesión cerrada",
+      "description": "La sesión de administrador se ha cerrado."
+    },
+    "access_revoked": {
+      "title": "Acceso denegado",
+      "description": "Ya no tienes acceso para usar el panel de administración."
+    },
+    "access_denied": {
+      "title": "Acceso denegado",
+      "description": "No tienes permisos para usar el panel de administración."
+    },
+    "player_banned": {
+      "title": "Jugador prohibido",
+      "description": "Jugador prohibido correctamente"
+    },
+    "open_rate_limit": "Por favor espera un momento antes de volver a abrir el panel de administración"
+  },
+  "preferences": {
+    "map": {
+      "title": "Mapa",
+      "description": "¿Quieres ver el mapa en el perfil del jugador? Desactiva esta opción si tienes problemas de rendimiento."
+    },
+    "mute_report_message_notifications": {
+      "title": "Silenciar notificaciones de informes",
+      "description": "Ya no verás notificaciones sobre nuevos mensajes en los informes."
+    },
+    "reduced_motion": {
+      "title": "Movimiento reducido",
+      "description": "Activa esta opción si no quieres ver animaciones entre páginas."
+    },
+    "admin_chat_opacity": {
+      "title": "Opacidad del Admin Chat",
+      "description": "Usa esta opción para ajustar la opacidad del chat de admin cuando el panel no sea visible."
+    },
+    "safe_noclip": {
+      "title": "NoClip seguro",
+      "description": "Si esta opción está habilitada, serás teletransportado al suelo después de desactivar el NoClip."
+    },
+    "theme": {
+      "title": "Tema",
+      "description": "Elige el color de los componentes.",
+      "light": "Claro",
+      "dark": "Oscuro"
+    },
+    "small_menu_position": {
+      "title": "Posición del Menú Pequeño",
+      "description": "Utiliza esta opción para ajustar la posición del menú pequeño."
+    },
+    "reset": "Restablecer preferencias"
+  },
+  "controls_helper": {
+    "move": "Mover",
+    "up": "Arriba",
+    "down": "Abajo",
+    "move_slow": "Mover despacio",
+    "move_fast": "Mover rápido",
+    "change_speed": "Cambiar velocidad",
+    "noclip_controls": {
+      "forward": "W",
+      "backward": "S",
+      "up": "Q",
+      "down": "Z",
+      "change_speed": "LSHIFT"
+    }
+  },
+  "feed_messages": {
+    "player": "Jugador: ",
+    "reason": "Razón: ",
+    "administrator": "Administrador: ",
+    "player_joined": "Jugador se unió",
+    "player_left": "Jugador salió",
+    "reports": {
+      "new_report": "Nuevo informe",
+      "report_closed": "Informe cerrado",
+      "report_reopened": "Informe reabierto",
+      "author": "Autor: ",
+      "report_id": "ID del informe: "
+    },
+    "announcement": "Anuncio",
+    "announcement_from": "De: ",
+    "sent_to_discord": "Enviado a Discord"
+  },
+  "summon_player": {
+    "trigger": "Llamar al jugador",
+    "confirmation": "¿Seguro que quieres llamar a este jugador? Ingresa la duración de la notificación.",
+    "attention": "ATENCIÓN",
+    "summon_message": "Has sido llamado por la <span class=\"text-red-500 font-semibold\">Administración</span> por una violación de las reglas.<br>Únete a nuestro servidor de Discord para evitar mayores consecuencias.",
+    "discord_link": "discord.gg/yourserver",
+    "close_message": "Entendido"
+  },
+  "permission_groups": {
+    "permissions_of": "Permisos del grupo \"%s\"",
+    "set_discord_role_id": "Establecer ID de rol de Discord",
+    "small_menu_permissions": "Permisos del menú pequeño",
+    "general_permissions": "Permisos generales"
+  },
+  "resources": {
+    "location": "Ubicación",
+    "author": "Autor",
+    "start_resource_confirmation": "¿Seguro que quieres iniciar este recurso?",
+    "stop_resource_confirmation": "¿Seguro que quieres detener este recurso?",
+    "restart_resource_confirmation": "¿Seguro que quieres reiniciar este recurso?"
+  }
+}

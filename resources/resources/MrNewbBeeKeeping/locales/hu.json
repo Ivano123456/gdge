@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Küldés",
+    "BeeShop": {
+        "Invalid": "Ez az üzlet érvénytelen. Kérjük, jelentse be a szerver tulajdonosának a konfiguráció beállítását.",
+        "OpenMenu": "Méhész",
+        "TargetShop": "Beszélj a méhésszel",
+        "ShopTitle": "Méhészeti kellékek vásárlása",
+        "SellItems": "Tárgyak eladása",
+        "InputSellAmount": "Adja meg az eladni kívánt mennyiséget",
+        "ShopDescription": "Vásároljon különféle tárgyakat a méhészet segítésére.",
+        "SellDescription": "Adja el méhészeti tárgyait.",
+        "SellTitle": "Méhekkel kapcsolatos tárgyak eladása",
+        "SellItemFor": "%s eladása $%s egyenként.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Eladni való tárgyak",
+        "TransactionCompleted": "Eladás befejezve $%s értékben.",
+        "IconColor": "narancssárga",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Visszatérés az előző menübe"
+    },
+    "HiveChange": {
+        "Dismantle": "Kaptár szétszerelése",
+        "PlacingHive": "Kaptár elhelyezése",
+        "ExtractWax": "%s viasz kivonása",
+        "ExtractHoney": "%s méz kivonása",
+        "RemovingWorkers": "%s munkásméh eltávolítása",
+        "AddingWorkers": "%s munkásméh hozzáadása",
+        "RemovingQueen": "Méhkirálynő eltávolítása",
+        "AddingQueen": "Méhkirálynő hozzáadása",
+        "Placing": "Kaptár elhelyezése",
+        "Accessing": "Kaptár elérése",
+        "Adding": "Hozzáadás a kaptárhoz",
+        "Removing": "Eltávolítás a kaptárból",
+        "MissingItem": "Hiányzik a szükséges tárgy ehhez a művelethez."
+    },
+    "ProgressBars": {
+        "Dismantle": "Kaptár szétszerelése...",
+        "Accessing": "Kaptár elérése...",
+        "Placing": "Kaptár elhelyezése...",
+        "Adding": "Hozzáadás a kaptárhoz...",
+        "Extracting": "Kivonás a kaptárból..."
+    },
+    "HiveMenu": {
+        "Color": "narancssárga",
+        "WorkerInputHeader": "Munkásméhek száma",
+        "WorkersToAdd": "Hozzáadandó munkások",
+        "WorkersToRemove": "Eltávolítandó munkások",
+        "Slider_Add_Label": "Maximum hozzáadáshoz",
+        "Slider__Remove_Label": "Maximum eltávolításhoz",
+        "ItemCountCheck": "Nincs elég tárgyad ehhez.",
+        "Title": "Kaptárkezelés",
+        "HiveHealthTitle": "Kaptár egészségének áttekintése",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "A kaptár jelenlegi egészségi állapota: ",
+        "WaxCountTitle": "Méhviasz kezelése",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Méhviasz termelés kezelése",
+        "HoneyCountTitle": "Méz kezelése",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Méz termelés figyelemmel kísérése",
+        "QueenCountTitle": "Méhkirálynő állapota",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Méhkirálynők számának kezelése",
+        "WorkerCountTitle": "Munkásméhek kezelése",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Munkásméhek számának kezelése",
+        "DestroyHiveTitle": "Kaptár megsemmisítése",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Ez végleg megsemmisíti a kaptárt.",
+        "ManageAccess": "Kaptár kezelése",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Kezelje, ki férhet hozzá a kaptárhoz.",
+        "AddPlayerTitle": "%s hozzáadása a kaptár hozzáféréséhez.",
+        "AddPlayerDescription": "Ez hozzáférést ad %s-nek a kaptárhoz, de nem jogot annak megsemmisítésére.",
+        "TooFarFromHive": "Túl messze vagy a kaptártól.",
+        "TargetTooFarFromHive": "A cél túl messze van a kaptártól.",
+        "Removing": "Eltávolítás a kaptárból",
+        "WaxToRemove": "Eltávolítandó viasz",
+        "HoneyToRemove": "Eltávolítandó méz"
+    },
+    "QueenMenu": {
+        "Color": "narancssárga",
+        "Title": "Méhkirálynő kezelése",
+        "DisplayQueenTitle": "Méhkirálynők a kaptárban",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Méhkirálynők a kaptárban: %s ",
+        "AddQueenTitle": "Méhkirálynő hozzáadása",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Méhkirálynő hozzáadása a kaptárhoz",
+        "RemoveQueenTitle": "Méhkirálynő eltávolítása",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Méhkirálynő eltávolítása a kaptárból",
+        "ItemCountCheck": "Nincs elég méhkirálynőd a hozzáadáshoz.",
+        "HiveFilled": "Ebben a kaptárban már van méhkirálynő.",
+        "NoQueenInHive": "Ebben a kaptárban nincs eltávolítható méhkirálynő."
+    },
+    "WorkerMenu": {
+        "Color": "narancssárga",
+        "Title": "Munkásméhek kezelése",
+        "AddWorkerTitle": "Munkásméh hozzáadása",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Munkásméhek a kaptárban",
+        "AddWorkerDescription": "Munkásméh hozzáadása a kaptárhoz",
+        "DisplayWorkerDescription": "Munkásméhek a kaptárban: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Munkásméh eltávolítása",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Munkásméh eltávolítása a kaptárból",
+        "NoWorkers": "Ebben a kaptárban nincsenek munkásméhek.",
+        "HiveFilled": "Ebben a kaptárban már a maximális számú munkásméh van.",
+        "WorkerInvCheck": "Nincs elég munkásméhed ehhez."
+    },
+    "HoneyMenu": {
+        "Color": "narancssárga",
+        "Title": "Méz kezelése",
+        "DisplayHoneyType": "Méz típusa",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Ez a méz típusa: %s ",
+        "DisplayHoneyCount": "Méz mennyisége",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Jelenlegi méz mennyiség: %s",
+        "ExtractHoneyTitle": "Méz kivonása",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Az összes méz kivonása a kaptárból",
+        "NoHoney": "Ebben a kaptárban nincs méz."
+    },
+    "WaxMenu": {
+        "Color": "narancssárga",
+        "Title": "Méhviasz kezelése",
+        "DisplayWaxCount": "Méhviasz mennyisége",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Jelenlegi méhviasz mennyiség: %s",
+        "ExtractWaxTitle": "Viasz kivonása a kaptárból",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Az összes méhviasz kivonása a kaptárból",
+        "NoWax": "Ebben a kaptárban nincs méhviasz."
+    },
+    "Hive": {
+        "Access": "Kaptár elérése"
+    },
+    "Dismantle": {
+        "title": "Biztos vagy benne?",
+        "icon": "kalapács",
+        "description": "Ez szétszereli a kaptárt és visszaadja a benne lévő tárgyakat."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "A kaptárt nem lehet ide helyezni. Próbáljon másik helyet.",
+        "BlacklistedZone": "Nem helyezhet kaptárt tiltott zónába.",
+        "MaxOwnedHivesReached": "Elérte az engedélyezett kaptárak maximális számát."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Tulajdonosnak kell lenned a kaptár módosításához."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Az engedélyezett listán kell lenned a kaptár módosításához."
+    },
+    "ManageAccess": {
+        "Color": "narancssárga",
+        "Title": "Kaptár hozzáférés kezelése",
+        "AddUser": "Felhasználó hozzáadása",
+        "RemovedUser": "Felhasználó eltávolítva a kaptár hozzáféréséből",
+        "UnableToRemove": "Nem lehet eltávolítani a felhasználót a kaptár hozzáféréséből. Tulajdonosnak kell lenned ehhez.",
+        "UnableToFindHive": "Nem található a kaptár adatai. Kérjük, próbálja később.",
+        "UnableToAccess": "Nincs hozzáférésed ehhez a kaptárhoz.",
+        "AlreadyAdded": "A felhasználó már hozzá van adva a kaptár hozzáféréséhez",
+        "UserAdded": "Felhasználó hozzáadva a kaptár hozzáféréséhez",
+        "UserList": "Felhasználólista",
+        "AddClosestPersonTitle": "Legközelebbi személy hozzáadása",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "A legközelebbi személy hozzáadása a kaptár hozzáférési listájához.",
+        "RemovePlayerTitle": "Felhasználó eltávolítása",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Felhasználó eltávolítása a kaptár hozzáférési listájáról.",
+        "RemovePlayer": "%s eltávolítása a kaptár hozzáférési listájáról.",
+        "RemovedSuccess": "Felhasználó eltávolítva a kaptár hozzáféréséből.",
+        "RemovedError": "Nem lehet eltávolítani a felhasználót a kaptár hozzáféréséből.",
+        "ViewAccessTitle": "Hozzáférési lista megtekintése",
+        "ViewAccessDescription": "A kaptárhoz hozzáféréssel rendelkező felhasználók listájának megtekintése.",
+        "ViewAccessMenuTitle": "Hozzáférési lista",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Hozzáfér ehhez a kaptárhoz.",
+        "SubViewAccessMenuTitle": "Kaptárhoz hozzáféréssel rendelkező felhasználók listája",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "%s hozzáadása a kaptár hozzáféréséhez.",
+        "AddPlayerDescription": "Ez hozzáférést ad %s-nek a kaptárhoz, de nem jogot annak megsemmisítésére.",
+        "TooFarFromHive": "Túl messze vagy a kaptártól.",
+        "TargetTooFarFromHive": "A cél túl messze van a kaptártól.",
+        "RemoveUserTitle": "Felhasználó eltávolítása",
+        "RemoveUserDescription": "Felhasználó eltávolítása a kaptár hozzáférési listájáról.",
+        "UserListDescription": "Kaptárhoz hozzáféréssel rendelkező felhasználók listája",
+        "ManageAccessTitle": "Felhasználói kaptár hozzáférés kezelése",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Kaptárhoz hozzáféréssel rendelkező felhasználók hozzáadása vagy eltávolítása.",
+        "YouWereAdded": "Hozzáadtak a kaptár hozzáférési listájához.",
+        "NoPlayerNearby": "Nincs közeli játékos a hozzáadáshoz."
+    },
+    "Blips": {
+        "HiveBlipText": "Méhkaptár"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Hibát követtél el és néhány méh megszúrt!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Méhkaptár eltávolítása ID alapján [CSAK ADMIN PARANCS]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "A méhkaptár ID-ja az SQL-ből"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Méhkaptár eltávolítása tulajdonos azonosító alapján [CSAK ADMIN PARANCS]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "A méhkaptár tulajdonosának azonosítója"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Összes kaptár megjelenítése a térképen [CSAK ADMIN PARANCS]"
+        },
+        "OpenAdminHives": {
+            "help": "Admin kaptárkezelő menü megnyitása [CSAK ADMIN PARANCS]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Viasz: %s, Méz: %s, Munkások: %s, Királynő: %s",
+        "JoinedNames": "%s, %s azonosítóval",
+        "MainMenuTitle": "Admin menü",
+        "ManageHiveByID": "Kaptár kezelése ID: %s",
+        "ManageHiveDescription": "Hozzáférés a kaptárkezeléshez",
+        "ManageHiveOwnerTitle": "Kaptár tulajdonosa: %s",
+        "ManageHiveOwnerDescription": "A kaptár tulajdonosa %s",
+        "ManageHiveIDTitle": "Kaptár ID: %s",
+        "ManageHiveIDDescription": "A kaptár ID-ja %s",
+        "MarkHiveCoordsTitle": "Kaptár koordinátáinak megjelölése",
+        "MarkHiveCoordsDescription": "A kaptár koordinátáinak megjelölése a térképen.",
+        "TeleportToCoordsTitle": "Teleportálás a kaptár koordinátáira",
+        "TeleportToCoordsDescription": "Teleportálás a kaptár koordinátáira.",
+        "AccessablePlayersTitle": "Utolsó hozzáférés: ",
+        "AccessablePlayersDescription": "Utolsó hozzáférés: %s",
+        "HiveStatusTitle": "Kaptár állapota: ",
+        "HiveStatusDescription": "Jelenlegi állapot: %s",
+        "PlayersWithAccessTitle": "Kaptárhoz hozzáféréssel rendelkező játékosok",
+        "RunSearch": "Keresés futtatása",
+        "RunSearchDescription": "Konkrét adatok keresése.",
+        "CopyIdToClipBoard": "Kaptár ID másolása vágólapra",
+        "CopyIdToClipBoardDescription": "A kaptár ID-jának másolása a vágólapra.",
+        "IconColor": "narancssárga",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Nincs engedélyed ennek használatára.",
+        "DeleteHiveTitle": "Kaptár törlése",
+        "DeleteHiveDescription": "Kaptár végleges törlése ID-val: %s",
+        "ShowAllHivesOnMap": "Összes kaptár megjelenítése/elrejtése a térképen",
+        "ShowAllHivesOnMapDescription": "Az összes kaptár megjelenítésének kapcsolása a térképen.",
+        "ListAllHives": "Összes kaptár listázása",
+        "ListAllHivesDescription": "Összes kaptár listázása az adatbázisban.",
+        "Search": {
+            "InvalidSearchInput": "Érvénytelen keresési bemenet. Kérjük, próbálja újra.",
+            "Title": "Keresés",
+            "SearchLabel": "Konkrét adatok keresése.",
+            "SearchDescription": "Adja meg a keresni kívánt adatokat.",
+            "SearchPlaceholder": "Adja meg a keresési kifejezést...",
+            "Submit": "Küldés"
+        }
+    }
+}

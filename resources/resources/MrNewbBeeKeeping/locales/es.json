@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Enviar",
+    "BeeShop": {
+        "Invalid": "Esta tienda es inválida. Por favor informa al propietario del servidor para ajustar la configuración.",
+        "OpenMenu": "Apicultor",
+        "TargetShop": "Habla con el apicultor",
+        "ShopTitle": "Comprar suministros de apicultura",
+        "SellItems": "Vender artículos",
+        "InputSellAmount": "Ingrese la cantidad a vender",
+        "ShopDescription": "Compra varios artículos para ayudar con la apicultura.",
+        "SellDescription": "Vende tus artículos de apicultura.",
+        "SellTitle": "Vender artículos relacionados con abejas",
+        "SellItemFor": "Vende %s por $%s cada uno.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Artículos vendibles",
+        "TransactionCompleted": "Venta completada por $%s.",
+        "IconColor": "naranja",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Volver al menú anterior"
+    },
+    "HiveChange": {
+        "Dismantle": "Desmantelar colmena",
+        "PlacingHive": "Colocando la colmena",
+        "ExtractWax": "Extrayendo %s cera",
+        "ExtractHoney": "Extrayendo %s miel",
+        "RemovingWorkers": "Eliminando %s abejas obreras",
+        "AddingWorkers": "Agregando %s abejas obreras",
+        "RemovingQueen": "Eliminando la abeja reina",
+        "AddingQueen": "Agregando la abeja reina",
+        "Placing": "Colocando la colmena en la ubicación",
+        "Accessing": "Inspeccionando la colmena",
+        "Adding": "Agregando a la colmena",
+        "Removing": "Eliminando de la colmena",
+        "MissingItem": "Te falta el artículo requerido para realizar esta acción."
+    },
+    "ProgressBars": {
+        "Dismantle": "Desmantelando la colmena...",
+        "Accessing": "Accediendo a la colmena...",
+        "Placing": "Colocando la colmena...",
+        "Adding": "Agregando a la colmena...",
+        "Extracting": "Extrayendo de la colmena..."
+    },
+    "HiveMenu": {
+        "Color": "naranja",
+        "WorkerInputHeader": "Cantidad de abejas obreras",
+        "WorkersToAdd": "Obreras a agregar",
+        "WorkersToRemove": "Obreras a eliminar",
+        "Slider_Add_Label": "Máximo a agregar",
+        "Slider__Remove_Label": "Máximo a eliminar",
+        "ItemCountCheck": "No tienes suficiente de este artículo para hacer esto.",
+        "Title": "Gestión de colmena",
+        "HiveHealthTitle": "Resumen de salud de la colmena",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Estado actual de la salud de la colmena: ",
+        "WaxCountTitle": "Gestión de cera",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Gestiona la producción de cera",
+        "HoneyCountTitle": "Gestión de miel",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Supervisa la producción de miel",
+        "QueenCountTitle": "Estado de la abeja reina",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Gestiona la población de abejas reina",
+        "WorkerCountTitle": "Gestión de abejas obreras",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Gestiona la población de abejas obreras",
+        "DestroyHiveTitle": "Desmantelar colmena",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Esto desmantelará la colmena permanentemente.",
+        "ManageAccess": "Gestionar colmena",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Gestiona quién tiene acceso a la colmena.",
+        "AddPlayerTitle": "Agregar %s al acceso de la colmena.",
+        "AddPlayerDescription": "Esto permitirá que %s acceda a la colmena pero no la desmantele.",
+        "TooFarFromHive": "Estás demasiado lejos de la colmena.",
+        "TargetTooFarFromHive": "El objetivo está demasiado lejos de la colmena.",
+        "Removing": "Eliminando de la colmena",
+        "WaxToRemove": "Cera a eliminar",
+        "HoneyToRemove": "Miel a eliminar"
+    },
+    "QueenMenu": {
+        "Color": "naranja",
+        "Title": "Gestión de abeja reina",
+        "DisplayQueenTitle": "Abejas reina en la colmena",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Abejas reina en la colmena: %s ",
+        "AddQueenTitle": "Agregar abeja reina",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Agrega una abeja reina a la colmena",
+        "RemoveQueenTitle": "Eliminar abeja reina",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Elimina una abeja reina de la colmena",
+        "ItemCountCheck": "No tienes suficientes reinas para poner ninguna.",
+        "HiveFilled": "Ya hay una reina en esta colmena.",
+        "NoQueenInHive": "No hay reina en esta colmena para eliminar."
+    },
+    "WorkerMenu": {
+        "Color": "naranja",
+        "Title": "Gestión de abejas obreras",
+        "AddWorkerTitle": "Agregar abeja obrera",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Abejas obreras en la colmena",
+        "AddWorkerDescription": "Agrega una abeja obrera a la colmena",
+        "DisplayWorkerDescription": "Abejas obreras en la colmena: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Eliminar abeja obrera",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Elimina una abeja obrera de la colmena",
+        "NoWorkers": "No hay abejas obreras en esta colmena.",
+        "HiveFilled": "Ya hay el número máximo de obreras en esta colmena.",
+        "WorkerInvCheck": "No tienes suficientes abejas obreras para hacer esto."
+    },
+    "HoneyMenu": {
+        "Color": "naranja",
+        "Title": "Gestión de miel",
+        "DisplayHoneyType": "Tipo de miel",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Esta miel es de tipo: %s ",
+        "DisplayHoneyCount": "Cantidad de miel",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Cantidad actual de miel: %s",
+        "ExtractHoneyTitle": "Extraer miel",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Extrae toda la miel de la colmena",
+        "NoHoney": "No hay miel en esta colmena."
+    },
+    "WaxMenu": {
+        "Color": "naranja",
+        "Title": "Gestión de cera",
+        "DisplayWaxCount": "Cantidad de cera",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Cantidad actual de cera: %s",
+        "ExtractWaxTitle": "Extraer cera de la colmena",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Extrae toda la cera de la colmena",
+        "NoWax": "No hay cera en esta colmena."
+    },
+    "Hive": {
+        "Access": "Acceder a la colmena"
+    },
+    "Dismantle": {
+        "title": "¿Estás seguro?",
+        "icon": "martillo",
+        "description": "Esto desmantelará la colmena y devolverá los artículos dentro."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "No se pudo colocar la colmena en esta ubicación. Por favor, prueba otro lugar.",
+        "BlacklistedZone": "No puedes colocar una colmena en una zona prohibida.",
+        "MaxOwnedHivesReached": "Has alcanzado el número máximo de colmenas permitidas."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Debes ser el propietario para modificar esta colmena."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Debes estar en la lista de permitidos para modificar esta colmena."
+    },
+    "ManageAccess": {
+        "Color": "naranja",
+        "Title": "Gestionar acceso a la colmena",
+        "AddUser": "Agregar usuario",
+        "RemovedUser": "Usuario eliminado del acceso a la colmena",
+        "UnableToRemove": "No se puede eliminar el usuario del acceso a la colmena. Debes ser el propietario para hacerlo.",
+        "UnableToFindHive": "No se pudo encontrar los datos de la colmena. Por favor, intenta más tarde.",
+        "UnableToAccess": "No tienes acceso a esta colmena.",
+        "AlreadyAdded": "El usuario ya está agregado al acceso a la colmena",
+        "UserAdded": "Usuario agregado al acceso a la colmena",
+        "UserList": "Lista de usuarios",
+        "AddClosestPersonTitle": "Agregar persona más cercana",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Agrega la persona más cercana a la lista de acceso a la colmena.",
+        "RemovePlayerTitle": "Eliminar usuario",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Elimina un usuario de la lista de acceso a la colmena.",
+        "RemovePlayer": "Eliminar %s de la lista de acceso a la colmena.",
+        "RemovedSuccess": "Usuario eliminado del acceso a la colmena.",
+        "RemovedError": "No se pudo eliminar el usuario del acceso a la colmena.",
+        "ViewAccessTitle": "Ver lista de acceso",
+        "ViewAccessDescription": "Ver la lista de usuarios con acceso a esta colmena.",
+        "ViewAccessMenuTitle": "Lista de acceso",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Tiene acceso a esta colmena.",
+        "SubViewAccessMenuTitle": "Lista de usuarios con acceso a la colmena",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Agregar %s al acceso de la colmena.",
+        "AddPlayerDescription": "Esto permitirá que %s acceda a la colmena pero no la desmantele.",
+        "TooFarFromHive": "Estás demasiado lejos de la colmena.",
+        "TargetTooFarFromHive": "El objetivo está demasiado lejos de la colmena.",
+        "RemoveUserTitle": "Eliminar usuario",
+        "RemoveUserDescription": "Elimina un usuario de la lista de acceso a la colmena.",
+        "UserListDescription": "Lista de usuarios con acceso a la colmena",
+        "ManageAccessTitle": "Gestionar acceso de usuarios a la colmena",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Agrega o elimina usuarios que tienen acceso a la colmena.",
+        "YouWereAdded": "Fuiste agregado a la lista de acceso a la colmena.",
+        "NoPlayerNearby": "No hay jugador cerca para agregar."
+    },
+    "Blips": {
+        "HiveBlipText": "Colmena"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "¡Cometiste un error y algunas abejas te picaron!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Elimina la colmena por ID [SOLO COMANDO DE ADMIN]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "ID de colmena de SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Elimina la colmena por identificador de propietario [SOLO COMANDO DE ADMIN]",
+            "params": {
+                "name": "identificador",
+                "type": "string",
+                "help": "Identificador de propietario de colmena"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Muestra todas las colmenas en el mapa [SOLO COMANDO DE ADMIN]"
+        },
+        "OpenAdminHives": {
+            "help": "Abre el menú de gestión de colmenas de admin [SOLO COMANDO DE ADMIN]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Cera: %s, Miel: %s, Obreras: %s, Reina: %s",
+        "JoinedNames": "%s, con identificador %s",
+        "MainMenuTitle": "Menú de admin",
+        "ManageHiveByID": "Gestionar colmena ID: %s",
+        "ManageHiveDescription": "Acceso a gestión de colmena",
+        "ManageHiveOwnerTitle": "Propietario de colmena: %s",
+        "ManageHiveOwnerDescription": "El propietario de la colmena es %s",
+        "ManageHiveIDTitle": "ID de colmena: %s",
+        "ManageHiveIDDescription": "El ID de la colmena es %s",
+        "MarkHiveCoordsTitle": "Marcar coordenadas de colmena",
+        "MarkHiveCoordsDescription": "Marca las coordenadas de la colmena en el mapa.",
+        "TeleportToCoordsTitle": "Teletransportar a coordenadas de colmena",
+        "TeleportToCoordsDescription": "Teletransportar a las coordenadas de la colmena.",
+        "AccessablePlayersTitle": "Fecha de último acceso: ",
+        "AccessablePlayersDescription": "Último acceso: %s",
+        "HiveStatusTitle": "Estado de la colmena: ",
+        "HiveStatusDescription": "Estado actual: %s",
+        "PlayersWithAccessTitle": "Jugadores con acceso a la colmena",
+        "RunSearch": "Ejecutar búsqueda",
+        "RunSearchDescription": "Buscar información específica.",
+        "CopyIdToClipBoard": "Copiar ID de colmena al portapapeles",
+        "CopyIdToClipBoardDescription": "Copia el ID de la colmena a tu portapapeles.",
+        "IconColor": "naranja",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "No tienes permiso para acceder a esto.",
+        "DeleteHiveTitle": "Eliminar colmena",
+        "DeleteHiveDescription": "Eliminar la colmena permanentemente con ID: %s",
+        "ShowAllHivesOnMap": "Mostrar/Ocultar todas las colmenas en el mapa",
+        "ShowAllHivesOnMapDescription": "Alternar la visualización de todas las colmenas en el mapa.",
+        "ListAllHives": "Listar todas las colmenas",
+        "ListAllHivesDescription": "Listar todas las colmenas en la base de datos.",
+        "Search": {
+            "InvalidSearchInput": "Entrada de búsqueda inválida. Por favor, intenta de nuevo.",
+            "Title": "Buscar",
+            "SearchLabel": "Buscar información específica.",
+            "SearchDescription": "Ingrese la información que desea buscar.",
+            "SearchPlaceholder": "Ingrese término de búsqueda...",
+            "Submit": "Enviar"
+        }
+    }
+}

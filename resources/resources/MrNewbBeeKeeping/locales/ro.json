@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Trimite",
+    "BeeShop": {
+        "Invalid": "Această magazin este invalid. Vă rugăm să raportați proprietarului serverului să configureze setările.",
+        "OpenMenu": "Apicultor",
+        "TargetShop": "Vorbește cu apicultorul",
+        "ShopTitle": "Cumpără provizii de apicultură",
+        "SellItems": "Vinde obiecte",
+        "InputSellAmount": "Introduceți cantitatea de vânzare",
+        "ShopDescription": "Cumpărați diverse obiecte pentru a vă ajuta la apicultură.",
+        "SellDescription": "Vindeți obiectele dvs. de apicultură.",
+        "SellTitle": "Vinde obiecte legate de albine",
+        "SellItemFor": "Vinde %s pentru $%s fiecare.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Obiecte de vânzare",
+        "TransactionCompleted": "Vânzare completată pentru $%s.",
+        "IconColor": "portocaliu",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Înapoi la meniul anterior"
+    },
+    "HiveChange": {
+        "Dismantle": "Demontează stupul",
+        "PlacingHive": "Plasarea stupului",
+        "ExtractWax": "Extragerea %s ceară",
+        "ExtractHoney": "Extragerea %s miere",
+        "RemovingWorkers": "Eliminarea %s albine lucrătoare",
+        "AddingWorkers": "Adăugarea %s albine lucrătoare",
+        "RemovingQueen": "Eliminarea reginei",
+        "AddingQueen": "Adăugarea reginei",
+        "Placing": "Plasarea stupului",
+        "Accessing": "Accesarea stupului",
+        "Adding": "Adăugarea în stup",
+        "Removing": "Eliminarea din stup",
+        "MissingItem": "Îți lipsește obiectul necesar pentru această acțiune."
+    },
+    "ProgressBars": {
+        "Dismantle": "Demontarea stupului...",
+        "Accessing": "Accesarea stupului...",
+        "Placing": "Plasarea stupului...",
+        "Adding": "Adăugarea în stup...",
+        "Extracting": "Extragerea din stup..."
+    },
+    "HiveMenu": {
+        "Color": "portocaliu",
+        "WorkerInputHeader": "Numărul de albine lucrătoare",
+        "WorkersToAdd": "Lucrătoare de adăugat",
+        "WorkersToRemove": "Lucrătoare de eliminat",
+        "Slider_Add_Label": "Maxim de adăugat",
+        "Slider__Remove_Label": "Maxim de eliminat",
+        "ItemCountCheck": "Nu aveți suficient din acest obiect pentru asta.",
+        "Title": "Gestionarea stupului",
+        "HiveHealthTitle": "Prezentarea generală a sănătății stupului",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Starea actuală de sănătate a stupului: ",
+        "WaxCountTitle": "Gestionarea cerii de albine",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Gestionați producția de ceară de albine",
+        "HoneyCountTitle": "Gestionarea mierii",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Monitorizați producția de miere",
+        "QueenCountTitle": "Statusul reginei",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Gestionați numărul de regine",
+        "WorkerCountTitle": "Gestionarea albinelor lucrătoare",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Gestionați numărul de albine lucrătoare",
+        "DestroyHiveTitle": "Distruge stupul",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Aceasta va distruge permanent stupul.",
+        "ManageAccess": "Gestionează stupul",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Gestionați cine poate accesa stupul.",
+        "AddPlayerTitle": "Adaugă %s la accesul stupului.",
+        "AddPlayerDescription": "Aceasta va da acces lui %s la stup, dar nu dreptul de a-l distruge.",
+        "TooFarFromHive": "Ești prea departe de stup.",
+        "TargetTooFarFromHive": "Ținta este prea departe de stup.",
+        "Removing": "Eliminarea din stup",
+        "WaxToRemove": "Ceară de eliminat",
+        "HoneyToRemove": "Miere de eliminat"
+    },
+    "QueenMenu": {
+        "Color": "portocaliu",
+        "Title": "Gestionarea reginei",
+        "DisplayQueenTitle": "Regine în stup",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Regine în stup: %s ",
+        "AddQueenTitle": "Adaugă regina",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Adaugă o regină la stup",
+        "RemoveQueenTitle": "Elimină regina",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Elimină regina din stup",
+        "ItemCountCheck": "Nu aveți suficiente regine de adăugat.",
+        "HiveFilled": "Acest stup are deja o regină.",
+        "NoQueenInHive": "Acest stup nu are o regină de eliminat."
+    },
+    "WorkerMenu": {
+        "Color": "portocaliu",
+        "Title": "Gestionarea albinelor lucrătoare",
+        "AddWorkerTitle": "Adaugă albina lucrătoare",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Albine lucrătoare în stup",
+        "AddWorkerDescription": "Adaugă o albină lucrătoare la stup",
+        "DisplayWorkerDescription": "Albine lucrătoare în stup: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Elimină albina lucrătoare",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Elimină o albină lucrătoare din stup",
+        "NoWorkers": "Acest stup nu are albine lucrătoare.",
+        "HiveFilled": "Acest stup are deja numărul maxim de albine lucrătoare.",
+        "WorkerInvCheck": "Nu aveți suficiente albine lucrătoare pentru asta."
+    },
+    "HoneyMenu": {
+        "Color": "portocaliu",
+        "Title": "Gestionarea mierii",
+        "DisplayHoneyType": "Tipul mierii",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Această miere este de tipul: %s ",
+        "DisplayHoneyCount": "Cantitatea de miere",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Cantitatea actuală de miere: %s",
+        "ExtractHoneyTitle": "Extrage mierea",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Extrage toată mierea din stup",
+        "NoHoney": "Acest stup nu are miere."
+    },
+    "WaxMenu": {
+        "Color": "portocaliu",
+        "Title": "Gestionarea cerii de albine",
+        "DisplayWaxCount": "Cantitatea de ceară de albine",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Cantitatea actuală de ceară de albine: %s",
+        "ExtractWaxTitle": "Extrage ceara din stup",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Extrage toată ceara de albine din stup",
+        "NoWax": "Acest stup nu are ceară de albine."
+    },
+    "Hive": {
+        "Access": "Accesează stupul"
+    },
+    "Dismantle": {
+        "title": "Ești sigur?",
+        "icon": "ciocan",
+        "description": "Aceasta va demonta stupul și va returna obiectele din interior."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Nu s-a putut plasa stupul aici. Încercați o altă locație.",
+        "BlacklistedZone": "Nu puteți plasa un stup într-o zonă interzisă.",
+        "MaxOwnedHivesReached": "Ați atins numărul maxim de stupi permisi."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Trebuie să fiți proprietarul pentru a modifica acest stup."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Trebuie să fiți pe lista permisă pentru a modifica acest stup."
+    },
+    "ManageAccess": {
+        "Color": "portocaliu",
+        "Title": "Gestionează accesul la stup",
+        "AddUser": "Adaugă utilizator",
+        "RemovedUser": "Utilizator eliminat din accesul la stup",
+        "UnableToRemove": "Nu se poate elimina utilizatorul din accesul la stup. Trebuie să fiți proprietarul pentru a face acest lucru.",
+        "UnableToFindHive": "Nu se pot găsi datele stupului. Vă rugăm să încercați din nou mai târziu.",
+        "UnableToAccess": "Nu aveți acces la acest stup.",
+        "AlreadyAdded": "Utilizatorul este deja adăugat la accesul stupului",
+        "UserAdded": "Utilizator adăugat la accesul stupului",
+        "UserList": "Lista utilizatorilor",
+        "AddClosestPersonTitle": "Adaugă persoana cea mai apropiată",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Adaugă persoana cea mai apropiată la lista de acces a stupului.",
+        "RemovePlayerTitle": "Elimină utilizator",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Elimină un utilizator din lista de acces a stupului.",
+        "RemovePlayer": "Elimină %s din lista de acces a stupului.",
+        "RemovedSuccess": "Utilizator eliminat din accesul la stup.",
+        "RemovedError": "Nu se poate elimina utilizatorul din accesul la stup.",
+        "ViewAccessTitle": "Vezi lista de acces",
+        "ViewAccessDescription": "Vezi lista utilizatorilor care au acces la acest stup.",
+        "ViewAccessMenuTitle": "Lista de acces",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Are acces la acest stup.",
+        "SubViewAccessMenuTitle": "Lista utilizatorilor cu acces la stup",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Adaugă %s la accesul stupului.",
+        "AddPlayerDescription": "Aceasta va da acces lui %s la stup, dar nu dreptul de a-l distruge.",
+        "TooFarFromHive": "Ești prea departe de stup.",
+        "TargetTooFarFromHive": "Ținta este prea departe de stup.",
+        "RemoveUserTitle": "Elimină utilizator",
+        "RemoveUserDescription": "Elimină un utilizator din lista de acces a stupului.",
+        "UserListDescription": "Lista utilizatorilor cu acces la stup",
+        "ManageAccessTitle": "Gestionează accesul utilizatorului la stup",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Adaugă sau elimină utilizatori cu acces la stup.",
+        "YouWereAdded": "Ați fost adăugat la lista de acces a stupului.",
+        "NoPlayerNearby": "Niciun jucător în apropiere de adăugat."
+    },
+    "Blips": {
+        "HiveBlipText": "Stup de albine"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Ați făcut o greșeală și câteva albine v-au înțepat!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Elimină stupul de albine după ID [DOAR COMANDĂ ADMIN]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "ID-ul stupului de albine din SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Elimină stupul de albine după identificatorul proprietarului [DOAR COMANDĂ ADMIN]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "Identificatorul proprietarului stupului de albine"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Arată toate stupii pe hartă [DOAR COMANDĂ ADMIN]"
+        },
+        "OpenAdminHives": {
+            "help": "Deschide meniul de gestionare admin a stupilor [DOAR COMANDĂ ADMIN]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Ceară: %s, Miere: %s, Lucrătoare: %s, Regină: %s",
+        "JoinedNames": "%s, cu identificatorul %s",
+        "MainMenuTitle": "Meniu Admin",
+        "ManageHiveByID": "Gestionează stupul ID: %s",
+        "ManageHiveDescription": "Acces la gestionarea stupului",
+        "ManageHiveOwnerTitle": "Proprietarul stupului: %s",
+        "ManageHiveOwnerDescription": "Proprietarul stupului este %s",
+        "ManageHiveIDTitle": "ID-ul stupului: %s",
+        "ManageHiveIDDescription": "ID-ul stupului este %s",
+        "MarkHiveCoordsTitle": "Marchează coordonatele stupului",
+        "MarkHiveCoordsDescription": "Marchează coordonatele stupului pe hartă.",
+        "TeleportToCoordsTitle": "Teleportează la coordonatele stupului",
+        "TeleportToCoordsDescription": "Teleportează la coordonatele stupului.",
+        "AccessablePlayersTitle": "Ultimul acces: ",
+        "AccessablePlayersDescription": "Ultimul acces: %s",
+        "HiveStatusTitle": "Statusul stupului: ",
+        "HiveStatusDescription": "Statusul actual: %s",
+        "PlayersWithAccessTitle": "Jucători cu acces la stup",
+        "RunSearch": "Execută căutarea",
+        "RunSearchDescription": "Caută date specifice.",
+        "CopyIdToClipBoard": "Copiază ID-ul stupului în clipboard",
+        "CopyIdToClipBoardDescription": "Copiază ID-ul stupului în clipboard-ul dvs.",
+        "IconColor": "portocaliu",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Nu aveți permisiunea de a folosi aceasta.",
+        "DeleteHiveTitle": "Șterge stupul",
+        "DeleteHiveDescription": "Șterge permanent stupul cu ID: %s",
+        "ShowAllHivesOnMap": "Arată/Ascunde toate stupii pe hartă",
+        "ShowAllHivesOnMapDescription": "Comută afișarea tuturor stupilor pe hartă.",
+        "ListAllHives": "Listează toți stupii",
+        "ListAllHivesDescription": "Listează toți stupii din baza de date.",
+        "Search": {
+            "InvalidSearchInput": "Intrare de căutare invalidă. Vă rugăm să încercați din nou.",
+            "Title": "Căutare",
+            "SearchLabel": "Caută date specifice.",
+            "SearchDescription": "Introduceți datele pe care doriți să le căutați.",
+            "SearchPlaceholder": "Introduceți termenul de căutare...",
+            "Submit": "Trimite"
+        }
+    }
+}

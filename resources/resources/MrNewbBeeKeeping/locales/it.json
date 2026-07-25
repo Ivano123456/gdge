@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Invia",
+    "BeeShop": {
+        "Invalid": "Questo negozio non è valido. Si prega di segnalare al proprietario del server di configurare la config.",
+        "OpenMenu": "Apicoltore",
+        "TargetShop": "Parla con l'apicoltore",
+        "ShopTitle": "Acquista forniture per l'apicoltura",
+        "SellItems": "Vendi oggetti",
+        "InputSellAmount": "Inserisci la quantità da vendere",
+        "ShopDescription": "Acquista vari oggetti per aiutarti nell'apicoltura.",
+        "SellDescription": "Vendi i tuoi oggetti per l'apicoltura.",
+        "SellTitle": "Vendi oggetti relativi alle api",
+        "SellItemFor": "Vendi %s per $%s ciascuno.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Oggetti da vendere",
+        "TransactionCompleted": "Vendita completata per $%s.",
+        "IconColor": "arancione",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Torna al menu precedente"
+    },
+    "HiveChange": {
+        "Dismantle": "Smonta l'alveare",
+        "PlacingHive": "Posizionamento dell'alveare",
+        "ExtractWax": "Estrazione di %s cera",
+        "ExtractHoney": "Estrazione di %s miele",
+        "RemovingWorkers": "Rimozione di %s api operaie",
+        "AddingWorkers": "Aggiunta di %s api operaie",
+        "RemovingQueen": "Rimozione dell'ape regina",
+        "AddingQueen": "Aggiunta dell'ape regina",
+        "Placing": "Posizionamento dell'alveare",
+        "Accessing": "Accesso all'alveare",
+        "Adding": "Aggiunta all'alveare",
+        "Removing": "Rimozione dall'alveare",
+        "MissingItem": "Ti manca l'oggetto richiesto per questa azione."
+    },
+    "ProgressBars": {
+        "Dismantle": "Smontaggio dell'alveare...",
+        "Accessing": "Accesso all'alveare...",
+        "Placing": "Posizionamento dell'alveare...",
+        "Adding": "Aggiunta all'alveare...",
+        "Extracting": "Estrazione dall'alveare..."
+    },
+    "HiveMenu": {
+        "Color": "arancione",
+        "WorkerInputHeader": "Numero di api operaie",
+        "WorkersToAdd": "Operaie da aggiungere",
+        "WorkersToRemove": "Operaie da rimuovere",
+        "Slider_Add_Label": "Massimo da aggiungere",
+        "Slider__Remove_Label": "Massimo da rimuovere",
+        "ItemCountCheck": "Non hai abbastanza di questo oggetto per quello.",
+        "Title": "Gestione dell'alveare",
+        "HiveHealthTitle": "Panoramica della salute dell'alveare",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Stato di salute attuale dell'alveare: ",
+        "WaxCountTitle": "Gestione della cera d'api",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Gestisci la produzione di cera d'api",
+        "HoneyCountTitle": "Gestione del miele",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Monitora la produzione di miele",
+        "QueenCountTitle": "Stato dell'ape regina",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Gestisci il numero di api regine",
+        "WorkerCountTitle": "Gestione delle api operaie",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Gestisci il numero di api operaie",
+        "DestroyHiveTitle": "Distruggi l'alveare",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Questo distruggerà permanentemente l'alveare.",
+        "ManageAccess": "Gestisci l'alveare",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Gestisci chi può accedere all'alveare.",
+        "AddPlayerTitle": "Aggiungi %s all'accesso dell'alveare.",
+        "AddPlayerDescription": "Questo darà a %s l'accesso all'alveare ma non il diritto di distruggerlo.",
+        "TooFarFromHive": "Sei troppo lontano dall'alveare.",
+        "TargetTooFarFromHive": "Il bersaglio è troppo lontano dall'alveare.",
+        "Removing": "Rimozione dall'alveare",
+        "WaxToRemove": "Cera da rimuovere",
+        "HoneyToRemove": "Miele da rimuovere"
+    },
+    "QueenMenu": {
+        "Color": "arancione",
+        "Title": "Gestione dell'ape regina",
+        "DisplayQueenTitle": "Api regine nell'alveare",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Api regine nell'alveare: %s ",
+        "AddQueenTitle": "Aggiungi ape regina",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Aggiungi un'ape regina all'alveare",
+        "RemoveQueenTitle": "Rimuovi ape regina",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Rimuovi l'ape regina dall'alveare",
+        "ItemCountCheck": "Non hai abbastanza api regine da aggiungere.",
+        "HiveFilled": "Questo alveare ha già un'ape regina.",
+        "NoQueenInHive": "Questo alveare non ha un'ape regina da rimuovere."
+    },
+    "WorkerMenu": {
+        "Color": "arancione",
+        "Title": "Gestione delle api operaie",
+        "AddWorkerTitle": "Aggiungi ape operaia",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Api operaie nell'alveare",
+        "AddWorkerDescription": "Aggiungi un'ape operaia all'alveare",
+        "DisplayWorkerDescription": "Api operaie nell'alveare: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Rimuovi ape operaia",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Rimuovi un'ape operaia dall'alveare",
+        "NoWorkers": "Questo alveare non ha api operaie.",
+        "HiveFilled": "Questo alveare ha già il numero massimo di api operaie.",
+        "WorkerInvCheck": "Non hai abbastanza api operaie per quello."
+    },
+    "HoneyMenu": {
+        "Color": "arancione",
+        "Title": "Gestione del miele",
+        "DisplayHoneyType": "Tipo di miele",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Questo miele è di tipo: %s ",
+        "DisplayHoneyCount": "Quantità di miele",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Quantità attuale di miele: %s",
+        "ExtractHoneyTitle": "Estrai miele",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Estrai tutto il miele dall'alveare",
+        "NoHoney": "Questo alveare non ha miele."
+    },
+    "WaxMenu": {
+        "Color": "arancione",
+        "Title": "Gestione della cera d'api",
+        "DisplayWaxCount": "Quantità di cera d'api",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Quantità attuale di cera d'api: %s",
+        "ExtractWaxTitle": "Estrai cera dall'alveare",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Estrai tutta la cera d'api dall'alveare",
+        "NoWax": "Questo alveare non ha cera d'api."
+    },
+    "Hive": {
+        "Access": "Accedi all'alveare"
+    },
+    "Dismantle": {
+        "title": "Sei sicuro?",
+        "icon": "martello",
+        "description": "Questo smonterà l'alveare e restituirà gli oggetti al suo interno."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Impossibile posizionare l'alveare qui. Prova un altro posto.",
+        "BlacklistedZone": "Non puoi posizionare un alveare in una zona vietata.",
+        "MaxOwnedHivesReached": "Hai raggiunto il numero massimo di alveari consentiti."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Devi essere il proprietario per modificare questo alveare."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Devi essere nella lista consentita per modificare questo alveare."
+    },
+    "ManageAccess": {
+        "Color": "arancione",
+        "Title": "Gestisci accesso all'alveare",
+        "AddUser": "Aggiungi utente",
+        "RemovedUser": "Utente rimosso dall'accesso all'alveare",
+        "UnableToRemove": "Impossibile rimuovere l'utente dall'accesso all'alveare. Devi essere il proprietario per farlo.",
+        "UnableToFindHive": "Impossibile trovare i dati dell'alveare. Riprova più tardi.",
+        "UnableToAccess": "Non hai accesso a questo alveare.",
+        "AlreadyAdded": "L'utente è già stato aggiunto all'accesso dell'alveare",
+        "UserAdded": "Utente aggiunto all'accesso dell'alveare",
+        "UserList": "Lista utenti",
+        "AddClosestPersonTitle": "Aggiungi persona più vicina",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Aggiungi la persona più vicina alla lista di accesso dell'alveare.",
+        "RemovePlayerTitle": "Rimuovi utente",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Rimuovi un utente dalla lista di accesso dell'alveare.",
+        "RemovePlayer": "Rimuovi %s dalla lista di accesso dell'alveare.",
+        "RemovedSuccess": "Utente rimosso dall'accesso all'alveare.",
+        "RemovedError": "Impossibile rimuovere l'utente dall'accesso all'alveare.",
+        "ViewAccessTitle": "Visualizza lista di accesso",
+        "ViewAccessDescription": "Visualizza la lista di utenti che hanno accesso a questo alveare.",
+        "ViewAccessMenuTitle": "Lista di accesso",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Ha accesso a questo alveare.",
+        "SubViewAccessMenuTitle": "Lista di utenti con accesso all'alveare",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Aggiungi %s all'accesso dell'alveare.",
+        "AddPlayerDescription": "Questo darà a %s l'accesso all'alveare ma non il diritto di distruggerlo.",
+        "TooFarFromHive": "Sei troppo lontano dall'alveare.",
+        "TargetTooFarFromHive": "Il bersaglio è troppo lontano dall'alveare.",
+        "RemoveUserTitle": "Rimuovi utente",
+        "RemoveUserDescription": "Rimuovi un utente dalla lista di accesso dell'alveare.",
+        "UserListDescription": "Lista di utenti con accesso all'alveare",
+        "ManageAccessTitle": "Gestisci accesso utente all'alveare",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Aggiungi o rimuovi utenti con accesso all'alveare.",
+        "YouWereAdded": "Sei stato aggiunto alla lista di accesso dell'alveare.",
+        "NoPlayerNearby": "Nessun giocatore nelle vicinanze da aggiungere."
+    },
+    "Blips": {
+        "HiveBlipText": "Alveare"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Hai fatto un errore e alcune api ti hanno punto!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Rimuovi alveare per ID [SOLO COMANDO ADMIN]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "L'ID dell'alveare dal SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Rimuovi alveare per identificatore proprietario [SOLO COMANDO ADMIN]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "L'identificatore del proprietario dell'alveare"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Mostra tutti gli alveari sulla mappa [SOLO COMANDO ADMIN]"
+        },
+        "OpenAdminHives": {
+            "help": "Apri il menu di gestione admin degli alveari [SOLO COMANDO ADMIN]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Cera: %s, Miele: %s, Operaie: %s, Regina: %s",
+        "JoinedNames": "%s, con identificatore %s",
+        "MainMenuTitle": "Menu Admin",
+        "ManageHiveByID": "Gestisci alveare ID: %s",
+        "ManageHiveDescription": "Accesso alla gestione dell'alveare",
+        "ManageHiveOwnerTitle": "Proprietario dell'alveare: %s",
+        "ManageHiveOwnerDescription": "Il proprietario dell'alveare è %s",
+        "ManageHiveIDTitle": "ID dell'alveare: %s",
+        "ManageHiveIDDescription": "L'ID dell'alveare è %s",
+        "MarkHiveCoordsTitle": "Segna coordinate dell'alveare",
+        "MarkHiveCoordsDescription": "Segna le coordinate dell'alveare sulla mappa.",
+        "TeleportToCoordsTitle": "Teletrasportati alle coordinate dell'alveare",
+        "TeleportToCoordsDescription": "Teletrasportati alle coordinate dell'alveare.",
+        "AccessablePlayersTitle": "Ultimo accesso: ",
+        "AccessablePlayersDescription": "Ultimo accesso: %s",
+        "HiveStatusTitle": "Stato dell'alveare: ",
+        "HiveStatusDescription": "Stato attuale: %s",
+        "PlayersWithAccessTitle": "Giocatori con accesso all'alveare",
+        "RunSearch": "Esegui ricerca",
+        "RunSearchDescription": "Cerca dati specifici.",
+        "CopyIdToClipBoard": "Copia ID dell'alveare negli appunti",
+        "CopyIdToClipBoardDescription": "Copia l'ID dell'alveare nei tuoi appunti.",
+        "IconColor": "arancione",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Non hai il permesso di usare questo.",
+        "DeleteHiveTitle": "Elimina alveare",
+        "DeleteHiveDescription": "Elimina permanentemente l'alveare con ID: %s",
+        "ShowAllHivesOnMap": "Mostra/Nascondi tutti gli alveari sulla mappa",
+        "ShowAllHivesOnMapDescription": "Attiva/disattiva la visualizzazione di tutti gli alveari sulla mappa.",
+        "ListAllHives": "Elenca tutti gli alveari",
+        "ListAllHivesDescription": "Elenca tutti gli alveari nel database.",
+        "Search": {
+            "InvalidSearchInput": "Input di ricerca non valido. Riprova.",
+            "Title": "Ricerca",
+            "SearchLabel": "Cerca dati specifici.",
+            "SearchDescription": "Inserisci i dati che vuoi cercare.",
+            "SearchPlaceholder": "Inserisci termine di ricerca...",
+            "Submit": "Invia"
+        }
+    }
+}

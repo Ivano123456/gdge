@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Verzenden",
+    "BeeShop": {
+        "Invalid": "Deze winkel is ongeldig. Meld de servereigenaar om de configuratie in te stellen.",
+        "OpenMenu": "Imker",
+        "TargetShop": "Praat met de imker",
+        "ShopTitle": "Koop bijenteelt benodigdheden",
+        "SellItems": "Verkoop items",
+        "InputSellAmount": "Voer verkoop hoeveelheid in",
+        "ShopDescription": "Koop verschillende items om te helpen bij bijenteelt.",
+        "SellDescription": "Verkoop je bijenteelt items.",
+        "SellTitle": "Verkoop bij-gerelateerde items",
+        "SellItemFor": "Verkoop %s voor $%s elk.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Items om te verkopen",
+        "TransactionCompleted": "Verkoop voltooid voor $%s.",
+        "IconColor": "oranje",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Ga terug naar vorige menu"
+    },
+    "HiveChange": {
+        "Dismantle": "Bijenkorf demonteren",
+        "PlacingHive": "Bijenkorf plaatsen",
+        "ExtractWax": "%s was uitpakken",
+        "ExtractHoney": "%s honing uitpakken",
+        "RemovingWorkers": "%s werkbijen verwijderen",
+        "AddingWorkers": "%s werkbijen toevoegen",
+        "RemovingQueen": "Bijenkoningin verwijderen",
+        "AddingQueen": "Bijenkoningin toevoegen",
+        "Placing": "Bijenkorf plaatsen",
+        "Accessing": "Bijenkorf bereiken",
+        "Adding": "Toevoegen aan bijenkorf",
+        "Removing": "Verwijderen uit bijenkorf",
+        "MissingItem": "Je mist het vereiste item voor deze actie."
+    },
+    "ProgressBars": {
+        "Dismantle": "Bijenkorf demonteren...",
+        "Accessing": "Bijenkorf bereiken...",
+        "Placing": "Bijenkorf plaatsen...",
+        "Adding": "Toevoegen aan bijenkorf...",
+        "Extracting": "Uitpakken uit bijenkorf..."
+    },
+    "HiveMenu": {
+        "Color": "oranje",
+        "WorkerInputHeader": "Aantal werkbijen",
+        "WorkersToAdd": "Werksters om toe te voegen",
+        "WorkersToRemove": "Werksters om te verwijderen",
+        "Slider_Add_Label": "Maximum om toe te voegen",
+        "Slider__Remove_Label": "Maximum om te verwijderen",
+        "ItemCountCheck": "Je hebt niet genoeg van dit item daarvoor.",
+        "Title": "Bijenkorf beheer",
+        "HiveHealthTitle": "Bijenkorf gezondheidsoverzicht",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Huidige gezondheidstoestand van bijenkorf: ",
+        "WaxCountTitle": "Bijenwas beheer",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Beheer bijenwas productie",
+        "HoneyCountTitle": "Honing beheer",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Monitor honing productie",
+        "QueenCountTitle": "Bijenkoningin status",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Beheer aantal bijenkoninginnen",
+        "WorkerCountTitle": "Werkbijen beheer",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Beheer aantal werkbijen",
+        "DestroyHiveTitle": "Bijenkorf vernietigen",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Dit zal de bijenkorf permanent vernietigen.",
+        "ManageAccess": "Bijenkorf beheren",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Beheer wie toegang heeft tot de bijenkorf.",
+        "AddPlayerTitle": "%s toevoegen aan bijenkorf toegang.",
+        "AddPlayerDescription": "Dit geeft %s toegang tot de bijenkorf maar niet het recht om het te vernietigen.",
+        "TooFarFromHive": "Je bent te ver van de bijenkorf.",
+        "TargetTooFarFromHive": "Doel is te ver van de bijenkorf.",
+        "Removing": "Verwijderen uit bijenkorf",
+        "WaxToRemove": "Was om te verwijderen",
+        "HoneyToRemove": "Honing om te verwijderen"
+    },
+    "QueenMenu": {
+        "Color": "oranje",
+        "Title": "Bijenkoningin beheer",
+        "DisplayQueenTitle": "Bijenkoninginnen in bijenkorf",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Bijenkoninginnen in bijenkorf: %s ",
+        "AddQueenTitle": "Bijenkoningin toevoegen",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Voeg een bijenkoningin toe aan de bijenkorf",
+        "RemoveQueenTitle": "Bijenkoningin verwijderen",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Verwijder de bijenkoningin uit de bijenkorf",
+        "ItemCountCheck": "Je hebt niet genoeg bijenkoninginnen om toe te voegen.",
+        "HiveFilled": "Deze bijenkorf heeft al een bijenkoningin.",
+        "NoQueenInHive": "Deze bijenkorf heeft geen bijenkoningin om te verwijderen."
+    },
+    "WorkerMenu": {
+        "Color": "oranje",
+        "Title": "Werkbijen beheer",
+        "AddWorkerTitle": "Werkbij toevoegen",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Werkbijen in bijenkorf",
+        "AddWorkerDescription": "Voeg een werkbij toe aan de bijenkorf",
+        "DisplayWorkerDescription": "Werkbijen in bijenkorf: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Werkbij verwijderen",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Verwijder een werkbij uit de bijenkorf",
+        "NoWorkers": "Deze bijenkorf heeft geen werkbijen.",
+        "HiveFilled": "Deze bijenkorf heeft al het maximale aantal werkbijen.",
+        "WorkerInvCheck": "Je hebt niet genoeg werkbijen daarvoor."
+    },
+    "HoneyMenu": {
+        "Color": "oranje",
+        "Title": "Honing beheer",
+        "DisplayHoneyType": "Honing type",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Deze honing is van type: %s ",
+        "DisplayHoneyCount": "Honing hoeveelheid",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Huidige honing hoeveelheid: %s",
+        "ExtractHoneyTitle": "Honing extraheren",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Extraheer alle honing uit de bijenkorf",
+        "NoHoney": "Deze bijenkorf heeft geen honing."
+    },
+    "WaxMenu": {
+        "Color": "oranje",
+        "Title": "Bijenwas beheer",
+        "DisplayWaxCount": "Bijenwas hoeveelheid",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Huidige bijenwas hoeveelheid: %s",
+        "ExtractWaxTitle": "Was extraheren uit bijenkorf",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Extraheer alle bijenwas uit de bijenkorf",
+        "NoWax": "Deze bijenkorf heeft geen bijenwas."
+    },
+    "Hive": {
+        "Access": "Bijenkorf bereiken"
+    },
+    "Dismantle": {
+        "title": "Weet je het zeker?",
+        "icon": "hamer",
+        "description": "Dit zal de bijenkorf demonteren en de items erin terugbrengen."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Kon bijenkorf hier niet plaatsen. Probeer een andere locatie.",
+        "BlacklistedZone": "Je kunt geen bijenkorf plaatsen in een verboden zone.",
+        "MaxOwnedHivesReached": "Je hebt het maximale aantal toegestane bijenkorven bereikt."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Je moet de eigenaar zijn om deze bijenkorf te wijzigen."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Je moet op de toegestane lijst staan om deze bijenkorf te wijzigen."
+    },
+    "ManageAccess": {
+        "Color": "oranje",
+        "Title": "Bijenkorf toegang beheren",
+        "AddUser": "Gebruiker toevoegen",
+        "RemovedUser": "Gebruiker verwijderd uit bijenkorf toegang",
+        "UnableToRemove": "Kan gebruiker niet verwijderen uit bijenkorf toegang. Je moet de eigenaar zijn om dit te doen.",
+        "UnableToFindHive": "Kan bijenkorf gegevens niet vinden. Probeer het later opnieuw.",
+        "UnableToAccess": "Je hebt geen toegang tot deze bijenkorf.",
+        "AlreadyAdded": "Gebruiker is al toegevoegd aan bijenkorf toegang",
+        "UserAdded": "Gebruiker toegevoegd aan bijenkorf toegang",
+        "UserList": "Gebruikerslijst",
+        "AddClosestPersonTitle": "Dichtstbijzijnde persoon toevoegen",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Voeg de dichtstbijzijnde persoon toe aan de bijenkorf toegangslijst.",
+        "RemovePlayerTitle": "Gebruiker verwijderen",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Verwijder een gebruiker uit de bijenkorf toegangslijst.",
+        "RemovePlayer": "Verwijder %s uit de bijenkorf toegangslijst.",
+        "RemovedSuccess": "Gebruiker verwijderd uit bijenkorf toegang.",
+        "RemovedError": "Kan gebruiker niet verwijderen uit bijenkorf toegang.",
+        "ViewAccessTitle": "Toegangslijst bekijken",
+        "ViewAccessDescription": "Bekijk de lijst van gebruikers die toegang hebben tot deze bijenkorf.",
+        "ViewAccessMenuTitle": "Toegangslijst",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Heeft toegang tot deze bijenkorf.",
+        "SubViewAccessMenuTitle": "Lijst van gebruikers met toegang tot bijenkorf",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "%s toevoegen aan bijenkorf toegang.",
+        "AddPlayerDescription": "Dit geeft %s toegang tot de bijenkorf maar niet het recht om het te vernietigen.",
+        "TooFarFromHive": "Je bent te ver van de bijenkorf.",
+        "TargetTooFarFromHive": "Doel is te ver van de bijenkorf.",
+        "RemoveUserTitle": "Gebruiker verwijderen",
+        "RemoveUserDescription": "Verwijder een gebruiker uit de bijenkorf toegangslijst.",
+        "UserListDescription": "Lijst van gebruikers met toegang tot bijenkorf",
+        "ManageAccessTitle": "Gebruikerstoegang tot bijenkorf beheren",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Voeg gebruikers met toegang tot de bijenkorf toe of verwijder ze.",
+        "YouWereAdded": "Je bent toegevoegd aan de bijenkorf toegangslijst.",
+        "NoPlayerNearby": "Geen speler in de buurt om toe te voegen."
+    },
+    "Blips": {
+        "HiveBlipText": "Bijenkorf"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Je maakte een fout en enkele bijen staken je!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Verwijder bijenkorf op ID [ALLEEN ADMIN COMMANDO]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "De bijenkorf ID uit SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Verwijder bijenkorf op eigenaar identifier [ALLEEN ADMIN COMMANDO]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "De bijenkorf eigenaar identifier"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Toon alle bijenkorven op de kaart [ALLEEN ADMIN COMMANDO]"
+        },
+        "OpenAdminHives": {
+            "help": "Open admin bijenkorf beheer menu [ALLEEN ADMIN COMMANDO]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Was: %s, Honing: %s, Werksters: %s, Koningin: %s",
+        "JoinedNames": "%s, met identifier %s",
+        "MainMenuTitle": "Admin Menu",
+        "ManageHiveByID": "Beheer bijenkorf ID: %s",
+        "ManageHiveDescription": "Toegang tot bijenkorf beheer",
+        "ManageHiveOwnerTitle": "Bijenkorf eigenaar: %s",
+        "ManageHiveOwnerDescription": "De bijenkorf eigenaar is %s",
+        "ManageHiveIDTitle": "Bijenkorf ID: %s",
+        "ManageHiveIDDescription": "De bijenkorf ID is %s",
+        "MarkHiveCoordsTitle": "Markeer bijenkorf coördinaten",
+        "MarkHiveCoordsDescription": "Markeer de bijenkorf coördinaten op de kaart.",
+        "TeleportToCoordsTitle": "Teleporteer naar bijenkorf coördinaten",
+        "TeleportToCoordsDescription": "Teleporteer naar de bijenkorf coördinaten.",
+        "AccessablePlayersTitle": "Laatste toegang: ",
+        "AccessablePlayersDescription": "Laatste toegang: %s",
+        "HiveStatusTitle": "Bijenkorf status: ",
+        "HiveStatusDescription": "Huidige status: %s",
+        "PlayersWithAccessTitle": "Spelers met toegang tot bijenkorf",
+        "RunSearch": "Zoeken uitvoeren",
+        "RunSearchDescription": "Zoek naar specifieke gegevens.",
+        "CopyIdToClipBoard": "Kopieer bijenkorf ID naar klembord",
+        "CopyIdToClipBoardDescription": "Kopieer de bijenkorf ID naar je klembord.",
+        "IconColor": "oranje",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Je hebt geen toestemming om dit te gebruiken.",
+        "DeleteHiveTitle": "Bijenkorf verwijderen",
+        "DeleteHiveDescription": "Permanent verwijderen van bijenkorf met ID: %s",
+        "ShowAllHivesOnMap": "Alle bijenkorven op kaart tonen/verbergen",
+        "ShowAllHivesOnMapDescription": "Schakel weergave van alle bijenkorven op de kaart.",
+        "ListAllHives": "Alle bijenkorven weergeven",
+        "ListAllHivesDescription": "Alle bijenkorven in de database weergeven.",
+        "Search": {
+            "InvalidSearchInput": "Ongeldige zoekinvoer. Probeer opnieuw.",
+            "Title": "Zoeken",
+            "SearchLabel": "Zoek naar specifieke gegevens.",
+            "SearchDescription": "Voer de gegevens in waarnaar je wilt zoeken.",
+            "SearchPlaceholder": "Voer zoekterm in...",
+            "Submit": "Verzenden"
+        }
+    }
+}

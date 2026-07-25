@@ -1,0 +1,524 @@
+{
+  "hello": "Witaj",
+  "loading": "Ładowanie...",
+  "permissions": "Permisje",
+  "permission_group": "Grupa Permisji",
+  "permissions_source": "Źródło Permisji",
+  "group_tier": "Tier Grupy",
+  "change": "Zmień",
+  "browsing_history": "Historia",
+  "browsing_history_empty": "Historia przeglądania jest pusta",
+  "player": "Gracz",
+  "select_player": "Wybierz gracza...",
+  "start_typing_to_search_player": "Wpisz Nick/ID gracza...",
+  "no_players_found": "Nie znaleziono pasujących graczy.",
+  "group": "Grupa",
+  "select_group": "Wybierz grupę...",
+  "search_group": "Wyszukaj grupę...",
+  "no_groups_found": "Nie znaleziono pasujących grup.",
+  "session_time": "Czas sesji",
+  "search_placeholder": "Wyszukaj...",
+  "health": "Zdrowie",
+  "armor": "Pancerz",
+  "playtime": "Czas rozgrywki",
+  "trust_score": "Trust score",
+  "joined_at": "Dołączono",
+  "actions": {
+    "open_profile": "Otwórz profil",
+    "revive": "Revive",
+    "heal": "Heal",
+    "spectate": "Obserwuj",
+    "spectate_stop": "Przestań obserwować",
+    "previous_next_player": "Poprzedni/Następny gracz",
+    "take_screenshot": "Zrzut ekranu",
+    "teleport": "Teleportuj się",
+    "bring": "Teleportuj do siebie",
+    "bring_back": "Teleportuj spowrotem",
+    "view_inv": "Otwórz ekwipunek",
+    "clear_inv": "Wyczyść ekwipunek",
+    "confiscate_inv": "Zabierz ekwipunek",
+    "return_inv": "Zwróć ekwipunek",
+    "set_routing_bucket": "Ustaw Routing Bucket",
+    "routing_bucket_description": "Ustaw Routing Bucket gracza (Domyślnie: 0)",
+    "ban": "Zbanuj",
+    "kick": "Wyrzuć"
+  },
+  "admin_chat": {
+    "title": "Czat Administracyjny",
+    "send_player_profile": "Wyślij profil gracza",
+    "send_report": "Wyślij zgłoszenie",
+    "input_placeholder": "Wiadomość...",
+    "open_report": "Otwórz zgłoszenie",
+    "share_on_admin_chat": "Wyślij na Admin Chat"
+  },
+  "modals": {
+    "submit": "Potwierdź",
+    "save": "Zapisz",
+    "continue": "Kontynuuj",
+    "next": "Dalej",
+    "open": "Otwórz",
+    "back": "Wstecz",
+    "close": "Zamknij",
+    "delete": "Usuń",
+    "yes": "Tak",
+    "no": "Nie",
+    "add": "Dodaj",
+    "are_you_sure": "Czy jesteś pewien?",
+    "enter_details": "Podaj szcegóły",
+    "disconnect_instantly": "Wyrzuć gracza z serwera",
+    "ban": {
+      "title": "Banowanie gracza",
+      "presets": "Preset",
+      "custom": "Niestandardowe",
+      "duration_placeholder": "Wybierz długość",
+      "reason_placeholder": "Powód..."
+    },
+    "kick": {
+      "title": "Wyrzucanie gracza",
+      "description": "Podaj powód wyrzucenia",
+      "placeholder": "Powód..."
+    },
+    "offline_ban": {
+      "title": "Banowanie gracza offline",
+      "description": "Aby zbanować gracza który jest offline, musisz wyszukać jego zestaw identyfikatorów. Możesz to zrobić, wpisując jeden z nich poniżej, dodając prefiks.",
+      "player_not_found": "Nie znaleziono gracza"
+    },
+    "announcement": {
+      "title": "Ogłoszenie",
+      "description": "Wpisz treść ogłoszenia.",
+      "placeholder": "Wiadomość...",
+      "duration": "Czas trwania",
+      "send_to_discord": "Wyślij na discord"
+    },
+    "link_confirmation": {
+      "title": "Opuszczasz Admin Menu",
+      "description": "Czy chcesz kontynuować? Zostaniesz przekierowany do:"
+    },
+    "add_admin": {
+      "trigger": "Dodaj Administratora",
+      "title": "Dodawanie Administratora"
+    },
+    "admin_profile": "Profil Administratora",
+    "edit_profile": "Edytuj Profil",
+    "create_permission_group": {
+      "title": "Stwórz Grupę Permisji",
+      "group_name": "Nazwa Grupy",
+      "use_custom_tier": "Custom Tier",
+      "custom_tier_placeholder": "Wprowadź custom tier (1-999)...",
+      "discord_role_id_placeholder": "Wprowadź ID roli Discord...",
+      "group_name_placeholder": "Wprowadź nazwę grupy...",
+      "create_group": "Stwórz Grupę",
+      "creating": "Tworzenie...",
+      "group_name_required": "Nazwa grupy jest wymagana",
+      "custom_tier_invalid": "Tier Grupy musi być liczbą między 1-999",
+      "group_name_already_exists": "Grupa o takiej nazwie już istnieje",
+      "cannot_create_group": "Nie możesz stworzyć grupy z tierem wyższym lub równym swojemu",
+      "failed_to_create_group": "Nie udało się stworzyć grupy uprawnień"
+    },
+    "change_order_of_permission_groups": "Czy na pewno chcesz zmienić kolejność grup?",
+    "update_permission_group_permissions": "Czy na pewno chcesz zapisać uprawnienia tej grupy?",
+    "permission_group_info": {
+      "title": "Informacje o Grupie Permisji",
+      "non_editable_label": "Nieedytowalna",
+      "non_editable": "Ta grupa jest nieedytowalna. Oznacza to, że może być edytowana tylko przez developerów serwera."
+    },
+    "delete_permission_group": "Czy na pewno chcesz usunąć grupę \"%s\"? Ta grupa jest aktualnie wykorzystywana przez %s administratorów.",
+    "logout": "Zostaniesz wylogowany z admin menu i zakończysz sesję administracyjną.",
+    "find_report_by_id": {
+      "trigger": "Wyszukaj ID",
+      "title": "Wyszukaj zgłoszenie po ID"
+    }
+  },
+  "tables": {
+    "sort_by": "Sortowanie",
+    "order_by": "Kolejność",
+    "ascending": "Rosnąco",
+    "descending": "Malejąco",
+    "page": "Strona",
+    "of": "z",
+    "rows_per_page": "Wpisów na stronę",
+    "view": "Widok",
+    "refresh": "Odśwież"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "member_since": "Członek od",
+    "player_list": "Lista graczy",
+    "reports": "Zgłoszenia",
+    "player_profile": "Profil gracza",
+    "ban_list": "Lista banów",
+    "admin_list": "Administratorzy",
+    "permission_groups": "Grupy permisji",
+    "resources": "Zasoby",
+    "preferences": "Preferencje",
+    "announcement": "Ogłoszenie",
+    "online": "ONLINE"
+  },
+  "admin_functions": {
+    "admin_crosshair": "Admin Crosshair",
+    "player_names": "Player Names",
+    "esp": "ESP",
+    "noclip": "NoClip",
+    "freecam": "FreeCam",
+    "invisibility": "Niewidzialność",
+    "godmode": "GodMode"
+  },
+  "dashboard": {
+    "current_players": "Graczy online",
+    "avg_players_24h": "Średnia graczy (24H)",
+    "online_administrators": "Administratorzy online",
+    "players_per_administrator": "Graczy na administratora",
+    "active_players_per_hour": "Aktywni gracze (%sH)",
+    "latest_activity": "Ostatnia aktywność",
+    "clear_feed": "Wyczyść",
+    "tabs": {
+      "activity_stats": "Statystyki Aktywności",
+      "world_options": "Ustawienia Pogody"
+    },
+    "world_options": {
+      "current_weather": "Aktualna Pogoda",
+      "weather_options": "Ustawienia Pogody",
+      "weather": "Pogoda",
+      "select_weather": "Wybierz pogodę...",
+      "blackout": "Blackout",
+      "dynamic_weather": "Dynamiczna pogoda",
+      "tsunami": "Tsunami",
+      "time": "Czas",
+      "time_options": "Ustawienia Czasu",
+      "hour": "Godzina",
+      "minute": "Minuta",
+      "freeze_time": "Zamrożenie Czasu",
+      "time_scale": "Skala Czasu",
+      "time_scale_description": "1 minuta w GTA = %s sekund IRL"
+    }
+  },
+  "user_page": {
+    "identifiers_modal": {
+      "trigger": "Identyfikatory",
+      "title": "Identyfikatory",
+      "description": "Naciśnij, aby skopiować."
+    },
+    "overview": {
+      "title": "Przegląd",
+      "character_info": "Informacje",
+      "high_balance_warning": "Uwaga! Ten gracz posiada $",
+      "licenses": "Licencje",
+      "account_edit_modal": {
+        "title": "Edycja konta",
+        "description": "Wpisz nowy stan konta"
+      },
+      "character_edit_modal": {
+        "trigger": "Edytuj",
+        "title": "Edycja danych gracza"
+      }
+    },
+    "vehicles": {
+      "title": "Pojazdy",
+      "search_placeholder": "Nr. rej, model",
+      "table": {
+        "plate": "Nr. rej",
+        "model": "Model"
+      },
+      "add_modal": {
+        "trigger": "Dodaj pojazd",
+        "title": "Dodawanie pojazdu",
+        "description": "Podaj poprawny model",
+        "placeholder": "Model"
+      },
+      "delete_modal": {
+        "trigger": "Usuń pojazd",
+        "description": "Czy na pewno chcesz usunąć ten pojazd?"
+      }
+    },
+    "actions": "Akcje",
+    "history": {
+      "title": "Historia",
+      "history_empty": "Historia tego gracza jest pusta.",
+      "note": "Notatka",
+      "add_modal": {
+        "trigger": "Dodaj",
+        "title": "Nowy wpis",
+        "description": "Podaj treść wpisu",
+        "placeholder": "Opis..."
+      },
+      "delete_modal": {
+        "description": "Czy na pewno chcesz usunąć ten wpis?"
+      }
+    }
+  },
+  "bans": {
+    "no_bans_to_show": "Brak banów do pokazania",
+    "table": {
+      "id": "Ban ID",
+      "nick": "Zbanowany gracz",
+      "reason": "Powód",
+      "expiration": "Data wygaśnięcia",
+      "banned_by": "Administrator",
+      "edit_ban_modal": {
+        "trigger": "Edytuj bana",
+        "current_duration": "Aktualna długość bana"
+      },
+      "unban_modal": {
+        "trigger": "Unban",
+        "description": "Czy na pewno chcesz odbanować tego gracza?"
+      }
+    }
+  },
+  "admin_list": {
+    "member_since": "Członek od",
+    "online_first": "Najpierw online",
+    "offline_first": "Najpierw offline",
+    "most_recent_login_first": "Najpierw najnowsze logowanie",
+    "oldest_login_first": "Najpierw najstarsze logowanie",
+    "stats": {
+      "title": "Statystyki",
+      "last_login": "Ostatnie logowanie",
+      "playtime": "Czas rozgrywki",
+      "players_spectated": "Obserwowani Gracze",
+      "players_banned": "Zbanowani Gracze",
+      "players_kicked": "Wyrzuceni Gracze",
+      "reports_involved_in": "Zaangażowanie w Zgłoszeniach",
+      "reports_closed": "Zamknięte Zgłoszenia",
+      "bans_deleted": "Usunięte Bany",
+      "player_notes_added": "Dodane Notatki",
+      "player_notes_deleted": "Usunięte Notatki",
+      "accounts_edited": "Edytowane Konta",
+      "characters_edited": "Edytowane Postaci",
+      "announcements_sent": "Wysłane Ogłoszenia"
+    },
+    "change_group": {
+      "title": "Zmiana Grupy Permisji",
+      "cant_change_own_group": "Nie możesz zmienić swojej własnej grupy.",
+      "select_group": "Wybierz grupę...",
+      "search_group": "Wyszukaj grupę...",
+      "no_permission_group_found": "Nie znaleziono grupy.",
+      "instructions": [
+        "Edycja grupy tego administratora spowoduje zmianę źródła jego uprawnień na \"database\".",
+        "Oznacza to, że ich uprawnienia z Framework'u i ACE będą ignorowane i będą mieli dostęp do admin menu do momentu ręcznego usunięcia z listy administratorów.",
+        "Czy chcesz kontynuować?"
+      ]
+    },
+    "revoke_access": {
+      "title": "Usuń Dostęp",
+      "description": "Czy na pewno chcesz usunąć tego gracza jako administratora?"
+    }
+  },
+  "reports": {
+    "report": "Zgłoszenie",
+    "player_report": "Zgłoszenie gracza",
+    "your_reports": "Twoje zgłoszenia",
+    "report_default_message_author": "Administracja",
+    "report_default_message": "Jeśli chcesz coś dodać, możesz zrobić to na tym chacie.",
+    "report_description": "Treść zgłoszenia:",
+    "successfully_sent_report": "Pomyślnie poinformowano administrację, ID zgłoszenia: %s",
+    "report_sending_error": "Nie udało się stworzyć zgłoszenia. Skontaktuj się z administracją na serwerze discord",
+    "open_report_creator": "Otwórz profil",
+    "chat": "Czat",
+    "report_type": "Typ zgłoszenia",
+    "active": "Aktywne",
+    "closed": "Zamknięte",
+    "read_status": "Status",
+    "all": "Wszystkie",
+    "unread": "Nieprzeczytane",
+    "read": "Przeczytane",
+    "recent_activity": "Ostatnia aktywność",
+    "mark_all_as_read": "Wyczyść nieprzeczytane",
+    "no_report_selected": "Nie wybrano zgłoszenia. Wybierz z listy, aby rozpocząć.",
+    "report_not_found": "Zgłoszenie o takim ID nie istnieje.",
+    "no_active_reports": "Brak aktywnych zgłoszeń.",
+    "no_closed_reports": "Brak zamkniętych zgłoszeń.",
+    "window": {
+      "title": "Zgłoszenia",
+      "choose_type": "Wybierz typ zgłoszenia",
+      "error": "Błąd",
+      "suggestion": "Propozycja",
+      "textarea_placeholder": "Opisz dokładnie swój problem / propozycję (Minimum 10 znaków)",
+      "send_report": "Wyślij zgłoszenie",
+      "no_reports": "Nie posiadasz otwartych zgłoszeń.",
+      "chat_input_placeholder": "Wpisz wiadomość",
+      "report_closed": "Zgłoszenie zostało zamknięte"
+    }
+  },
+  "notifications": {
+    "unable_to_open_profile": {
+      "title": "Nie udało się pobrać danych gracza.",
+      "description": "Spróbuj ponownie później."
+    },
+    "new_report": {
+      "title": "Nowe zgłoszenie",
+      "description": "Ktoś właśnie otworzył nowe zgłoszenie."
+    },
+    "new_report_message": {
+      "title": "Nowa wiadomość",
+      "description": "Ktoś właśnie wysłał wiadomość w zgłoszeniu o ID: %s"
+    },
+    "character_edit_success": "Pomyślnie zapisano postać.",
+    "character_edit_failed": {
+      "title": "Nie udało się zaktualizować danych gracza",
+      "description": "Upewnij się, że wprowadziłeś poprawne dane."
+    },
+    "administrator_add": {
+      "success": "Pomyślnie dodano nowego administratora",
+      "not_online": "Ten gracz nie jest online",
+      "unknown_error": "Podczas dodawania administratora wystąpił niespodziewany błąd."
+    },
+    "trust_score": {
+      "recently_resetted": {
+        "title": "Nie zresetowano współczynniku zaufania",
+        "description": "Trust score tego gracza był już niedawno resetowany. Spróbuj ponownie za %ss"
+      },
+      "recently_decreased": {
+        "title": "Nie zmieniono współczynniku zaufania",
+        "description": "Trust score tego gracza uległ niedawno zmianie. Spróbuj ponownie za %ss"
+      },
+      "recently_increased": {
+        "title": "Nie zmieniono współczynniku zaufania",
+        "description": "Trust score tego gracza uległ niedawno zmianie. Spróbuj ponownie za %ss"
+      }
+    },
+    "cant_delete_permission_group": "Nie możesz usunąć grupy z tierem wyższym lub równym swojemu",
+    "cant_update_permission_group_permissions": "Nie możesz zaktualizować grupy z tierem wyższym lub równym swojemu",
+    "cant_update_permission_group_discord_role_id": "Nie możesz zaktualizować grupy z tierem wyższym lub równym swojemu",
+    "cant_update_admin_group": "Nie możesz zaktualizować grupy z tierem wyższym lub równym swojemu",
+    "cant_update_admin_group_permissions": "Nie możesz zaktualizować grupy z tierem wyższym lub równym swojemu",
+    "cant_stop_admin_menu_resource": "Nie możesz zatrzymać admin menu z tej strony.",
+    "cant_restart_admin_menu_resource": "Nie możesz zrestartować admin menu z tej strony.",
+    "resource_restarted_successfully": "Pomyślnie zrestartowano skrypt.",
+    "multiple_sessions_warning": {
+      "title": "Wykryto wiele sesji",
+      "description": "Jesteś teraz zalogowany z wielu klientów. Może to spowodować niestabilność."
+    },
+    "session_closed": {
+      "title": "Sesja zamknięta",
+      "description": "Twoja druga sesja administratora została zamknięta."
+    },
+    "welcome": {
+      "title": "Witaj %s!",
+      "description": "Rozpoczęto sesję administracyjną."
+    },
+    "permission_group_not_found": {
+      "title": "Nieprawidłowa grupa permisji",
+      "description": "Posiadasz nieprawidłową grupę permisji (**%s**).\n\nTwoje uprawnienia zostały ustawione na domyślne.\n\nMasz ograniczony dostęp do admin menu."
+    },
+    "nickname_taken": {
+      "title": "Nickname jest już zajęty",
+      "description": "Wybierz inną nazwę."
+    },
+    "cannot_add_admin": {
+      "title": "Nie możesz dodać administratora",
+      "description": "Nie możesz dodać administratora z tierem wyższym lub równym swojemu."
+    },
+    "this_admin_already_exists": {
+      "title": "Nie możesz tego zrobić",
+      "description": "Ten gracz jest już administratorem."
+    },
+    "player_offline": "Ten gracz jest offline",
+    "cannot_revoke_access": {
+      "title": "Nie możesz odebrać dostępu",
+      "description": "Nie możesz odebrać dostępu administratorowi z tierem wyższym lub równym swojemu."
+    },
+    "logged_out": {
+      "title": "Wylogowano",
+      "description": "Sesja administracyjna została zakończona."
+    },
+    "access_revoked": {
+      "title": "Brak dostępu",
+      "description": "Nie posiadasz już dostępu do admin menu."
+    },
+    "access_denied": {
+      "title": "Brak dostępu",
+      "description": "Nie posiadasz uprawnień do admin menu."
+    },
+    "player_banned": {
+      "title": "Gracz zbanowany",
+      "description": "Gracz został pomyślnie zbanowany"
+    },
+    "open_rate_limit": "Poczekaj chwilę przed ponownym otwarciem admin menu"
+  },
+  "preferences": {
+    "map": {
+      "title": "Mapa",
+      "description": "Czy chcesz widzieć mapę na stronie profilu gracza? Możesz wyłączyć tą opcję, jeśli zauważysz spadek wydajności."
+    },
+    "mute_report_message_notifications": {
+      "title": "Wyciszenie powiadomień o zgłoszeniach",
+      "description": "Po wyłączeniu tej opcji przestaniesz otrzymywać powiadomienia o nowych wiadomościach w zgłoszeniach."
+    },
+    "reduced_motion": {
+      "title": "Wyłącz animacje",
+      "description": "Użyj tej opcji, jeśli chcesz wyłączyć animacje przy przełączaniu stron."
+    },
+    "admin_chat_opacity": {
+      "title": "Przezroczystość czatu administracyjnego",
+      "description": "To ustawienie odpowiada za przezroczystość czatu administracyjnego przy wyłączonym admin menu."
+    },
+    "safe_noclip": {
+      "title": "Bezpieczny NoClip",
+      "description": "Gdy ta opcja jest włączona - po wyłączeniu NoClip'a zostaniesz od razu przeteleportowany na ziemię."
+    },
+    "theme": {
+      "title": "Motyw",
+      "description": "Wybierz kolor akcentowy komponentów.",
+      "light": "Jasny",
+      "dark": "Ciemny"
+    },
+    "small_menu_position": {
+      "title": "Pozycja Small Menu",
+      "description": "Użyj tej opcji, aby dostosować pozycję Small Menu."
+    },
+    "reset": "Zresetuj preferencje"
+  },
+  "controls_helper": {
+    "move": "Poruszanie się",
+    "up": "Góra",
+    "down": "Dół",
+    "move_slow": "Wolniej",
+    "move_fast": "Szybciej",
+    "change_speed": "Zmiana prędkości",
+    "noclip_controls": {
+      "forward": "W",
+      "backward": "S",
+      "up": "Q",
+      "down": "Z",
+      "change_speed": "LSHIFT"
+    }
+  },
+  "feed_messages": {
+    "player": "Gracz: ",
+    "reason": "Powód: ",
+    "administrator": "Administrator: ",
+    "player_joined": "Gracz dołączył",
+    "player_left": "Gracz opuścił serwer",
+    "reports": {
+      "new_report": "Nowe zgłoszenie",
+      "report_closed": "Zamknięto zgłoszenie",
+      "report_reopened": "Zgłoszenie otwarte ponownie",
+      "author": "Autor: ",
+      "report_id": "ID Zgłoszenia: "
+    },
+    "announcement": "Ogłoszenie",
+    "announcement_from": "Od: ",
+    "sent_to_discord": "Wysłano na discord"
+  },
+  "summon_player": {
+    "trigger": "Wezwij gracza",
+    "confirmation": "Czy na pewno chcesz wezwać tego gracza? Podaj długość trwania powiadomienia.",
+    "attention": "UWAGA",
+    "summon_message": "Zostałeś wezwany przez <span class=\"text-red-500 font-semibold\">Administrację</span> z powodu naruszenia regulaminu.<br>Dołącz na nasz serwer discord, aby uniknąć dalszych konsekwencji.",
+    "discord_link": "discord.gg/yourserver",
+    "close_message": "Zrozumiano"
+  },
+  "permission_groups": {
+    "permissions_of": "Permisje grupy \"%s\"",
+    "set_discord_role_id": "Ustaw ID roli Discord",
+    "small_menu_permissions": "Permisje Small Menu",
+    "general_permissions": "Permisje Ogólne"
+  },
+  "resources": {
+    "location": "Lokalizacja",
+    "author": "Autor",
+    "start_resource_confirmation": "Czy na pewno chcesz uruchomić ten skrypt?",
+    "stop_resource_confirmation": "Czy na pewno chcesz zatrzymać ten skrypt?",
+    "restart_resource_confirmation": "Czy na pewno chcesz zrestartować ten skrypt?"
+  }
+}

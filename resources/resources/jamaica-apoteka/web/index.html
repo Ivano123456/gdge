@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="sr" style="background: transparent !important;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <title>Apoteka</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="window hidden" id="shopWindow">
+        <aside class="sidebar">
+            <div class="sidebar-bg"></div>
+            <div class="sidebar-content">
+                <div class="character-frame">
+                    <div class="character-glow"></div>
+                    <img class="character-img" src="img/doctor.png" alt="Farmaceutkinja">
+                    <div class="character-fade"></div>
+                </div>
+
+                <div class="staff-card">
+                    <div class="staff-name">Dr. Emily Carter</div>
+                    <div class="staff-role">Licencirana farmaceutkinja</div>
+                </div>
+
+                <div class="ecg-line">
+                    <svg viewBox="0 0 280 40" preserveAspectRatio="none">
+                        <polyline points="0,20 20,20 28,8 36,32 44,20 70,20 78,12 86,28 94,20 120,20 128,6 136,34 144,20 170,20 178,14 186,26 194,20 220,20 228,10 236,30 244,20 280,20"/>
+                    </svg>
+                </div>
+
+                <div class="info-grid">
+                    <div class="info-card">
+                        <i class="fa-solid fa-certificate"></i>
+                        <span>Licencirano</span>
+                    </div>
+                    <div class="info-card">
+                        <i class="fa-solid fa-syringe"></i>
+                        <span>Sterilno</span>
+                    </div>
+                    <div class="info-card">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>Non-stop</span>
+                    </div>
+                    <div class="info-card">
+                        <i class="fa-solid fa-shield-heart"></i>
+                        <span>Bezbedno</span>
+                    </div>
+                </div>
+
+                <div class="deco-shelf">
+                    <div class="shelf-bottle b1"><i class="fa-solid fa-prescription-bottle"></i></div>
+                    <div class="shelf-bottle b2"><i class="fa-solid fa-pills"></i></div>
+                    <div class="shelf-bottle b3"><i class="fa-solid fa-capsules"></i></div>
+                    <div class="shelf-bottle b4"><i class="fa-solid fa-tablets"></i></div>
+                </div>
+
+                <p class="sidebar-quote">„Briga o zdravlju počinje ovde. Izaberite artikal sa police.“</p>
+            </div>
+        </aside>
+
+        <main class="shop-main">
+            <div class="top">
+                <div class="top-left">
+                    <div class="logo"><i class="fa-solid fa-prescription-bottle-medical"></i></div>
+                    <div>
+                        <h1 class="panel-title" id="shopTitle">Apoteka Jamaica</h1>
+                        <p>Pouzdani lekovi i medicinska pomagala</p>
+                    </div>
+                </div>
+                <div class="top-right">
+                    <span class="money"><i class="fa-solid fa-wallet"></i> <span id="cashDisplay">$0</span></span>
+                    <span class="money"><i class="fa-solid fa-building-columns"></i> <span id="bankDisplay">$0</span></span>
+                </div>
+            </div>
+
+            <div class="shelf-header">
+                <i class="fa-solid fa-store"></i>
+                <span>Polica proizvoda</span>
+                <span class="shelf-count" id="itemCount">0 artikala</span>
+            </div>
+
+            <div class="grid" id="itemGrid"></div>
+        </main>
+    </div>
+
+    <div class="modal hidden" id="buyModal">
+        <div class="modal-box">
+            <button type="button" class="modal-close" id="modalClose"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-img-wrap" id="modalImgWrap">
+                <img id="modalImage" src="" alt="">
+            </div>
+            <h2 id="modalName">—</h2>
+            <p class="modal-desc" id="modalDesc"></p>
+            <p class="modal-price" id="modalPrice">$0</p>
+            <div class="modal-stats" id="modalStats"></div>
+            <div class="modal-row hidden" id="qtyRow">
+                <span>Količina</span>
+                <div class="qty">
+                    <button type="button" id="qtyMinus"><i class="fa-solid fa-minus"></i></button>
+                    <span id="qtyValue">1</span>
+                    <button type="button" id="qtyPlus"><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <small id="qtyHint"></small>
+            </div>
+            <div class="modal-pay">
+                <button type="button" class="pay-opt active" data-pay="cash"><i class="fa-solid fa-money-bill-wave"></i> Keš</button>
+                <button type="button" class="pay-opt" data-pay="bank"><i class="fa-solid fa-building-columns"></i> Banka</button>
+            </div>
+            <button type="button" class="buy-btn" id="buyBtn">
+                <i class="fa-solid fa-cart-shopping"></i> Kupi artikal
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

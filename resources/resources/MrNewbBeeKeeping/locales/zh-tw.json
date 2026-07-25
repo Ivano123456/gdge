@@ -1,0 +1,274 @@
+{
+    "SubmitText": "提交",
+    "BeeShop": {
+        "Invalid": "此商店無效。請報告伺服器擁有者配置設定。",
+        "OpenMenu": "養蜂人",
+        "TargetShop": "與養蜂人交談",
+        "ShopTitle": "購買養蜂用品",
+        "SellItems": "出售物品",
+        "InputSellAmount": "輸入銷售數量",
+        "ShopDescription": "購買各種物品來幫助養蜂。",
+        "SellDescription": "出售您的養蜂物品。",
+        "SellTitle": "出售蜜蜂相關物品",
+        "SellItemFor": "出售 %s，每個 $%s。",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "要出售的物品",
+        "TransactionCompleted": "銷售完成，獲得 $%s。",
+        "IconColor": "橙色",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "返回上一選單"
+    },
+    "HiveChange": {
+        "Dismantle": "拆卸蜂箱",
+        "PlacingHive": "放置蜂箱",
+        "ExtractWax": "提取 %s 蜂蠟",
+        "ExtractHoney": "提取 %s 蜂蜜",
+        "RemovingWorkers": "移除 %s 工蜂",
+        "AddingWorkers": "添加 %s 工蜂",
+        "RemovingQueen": "移除蜂后",
+        "AddingQueen": "添加蜂后",
+        "Placing": "放置蜂箱",
+        "Accessing": "存取蜂箱",
+        "Adding": "添加到蜂箱",
+        "Removing": "從蜂箱移除",
+        "MissingItem": "您缺少此操作所需的物品。"
+    },
+    "ProgressBars": {
+        "Dismantle": "拆卸蜂箱中...",
+        "Accessing": "存取蜂箱中...",
+        "Placing": "放置蜂箱中...",
+        "Adding": "添加到蜂箱中...",
+        "Extracting": "從蜂箱中提取..."
+    },
+    "HiveMenu": {
+        "Color": "橙色",
+        "WorkerInputHeader": "工蜂數量",
+        "WorkersToAdd": "要添加的工蜂",
+        "WorkersToRemove": "要移除的工蜂",
+        "Slider_Add_Label": "最多添加",
+        "Slider__Remove_Label": "最多移除",
+        "ItemCountCheck": "您沒有足夠的此物品。",
+        "Title": "管理蜂箱",
+        "HiveHealthTitle": "蜂箱健康概覽",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "蜂箱當前健康狀態：",
+        "WaxCountTitle": "蜂蠟管理",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "管理蜂蠟生產",
+        "HoneyCountTitle": "蜂蜜管理",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "監控蜂蜜生產",
+        "QueenCountTitle": "蜂后狀態",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "管理蜂后數量",
+        "WorkerCountTitle": "工蜂管理",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "管理工蜂數量",
+        "DestroyHiveTitle": "摧毀蜂箱",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "這將永久摧毀蜂箱。",
+        "ManageAccess": "管理蜂箱",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "管理誰可以存取蜂箱。",
+        "AddPlayerTitle": "將 %s 添加到蜂箱存取權限。",
+        "AddPlayerDescription": "這將給予 %s 存取蜂箱的權限，但不包括摧毀權限。",
+        "TooFarFromHive": "您距離蜂箱太遠。",
+        "TargetTooFarFromHive": "目標距離蜂箱太遠。",
+        "Removing": "從蜂箱移除",
+        "WaxToRemove": "要移除的蜂蠟",
+        "HoneyToRemove": "要移除的蜂蜜"
+    },
+    "QueenMenu": {
+        "Color": "橙色",
+        "Title": "蜂后管理",
+        "DisplayQueenTitle": "蜂箱中的蜂后",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "蜂箱中的蜂后：%s",
+        "AddQueenTitle": "添加蜂后",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "向蜂箱添加蜂后",
+        "RemoveQueenTitle": "移除蜂后",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "從蜂箱移除蜂后",
+        "ItemCountCheck": "您沒有足夠的蜂后可添加。",
+        "HiveFilled": "此蜂箱已有蜂后。",
+        "NoQueenInHive": "此蜂箱中沒有蜂后可移除。"
+    },
+    "WorkerMenu": {
+        "Color": "橙色",
+        "Title": "工蜂管理",
+        "AddWorkerTitle": "添加工蜂",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "蜂箱中的工蜂",
+        "AddWorkerDescription": "向蜂箱添加工蜂",
+        "DisplayWorkerDescription": "蜂箱中的工蜂：%s",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "移除工蜂",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "從蜂箱移除工蜂",
+        "NoWorkers": "此蜂箱中沒有工蜂。",
+        "HiveFilled": "此蜂箱已達到最大工蜂數量。",
+        "WorkerInvCheck": "您沒有足夠的工蜂。"
+    },
+    "HoneyMenu": {
+        "Color": "橙色",
+        "Title": "蜂蜜管理",
+        "DisplayHoneyType": "蜂蜜類型",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "此蜂蜜的類型：%s",
+        "DisplayHoneyCount": "蜂蜜數量",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "當前蜂蜜數量：%s",
+        "ExtractHoneyTitle": "提取蜂蜜",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "從蜂箱中提取所有蜂蜜",
+        "NoHoney": "此蜂箱中沒有蜂蜜。"
+    },
+    "WaxMenu": {
+        "Color": "橙色",
+        "Title": "蜂蠟管理",
+        "DisplayWaxCount": "蜂蠟數量",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "當前蜂蠟數量：%s",
+        "ExtractWaxTitle": "從蜂箱提取蜂蠟",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "從蜂箱中提取所有蜂蠟",
+        "NoWax": "此蜂箱中沒有蜂蠟。"
+    },
+    "Hive": {
+        "Access": "存取蜂箱"
+    },
+    "Dismantle": {
+        "title": "您確定嗎？",
+        "icon": "鎚子",
+        "description": "這將拆卸蜂箱並返回內部物品。"
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "無法在此處放置蜂箱。請嘗試其他位置。",
+        "BlacklistedZone": "您不能在禁止區域放置蜂箱。",
+        "MaxOwnedHivesReached": "您已達到允許的最大蜂箱數量。"
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "您必須是擁有者才能修改此蜂箱。"
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "您必須在允許清單中才能修改此蜂箱。"
+    },
+    "ManageAccess": {
+        "Color": "橙色",
+        "Title": "管理蜂箱存取權限",
+        "AddUser": "添加用戶",
+        "RemovedUser": "用戶已從蜂箱存取權限中移除",
+        "UnableToRemove": "無法從蜂箱存取權限中移除用戶。您必須是擁有者才能執行此操作。",
+        "UnableToFindHive": "無法找到蜂箱資料。請稍後再試。",
+        "UnableToAccess": "您無權存取此蜂箱。",
+        "AlreadyAdded": "用戶已添加到蜂箱存取權限",
+        "UserAdded": "用戶已添加到蜂箱存取權限",
+        "UserList": "用戶清單",
+        "AddClosestPersonTitle": "添加最近的人",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "將最近的人添加到蜂箱存取清單。",
+        "RemovePlayerTitle": "移除用戶",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "從蜂箱存取清單中移除用戶。",
+        "RemovePlayer": "從蜂箱存取清單中移除 %s。",
+        "RemovedSuccess": "用戶已從蜂箱存取權限中移除。",
+        "RemovedError": "無法從蜂箱存取權限中移除用戶。",
+        "ViewAccessTitle": "查看存取清單",
+        "ViewAccessDescription": "查看有權存取此蜂箱的用戶清單。",
+        "ViewAccessMenuTitle": "存取清單",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "有權存取此蜂箱。",
+        "SubViewAccessMenuTitle": "有蜂箱存取權限的用戶清單",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "將 %s 添加到蜂箱存取權限。",
+        "AddPlayerDescription": "這將給予 %s 存取蜂箱的權限，但不包括摧毀權限。",
+        "TooFarFromHive": "您距離蜂箱太遠。",
+        "TargetTooFarFromHive": "目標距離蜂箱太遠。",
+        "RemoveUserTitle": "移除用戶",
+        "RemoveUserDescription": "從蜂箱存取清單中移除用戶。",
+        "UserListDescription": "有蜂箱存取權限的用戶清單",
+        "ManageAccessTitle": "管理用戶蜂箱存取權限",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "添加或移除有蜂箱存取權限的用戶。",
+        "YouWereAdded": "您已被添加到蜂箱存取清單。",
+        "NoPlayerNearby": "附近沒有玩家可添加。"
+    },
+    "Blips": {
+        "HiveBlipText": "蜂箱"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "您犯了一個錯誤，一些蜜蜂螫了您！"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "透過ID移除蜂箱[僅管理員命令]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "來自SQL的蜂箱ID"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "透過擁有者識別碼移除蜂箱[僅管理員命令]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "蜂箱擁有者的識別碼"
+            }
+        },
+        "ShowAllHives": {
+            "help": "在地圖上顯示所有蜂箱[僅管理員命令]"
+        },
+        "OpenAdminHives": {
+            "help": "打開管理員蜂箱管理選單[僅管理員命令]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "蜂蠟：%s，蜂蜜：%s，工蜂：%s，蜂后：%s",
+        "JoinedNames": "%s，識別碼為 %s",
+        "MainMenuTitle": "管理員選單",
+        "ManageHiveByID": "管理蜂箱ID：%s",
+        "ManageHiveDescription": "存取蜂箱管理",
+        "ManageHiveOwnerTitle": "蜂箱擁有者：%s",
+        "ManageHiveOwnerDescription": "蜂箱擁有者是 %s",
+        "ManageHiveIDTitle": "蜂箱ID：%s",
+        "ManageHiveIDDescription": "蜂箱ID是 %s",
+        "MarkHiveCoordsTitle": "標記蜂箱座標",
+        "MarkHiveCoordsDescription": "在地圖上標記蜂箱座標。",
+        "TeleportToCoordsTitle": "傳送到蜂箱座標",
+        "TeleportToCoordsDescription": "傳送到蜂箱座標。",
+        "AccessablePlayersTitle": "最後存取：",
+        "AccessablePlayersDescription": "最後存取：%s",
+        "HiveStatusTitle": "蜂箱狀態：",
+        "HiveStatusDescription": "當前狀態：%s",
+        "PlayersWithAccessTitle": "有蜂箱存取權限的玩家",
+        "RunSearch": "執行搜尋",
+        "RunSearchDescription": "搜尋特定資料。",
+        "CopyIdToClipBoard": "複製蜂箱ID到剪貼簿",
+        "CopyIdToClipBoardDescription": "將蜂箱ID複製到您的剪貼簿。",
+        "IconColor": "橙色",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "您沒有使用此功能的權限。",
+        "DeleteHiveTitle": "刪除蜂箱",
+        "DeleteHiveDescription": "永久刪除ID為 %s 的蜂箱",
+        "ShowAllHivesOnMap": "在地圖上顯示/隱藏所有蜂箱",
+        "ShowAllHivesOnMapDescription": "切換在地圖上顯示所有蜂箱。",
+        "ListAllHives": "列出所有蜂箱",
+        "ListAllHivesDescription": "列出資料庫中的所有蜂箱。",
+        "Search": {
+            "InvalidSearchInput": "無效的搜尋輸入。請重試。",
+            "Title": "搜尋",
+            "SearchLabel": "搜尋特定資料。",
+            "SearchDescription": "輸入您要搜尋的資料。",
+            "SearchPlaceholder": "輸入搜尋詞...",
+            "Submit": "提交"
+        }
+    }
+}

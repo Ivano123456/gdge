@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShopPedApparel>
+	<pedName>mp_m_freemode_01</pedName>
+	<dlcName>mp_m_catedra3</dlcName>
+	<fullDlcName>mp_m_freemode_01_mp_m_catedra3</fullDlcName>
+	<eCharacter>SCR_CHAR_MULTIPLAYER</eCharacter>
+	<creatureMetaData>MP_CreatureMetadata_catedrarp3</creatureMetaData>
+	<pedOutfits>
+	</pedOutfits>
+	<pedComponents>
+        <!-- Accessories: Accessories - mp_m_freemode_01_mp_m_akelarre6^teef_diff_000_a_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_ACCESSORIES_0_0_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_TEEF</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Accessories: Accessories - mp_m_freemode_01_mp_m_akelarre6^teef_diff_001_a_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_ACCESSORIES_1_0_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_TEEF</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Accessories: Accessories - mp_m_freemode_01^teef_diff_028_a_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_ACCESSORIES_2_0_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="2" />
+			<eCompType>PV_COMP_TEEF</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Accessories: Accessories - mp_m_freemode_01^teef_diff_028_b_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_ACCESSORIES_2_1_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="2" />
+			<eCompType>PV_COMP_TEEF</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Accessories: Accessories - mp_m_freemode_01^teef_diff_028_c_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_ACCESSORIES_2_2_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="2" />
+			<eCompType>PV_COMP_TEEF</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Accessories: Accessories - mp_m_freemode_01^teef_diff_028_d_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_ACCESSORIES_2_3_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="2" />
+			<eCompType>PV_COMP_TEEF</eCompType>
+			<textureIndex value="3" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Accessories: Accessories - mp_m_freemode_01^teef_diff_028_e_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_ACCESSORIES_2_4_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="2" />
+			<eCompType>PV_COMP_TEEF</eCompType>
+			<textureIndex value="4" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Accessories: Accessories - mp_m_freemode_01_mp_m_akelarre6^teef_diff_003_a_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_ACCESSORIES_3_0_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="3" />
+			<eCompType>PV_COMP_TEEF</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Accessories: Accessories - mp_m_freemode_01_mp_m_akelarre6^teef_diff_004_a_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_ACCESSORIES_4_0_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="4" />
+			<eCompType>PV_COMP_TEEF</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Legs: Legs - mp_m_freemode_01_mp_m_akelarre6^lowr_diff_000_a_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_LEGS_0_0_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Legs: Legs - mp_m_freemode_01_mp_m_akelarre6^lowr_diff_000_b_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_LEGS_0_1_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Legs: Legs - mp_m_freemode_01_mp_m_akelarre6^lowr_diff_000_c_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_LEGS_0_2_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Legs: Legs - mp_m_freemode_01_mp_m_akelarre6^lowr_diff_000_d_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_LEGS_0_3_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="3" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Legs: Legs - mp_m_freemode_01_mp_m_akelarre6^lowr_diff_000_e_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_LEGS_0_4_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="4" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Legs: Legs - mp_m_freemode_01_mp_m_akelarre6^lowr_diff_000_f_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_LEGS_0_5_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="5" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Legs: Legs - mp_m_freemode_01_mp_m_akelarre6^lowr_diff_000_g_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_LEGS_0_6_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="6" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Legs: Legs - mp_m_freemode_01_mp_m_akelarre6^lowr_diff_000_h_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_LEGS_0_7_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="7" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Legs: Legs - mp_m_freemode_01_mp_m_akelarre6^lowr_diff_000_i_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_LEGS_0_8_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="8" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Legs: Legs - mp_m_freemode_01_mp_m_akelarre6^lowr_diff_000_j_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_LEGS_0_9_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="9" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Legs: Legs - mp_m_freemode_01_mp_m_akelarre6^lowr_diff_000_k_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_LEGS_0_10_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="10" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Legs: Legs - mp_m_freemode_01_mp_m_akelarre6^lowr_diff_000_l_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_LEGS_0_11_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="11" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- Undershirt: Undershirt - mp_m_freemode_01_mp_m_akelarre6^accs_diff_000_a_uni -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_UNDERSHIRT_0_0_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <variantComponents />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_ACCS</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+	</pedComponents>
+	<pedProps>
+        <!-- PropEyes: PropEyes - mp_m_freemode_01_p_mp_m_trfcm_civil10^p_eyes_diff_020_a -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_PROPEYES_0_0_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <forcedProps />
+            <variantComponents />
+            <variantProps />
+			<propIndex value="0" />
+			<localPropIndex value="0" />
+			<eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- PropEyes: PropEyes - mp_m_freemode_01_p_mp_m_trfcm_civil10^p_eyes_diff_020_b -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_PROPEYES_0_1_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <forcedProps />
+            <variantComponents />
+            <variantProps />
+			<propIndex value="0" />
+			<localPropIndex value="0" />
+			<eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- PropEyes: PropEyes - mp_m_freemode_01_p_mp_m_trfcm_civil10^p_eyes_diff_020_c -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_PROPEYES_0_2_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <forcedProps />
+            <variantComponents />
+            <variantProps />
+			<propIndex value="0" />
+			<localPropIndex value="0" />
+			<eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- PropEyes: PropEyes - mp_m_freemode_01_p_mp_m_trfcm_civil10^p_eyes_diff_020_d -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_PROPEYES_0_3_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <forcedProps />
+            <variantComponents />
+            <variantProps />
+			<propIndex value="0" />
+			<localPropIndex value="0" />
+			<eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+			<textureIndex value="3" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- PropEyes: PropEyes - mp_m_freemode_01_p_mp_m_trfcm_civil10^p_eyes_diff_020_e -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_PROPEYES_0_4_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <forcedProps />
+            <variantComponents />
+            <variantProps />
+			<propIndex value="0" />
+			<localPropIndex value="0" />
+			<eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+			<textureIndex value="4" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- PropEyes: PropEyes - mp_m_freemode_01_p_mp_m_trfcm_civil10^p_eyes_diff_020_f -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_PROPEYES_0_5_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <forcedProps />
+            <variantComponents />
+            <variantProps />
+			<propIndex value="0" />
+			<localPropIndex value="0" />
+			<eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+			<textureIndex value="5" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- PropEyes: PropEyes - mp_m_freemode_01_p_mp_m_trfcm_civil10^p_eyes_diff_020_g -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_PROPEYES_0_6_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <forcedProps />
+            <variantComponents />
+            <variantProps />
+			<propIndex value="0" />
+			<localPropIndex value="0" />
+			<eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+			<textureIndex value="6" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- PropEyes: PropEyes - mp_m_freemode_01_p_mp_m_trfcm_civil10^p_eyes_diff_020_h -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_PROPEYES_0_7_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <forcedProps />
+            <variantComponents />
+            <variantProps />
+			<propIndex value="0" />
+			<localPropIndex value="0" />
+			<eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+			<textureIndex value="7" />
+			<isInOutfit value="false" />
+		</Item>
+        <!-- PropHead: PropHead - mp_m_freemode_01_p_mp_m_akelarre6^p_head_diff_000_d -->
+		<Item>
+			<lockHash />
+			<cost value="0"/>
+			<textLabel />
+			<uniqueNameHash>CLO_DCT_PROPHEAD_0_0_M</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_NONE</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+			</restrictionTags>
+            <forcedComponents />
+            <forcedProps />
+            <variantComponents />
+            <variantProps />
+			<propIndex value="0" />
+			<localPropIndex value="0" />
+			<eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+	</pedProps>
+</ShopPedApparel>

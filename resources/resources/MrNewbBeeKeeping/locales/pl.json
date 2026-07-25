@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Wyślij",
+    "BeeShop": {
+        "Invalid": "Ten sklep jest nieprawidłowy. Proszę zgłosić właścicielowi serwera, aby skonfigurował ustawienia.",
+        "OpenMenu": "Pszczelarz",
+        "TargetShop": "Porozmawiaj z pszczelarzem",
+        "ShopTitle": "Kup materiały pszczelarskie",
+        "SellItems": "Sprzedaj przedmioty",
+        "InputSellAmount": "Wprowadź ilość do sprzedaży",
+        "ShopDescription": "Kup różne przedmioty, które pomogą ci w pszczelarstwie.",
+        "SellDescription": "Sprzedaj swoje przedmioty pszczelarskie.",
+        "SellTitle": "Sprzedaj przedmioty związane z pszczołami",
+        "SellItemFor": "Sprzedaj %s za $%s każdy.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Przedmioty do sprzedania",
+        "TransactionCompleted": "Sprzedaż zakończona za $%s.",
+        "IconColor": "pomarańczowy",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Wróć do poprzedniego menu"
+    },
+    "HiveChange": {
+        "Dismantle": "Demontuj ul",
+        "PlacingHive": "Ustawianie ula",
+        "ExtractWax": "Wydobywanie %s wosku",
+        "ExtractHoney": "Wydobywanie %s miodu",
+        "RemovingWorkers": "Usuwanie %s pszczół robotnic",
+        "AddingWorkers": "Dodawanie %s pszczół robotnic",
+        "RemovingQueen": "Usuwanie królowej",
+        "AddingQueen": "Dodawanie królowej",
+        "Placing": "Ustawianie ula",
+        "Accessing": "Dostęp do ula",
+        "Adding": "Dodawanie do ula",
+        "Removing": "Usuwanie z ula",
+        "MissingItem": "Brakuje ci wymaganego przedmiotu do tej czynności."
+    },
+    "ProgressBars": {
+        "Dismantle": "Demontowanie ula...",
+        "Accessing": "Dostęp do ula...",
+        "Placing": "Ustawianie ula...",
+        "Adding": "Dodawanie do ula...",
+        "Extracting": "Wydobywanie z ula..."
+    },
+    "HiveMenu": {
+        "Color": "pomarańczowy",
+        "WorkerInputHeader": "Liczba pszczół robotnic",
+        "WorkersToAdd": "Robotnice do dodania",
+        "WorkersToRemove": "Robotnice do usunięcia",
+        "Slider_Add_Label": "Maksimum do dodania",
+        "Slider__Remove_Label": "Maksimum do usunięcia",
+        "ItemCountCheck": "Nie masz wystarczająco tego przedmiotu.",
+        "Title": "Zarządzanie ulem",
+        "HiveHealthTitle": "Przegląd zdrowia ula",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Aktualny stan zdrowia ula: ",
+        "WaxCountTitle": "Zarządzanie woskiem pszczelim",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Zarządzaj produkcją wosku pszczelego",
+        "HoneyCountTitle": "Zarządzanie miodem",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Monitoruj produkcję miodu",
+        "QueenCountTitle": "Status królowej",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Zarządzaj liczbą królowych",
+        "WorkerCountTitle": "Zarządzanie pszczołami robotnicami",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Zarządzaj liczbą pszczół robotnic",
+        "DestroyHiveTitle": "Zniszcz ul",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "To trwale zniszczy ul.",
+        "ManageAccess": "Zarządzaj ulem",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Zarządzaj tym, kto może uzyskać dostęp do ula.",
+        "AddPlayerTitle": "Dodaj %s do dostępu ula.",
+        "AddPlayerDescription": "To da %s dostęp do ula, ale nie prawo do jego zniszczenia.",
+        "TooFarFromHive": "Jesteś za daleko od ula.",
+        "TargetTooFarFromHive": "Cel jest za daleko od ula.",
+        "Removing": "Usuwanie z ula",
+        "WaxToRemove": "Wosk do usunięcia",
+        "HoneyToRemove": "Miód do usunięcia"
+    },
+    "QueenMenu": {
+        "Color": "pomarańczowy",
+        "Title": "Zarządzanie królową",
+        "DisplayQueenTitle": "Królowe w ulu",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Królowe w ulu: %s ",
+        "AddQueenTitle": "Dodaj królową",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Dodaj królową do ula",
+        "RemoveQueenTitle": "Usuń królową",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Usuń królową z ula",
+        "ItemCountCheck": "Nie masz wystarczająco królowych do dodania.",
+        "HiveFilled": "Ten ul ma już królową.",
+        "NoQueenInHive": "Ten ul nie ma królowej do usunięcia."
+    },
+    "WorkerMenu": {
+        "Color": "pomarańczowy",
+        "Title": "Zarządzanie pszczołami robotnicami",
+        "AddWorkerTitle": "Dodaj pszczołę robotnicę",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Pszczoły robotnice w ulu",
+        "AddWorkerDescription": "Dodaj pszczołę robotnicę do ula",
+        "DisplayWorkerDescription": "Pszczoły robotnice w ulu: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Usuń pszczołę robotnicę",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Usuń pszczołę robotnicę z ula",
+        "NoWorkers": "Ten ul nie ma pszczół robotnic.",
+        "HiveFilled": "Ten ul ma już maksymalną liczbę pszczół robotnic.",
+        "WorkerInvCheck": "Nie masz wystarczająco pszczół robotnic."
+    },
+    "HoneyMenu": {
+        "Color": "pomarańczowy",
+        "Title": "Zarządzanie miodem",
+        "DisplayHoneyType": "Typ miodu",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Ten miód jest typu: %s ",
+        "DisplayHoneyCount": "Ilość miodu",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Aktualna ilość miodu: %s",
+        "ExtractHoneyTitle": "Wydobądź miód",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Wydobądź cały miód z ula",
+        "NoHoney": "Ten ul nie ma miodu."
+    },
+    "WaxMenu": {
+        "Color": "pomarańczowy",
+        "Title": "Zarządzanie woskiem pszczelim",
+        "DisplayWaxCount": "Ilość wosku pszczelego",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Aktualna ilość wosku pszczelego: %s",
+        "ExtractWaxTitle": "Wydobądź wosk z ula",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Wydobądź cały wosk pszczeli z ula",
+        "NoWax": "Ten ul nie ma wosku pszczelego."
+    },
+    "Hive": {
+        "Access": "Uzyskaj dostęp do ula"
+    },
+    "Dismantle": {
+        "title": "Czy jesteś pewien?",
+        "icon": "młotek",
+        "description": "To zdemontuje ul i zwróci przedmioty w środku."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Nie można umieścić ula tutaj. Spróbuj innego miejsca.",
+        "BlacklistedZone": "Nie możesz umieścić ula w strefie zakazanej.",
+        "MaxOwnedHivesReached": "Osiągnąłeś maksymalną liczbę dozwolonych uli."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Musisz być właścicielem, aby modyfikować ten ul."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Musisz być na liście dozwolonych, aby modyfikować ten ul."
+    },
+    "ManageAccess": {
+        "Color": "pomarańczowy",
+        "Title": "Zarządzaj dostępem do ula",
+        "AddUser": "Dodaj użytkownika",
+        "RemovedUser": "Użytkownik usunięty z dostępu do ula",
+        "UnableToRemove": "Nie można usunąć użytkownika z dostępu do ula. Musisz być właścicielem, aby to zrobić.",
+        "UnableToFindHive": "Nie można znaleźć danych ula. Spróbuj ponownie później.",
+        "UnableToAccess": "Nie masz dostępu do tego ula.",
+        "AlreadyAdded": "Użytkownik jest już dodany do dostępu ula",
+        "UserAdded": "Użytkownik dodany do dostępu ula",
+        "UserList": "Lista użytkowników",
+        "AddClosestPersonTitle": "Dodaj najbliższą osobę",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Dodaj najbliższą osobę do listy dostępu ula.",
+        "RemovePlayerTitle": "Usuń użytkownika",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Usuń użytkownika z listy dostępu ula.",
+        "RemovePlayer": "Usuń %s z listy dostępu ula.",
+        "RemovedSuccess": "Użytkownik usunięty z dostępu do ula.",
+        "RemovedError": "Nie można usunąć użytkownika z dostępu do ula.",
+        "ViewAccessTitle": "Zobacz listę dostępu",
+        "ViewAccessDescription": "Zobacz listę użytkowników, którzy mają dostęp do tego ula.",
+        "ViewAccessMenuTitle": "Lista dostępu",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Ma dostęp do tego ula.",
+        "SubViewAccessMenuTitle": "Lista użytkowników z dostępem do ula",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Dodaj %s do dostępu ula.",
+        "AddPlayerDescription": "To da %s dostęp do ula, ale nie prawo do jego zniszczenia.",
+        "TooFarFromHive": "Jesteś za daleko od ula.",
+        "TargetTooFarFromHive": "Cel jest za daleko od ula.",
+        "RemoveUserTitle": "Usuń użytkownika",
+        "RemoveUserDescription": "Usuń użytkownika z listy dostępu ula.",
+        "UserListDescription": "Lista użytkowników z dostępem do ula",
+        "ManageAccessTitle": "Zarządzaj dostępem użytkowników do ula",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Dodaj lub usuń użytkowników z dostępem do ula.",
+        "YouWereAdded": "Zostałeś dodany do listy dostępu ula.",
+        "NoPlayerNearby": "Brak gracza w pobliżu do dodania."
+    },
+    "Blips": {
+        "HiveBlipText": "Ul pszczeli"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Popełniłeś błąd i kilka pszczół cię użądliło!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Usuń ul pszczeli po ID [TYLKO KOMENDA ADMINA]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "ID ula pszczelego z SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Usuń ul pszczeli po identyfikatorze właściciela [TYLKO KOMENDA ADMINA]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "Identyfikator właściciela ula pszczelego"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Pokaż wszystkie ule na mapie [TYLKO KOMENDA ADMINA]"
+        },
+        "OpenAdminHives": {
+            "help": "Otwórz menu zarządzania admin uli [TYLKO KOMENDA ADMINA]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Wosk: %s, Miód: %s, Robotnice: %s, Królowa: %s",
+        "JoinedNames": "%s, z identyfikatorem %s",
+        "MainMenuTitle": "Menu Admina",
+        "ManageHiveByID": "Zarządzaj ulem ID: %s",
+        "ManageHiveDescription": "Dostęp do zarządzania ulem",
+        "ManageHiveOwnerTitle": "Właściciel ula: %s",
+        "ManageHiveOwnerDescription": "Właścicielem ula jest %s",
+        "ManageHiveIDTitle": "ID ula: %s",
+        "ManageHiveIDDescription": "ID ula to %s",
+        "MarkHiveCoordsTitle": "Zaznacz współrzędne ula",
+        "MarkHiveCoordsDescription": "Zaznacz współrzędne ula na mapie.",
+        "TeleportToCoordsTitle": "Teleportuj do współrzędnych ula",
+        "TeleportToCoordsDescription": "Teleportuj do współrzędnych ula.",
+        "AccessablePlayersTitle": "Ostatni dostęp: ",
+        "AccessablePlayersDescription": "Ostatni dostęp: %s",
+        "HiveStatusTitle": "Status ula: ",
+        "HiveStatusDescription": "Aktualny status: %s",
+        "PlayersWithAccessTitle": "Gracze z dostępem do ula",
+        "RunSearch": "Uruchom wyszukiwanie",
+        "RunSearchDescription": "Wyszukaj określone dane.",
+        "CopyIdToClipBoard": "Skopiuj ID ula do schowka",
+        "CopyIdToClipBoardDescription": "Skopiuj ID ula do swojego schowka.",
+        "IconColor": "pomarańczowy",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Nie masz uprawnień do używania tego.",
+        "DeleteHiveTitle": "Usuń ul",
+        "DeleteHiveDescription": "Trwale usuń ul z ID: %s",
+        "ShowAllHivesOnMap": "Pokaż/Ukryj wszystkie ule na mapie",
+        "ShowAllHivesOnMapDescription": "Przełącz wyświetlanie wszystkich uli na mapie.",
+        "ListAllHives": "Wyświetl wszystkie ule",
+        "ListAllHivesDescription": "Wyświetl wszystkie ule w bazie danych.",
+        "Search": {
+            "InvalidSearchInput": "Nieprawidłowe dane wyszukiwania. Spróbuj ponownie.",
+            "Title": "Wyszukiwanie",
+            "SearchLabel": "Wyszukaj określone dane.",
+            "SearchDescription": "Wprowadź dane, które chcesz wyszukać.",
+            "SearchPlaceholder": "Wprowadź wyszukiwane hasło...",
+            "Submit": "Wyślij"
+        }
+    }
+}

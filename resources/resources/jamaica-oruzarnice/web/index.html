@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sr" style="background: transparent !important;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <title>Oružarnica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="window hidden" id="shopWindow">
+        <div class="top">
+            <div class="top-left">
+                <div class="logo"><i class="fa-solid fa-gun"></i></div>
+                <div>
+                    <h1 id="shopTitle">Oružarnica</h1>
+                    <p id="licenseText">Provera dozvole...</p>
+                </div>
+            </div>
+            <div class="top-right">
+                <span class="money"><i class="fa-solid fa-wallet"></i> <span id="cashDisplay">$0</span></span>
+                <span class="money"><i class="fa-solid fa-building-columns"></i> <span id="bankDisplay">$0</span></span>
+            </div>
+        </div>
+
+        <div class="tabs" id="categoryTabs"></div>
+
+        <div class="grid" id="itemGrid"></div>
+    </div>
+
+    <div class="modal hidden" id="buyModal">
+        <div class="modal-box">
+            <div class="modal-img-wrap">
+                <img id="modalImage" src="" alt="">
+            </div>
+
+            <h2 id="modalName">—</h2>
+            <p class="modal-price" id="modalPrice">$0</p>
+
+            <p class="modal-warn hidden" id="modalWarn">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                Potrebna dozvola za oružje (tražite od PU)
+            </p>
+
+            <div class="modal-row hidden" id="qtyRow">
+                <span>Količina</span>
+                <div class="qty">
+                    <button type="button" id="qtyMinus"><i class="fa-solid fa-minus"></i></button>
+                    <span id="qtyValue">1</span>
+                    <button type="button" id="qtyPlus"><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <small id="qtyHint"></small>
+            </div>
+
+            <div class="modal-pay">
+                <button type="button" class="pay-opt active" data-pay="cash"><i class="fa-solid fa-money-bill-wave"></i> Keš</button>
+                <button type="button" class="pay-opt" data-pay="bank"><i class="fa-solid fa-building-columns"></i> Banka</button>
+            </div>
+
+            <button type="button" class="buy-btn" id="buyBtn">
+                <i class="fa-solid fa-cart-shopping"></i> Kupi artikal
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

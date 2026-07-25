@@ -1,0 +1,82 @@
+{
+    "success": "Uspešno",
+    "error": "Greška",
+    "info": "Informacija",
+    "warning": "Upozorenje",
+    "employer": {
+        "interaction_label": "Razgovaraj sa poslodavcem"
+    },
+    "notification": {
+        "error": {
+            "enter_player_id": "Unesite ispravan ID igrača.",
+            "not_team_owner": "Niste vođa tima.",
+            "already_in_team": "Igrač je već u timu.",
+            "you_are_in_team": "Već ste u timu.",
+            "team_full": "Vaš tim je pun.",
+            "too_far_for_invite": "Igrač je predaleko za slanje pozivnice.",
+            "not_in_team": "Niste u timu.",
+            "cant_invite_self": "Ne možete pozvati sami sebe.",
+            "task_not_completed": "Zadatak još nije završen.",
+            "task_already_started": "Zadatak je već započet."
+        },
+        "info": {
+            "invite_declined": "%s je odbio pozivnicu za tim.",
+            "invite_accepted": "%s je prihvatio pozivnicu za tim.",
+            "left_team": "Napustili ste tim.",
+            "kicked_from_team": "Izbačeni ste iz tima od strane %s.",
+            "job_completed": "Čestitamo! Završili ste posao. Razgovarajte sa poslodavcem i preuzmite nagradu."
+        }
+    },
+    "target": {
+        "controller": {
+            "label": "Pokreni transporter"
+        },
+        "management": {
+            "stop_job": "Prekini posao",
+            "complete_job": "Završi posao"
+        }
+    },
+    "alert": {
+        "multiplayer_invite": {
+            "title": "Pozivnica za tim",
+            "content": "%s vas poziva u tim. Da li prihvatate pozivnicu?",
+            "accept_button": "Prihvati",
+            "decline_button": "Odbij"
+        }
+    },
+    "web": {
+        "header": {
+            "trucker": "VILJUŠKAR",
+            "job": "POSAO",
+            "description": "Završavajte zadatke sa timom i zajedno zarađujte nagrade!"
+        },
+        "tabs": {
+            "player_list": "Lista igrača",
+            "task_type": "Tip zadatka",
+            "profile": "Profil",
+            "job_details": "Detalji posla",
+            "job_clothings": "Radna odeća"
+        },
+        "buttons": {
+            "start_job": "Započni posao",
+            "invite_player": "Pozovi igrača",
+            "change_clothes": "Promeni odeću"
+        },
+        "labels": {
+            "awards": "Nagrade",
+            "nickname": "Nadimak",
+            "level": "Nivo",
+            "xp": "XP",
+            "job_step": "Informacije",
+            "job_step_description": "Ako radite noćnu smenu između 22:00 i 06:00, dobijate dodatnu naplatu za prekovremeni rad.",
+            "empty_slot": "Slobodno mesto",
+            "info_header": "Tim — informacije",
+            "info_description": "Radite zajedno sa timom!",
+            "leader": "Vođa",
+            "member": "Član"
+        },
+        "inputs": {
+            "enter_player_id": "Unesite ID igrača..."
+        }
+    }
+}

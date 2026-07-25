@@ -1,0 +1,436 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', -apple-system, sans-serif;
+  background: transparent !important;
+  color: #fff;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background: transparent !important;
+}
+
+.jamaica-wrap {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.jamaica-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background: url('./images/background.png') center/cover no-repeat;
+}
+
+.jamaica-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.25) 40%, rgba(0, 0, 0, 0.4) 100%);
+  pointer-events: none;
+}
+
+.jamaica-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.jamaica-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.jamaica-brand-name {
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  background: linear-gradient(135deg, #6ee7b7 0%, #34d399 50%, #10b981 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 40px rgba(16, 185, 129, 0.35);
+}
+
+.jamaica-brand-tag {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+.jamaica-left-info {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.65);
+  text-align: center;
+  max-width: 320px;
+  line-height: 1.5;
+  margin: 0 0 2rem 0;
+}
+
+.jamaica-left-logo {
+  margin-top: 1rem;
+}
+
+.jamaica-left-logo img {
+  max-width: 140px;
+  max-height: 140px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 20px rgba(16, 185, 129, 0.28));
+}
+
+.jamaica-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+  background: transparent;
+}
+
+.jamaica-card {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  border-radius: 16px;
+  box-shadow: 
+    0 25px 50px -12px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(255, 255, 255, 0.03),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+  overflow: hidden;
+}
+
+.jamaica-card-head {
+  padding: 1.5rem 1.75rem;
+  background: linear-gradient(180deg, rgba(16, 185, 129, 0.18) 0%, transparent 100%);
+  border-bottom: 1px solid rgba(16, 185, 129, 0.22);
+}
+
+.jamaica-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 0.25rem 0;
+  letter-spacing: 0.02em;
+}
+
+.jamaica-subtitle {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #86efac;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.jamaica-form {
+  padding: 1.5rem 1.75rem;
+}
+
+.jamaica-row {
+  margin-bottom: 1.1rem;
+}
+
+.jamaica-row-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.jamaica-row-gender {
+  margin-bottom: 1.25rem;
+}
+
+.jamaica-field {
+  position: relative;
+}
+
+.jamaica-field-full {
+  width: 100%;
+}
+
+.jamaica-field label,
+.jamaica-label-inline {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.4rem;
+}
+
+.jamaica-row-gender .jamaica-label-inline {
+  margin-bottom: 0.5rem;
+}
+
+.jamaica-field input[type="text"],
+.jamaica-field input[type="date"],
+.jamaica-input {
+  width: 100%;
+  height: 42px;
+  padding: 0 0.9rem;
+  font-size: 0.9rem;
+  font-family: inherit;
+  color: #fff;
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  border-radius: 8px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.jamaica-field input::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.jamaica-field input:focus {
+  outline: none;
+  border-color: rgba(16, 185, 129, 0.65);
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+}
+
+.jamaica-field input.success {
+  border-color: rgba(34, 197, 94, 0.5);
+}
+
+.jamaica-field input.error {
+  border-color: rgba(239, 68, 68, 0.5);
+}
+
+.jamaica-field-range label {
+  margin-bottom: 0.5rem;
+}
+
+.jamaica-range-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.35rem;
+}
+
+.jamaica-range-min,
+.jamaica-range-max {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  min-width: 28px;
+}
+
+.jamaica-range {
+  flex: 1;
+  height: 6px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: rgba(16, 185, 129, 0.25);
+  border-radius: 3px;
+}
+
+.jamaica-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6ee7b7, #10b981);
+  cursor: pointer;
+  box-shadow: 0 0 0 2px rgba(15, 23, 42, 0.9), 0 2px 8px rgba(16, 185, 129, 0.45);
+  transition: transform 0.15s;
+}
+
+.jamaica-range::-webkit-slider-thumb:hover {
+  transform: scale(1.08);
+}
+
+.jamaica-gender {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.jamaica-gender-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 44px;
+  padding: 0 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.jamaica-gender-btn img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  opacity: 0.8;
+}
+
+.jamaica-gender-btn:hover {
+  border-color: rgba(16, 185, 129, 0.5);
+  color: #fff;
+  background: rgba(16, 185, 129, 0.16);
+}
+
+.jamaica-gender-btn.active {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.26);
+  color: #86efac;
+}
+
+.jamaica-gender-btn.active img {
+  opacity: 1;
+}
+
+.jamaica-submit-wrap {
+  margin-top: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.jamaica-submit {
+  width: 100%;
+  height: 46px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-family: inherit;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.45);
+  transition: transform 0.15s, box-shadow 0.2s;
+}
+
+.jamaica-submit:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.52);
+}
+
+.jamaica-submit:active {
+  transform: translateY(0);
+}
+
+.jamaica-idcard {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  background: linear-gradient(145deg, rgba(30, 41, 59, 0.9) 0%, rgba(15, 23, 42, 0.95) 100%);
+  border: 1px solid rgba(16, 185, 129, 0.24);
+}
+
+.jamaica-idcard-inner {
+  padding: 0;
+}
+
+.jamaica-idcard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #86efac;
+  background: rgba(16, 185, 129, 0.2);
+  border-bottom: 1px solid rgba(16, 185, 129, 0.28);
+}
+
+.jamaica-idcard-body {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: start;
+}
+
+.jamaica-idcard-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.jamaica-idcard-img {
+  width: 72px;
+  height: 72px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 2px solid rgba(16, 185, 129, 0.38);
+}
+
+.jamaica-idcard-name-short {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+}
+
+.jamaica-idcard-details {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.jamaica-idcard-details strong {
+  color: #86efac;
+  font-weight: 600;
+}
+
+.jamaica-idcard-details p {
+  margin: 0 0 0.4rem 0;
+}
+
+.jamaica-idcard-details p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .jamaica-wrap {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .jamaica-left {
+    padding: 2rem 1rem;
+  }
+
+  .jamaica-brand-name {
+    font-size: 1.75rem;
+  }
+
+  .jamaica-card {
+    max-width: 100%;
+  }
+}

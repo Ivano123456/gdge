@@ -1,0 +1,19 @@
+{
+    "not_near_station": "You must be near the midwife",
+
+    "general_title": "Revive Station",
+    "open_revive_station": "Open revive station",
+    "medics_online": "Too many medics are online!",
+    "no_player_nearby": "No player nearby!",
+    "not_enough_money": "You don't have enough money!",
+    "player_revived": "You successfully revived the player!",
+    "revive_confirmation_content": "Do you want to revive player (**%s**) for **$%s**?",
+    "revive_player_description": "Revive player for **$%s**",
+    "player_not_dead": "Player is not dead!",
+    "player_too_far": "Player is too far away!",
+    "please_wait": "Wait 10 seconds before using the station again!",
+    "invalid_payment": "Invalid payment!",
+    "player_not_found": "Player not found!",
+    "reviving_player": "Revival in progress...",
+    "revive_cancelled": "Revival cancelled!"
+}

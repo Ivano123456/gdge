@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVarGlobal>
+	<Wheels>
+    <!-- VWT_SPORT -->
+		<Item>
+		</Item>
+    <!-- VWT_MUSCLE -->
+		<Item>
+        </Item>
+    <!-- VWT_LOWRIDER -->
+		<Item>
+		<!-- GENERIC WHEEL PACK -->
+            <Item>
+				<wheelName>cii_roti_1</wheelName>
+				<wheelVariation>cii_roti_1_c</wheelVariation>
+				<modShopLabel>cii_roti_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_1_v</wheelName>
+				<wheelVariation>cii_roti_1_v_c</wheelVariation>
+				<modShopLabel>cii_roti_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_2</wheelName>
+				<wheelVariation>cii_roti_2_c</wheelVariation>
+				<modShopLabel>cii_roti_2</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_2_v</wheelName>
+				<wheelVariation>cii_roti_2_v_c</wheelVariation>
+				<modShopLabel>cii_roti_2_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_3</wheelName>
+				<wheelVariation>cii_roti_3_c</wheelVariation>
+				<modShopLabel>cii_roti_3</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_3_v</wheelName>
+				<wheelVariation>cii_roti_3_v_c</wheelVariation>
+				<modShopLabel>cii_roti_3_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_4</wheelName>
+				<wheelVariation>cii_roti_4_c</wheelVariation>
+				<modShopLabel>cii_roti_4</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_4_v</wheelName>
+				<wheelVariation>cii_roti_4_v_c</wheelVariation>
+				<modShopLabel>cii_roti_4_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_5</wheelName>
+				<wheelVariation>cii_roti_5_c</wheelVariation>
+				<modShopLabel>cii_roti_5</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_5_v</wheelName>
+				<wheelVariation>cii_roti_5_v_c</wheelVariation>
+				<modShopLabel>cii_roti_5_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_6</wheelName>
+				<wheelVariation>cii_roti_6_c</wheelVariation>
+				<modShopLabel>cii_roti_6</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_6_v</wheelName>
+				<wheelVariation>cii_roti_6_v_c</wheelVariation>
+				<modShopLabel>cii_roti_6_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_7</wheelName>
+				<wheelVariation>cii_roti_7_c</wheelVariation>
+				<modShopLabel>cii_roti_7</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_7_v</wheelName>
+				<wheelVariation>cii_roti_7_v_c</wheelVariation>
+				<modShopLabel>cii_roti_7_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_8</wheelName>
+				<wheelVariation>cii_roti_8_c</wheelVariation>
+				<modShopLabel>cii_roti_8</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_8_v</wheelName>
+				<wheelVariation>cii_roti_8_v_c</wheelVariation>
+				<modShopLabel>cii_roti_8_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_9</wheelName>
+				<wheelVariation>cii_roti_9_c</wheelVariation>
+				<modShopLabel>cii_roti_9</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_9_v</wheelName>
+				<wheelVariation>cii_roti_9_v_c</wheelVariation>
+				<modShopLabel>cii_roti_9_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_10</wheelName>
+				<wheelVariation>cii_roti_10_c</wheelVariation>
+				<modShopLabel>cii_roti_10</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_10_v</wheelName>
+				<wheelVariation>cii_roti_10_v_c</wheelVariation>
+				<modShopLabel>cii_roti_10_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_11</wheelName>
+				<wheelVariation>cii_roti_11_c</wheelVariation>
+				<modShopLabel>cii_roti_11</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_11_v</wheelName>
+				<wheelVariation>cii_roti_11_v_c</wheelVariation>
+				<modShopLabel>cii_roti_11_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_12</wheelName>
+				<wheelVariation>cii_roti_12_c</wheelVariation>
+				<modShopLabel>cii_roti_12</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_roti_12_v</wheelName>
+				<wheelVariation>cii_roti_12_v_c</wheelVariation>
+				<modShopLabel>cii_roti_12_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_voss_1</wheelName>
+				<wheelVariation>cii_voss_1_c</wheelVariation>
+				<modShopLabel>cii_voss_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_voss_1_v</wheelName>
+				<wheelVariation>cii_voss_1_v_c</wheelVariation>
+				<modShopLabel>cii_voss_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_voss_2</wheelName>
+				<wheelVariation>cii_voss_2_c</wheelVariation>
+				<modShopLabel>cii_voss_2</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_voss_2_v</wheelName>
+				<wheelVariation>cii_voss_2_v_c</wheelVariation>
+				<modShopLabel>cii_voss_2_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_voss_3</wheelName>
+				<wheelVariation>cii_voss_3_c</wheelVariation>
+				<modShopLabel>cii_voss_3</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_voss_3_v</wheelName>
+				<wheelVariation>cii_voss_3_v_c</wheelVariation>
+				<modShopLabel>cii_voss_3_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wat_1</wheelName>
+				<wheelVariation>cii_wat_1_c</wheelVariation>
+				<modShopLabel>cii_wat_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wat_1_v</wheelName>
+				<wheelVariation>cii_wat_1_v_c</wheelVariation>
+				<modShopLabel>cii_wat_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wat_2</wheelName>
+				<wheelVariation>cii_wat_2_c</wheelVariation>
+				<modShopLabel>cii_wat_2</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wat_2_v</wheelName>
+				<wheelVariation>cii_wat_2_v_c</wheelVariation>
+				<modShopLabel>cii_wat_2_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wat_3</wheelName>
+				<wheelVariation>cii_wat_3_c</wheelVariation>
+				<modShopLabel>cii_wat_3</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wat_3_v</wheelName>
+				<wheelVariation>cii_wat_3_v_c</wheelVariation>
+				<modShopLabel>cii_wat_3_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_nis</wheelName>
+				<wheelVariation>cii_nis_c</wheelVariation>
+				<modShopLabel>cii_nis</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_nis_v</wheelName>
+				<wheelVariation>cii_nis_v_c</wheelVariation>
+				<modShopLabel>cii_nis_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_lom</wheelName>
+				<wheelVariation>cii_lom_c</wheelVariation>
+				<modShopLabel>cii_lom</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_lom_v</wheelName>
+				<wheelVariation>cii_lom_v_c</wheelVariation>
+				<modShopLabel>cii_lom_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_bs_1</wheelName>
+				<wheelVariation>cii_bs_1_c</wheelVariation>
+				<modShopLabel>cii_bs_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_bs_1_v</wheelName>
+				<wheelVariation>cii_bs_1_v_c</wheelVariation>
+				<modShopLabel>cii_bs_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_bs_2</wheelName>
+				<wheelVariation>cii_bs_2_c</wheelVariation>
+				<modShopLabel>cii_bs_2</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_bs_2_v</wheelName>
+				<wheelVariation>cii_bs_2_v_c</wheelVariation>
+				<modShopLabel>cii_bs_2_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_bs_3</wheelName>
+				<wheelVariation>cii_bs_3_c</wheelVariation>
+				<modShopLabel>cii_bs_3</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_bs_3_v</wheelName>
+				<wheelVariation>cii_bs_3_v_c</wheelVariation>
+				<modShopLabel>cii_bs_3_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_bs_4</wheelName>
+				<wheelVariation>cii_bs_4_c</wheelVariation>
+				<modShopLabel>cii_bs_4</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_bs_4_v</wheelName>
+				<wheelVariation>cii_bs_4_v_c</wheelVariation>
+				<modShopLabel>cii_bs_4_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_bs_5</wheelName>
+				<wheelVariation>cii_bs_5_c</wheelVariation>
+				<modShopLabel>cii_bs_5</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_bs_5_v</wheelName>
+				<wheelVariation>cii_bs_5_v_c</wheelVariation>
+				<modShopLabel>cii_bs_5_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_cos_1</wheelName>
+				<wheelVariation>cii_cos_1_c</wheelVariation>
+				<modShopLabel>cii_cos_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_cos_1_v</wheelName>
+				<wheelVariation>cii_cos_1_v_c</wheelVariation>
+				<modShopLabel>cii_cos_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_cos_2</wheelName>
+				<wheelVariation>cii_cos_2_c</wheelVariation>
+				<modShopLabel>cii_cos_2</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_cos_2_v</wheelName>
+				<wheelVariation>cii_cos_2_v_c</wheelVariation>
+				<modShopLabel>cii_cos_2_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_cos_3</wheelName>
+				<wheelVariation>cii_cos_3_c</wheelVariation>
+				<modShopLabel>cii_cos_3</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_cos_3_v</wheelName>
+				<wheelVariation>cii_cos_3_v_c</wheelVariation>
+				<modShopLabel>cii_cos_3_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_cos_4</wheelName>
+				<wheelVariation>cii_cos_4_c</wheelVariation>
+				<modShopLabel>cii_cos_4</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_cos_4_v</wheelName>
+				<wheelVariation>cii_cos_4_v_c</wheelVariation>
+				<modShopLabel>cii_cos_4_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_cos_5</wheelName>
+				<wheelVariation>cii_cos_5_c</wheelVariation>
+				<modShopLabel>cii_cos_5</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_cos_5_v</wheelName>
+				<wheelVariation>cii_cos_5_v_c</wheelVariation>
+				<modShopLabel>cii_cos_5_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_1</wheelName>
+				<wheelVariation>cii_wor_1_c</wheelVariation>
+				<modShopLabel>cii_wor_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_1_v</wheelName>
+				<wheelVariation>cii_wor_1_v_c</wheelVariation>
+				<modShopLabel>cii_wor_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_2</wheelName>
+				<wheelVariation>cii_wor_2_c</wheelVariation>
+				<modShopLabel>cii_wor_2</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_2_v</wheelName>
+				<wheelVariation>cii_wor_2_v_c</wheelVariation>
+				<modShopLabel>cii_wor_2_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_3</wheelName>
+				<wheelVariation>cii_wor_3_c</wheelVariation>
+				<modShopLabel>cii_wor_3</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_3_v</wheelName>
+				<wheelVariation>cii_wor_3_v_c</wheelVariation>
+				<modShopLabel>cii_wor_3_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_4</wheelName>
+				<wheelVariation>cii_wor_4_c</wheelVariation>
+				<modShopLabel>cii_wor_4</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_4_v</wheelName>
+				<wheelVariation>cii_wor_4_v_c</wheelVariation>
+				<modShopLabel>cii_wor_4_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_5</wheelName>
+				<wheelVariation>cii_wor_5_c</wheelVariation>
+				<modShopLabel>cii_wor_5</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_5_v</wheelName>
+				<wheelVariation>cii_wor_5_v_c</wheelVariation>
+				<modShopLabel>cii_wor_5_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_6</wheelName>
+				<wheelVariation>cii_wor_6_c</wheelVariation>
+				<modShopLabel>cii_wor_6</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_6_v</wheelName>
+				<wheelVariation>cii_wor_6_v_c</wheelVariation>
+				<modShopLabel>cii_wor_6_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_7</wheelName>
+				<wheelVariation>cii_wor_7_c</wheelVariation>
+				<modShopLabel>cii_wor_7</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_7_v</wheelName>
+				<wheelVariation>cii_wor_7_v_c</wheelVariation>
+				<modShopLabel>cii_wor_7_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_8</wheelName>
+				<wheelVariation>cii_wor_8_c</wheelVariation>
+				<modShopLabel>cii_wor_8</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_8_v</wheelName>
+				<wheelVariation>cii_wor_8_v_c</wheelVariation>
+				<modShopLabel>cii_wor_8_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_9</wheelName>
+				<wheelVariation>cii_wor_9_c</wheelVariation>
+				<modShopLabel>cii_wor_9</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_9_v</wheelName>
+				<wheelVariation>cii_wor_9_v_c</wheelVariation>
+				<modShopLabel>cii_wor_9_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_10</wheelName>
+				<wheelVariation>cii_wor_10_c</wheelVariation>
+				<modShopLabel>cii_wor_10</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_10_v</wheelName>
+				<wheelVariation>cii_wor_10_v_c</wheelVariation>
+				<modShopLabel>cii_wor_10_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_11</wheelName>
+				<wheelVariation>cii_wor_11_c</wheelVariation>
+				<modShopLabel>cii_wor_11</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_wor_11_v</wheelName>
+				<wheelVariation>cii_wor_11_v_c</wheelVariation>
+				<modShopLabel>cii_wor_11_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			            <Item>
+				<wheelName>cii_3d_1</wheelName>
+				<wheelVariation>cii_3d_1_c</wheelVariation>
+				<modShopLabel>cii_3d_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_1_v</wheelName>
+				<wheelVariation>cii_3d_1_v_c</wheelVariation>
+				<modShopLabel>cii_3d_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_2</wheelName>
+				<wheelVariation>cii_3d_2_c</wheelVariation>
+				<modShopLabel>cii_3d_2</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_2_v</wheelName>
+				<wheelVariation>cii_3d_2_v_c</wheelVariation>
+				<modShopLabel>cii_3d_2_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_3</wheelName>
+				<wheelVariation>cii_3d_3_c</wheelVariation>
+				<modShopLabel>cii_3d_3</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_3_v</wheelName>
+				<wheelVariation>cii_3d_3_v_c</wheelVariation>
+				<modShopLabel>cii_3d_3_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_4</wheelName>
+				<wheelVariation>cii_3d_4_c</wheelVariation>
+				<modShopLabel>cii_3d_4</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_4_v</wheelName>
+				<wheelVariation>cii_3d_4_v_c</wheelVariation>
+				<modShopLabel>cii_3d_4_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_5</wheelName>
+				<wheelVariation>cii_3d_5_c</wheelVariation>
+				<modShopLabel>cii_3d_5</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_5_v</wheelName>
+				<wheelVariation>cii_3d_5_v_c</wheelVariation>
+				<modShopLabel>cii_3d_5_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_6</wheelName>
+				<wheelVariation>cii_3d_6_c</wheelVariation>
+				<modShopLabel>cii_3d_6</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_6_v</wheelName>
+				<wheelVariation>cii_3d_6_v_c</wheelVariation>
+				<modShopLabel>cii_3d_6_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_7</wheelName>
+				<wheelVariation>cii_3d_7_c</wheelVariation>
+				<modShopLabel>cii_3d_7</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_7_v</wheelName>
+				<wheelVariation>cii_3d_7_v_c</wheelVariation>
+				<modShopLabel>cii_3d_7_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_8</wheelName>
+				<wheelVariation>cii_3d_8_c</wheelVariation>
+				<modShopLabel>cii_3d_8</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_8_v</wheelName>
+				<wheelVariation>cii_3d_8_v_c</wheelVariation>
+				<modShopLabel>cii_3d_8_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_9</wheelName>
+				<wheelVariation>cii_3d_9_c</wheelVariation>
+				<modShopLabel>cii_3d_9</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_9_v</wheelName>
+				<wheelVariation>cii_3d_9_v_c</wheelVariation>
+				<modShopLabel>cii_3d_9_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_10</wheelName>
+				<wheelVariation>cii_3d_10_c</wheelVariation>
+				<modShopLabel>cii_3d_10</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_10_v</wheelName>
+				<wheelVariation>cii_3d_10_v_c</wheelVariation>
+				<modShopLabel>cii_3d_10_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_11</wheelName>
+				<wheelVariation>cii_3d_11_c</wheelVariation>
+				<modShopLabel>cii_3d_11</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_3d_11_v</wheelName>
+				<wheelVariation>cii_3d_11_v_c</wheelVariation>
+				<modShopLabel>cii_3d_11_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_1</wheelName>
+				<wheelVariation>cii_ffs_1_c</wheelVariation>
+				<modShopLabel>cii_ffs_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_1_v</wheelName>
+				<wheelVariation>cii_ffs_1_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_2</wheelName>
+				<wheelVariation>cii_ffs_2_c</wheelVariation>
+				<modShopLabel>cii_ffs_2</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_2_v</wheelName>
+				<wheelVariation>cii_ffs_2_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_2_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_3</wheelName>
+				<wheelVariation>cii_ffs_3_c</wheelVariation>
+				<modShopLabel>cii_ffs_3</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_3_v</wheelName>
+				<wheelVariation>cii_ffs_3_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_3_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_4</wheelName>
+				<wheelVariation>cii_ffs_4_c</wheelVariation>
+				<modShopLabel>cii_ffs_4</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_4_v</wheelName>
+				<wheelVariation>cii_ffs_4_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_4_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_5</wheelName>
+				<wheelVariation>cii_ffs_5_c</wheelVariation>
+				<modShopLabel>cii_ffs_5</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_5_v</wheelName>
+				<wheelVariation>cii_ffs_5_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_5_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_6</wheelName>
+				<wheelVariation>cii_ffs_6_c</wheelVariation>
+				<modShopLabel>cii_ffs_6</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_6_v</wheelName>
+				<wheelVariation>cii_ffs_6_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_6_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_7</wheelName>
+				<wheelVariation>cii_ffs_7_c</wheelVariation>
+				<modShopLabel>cii_ffs_7</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_7_v</wheelName>
+				<wheelVariation>cii_ffs_7_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_7_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_8</wheelName>
+				<wheelVariation>cii_ffs_8_c</wheelVariation>
+				<modShopLabel>cii_ffs_8</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_8_v</wheelName>
+				<wheelVariation>cii_ffs_8_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_8_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_9</wheelName>
+				<wheelVariation>cii_ffs_9_c</wheelVariation>
+				<modShopLabel>cii_ffs_9</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_9_v</wheelName>
+				<wheelVariation>cii_ffs_9_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_9_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_10</wheelName>
+				<wheelVariation>cii_ffs_10_c</wheelVariation>
+				<modShopLabel>cii_ffs_10</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_10_v</wheelName>
+				<wheelVariation>cii_ffs_10_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_10_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_11</wheelName>
+				<wheelVariation>cii_ffs_11_c</wheelVariation>
+				<modShopLabel>cii_ffs_11</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_11_v</wheelName>
+				<wheelVariation>cii_ffs_11_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_11_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_12</wheelName>
+				<wheelVariation>cii_ffs_12_c</wheelVariation>
+				<modShopLabel>cii_ffs_12</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_12_v</wheelName>
+				<wheelVariation>cii_ffs_12_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_12_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_13</wheelName>
+				<wheelVariation>cii_ffs_13_c</wheelVariation>
+				<modShopLabel>cii_ffs_13</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_13_v</wheelName>
+				<wheelVariation>cii_ffs_13_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_13_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_14</wheelName>
+				<wheelVariation>cii_ffs_14_c</wheelVariation>
+				<modShopLabel>cii_ffs_14</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_14_v</wheelName>
+				<wheelVariation>cii_ffs_14_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_14_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_15</wheelName>
+				<wheelVariation>cii_ffs_15_c</wheelVariation>
+				<modShopLabel>cii_ffs_15</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_15_v</wheelName>
+				<wheelVariation>cii_ffs_15_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_15_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_16</wheelName>
+				<wheelVariation>cii_ffs_16_c</wheelVariation>
+				<modShopLabel>cii_ffs_16</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_16_v</wheelName>
+				<wheelVariation>cii_ffs_16_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_16_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_17</wheelName>
+				<wheelVariation>cii_ffs_17_c</wheelVariation>
+				<modShopLabel>cii_ffs_17</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_17_v</wheelName>
+				<wheelVariation>cii_ffs_17_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_17_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_18</wheelName>
+				<wheelVariation>cii_ffs_18_c</wheelVariation>
+				<modShopLabel>cii_ffs_18</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_18_v</wheelName>
+				<wheelVariation>cii_ffs_18_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_18_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_19</wheelName>
+				<wheelVariation>cii_ffs_19_c</wheelVariation>
+				<modShopLabel>cii_ffs_19</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_19_v</wheelName>
+				<wheelVariation>cii_ffs_19_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_19_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_20</wheelName>
+				<wheelVariation>cii_ffs_20_c</wheelVariation>
+				<modShopLabel>cii_ffs_20</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_20_v</wheelName>
+				<wheelVariation>cii_ffs_20_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_20_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_21</wheelName>
+				<wheelVariation>cii_ffs_21_c</wheelVariation>
+				<modShopLabel>cii_ffs_21</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_21_v</wheelName>
+				<wheelVariation>cii_ffs_21_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_21_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_22</wheelName>
+				<wheelVariation>cii_ffs_22_c</wheelVariation>
+				<modShopLabel>cii_ffs_22</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_22_v</wheelName>
+				<wheelVariation>cii_ffs_22_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_22_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_23</wheelName>
+				<wheelVariation>cii_ffs_23_c</wheelVariation>
+				<modShopLabel>cii_ffs_23</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_ffs_23_v</wheelName>
+				<wheelVariation>cii_ffs_23_v_c</wheelVariation>
+				<modShopLabel>cii_ffs_23_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_1</wheelName>
+				<wheelVariation>cii_vor_1_c</wheelVariation>
+				<modShopLabel>cii_vor_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_1_v</wheelName>
+				<wheelVariation>cii_vor_1_v_c</wheelVariation>
+				<modShopLabel>cii_vor_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_2</wheelName>
+				<wheelVariation>cii_vor_2_c</wheelVariation>
+				<modShopLabel>cii_vor_2</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_2_v</wheelName>
+				<wheelVariation>cii_vor_2_v_c</wheelVariation>
+				<modShopLabel>cii_vor_2_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_3</wheelName>
+				<wheelVariation>cii_vor_3_c</wheelVariation>
+				<modShopLabel>cii_vor_3</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_3_v</wheelName>
+				<wheelVariation>cii_vor_3_v_c</wheelVariation>
+				<modShopLabel>cii_vor_3_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_4</wheelName>
+				<wheelVariation>cii_vor_4_c</wheelVariation>
+				<modShopLabel>cii_vor_4</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_4_v</wheelName>
+				<wheelVariation>cii_vor_4_v_c</wheelVariation>
+				<modShopLabel>cii_vor_4_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_5</wheelName>
+				<wheelVariation>cii_vor_5_c</wheelVariation>
+				<modShopLabel>cii_vor_5</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_5_v</wheelName>
+				<wheelVariation>cii_vor_5_v_c</wheelVariation>
+				<modShopLabel>cii_vor_5_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_6</wheelName>
+				<wheelVariation>cii_vor_6_c</wheelVariation>
+				<modShopLabel>cii_vor_6</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_6_v</wheelName>
+				<wheelVariation>cii_vor_6_v_c</wheelVariation>
+				<modShopLabel>cii_vor_6_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_7</wheelName>
+				<wheelVariation>cii_vor_7_c</wheelVariation>
+				<modShopLabel>cii_vor_7</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_7_v</wheelName>
+				<wheelVariation>cii_vor_7_v_c</wheelVariation>
+				<modShopLabel>cii_vor_7_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_8</wheelName>
+				<wheelVariation>cii_vor_8_c</wheelVariation>
+				<modShopLabel>cii_vor_8</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_8_v</wheelName>
+				<wheelVariation>cii_vor_8_v_c</wheelVariation>
+				<modShopLabel>cii_vor_8_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_9</wheelName>
+				<wheelVariation>cii_vor_9_c</wheelVariation>
+				<modShopLabel>cii_vor_9</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_9_v</wheelName>
+				<wheelVariation>cii_vor_9_v_c</wheelVariation>
+				<modShopLabel>cii_vor_9_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_10</wheelName>
+				<wheelVariation>cii_vor_10_c</wheelVariation>
+				<modShopLabel>cii_vor_10</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_vor_10_v</wheelName>
+				<wheelVariation>cii_vor_10_v_c</wheelVariation>
+				<modShopLabel>cii_vor_10_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_rt_1</wheelName>
+				<wheelVariation>cii_rt_1_c</wheelVariation>
+				<modShopLabel>cii_rt_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_rt_1_v</wheelName>
+				<wheelVariation>cii_rt_1_v_c</wheelVariation>
+				<modShopLabel>cii_rt_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_rt_2</wheelName>
+				<wheelVariation>cii_rt_2_c</wheelVariation>
+				<modShopLabel>cii_rt_2</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_rt_2_v</wheelName>
+				<wheelVariation>cii_rt_2_v_c</wheelVariation>
+				<modShopLabel>cii_rt_2_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_rt_3</wheelName>
+				<wheelVariation>cii_rt_3_c</wheelVariation>
+				<modShopLabel>cii_rt_3</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_rt_3_v</wheelName>
+				<wheelVariation>cii_rt_3_v_c</wheelVariation>
+				<modShopLabel>cii_rt_3_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_1</wheelName>
+				<wheelVariation>cii_sry_1_c</wheelVariation>
+				<modShopLabel>cii_sry_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_1_v</wheelName>
+				<wheelVariation>cii_sry_1_v_c</wheelVariation>
+				<modShopLabel>cii_sry_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_2</wheelName>
+				<wheelVariation>cii_sry_2_c</wheelVariation>
+				<modShopLabel>cii_sry_2</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_2_v</wheelName>
+				<wheelVariation>cii_sry_2_v_c</wheelVariation>
+				<modShopLabel>cii_sry_2_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_3</wheelName>
+				<wheelVariation>cii_sry_3_c</wheelVariation>
+				<modShopLabel>cii_sry_3</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_3_v</wheelName>
+				<wheelVariation>cii_sry_3_v_c</wheelVariation>
+				<modShopLabel>cii_sry_3_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_4</wheelName>
+				<wheelVariation>cii_sry_4_c</wheelVariation>
+				<modShopLabel>cii_sry_4</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_4_v</wheelName>
+				<wheelVariation>cii_sry_4_v_c</wheelVariation>
+				<modShopLabel>cii_sry_4_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_5</wheelName>
+				<wheelVariation>cii_sry_5_c</wheelVariation>
+				<modShopLabel>cii_sry_5</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_5_v</wheelName>
+				<wheelVariation>cii_sry_5_v_c</wheelVariation>
+				<modShopLabel>cii_sry_5_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_6</wheelName>
+				<wheelVariation>cii_sry_6_c</wheelVariation>
+				<modShopLabel>cii_sry_6</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_6_v</wheelName>
+				<wheelVariation>cii_sry_6_v_c</wheelVariation>
+				<modShopLabel>cii_sry_6_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_7</wheelName>
+				<wheelVariation>cii_sry_7_c</wheelVariation>
+				<modShopLabel>cii_sry_7</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_7_v</wheelName>
+				<wheelVariation>cii_sry_7_v_c</wheelVariation>
+				<modShopLabel>cii_sry_7_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_8</wheelName>
+				<wheelVariation>cii_sry_8_c</wheelVariation>
+				<modShopLabel>cii_sry_8</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_sry_8_v</wheelName>
+				<wheelVariation>cii_sry_8_v_c</wheelVariation>
+				<modShopLabel>cii_sry_8_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_1</wheelName>
+				<wheelVariation>cii_hr_1_c</wheelVariation>
+				<modShopLabel>cii_hr_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_1_v</wheelName>
+				<wheelVariation>cii_hr_1_v_c</wheelVariation>
+				<modShopLabel>cii_hr_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_2</wheelName>
+				<wheelVariation>cii_hr_2_c</wheelVariation>
+				<modShopLabel>cii_hr_2</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_2_v</wheelName>
+				<wheelVariation>cii_hr_2_v_c</wheelVariation>
+				<modShopLabel>cii_hr_2_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_3</wheelName>
+				<wheelVariation>cii_hr_3_c</wheelVariation>
+				<modShopLabel>cii_hr_3</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_3_v</wheelName>
+				<wheelVariation>cii_hr_3_v_c</wheelVariation>
+				<modShopLabel>cii_hr_3_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_4</wheelName>
+				<wheelVariation>cii_hr_4_c</wheelVariation>
+				<modShopLabel>cii_hr_4</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_4_v</wheelName>
+				<wheelVariation>cii_hr_4_v_c</wheelVariation>
+				<modShopLabel>cii_hr_4_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_5</wheelName>
+				<wheelVariation>cii_hr_5_c</wheelVariation>
+				<modShopLabel>cii_hr_5</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_5_v</wheelName>
+				<wheelVariation>cii_hr_5_v_c</wheelVariation>
+				<modShopLabel>cii_hr_5_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_6</wheelName>
+				<wheelVariation>cii_hr_6_c</wheelVariation>
+				<modShopLabel>cii_hr_6</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_6_v</wheelName>
+				<wheelVariation>cii_hr_6_v_c</wheelVariation>
+				<modShopLabel>cii_hr_6_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_7</wheelName>
+				<wheelVariation>cii_hr_7_c</wheelVariation>
+				<modShopLabel>cii_hr_7</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_7_v</wheelName>
+				<wheelVariation>cii_hr_7_v_c</wheelVariation>
+				<modShopLabel>cii_hr_7_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_8</wheelName>
+				<wheelVariation>cii_hr_8_c</wheelVariation>
+				<modShopLabel>cii_hr_8</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_8_v</wheelName>
+				<wheelVariation>cii_hr_8_v_c</wheelVariation>
+				<modShopLabel>cii_hr_8_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_9</wheelName>
+				<wheelVariation>cii_hr_9_c</wheelVariation>
+				<modShopLabel>cii_hr_9</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_9_v</wheelName>
+				<wheelVariation>cii_hr_9_v_c</wheelVariation>
+				<modShopLabel>cii_hr_9_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_10</wheelName>
+				<wheelVariation>cii_hr_10_c</wheelVariation>
+				<modShopLabel>cii_hr_10</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+            <Item>
+				<wheelName>cii_hr_10_v</wheelName>
+				<wheelVariation>cii_hr_10_v_c</wheelVariation>
+				<modShopLabel>cii_hr_10_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+        <!-- GENERIC WHEEL PACK -->
+        </Item>
+    <!-- VWT_SUV -->
+		<Item>
+		</Item>
+    <!-- VWT_OFFROAD -->
+		<Item>
+        </Item>
+    <!-- VWT_TUNER -->
+		<Item>
+		</Item>
+    <!-- VWT_BIKE -->
+		<Item>
+        </Item>
+    <!-- VWT_HIEND -->
+		<Item>
+		</Item>
+    <!-- VWT_SUPERMOD1 -->
+		<Item>
+        </Item>
+    <!-- VWT_SUPERMOD2 -->
+		<Item>
+        </Item>
+	</Wheels>
+</CVehicleModelInfoVarGlobal>

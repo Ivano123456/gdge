@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Odeslat",
+    "BeeShop": {
+        "Invalid": "Tento obchod je neplatný. Informujte prosím správce serveru o úpravě konfigurace.",
+        "OpenMenu": "Včelař",
+        "TargetShop": "Promluvte si s včelařem",
+        "ShopTitle": "Nákup včelařských potřeb",
+        "SellItems": "Prodat položky",
+        "InputSellAmount": "Zadejte množství k prodeji",
+        "ShopDescription": "Kupte si různé položky na pomoc s včelařením.",
+        "SellDescription": "Prodejte své včelařské položky.",
+        "SellTitle": "Prodej včelích produktů",
+        "SellItemFor": "Prodat %s za $%s za kus.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Prodejné položky",
+        "TransactionCompleted": "Prodej dokončen za $%s.",
+        "IconColor": "oranžová",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Zpět na předchozí menu"
+    },
+    "HiveChange": {
+        "Dismantle": "Demontovat úl",
+        "PlacingHive": "Umisťování úlu",
+        "ExtractWax": "Extrahování %s vosku",
+        "ExtractHoney": "Extrahování %s medu",
+        "RemovingWorkers": "Odstraňování %s dělnic",
+        "AddingWorkers": "Přidávání %s dělnic",
+        "RemovingQueen": "Odstraňování královny",
+        "AddingQueen": "Přidávání královny",
+        "Placing": "Umístění úlu na místo",
+        "Accessing": "Kontrola úlu",
+        "Adding": "Přidávání do úlu",
+        "Removing": "Odstraňování z úlu",
+        "MissingItem": "Chybí vám požadovaná položka pro tuto akci."
+    },
+    "ProgressBars": {
+        "Dismantle": "Demontování úlu...",
+        "Accessing": "Přístup k úlu...",
+        "Placing": "Umisťování úlu...",
+        "Adding": "Přidávání do úlu...",
+        "Extracting": "Extrahování z úlu..."
+    },
+    "HiveMenu": {
+        "Color": "oranžová",
+        "WorkerInputHeader": "Počet dělnic",
+        "WorkersToAdd": "Dělnice k přidání",
+        "WorkersToRemove": "Dělnice k odebrání",
+        "Slider_Add_Label": "Maximálně k přidání",
+        "Slider__Remove_Label": "Maximálně k odebrání",
+        "ItemCountCheck": "Nemáte dostatek této položky k provedení akce.",
+        "Title": "Správa úlu",
+        "HiveHealthTitle": "Přehled zdraví úlu",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Aktuální stav zdraví úlu: ",
+        "WaxCountTitle": "Správa včelího vosku",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Správa produkce včelího vosku",
+        "HoneyCountTitle": "Správa medu",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Dohled nad produkcí medu",
+        "QueenCountTitle": "Stav královny",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Správa populace královen",
+        "WorkerCountTitle": "Správa dělnic",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Správa populace dělnic",
+        "DestroyHiveTitle": "Demontovat úl",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Tímto trvale demontujete úl.",
+        "ManageAccess": "Správa úlu",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Správa přístupu k úlu.",
+        "AddPlayerTitle": "Přidat %s k přístupu k úlu.",
+        "AddPlayerDescription": "Tímto umožníte %s přístup k úlu, ale ne jeho demontáž.",
+        "TooFarFromHive": "Jste příliš daleko od úlu.",
+        "TargetTooFarFromHive": "Cíl je příliš daleko od úlu.",
+        "Removing": "Odstraňování z úlu",
+        "WaxToRemove": "Vosku k odebrání",
+        "HoneyToRemove": "Medu k odebrání"
+    },
+    "QueenMenu": {
+        "Color": "oranžová",
+        "Title": "Správa královny",
+        "DisplayQueenTitle": "Královny v úlu",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Královny v úlu: %s ",
+        "AddQueenTitle": "Přidat královnu",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Přidat královnu do úlu",
+        "RemoveQueenTitle": "Odebrat královnu",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Odebrat královnu z úlu",
+        "ItemCountCheck": "Nemáte dostatek královen k vložení.",
+        "HiveFilled": "V tomto úlu je již královna.",
+        "NoQueenInHive": "V tomto úlu není žádná královna k odebrání."
+    },
+    "WorkerMenu": {
+        "Color": "oranžová",
+        "Title": "Správa dělnic",
+        "AddWorkerTitle": "Přidat dělnici",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Dělnice v úlu",
+        "AddWorkerDescription": "Přidat dělnici do úlu",
+        "DisplayWorkerDescription": "Dělnice v úlu: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Odebrat dělnici",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Odebrat dělnici z úlu",
+        "NoWorkers": "V tomto úlu nejsou žádné dělnice.",
+        "HiveFilled": "V tomto úlu je již maximální počet dělnic.",
+        "WorkerInvCheck": "Nemáte dostatek dělnic k provedení akce."
+    },
+    "HoneyMenu": {
+        "Color": "oranžová",
+        "Title": "Správa medu",
+        "DisplayHoneyType": "Typ medu",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Tento med je typu: %s ",
+        "DisplayHoneyCount": "Počet medu",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Aktuální počet medu: %s",
+        "ExtractHoneyTitle": "Extrahovat med",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Extrahovat všechen med z úlu",
+        "NoHoney": "V tomto úlu není žádný med."
+    },
+    "WaxMenu": {
+        "Color": "oranžová",
+        "Title": "Správa včelího vosku",
+        "DisplayWaxCount": "Počet včelího vosku",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Aktuální počet včelího vosku: %s",
+        "ExtractWaxTitle": "Extrahovat vosk z úlu",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Extrahovat všechen včelí vosk z úlu",
+        "NoWax": "V tomto úlu není žádný včelí vosk."
+    },
+    "Hive": {
+        "Access": "Přístup k úlu"
+    },
+    "Dismantle": {
+        "title": "Jste si jistý?",
+        "icon": "kladivo",
+        "description": "Tímto demontujete úl a vrátíte položky uvnitř."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Nelze umístit úl na toto místo. Zkuste prosím jiné místo.",
+        "BlacklistedZone": "Nelze umístit úl do zakázané zóny.",
+        "MaxOwnedHivesReached": "Dosáhli jste maximálního počtu povolených úlů."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Musíte být vlastníkem pro úpravu tohoto úlu."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Musíte být na seznamu povolených pro úpravu tohoto úlu."
+    },
+    "ManageAccess": {
+        "Color": "oranžová",
+        "Title": "Správa přístupu k úlu",
+        "AddUser": "Přidat uživatele",
+        "RemovedUser": "Uživatel odebrán z přístupu k úlu",
+        "UnableToRemove": "Nelze odebrat uživatele z přístupu k úlu. Musíte být vlastníkem úlu.",
+        "UnableToFindHive": "Nelze najít data úlu. Zkuste to prosím později.",
+        "UnableToAccess": "Nemáte přístup k tomuto úlu.",
+        "AlreadyAdded": "Uživatel je již přidán k přístupu k úlu",
+        "UserAdded": "Uživatel přidán k přístupu k úlu",
+        "UserList": "Seznam uživatelů",
+        "AddClosestPersonTitle": "Přidat nejbližší osobu",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Přidat nejbližší osobu do seznamu přístupu k úlu.",
+        "RemovePlayerTitle": "Odebrat uživatele",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Odebrat uživatele ze seznamu přístupu k úlu.",
+        "RemovePlayer": "Odebrat %s ze seznamu přístupu k úlu.",
+        "RemovedSuccess": "Uživatel odebrán z přístupu k úlu.",
+        "RemovedError": "Nelze odebrat uživatele z přístupu k úlu.",
+        "ViewAccessTitle": "Zobrazit seznam přístupu",
+        "ViewAccessDescription": "Zobrazit seznam uživatelů s přístupem k tomuto úlu.",
+        "ViewAccessMenuTitle": "Seznam přístupu",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Má přístup k tomuto úlu.",
+        "SubViewAccessMenuTitle": "Seznam uživatelů s přístupem k úlu",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Přidat %s k přístupu k úlu.",
+        "AddPlayerDescription": "Tímto umožníte %s přístup k úlu, ale ne jeho demontáž.",
+        "TooFarFromHive": "Jste příliš daleko od úlu.",
+        "TargetTooFarFromHive": "Cíl je příliš daleko od úlu.",
+        "RemoveUserTitle": "Odebrat uživatele",
+        "RemoveUserDescription": "Odebrat uživatele ze seznamu přístupu k úlu.",
+        "UserListDescription": "Seznam uživatelů s přístupem k úlu",
+        "ManageAccessTitle": "Správa přístupu uživatelů k úlu",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Přidat nebo odebrat uživatele s přístupem k úlu.",
+        "YouWereAdded": "Byli jste přidáni do seznamu přístupu k úlu.",
+        "NoPlayerNearby": "Žádný hráč není poblíž pro přidání."
+    },
+    "Blips": {
+        "HiveBlipText": "Včelí úl"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Udělali jste chybu a některé včely vás bodly!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Odstranit včelí úl podle ID [POUZE ADMIN PŘÍKAZ]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "ID včelího úlu ze SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Odstranit včelí úl podle identifikátoru vlastníka [POUZE ADMIN PŘÍKAZ]",
+            "params": {
+                "name": "identifikátor",
+                "type": "string",
+                "help": "Identifikátor vlastníka včelího úlu"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Zobrazit všechny úly na mapě [POUZE ADMIN PŘÍKAZ]"
+        },
+        "OpenAdminHives": {
+            "help": "Otevřít správu úlů pro administrátory [POUZE ADMIN PŘÍKAZ]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Vosk: %s, Med: %s, Dělnice: %s, Královna: %s",
+        "JoinedNames": "%s, s identifikátorem %s",
+        "MainMenuTitle": "Admin Menu",
+        "ManageHiveByID": "Správa úlu ID: %s",
+        "ManageHiveDescription": "Přístup ke správě úlu",
+        "ManageHiveOwnerTitle": "Vlastník úlu: %s",
+        "ManageHiveOwnerDescription": "Vlastník úlu je %s",
+        "ManageHiveIDTitle": "ID úlu: %s",
+        "ManageHiveIDDescription": "ID úlu je %s",
+        "MarkHiveCoordsTitle": "Označit souřadnice úlu",
+        "MarkHiveCoordsDescription": "Označit souřadnice úlu na mapě.",
+        "TeleportToCoordsTitle": "Teleportovat na souřadnice úlu",
+        "TeleportToCoordsDescription": "Teleportovat na souřadnice úlu.",
+        "AccessablePlayersTitle": "Datum posledního přístupu: ",
+        "AccessablePlayersDescription": "Poslední přístup: %s",
+        "HiveStatusTitle": "Stav úlu: ",
+        "HiveStatusDescription": "Aktuální stav: %s",
+        "PlayersWithAccessTitle": "Hráči s přístupem k úlu",
+        "RunSearch": "Spustit hledání",
+        "RunSearchDescription": "Hledat konkrétní informace.",
+        "CopyIdToClipBoard": "Kopírovat ID úlu do schránky",
+        "CopyIdToClipBoardDescription": "Kopíruje ID úlu do vaší schránky.",
+        "IconColor": "oranžová",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Nemáte oprávnění k přístupu.",
+        "DeleteHiveTitle": "Smazat úl",
+        "DeleteHiveDescription": "Trvale smazat úl s ID: %s",
+        "ShowAllHivesOnMap": "Zobrazit/Skrýt všechny úly na mapě",
+        "ShowAllHivesOnMapDescription": "Přepnout zobrazení všech úlů na mapě.",
+        "ListAllHives": "Zobrazit všechny úly",
+        "ListAllHivesDescription": "Zobrazit všechny úly v databázi.",
+        "Search": {
+            "InvalidSearchInput": "Neplatný vstup pro hledání. Zkuste to prosím znovu.",
+            "Title": "Hledat",
+            "SearchLabel": "Hledat konkrétní informace.",
+            "SearchDescription": "Zadejte informace, které chcete hledat.",
+            "SearchPlaceholder": "Zadejte hledaný výraz...",
+            "Submit": "Odeslat"
+        }
+    }
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="driving-hud" style="display:none;">
+        <div class="hud-item">
+            <div class="hud-label">Brzina</div>
+            <div class="hud-value" id="speed-value">0 / 50<span class="hud-unit">km/h</span></div>
+        </div>
+        <div class="hud-divider"></div>
+        <div class="hud-item">
+            <div class="hud-label">Greške</div>
+            <div class="hud-value" id="error-value">0 / 3</div>
+        </div>
+    </div>
+
+    <div id="app">
+        <div class="shell">
+            <div class="dmv-panel" v-if="screen === 'license'">
+                <aside class="list-panel">
+                    <div class="list-head">
+                        <h1 class="panel-title">{{ config.Lang.dmv }}</h1>
+                        <p class="panel-sub">Odaberi kategoriju i položi ispit</p>
+                    </div>
+
+                    <div class="wallet-card">
+                        <div class="wallet-row">
+                            <span>Gotovina</span>
+                            <strong>{{ formatMoney(money) }}</strong>
+                        </div>
+                        <div class="wallet-row">
+                            <span>Banka</span>
+                            <strong>{{ formatMoney(bank) }}</strong>
+                        </div>
+                    </div>
+
+                    <div class="license-list">
+                        <button
+                            v-for="item in licenses"
+                            :key="item.id"
+                            type="button"
+                            class="license-item"
+                            :class="{ active: activeLicense === item.id, done: getLicenseState(item.id) === 'done' }"
+                            @click="activeLicense = item.id"
+                        >
+                            <div class="license-thumb">
+                                <img :src="'./img/' + item.img" :alt="item.label">
+                            </div>
+                            <div class="license-meta">
+                                <strong>{{ item.label }}</strong>
+                                <span>{{ getStatusLabel(item.id) }}</span>
+                            </div>
+                            <span class="license-badge" :class="getLicenseState(item.id)">{{ getBadgeText(item.id) }}</span>
+                        </button>
+                    </div>
+                </aside>
+
+                <main class="detail-panel" v-if="activeLicenseData">
+                    <div class="hero-banner" :style="{ backgroundImage: 'url(./img/' + activeLicenseData.img + ')' }">
+                        <div class="hero-overlay"></div>
+                        <div class="hero-content">
+                            <span class="hero-tag">{{ activeLicenseData.label }}</span>
+                            <h2>{{ getLicenseTitle(activeLicenseData.id) }}</h2>
+                            <p>{{ getLicenseDesc(activeLicenseData.id) }}</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-body">
+                        <div class="progress-track">
+                            <div class="step" :class="{ done: isStepDone('theory'), active: getLicenseState(activeLicenseData.id) === 'theory' }">
+                                <span>1</span>
+                                <small>Teorija</small>
+                            </div>
+                            <div class="step-line" :class="{ done: isStepDone('theory') }"></div>
+                            <div class="step" :class="{ done: isStepDone('practice'), active: getLicenseState(activeLicenseData.id) === 'practice' }">
+                                <span>2</span>
+                                <small>Praksa</small>
+                            </div>
+                            <div class="step-line" :class="{ done: isStepDone('practice') }"></div>
+                            <div class="step" :class="{ done: getLicenseState(activeLicenseData.id) === 'done', active: getLicenseState(activeLicenseData.id) === 'done' }">
+                                <span>3</span>
+                                <small>Licenca</small>
+                            </div>
+                        </div>
+
+                        <div class="price-grid">
+                            <div class="price-box">
+                                <span>Teorijski ispit</span>
+                                <strong>{{ formatMoney(activeLicenseData.pricing.theory) }}</strong>
+                            </div>
+                            <div class="price-box">
+                                <span>Praktični ispit</span>
+                                <strong>{{ formatMoney(activeLicenseData.pricing.practice) }}</strong>
+                            </div>
+                            <div class="price-box accent">
+                                <span>Min. bodova</span>
+                                <strong>{{ minPoints }}/{{ allQuestions.length }}</strong>
+                            </div>
+                        </div>
+
+                        <p class="status-msg" v-if="descriptionTitle">{{ descriptionTitle }}</p>
+
+                        <div class="action-row" v-if="getLicenseState(activeLicenseData.id) === 'theory'">
+                            <button type="button" class="btn btn-primary" @click="startTheory(activeLicenseData.id)" :disabled="isLoading">
+                                {{ config.Lang.start_theory }}
+                            </button>
+                            <button type="button" class="btn btn-muted" disabled>{{ config.Lang.theory_before }}</button>
+                        </div>
+
+                        <div class="action-row" v-if="getLicenseState(activeLicenseData.id) === 'practice'">
+                            <button type="button" class="btn btn-muted" disabled>Teorija položena</button>
+                            <button type="button" class="btn btn-primary" @click="startPractice(activeLicenseData.id)" :disabled="isLoading">
+                                {{ config.Lang.start_practice }}
+                            </button>
+                        </div>
+
+                        <div class="action-row" v-if="getLicenseState(activeLicenseData.id) === 'done'">
+                            <button type="button" class="btn btn-success" disabled>Kompletirano</button>
+                        </div>
+                    </div>
+                </main>
+            </div>
+
+            <div class="dmv-panel theory-panel" v-if="screen === 'theory'">
+                <div class="theory-head">
+                    <button type="button" class="back-btn" @click="screen = 'license'; descriptionTitle = ''">← Nazad</button>
+                    <div class="theory-progress">
+                        <span>Pitanje {{ theoryIndex }}/{{ allQuestions.length }}</span>
+                        <div class="progress-bar"><div class="progress-fill" :style="{ width: theoryProgress + '%' }"></div></div>
+                    </div>
+                </div>
+                <h2 class="question-title">{{ currentQuestion ? currentQuestion.label : '' }}</h2>
+                <div class="answers">
+                    <label
+                        v-for="(option, idx) in (currentQuestion ? currentQuestion.options : [])"
+                        :key="idx"
+                        class="answer-option"
+                        :class="{ selected: selectedIndex === idx }"
+                    >
+                        <input type="radio" name="theory" :checked="selectedIndex === idx" @change="selectedIndex = idx">
+                        <span class="answer-letter">{{ String.fromCharCode(65 + idx) }}</span>
+                        <span class="answer-text">{{ option.label }}</span>
+                    </label>
+                </div>
+                <div class="theory-footer">
+                    <span class="theory-hint" v-if="selectedIndex === null">Odaberi odgovor da nastaviš</span>
+                    <span class="theory-hint ready" v-else>Odgovor odabran</span>
+                    <button type="button" class="btn btn-primary theory-submit" :disabled="selectedIndex === null" @click="submitTheoryAnswer()">
+                        {{ config.Lang.ok }}
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="dmv-panel result-panel" v-if="screen === 'result'">
+                <div class="result-icon" :class="testFailed ? 'fail' : 'pass'">
+                    <svg v-if="!testFailed" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+                    <svg v-else viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+                </div>
+                <h2>{{ testFailed ? 'Niste položili' : 'Položili ste!' }}</h2>
+                <p class="result-desc">{{ descriptionTitle }}</p>
+                <div class="result-score" v-if="doingTheory">{{ score }}/{{ allQuestions.length }} bodova</div>
+                <div class="result-score" v-if="doingPractice">{{ score }} grešaka</div>
+                <button type="button" class="btn" :class="testFailed ? 'btn-danger' : 'btn-success'" @click="close()">
+                    {{ config.Lang.finish }}
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

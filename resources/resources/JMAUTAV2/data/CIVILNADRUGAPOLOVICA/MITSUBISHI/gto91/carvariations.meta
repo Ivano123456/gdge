@@ -1,0 +1,158 @@
+<CVehicleModelInfoVariation>
+  <variationData>
+<Item>
+<modelName>gto91</modelName>
+<colors>
+	<Item>
+		<indices content="char_array">
+		28
+		0
+		0
+		0
+		0
+		45
+		</indices>
+	</Item>
+	<Item>
+	  <indices content="char_array">
+		4
+		0
+		111
+		0
+		0
+		45
+	  </indices>
+	</Item>
+	<Item>
+	  <indices content="char_array">
+		112
+		0
+		112
+		0
+		0
+		45
+	  </indices>
+	</Item>
+	<Item>
+	  <indices content="char_array">
+		0
+		0
+		0
+		0
+		0
+		45
+	  </indices>
+	</Item>
+	<Item>
+	  <indices content="char_array">
+		64
+		0
+		70
+		0
+		0
+		45
+	  </indices>
+	</Item>
+	<Item>
+	  <indices content="char_array">
+		34
+		0
+		29
+		0
+		0
+		45
+	  </indices>
+	</Item>
+</colors>
+      <kits>
+        <Item>1091_gto91</Item>
+      </kits>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+		</plateProbabilities>
+<lightSettings value="3000" />
+</Item>
+<Item>
+<modelName>gto91w</modelName>
+<colors>
+	<Item>
+		<indices content="char_array">
+		28
+		0
+		0
+		0
+		0
+		45
+		</indices>
+	</Item>
+	<Item>
+	  <indices content="char_array">
+		4
+		0
+		111
+		0
+		0
+		45
+	  </indices>
+	</Item>
+	<Item>
+	  <indices content="char_array">
+		112
+		0
+		112
+		0
+		0
+		45
+	  </indices>
+	</Item>
+	<Item>
+	  <indices content="char_array">
+		0
+		0
+		0
+		0
+		0
+		45
+	  </indices>
+	</Item>
+	<Item>
+	  <indices content="char_array">
+		64
+		0
+		70
+		0
+		0
+		45
+	  </indices>
+	</Item>
+	<Item>
+	  <indices content="char_array">
+		34
+		0
+		29
+		0
+		0
+		45
+	  </indices>
+	</Item>
+</colors>
+      <kits>
+        <Item>1092_gto91w</Item>
+      </kits>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+		</plateProbabilities>
+<lightSettings value="3000" />
+</Item>
+  </variationData>
+</CVehicleModelInfoVariation>

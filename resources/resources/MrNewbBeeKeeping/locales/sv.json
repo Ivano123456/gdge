@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Skicka",
+    "BeeShop": {
+        "Invalid": "Denna butik är ogiltig. Vänligen rapportera till serverägaren att konfigurera inställningarna.",
+        "OpenMenu": "Biodlare",
+        "TargetShop": "Prata med biodlaren",
+        "ShopTitle": "Köp biodlingsmaterial",
+        "SellItems": "Sälj föremål",
+        "InputSellAmount": "Ange försäljningsbelopp",
+        "ShopDescription": "Köp olika föremål för att hjälpa till med biodling.",
+        "SellDescription": "Sälj dina biodlingsföremål.",
+        "SellTitle": "Sälj bi-relaterade föremål",
+        "SellItemFor": "Sälj %s för $%s vardera.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Säljföremål",
+        "TransactionCompleted": "Försäljning slutförd för $%s.",
+        "IconColor": "orange",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Tillbaka till föregående meny"
+    },
+    "HiveChange": {
+        "Dismantle": "Demontera bikupan",
+        "PlacingHive": "Placera bikupa",
+        "ExtractWax": "Extrahera %s vax",
+        "ExtractHoney": "Extrahera %s honung",
+        "RemovingWorkers": "Ta bort %s arbetar-bin",
+        "AddingWorkers": "Lägga till %s arbetar-bin",
+        "RemovingQueen": "Ta bort drottning",
+        "AddingQueen": "Lägga till drottning",
+        "Placing": "Placera bikupa",
+        "Accessing": "Komma åt bikupa",
+        "Adding": "Lägga till i bikupa",
+        "Removing": "Ta bort från bikupa",
+        "MissingItem": "Du saknar det nödvändiga föremålet för denna åtgärd."
+    },
+    "ProgressBars": {
+        "Dismantle": "Demonterar bikupa...",
+        "Accessing": "Kommer åt bikupa...",
+        "Placing": "Placerar bikupa...",
+        "Adding": "Lägger till i bikupa...",
+        "Extracting": "Extraherar från bikupa..."
+    },
+    "HiveMenu": {
+        "Color": "orange",
+        "WorkerInputHeader": "Antal arbetar-bin",
+        "WorkersToAdd": "Arbetare att lägga till",
+        "WorkersToRemove": "Arbetare att ta bort",
+        "Slider_Add_Label": "Max att lägga till",
+        "Slider__Remove_Label": "Max att ta bort",
+        "ItemCountCheck": "Du har inte tillräckligt av detta föremål för det.",
+        "Title": "Hantera bikupa",
+        "HiveHealthTitle": "Bikupans hälsoöversikt",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Aktuell hälsostatus för bikupan: ",
+        "WaxCountTitle": "Hantera bivax",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Hantera bivaxproduktion",
+        "HoneyCountTitle": "Hantera honung",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Övervaka honungsproduktion",
+        "QueenCountTitle": "Drottningsstatus",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Hantera antal drottningar",
+        "WorkerCountTitle": "Hantera arbetar-bin",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Hantera antal arbetar-bin",
+        "DestroyHiveTitle": "Förstör bikupa",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Detta kommer permanent förstöra bikupan.",
+        "ManageAccess": "Hantera bikupa",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Hantera vem som kan komma åt bikupan.",
+        "AddPlayerTitle": "Lägg till %s till bikupans åtkomst.",
+        "AddPlayerDescription": "Detta kommer ge %s åtkomst till bikupan, men inte rätten att förstöra den.",
+        "TooFarFromHive": "Du är för långt bort från bikupan.",
+        "TargetTooFarFromHive": "Målet är för långt bort från bikupan.",
+        "Removing": "Ta bort från bikupa",
+        "WaxToRemove": "Vax att ta bort",
+        "HoneyToRemove": "Honung att ta bort"
+    },
+    "QueenMenu": {
+        "Color": "orange",
+        "Title": "Hantera drottning",
+        "DisplayQueenTitle": "Drottningar i bikupa",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Drottningar i bikupa: %s ",
+        "AddQueenTitle": "Lägg till drottning",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Lägg till en drottning till bikupan",
+        "RemoveQueenTitle": "Ta bort drottning",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Ta bort drottning från bikupan",
+        "ItemCountCheck": "Du har inte tillräckligt med drottningar att lägga till.",
+        "HiveFilled": "Denna bikupa har redan en drottning.",
+        "NoQueenInHive": "Denna bikupa har ingen drottning att ta bort."
+    },
+    "WorkerMenu": {
+        "Color": "orange",
+        "Title": "Hantera arbetar-bin",
+        "AddWorkerTitle": "Lägg till arbetar-bi",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Arbetar-bin i bikupa",
+        "AddWorkerDescription": "Lägg till ett arbetar-bi till bikupan",
+        "DisplayWorkerDescription": "Arbetar-bin i bikupa: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Ta bort arbetar-bi",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Ta bort ett arbetar-bi från bikupan",
+        "NoWorkers": "Denna bikupa har inga arbetar-bin.",
+        "HiveFilled": "Denna bikupa har redan maximalt antal arbetar-bin.",
+        "WorkerInvCheck": "Du har inte tillräckligt med arbetar-bin för detta."
+    },
+    "HoneyMenu": {
+        "Color": "orange",
+        "Title": "Hantera honung",
+        "DisplayHoneyType": "Honungstyp",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Denna honung är av typ: %s ",
+        "DisplayHoneyCount": "Honungsbelopp",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Aktuellt honungsbelopp: %s",
+        "ExtractHoneyTitle": "Extrahera honung",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Extrahera all honung från bikupan",
+        "NoHoney": "Denna bikupa har ingen honung."
+    },
+    "WaxMenu": {
+        "Color": "orange",
+        "Title": "Hantera bivax",
+        "DisplayWaxCount": "Bivaxbelopp",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Aktuellt bivaxbelopp: %s",
+        "ExtractWaxTitle": "Extrahera vax från bikupa",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Extrahera allt bivax från bikupan",
+        "NoWax": "Denna bikupa har inget bivax."
+    },
+    "Hive": {
+        "Access": "Komma åt bikupa"
+    },
+    "Dismantle": {
+        "title": "Är du säker?",
+        "icon": "hammare",
+        "description": "Detta kommer demontera bikupan och returnera föremålen inuti."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Kunde inte placera bikupa här. Försök en annan plats.",
+        "BlacklistedZone": "Du kan inte placera en bikupa i en förbjuden zon.",
+        "MaxOwnedHivesReached": "Du har nått det maximala antalet tillåtna bikupor."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Du måste vara ägaren för att modifiera denna bikupa."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Du måste vara på tillåtelseslistan för att modifiera denna bikupa."
+    },
+    "ManageAccess": {
+        "Color": "orange",
+        "Title": "Hantera bikupans åtkomst",
+        "AddUser": "Lägg till användare",
+        "RemovedUser": "Användare borttagen från bikupans åtkomst",
+        "UnableToRemove": "Kan inte ta bort användare från bikupans åtkomst. Du måste vara ägaren för att göra detta.",
+        "UnableToFindHive": "Kan inte hitta bikupans data. Vänligen försök igen senare.",
+        "UnableToAccess": "Du har inte åtkomst till denna bikupa.",
+        "AlreadyAdded": "Användaren är redan tillagd till bikupans åtkomst",
+        "UserAdded": "Användare tillagd till bikupans åtkomst",
+        "UserList": "Användarlista",
+        "AddClosestPersonTitle": "Lägg till närmaste person",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Lägg till närmaste person till bikupans åtkomstlista.",
+        "RemovePlayerTitle": "Ta bort användare",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Ta bort en användare från bikupans åtkomstlista.",
+        "RemovePlayer": "Ta bort %s från bikupans åtkomstlista.",
+        "RemovedSuccess": "Användare borttagen från bikupans åtkomst.",
+        "RemovedError": "Kan inte ta bort användare från bikupans åtkomst.",
+        "ViewAccessTitle": "Visa åtkomstlista",
+        "ViewAccessDescription": "Visa listan över användare som har åtkomst till denna bikupa.",
+        "ViewAccessMenuTitle": "Åtkomstlista",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Har åtkomst till denna bikupa.",
+        "SubViewAccessMenuTitle": "Lista över användare med bikupans åtkomst",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Lägg till %s till bikupans åtkomst.",
+        "AddPlayerDescription": "Detta kommer ge %s åtkomst till bikupan, men inte rätten att förstöra den.",
+        "TooFarFromHive": "Du är för långt bort från bikupan.",
+        "TargetTooFarFromHive": "Målet är för långt bort från bikupan.",
+        "RemoveUserTitle": "Ta bort användare",
+        "RemoveUserDescription": "Ta bort en användare från bikupans åtkomstlista.",
+        "UserListDescription": "Lista över användare med bikupans åtkomst",
+        "ManageAccessTitle": "Hantera användarens bikupans åtkomst",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Lägg till eller ta bort användare med bikupans åtkomst.",
+        "YouWereAdded": "Du har lagts till i bikupans åtkomstlista.",
+        "NoPlayerNearby": "Ingen spelare i närheten att lägga till."
+    },
+    "Blips": {
+        "HiveBlipText": "Bikupa"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Du gjorde ett misstag och några bin stack dig!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Ta bort bikupa via ID [ENDAST ADMIN-KOMMANDO]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "Bikupans ID från SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Ta bort bikupa via ägarens identifierare [ENDAST ADMIN-KOMMANDO]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "Bikupans ägares identifierare"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Visa alla bikupor på kartan [ENDAST ADMIN-KOMMANDO]"
+        },
+        "OpenAdminHives": {
+            "help": "Öppna admin bikuphanteringsmeny [ENDAST ADMIN-KOMMANDO]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Vax: %s, Honung: %s, Arbetare: %s, Drottning: %s",
+        "JoinedNames": "%s med identifierare %s",
+        "MainMenuTitle": "Admin-meny",
+        "ManageHiveByID": "Hantera bikupa ID: %s",
+        "ManageHiveDescription": "Åtkomst till bikuphantering",
+        "ManageHiveOwnerTitle": "Bikupans ägare: %s",
+        "ManageHiveOwnerDescription": "Bikupans ägare är %s",
+        "ManageHiveIDTitle": "Bikupans ID: %s",
+        "ManageHiveIDDescription": "Bikupans ID är %s",
+        "MarkHiveCoordsTitle": "Markera bikupans koordinater",
+        "MarkHiveCoordsDescription": "Markera bikupans koordinater på kartan.",
+        "TeleportToCoordsTitle": "Teleportera till bikupans koordinater",
+        "TeleportToCoordsDescription": "Teleportera till bikupans koordinater.",
+        "AccessablePlayersTitle": "Senaste åtkomst: ",
+        "AccessablePlayersDescription": "Senaste åtkomst: %s",
+        "HiveStatusTitle": "Bikupans status: ",
+        "HiveStatusDescription": "Aktuell status: %s",
+        "PlayersWithAccessTitle": "Spelare med bikupans åtkomst",
+        "RunSearch": "Kör sökning",
+        "RunSearchDescription": "Sök efter specifik data.",
+        "CopyIdToClipBoard": "Kopiera bikupans ID till urklipp",
+        "CopyIdToClipBoardDescription": "Kopiera bikupans ID till ditt urklipp.",
+        "IconColor": "orange",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Du har inte tillstånd att använda detta.",
+        "DeleteHiveTitle": "Ta bort bikupa",
+        "DeleteHiveDescription": "Permanent ta bort bikupa med ID: %s",
+        "ShowAllHivesOnMap": "Visa/Dölj alla bikupor på kartan",
+        "ShowAllHivesOnMapDescription": "Växla visning av alla bikupor på kartan.",
+        "ListAllHives": "Lista alla bikupor",
+        "ListAllHivesDescription": "Lista alla bikupor i databasen.",
+        "Search": {
+            "InvalidSearchInput": "Ogiltig sökinmatning. Vänligen försök igen.",
+            "Title": "Sök",
+            "SearchLabel": "Sök efter specifik data.",
+            "SearchDescription": "Ange den data du vill söka efter.",
+            "SearchPlaceholder": "Ange sökterm...",
+            "Submit": "Skicka"
+        }
+    }
+}

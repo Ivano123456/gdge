@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData> 
+    <Item>
+      <modelName>custom75s</modelName>
+      <colors>
+        <Item>							<!-- Black -->
+          <indices content="char_array"> 
+            0
+            0
+            0
+            0
+			69
+          </indices>
+        </Item>
+        <Item>							<!-- Silver Metallic -->
+          <indices content="char_array"> 
+            4
+            0
+            4
+            0
+			203
+          </indices>
+        </Item>
+        <Item>							<!-- Candyapple Red -->
+          <indices content="char_array"> 
+            31
+            0
+            0
+            0
+			1
+          </indices>
+        </Item>
+        <Item>							<!-- Maroon Metallic -->
+          <indices content="char_array"> 
+            167
+            0
+            3
+            0
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Dark Blue Metallic -->
+          <indices content="char_array"> 
+            62
+            0
+            127
+            0
+			1
+          </indices>
+        </Item>
+        <Item>							<!-- Pastel Blue -->
+          <indices content="char_array"> 
+            180
+            0
+            0
+            0
+			69
+          </indices>
+        </Item>
+        <Item>							<!-- Dark Yellow Green Metallic -->
+          <indices content="char_array"> 
+            226
+            0
+            4
+            0
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Light Green Gold Metallic -->
+          <indices content="char_array"> 
+            203
+            0
+            182
+            0
+			203
+          </indices>
+        </Item>
+        <Item>							<!-- Light Green -->
+          <indices content="char_array"> 
+            179
+            0
+            0
+            0
+			203
+          </indices>
+        </Item>
+        <Item>							<!-- Dark Copper Metallic -->
+          <indices content="char_array"> 
+            104
+            0
+            97
+            0
+			1
+          </indices>
+        </Item>
+        <Item>							<!-- Pastel Yellow -->
+          <indices content="char_array"> 
+            162
+            0
+            0
+            0
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Polar White -->
+          <indices content="char_array"> 
+            111
+            0
+            0
+            0
+			1
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+	  <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="2" />
+      <sirenSettings value="0" />
+    </Item>
+    <Item>
+      <modelName>ltd75bs</modelName>
+      <colors>
+        <Item>							<!-- Black -->
+          <indices content="char_array"> 
+            0
+            198
+            0
+            0
+			1
+          </indices>
+        </Item>
+        <Item>							<!-- Silver Metallic -->
+          <indices content="char_array"> 
+            4
+            33
+            4
+            33
+			27
+          </indices>
+        </Item>
+        <Item>							<!-- Candyapple Red -->
+          <indices content="char_array"> 
+            31
+            0
+            0
+            0
+			27
+          </indices>
+        </Item>
+        <Item>							<!-- Maroon Metallic -->
+          <indices content="char_array"> 
+            167
+            33
+            3
+            33
+			1
+          </indices>
+        </Item>
+        <Item>							<!-- Dark Blue Metallic -->
+          <indices content="char_array"> 
+            62
+            63
+            127
+            63
+			69
+          </indices>
+        </Item>
+        <Item>							<!-- Silver Blue Glow -->
+          <indices content="char_array"> 
+            246
+            198
+            180
+            198
+			69
+          </indices>
+        </Item>
+        <Item>							<!-- Pastel Blue -->
+          <indices content="char_array"> 
+            180
+            0
+            0
+            0
+			1
+          </indices>
+        </Item>
+        <Item>							<!-- Green Glow -->
+          <indices content="char_array"> 
+            183
+            198
+            182
+            198
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Dark Yellow Green Metallic -->
+          <indices content="char_array"> 
+            226
+            52
+            4
+            52
+			1
+          </indices>
+        </Item>
+        <Item>							<!-- Light Green Gold Metallic -->
+          <indices content="char_array"> 
+            203
+            100
+            182
+            100
+			203
+          </indices>
+        </Item>
+        <Item>							<!-- Light Green -->
+          <indices content="char_array"> 
+            179
+            0
+            0
+            0
+			203
+          </indices>
+        </Item>
+        <Item>							<!-- Ginger Glow -->
+          <indices content="char_array"> 
+            97
+            198
+            97
+            198
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Tan Glow -->
+          <indices content="char_array"> 
+            185
+            33
+            90
+            33
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Dark Copper Metallic -->
+          <indices content="char_array"> 
+            104
+            189
+            97
+            189
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Pastel Yellow -->
+          <indices content="char_array"> 
+            162
+            198
+            0
+            198
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Polar White -->
+          <indices content="char_array"> 
+            111
+            63
+            0
+            63
+			69
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+	  <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="2" />
+      <sirenSettings value="0" />
+    </Item>
+    <Item>
+      <modelName>ltd75ls</modelName>
+      <colors>
+        <Item>							<!-- Black -->
+          <indices content="char_array"> 
+            0
+            0
+            0
+            0
+			27
+          </indices>
+        </Item>
+        <Item>							<!-- Silver Metallic -->
+          <indices content="char_array"> 
+            4
+            63
+            4
+            63
+			69
+          </indices>
+        </Item>
+        <Item>							<!-- Candyapple Red -->
+          <indices content="char_array"> 
+            31
+            33
+            0
+            33
+			27
+          </indices>
+        </Item>
+        <Item>							<!-- Maroon Metallic -->
+          <indices content="char_array"> 
+            167
+            198
+            3
+            198
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Dark Blue Metallic -->
+          <indices content="char_array"> 
+            62
+            198
+            127
+            198
+			69
+          </indices>
+        </Item>
+        <Item>							<!-- Silver Blue Glow -->
+          <indices content="char_array"> 
+            246
+            63
+            180
+            63
+			69
+          </indices>
+        </Item>
+        <Item>							<!-- Pastel Blue -->
+          <indices content="char_array"> 
+            180
+            198
+            0
+            198
+			69
+          </indices>
+        </Item>
+        <Item>							<!-- Green Glow -->
+          <indices content="char_array"> 
+            183
+            100
+            182
+            100
+			203
+          </indices>
+        </Item>
+        <Item>							<!-- Dark Yellow Green Metallic -->
+          <indices content="char_array"> 
+            226
+            52
+            4
+            52
+			203
+          </indices>
+        </Item>
+        <Item>							<!-- Light Green Gold Metallic -->
+          <indices content="char_array"> 
+            203
+            198
+            182
+            198
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Light Green -->
+          <indices content="char_array"> 
+            179
+            198
+            0
+            198
+			203
+          </indices>
+        </Item>
+        <Item>							<!-- Ginger Glow -->
+          <indices content="char_array"> 
+            97
+            189
+            97
+            189
+			90
+          </indices>
+        </Item>
+        <Item>							<!-- Tan Glow -->
+          <indices content="char_array"> 
+            185
+            103
+            90
+            103
+			90
+          </indices>
+        </Item>
+        <Item>							<!-- Dark Copper Metallic -->
+          <indices content="char_array"> 
+            104
+            198
+            97
+            198
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Pastel Yellow -->
+          <indices content="char_array"> 
+            162
+            103
+            0
+            103
+			90
+          </indices>
+        </Item>
+        <Item>							<!-- Polar White -->
+          <indices content="char_array"> 
+            111
+            33
+            0
+            33
+			105
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+	  <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="2" />
+      <sirenSettings value="0" />
+    </Item>
+    <Item>
+      <modelName>ltd75s</modelName>
+      <colors>
+        <Item>							<!-- Black -->
+          <indices content="char_array"> 
+            0
+            0
+            0
+            0
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Silver Metallic -->
+          <indices content="char_array"> 
+            4
+            0
+            4
+            0
+			1
+          </indices>
+        </Item>
+        <Item>							<!-- Candyapple Red -->
+          <indices content="char_array"> 
+            31
+            0
+            0
+            0
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Maroon Metallic -->
+          <indices content="char_array"> 
+            167
+            0
+            3
+            33
+			1
+          </indices>
+        </Item>
+        <Item>							<!-- Dark Blue Metallic -->
+          <indices content="char_array"> 
+            62
+            0
+            127
+            63
+			69
+          </indices>
+        </Item>
+        <Item>							<!-- Silver Blue Glow -->
+          <indices content="char_array"> 
+            246
+            0
+            180
+            198
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Pastel Blue -->
+          <indices content="char_array"> 
+            180
+            0
+            0
+            0
+			69
+          </indices>
+        </Item>
+        <Item>							<!-- Green Glow -->
+          <indices content="char_array"> 
+            183
+            0
+            182
+            198
+			203
+          </indices>
+        </Item>
+        <Item>							<!-- Dark Yellow Green Metallic -->
+          <indices content="char_array"> 
+            226
+            0
+            4
+            52
+			203
+          </indices>
+        </Item>
+        <Item>							<!-- Light Green Gold Metallic -->
+          <indices content="char_array"> 
+            203
+            0
+            182
+            100
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Light Green -->
+          <indices content="char_array"> 
+            179
+            0
+            0
+            0
+			203
+          </indices>
+        </Item>
+        <Item>							<!-- Ginger Glow -->
+          <indices content="char_array"> 
+            97
+            0
+            97
+            198
+			1
+          </indices>
+        </Item>
+        <Item>							<!-- Tan Glow -->
+          <indices content="char_array"> 
+            185
+            0
+            90
+            33
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Dark Copper Metallic -->
+          <indices content="char_array"> 
+            104
+            0
+            97
+            189
+			105
+          </indices>
+        </Item>
+        <Item>							<!-- Pastel Yellow -->
+          <indices content="char_array"> 
+            162
+            0
+            0
+            198
+			1
+          </indices>
+        </Item>
+        <Item>							<!-- Polar White -->
+          <indices content="char_array"> 
+            111
+            0
+            0
+            0
+			203
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+	  <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="2" />
+      <sirenSettings value="0" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

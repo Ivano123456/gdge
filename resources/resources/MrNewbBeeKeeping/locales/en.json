@@ -1,0 +1,277 @@
+{
+    "SubmitText": "Submit",
+    "BeeShop": {  
+        "Invalid": "This shop is invalid. Please inform the server owner to adjust the configuration.",
+        "OpenMenu": "Beekeeper",
+        "TargetShop": "Speak with the Beekeeper",
+        "ShopTitle": "Purchase Beekeeping Supplies",
+        "SellItems": "Sell Items",
+        "InputSellAmount": "Enter Amount to Sell",
+        "ShopDescription": "Buy various items to assist with beekeeping.",
+        "SellDescription": "Sell your beekeeping items.",
+        "SellTitle": "Sell Bee-Related Items",
+        "SellItemFor": "Sell %s for $%s each.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Sellable Items",
+        "TransactionCompleted": "Sale completed for $%s.",
+        "IconColor": "orange",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Return to previous menu"
+    },
+    "HiveChange": {  
+        "Dismantle": "Dismantle Hive",
+        "PlacingHive": "Setting up the hive",  
+        "ExtractWax": "Extracting %s wax",
+        "ExtractHoney": "Extracting %s honey",
+        "RemovingWorkers": "Removing %s worker bees",
+        "AddingWorkers": "Adding %s worker bees",
+        "RemovingQueen": "Removing the queen bee",
+        "AddingQueen": "Adding the queen bee",
+        "Placing": "Placing the hive at location",
+        "Accessing": "Inspecting the hive",
+        "Adding": "Adding to the hive",
+        "Removing": "Removing from the hive",
+        "MissingItem": "You are missing the required item to perform this action."
+    },
+    "ProgressBars": {
+        "Dismantle": "Dismantling the hive...",
+        "Accessing": "Accessing the hive...",
+        "Placing": "Placing the hive...",
+        "Adding": "Adding to the hive...",
+        "Extracting": "Extracting from the hive..."
+    },
+    "HiveMenu": {
+        "Color": "orange",
+        "WorkerInputHeader": "Worker Bee Count",
+        "WorkersToAdd": "Workers To Add",
+        "WorkersToRemove": "Workers To Remove",
+        "Slider_Add_Label": "Max To Add",
+        "Slider__Remove_Label": "Max To Remove",
+        "ItemCountCheck": "You don't have enough of this item to do this.",
+        "Title": "Hive Management",
+        "HiveHealthTitle": "Hive Health Overview",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Current hive health status: ",
+        "WaxCountTitle": "Beeswax Management",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Manage beeswax production",
+        "HoneyCountTitle": "Honey Management",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Oversee honey production",
+        "QueenCountTitle": "Queen Bee Status",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Manage queen bee population",
+        "WorkerCountTitle": "Worker Bee Management",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Manage worker bee population",
+        "DestroyHiveTitle": "Dismantle Hive",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "This will permanently dismantle the hive.",
+        "ManageAccess": "Manage Hive",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Manage who has access to the hive.",
+        "AddPlayerTitle": "Add %s to hive access.",
+        "AddPlayerDescription": "This will allow %s to access the hive but not dismantle it.",
+        "TooFarFromHive": "You are too far from the hive.",
+        "TargetTooFarFromHive": "Target is too far from the hive.",
+        "Removing": "Removing from the hive",
+        "WaxToRemove": "Wax to remove",
+        "HoneyToRemove": "Honey to remove"
+    },
+    "QueenMenu": {
+        "Color": "orange",
+        "Title": "Queen Bee Management",
+        "DisplayQueenTitle": "Queen Bee In Hive",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Queen bees in hive: %s ",
+        "AddQueenTitle": "Add Queen Bee",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Add a queen bee to the hive",
+        "RemoveQueenTitle": "Remove Queen Bee",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Remove a queen bee from the hive",
+        "ItemCountCheck": "You don't have enough queens to put any in.",
+        "HiveFilled": "There is already a queen in this hive.",
+        "NoQueenInHive": "There is no queen in this hive to remove."
+    },
+    "WorkerMenu": {
+        "Color": "orange",
+        "Title": "Worker Bee Management",
+        "AddWorkerTitle": "Add Worker Bee",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Worker Bees in Hive",
+        "AddWorkerDescription": "Add a worker bee to the hive",
+        "DisplayWorkerDescription": "Worker bees in hive: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Remove Worker Bee",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Remove a worker bee from the hive",
+        "NoWorkers": "There are no worker bees in this hive.",
+        "HiveFilled": "There are already the maximum number of workers in this hive.",
+        "WorkerInvCheck": "You don't have enough worker bees to do this."
+    },
+    "HoneyMenu": {
+        "Color": "orange",
+        "Title": "Honey Management",
+        "DisplayHoneyType": "Honey Type",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "This honey is of type: %s ",
+        "DisplayHoneyCount": "Honey Count",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Current honey count: %s",
+        "ExtractHoneyTitle": "Extract Honey",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Extract all honey from the hive",
+        "NoHoney": "There is no honey in this hive."
+    },
+    "WaxMenu": {
+        "Color": "orange",
+        "Title": "Beeswax Management",
+        "DisplayWaxCount": "Beeswax Count",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Current beeswax count: %s",
+        "ExtractWaxTitle": "Extract Wax from Hive",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Extract all beeswax from the hive",
+        "NoWax": "There is no beeswax in this hive."
+    },
+    "Hive": {
+        "Access": "Access Hive"
+    },
+    "Dismantle": {
+        "title": "Are You Sure?",
+        "icon": "hammer",
+        "description": "This will dismantle the hive and return the items inside."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Unable to place hive at this location. Please try another spot.",
+        "BlacklistedZone": "You cannot place a hive in a blacklisted zone.",
+        "MaxOwnedHivesReached": "You have reached the maximum number of hives allowed."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "You must be the owner to alter this hive."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "You must be on the allow list to alter this hive."
+    },
+    "ManageAccess": {
+        "Color": "orange",
+        "Title": "Manage Hive Access",
+        "AddUser": "Add User",
+        "RemovedUser": "User removed from hive access",
+        "UnableToRemove": "Unable to remove user from hive access. You must own the hive to do this.",
+        "UnableToFindHive": "Unable to find hive data. Please try again later.",
+        "UnableToAccess": "You do not have access to this hive.",
+        "AlreadyAdded": "User is already added to hive access",
+        "UserAdded": "User added to hive access",
+        "UserList": "User List",
+        "AddClosestPersonTitle": "Add Closest Person",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Add the closest person to hive access list.",
+        "RemovePlayerTitle": "Remove User",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Remove a user from hive access list.",
+        "RemovePlayer": "Remove %s from hive access list.",
+        "RemovedSuccess": "User removed from hive access.",
+        "RemovedError": "Unable to remove user from hive access.",
+        "ViewAccessTitle": "View Access List",
+        "ViewAccessDescription": "View the list of users with access to this hive.",
+        "ViewAccessMenuTitle": "Access List",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Has access to this hive.",
+        "SubViewAccessMenuTitle": "List of users with access to the hive",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Add %s to hive access.",
+        "AddPlayerDescription": "This will allow %s to access the hive but not dismantle it.",
+        "TooFarFromHive": "You are too far from the hive.",
+        "TargetTooFarFromHive": "Target is too far from the hive.",
+        "RemoveUserTitle": "Remove User",
+        "RemoveUserDescription": "Remove a user from hive access list.",
+        "UserListDescription": "List of users with access to the hive",
+        "ManageAccessTitle": "Manage Hive User Access",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Add or remove users who have access to the hive.",
+        "YouWereAdded": "You were added to the hive access list.",
+        "NoPlayerNearby": "No player is nearby to add."
+    },
+    "Blips": {
+        "HiveBlipText": "Bee Hive"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "You messed up and some bees stung you!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Removes the bee hive by ID [ADMIN ONLY COMMAND]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "Beehive ID from SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Removes the bee hive by owner identifier [ADMIN ONLY COMMAND]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "Beehive owner identifier"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Shows all hives on the map [ADMIN ONLY COMMAND]"
+        },
+        "OpenAdminHives": {
+            "help": "Open the admin hives management menu [ADMIN ONLY COMMAND]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Wax: %s, Honey: %s, Workers: %s, Queen: %s",
+        "JoinedNames": "%s, with identifier %s",
+        "MainMenuTitle": "Admin Menu",
+        "ManageHiveByID": "Manage Hive ID: %s",
+        "ManageHiveDescription": "Access Hive Management",
+        "ManageHiveOwnerTitle": "Hive Owner: %s",
+        "ManageHiveOwnerDescription": "Owner of the hive is %s",
+        "ManageHiveIDTitle": "Hive ID: %s",
+        "ManageHiveIDDescription": "ID of the hive is %s",
+        "MarkHiveCoordsTitle": "Mark Hive Coordinates",
+        "MarkHiveCoordsDescription": "Mark the coordinates of the hive on the map.",
+        "TeleportToCoordsTitle": "Teleport To Hive Coordinates",
+        "TeleportToCoordsDescription": "Teleport to the coordinates of the hive.",
+        "AccessablePlayersTitle": "Last Accessed Date: ",
+        "AccessablePlayersDescription": "Last Accessed: %s",
+        "HiveStatusTitle": "Hive Status: ",
+        "HiveStatusDescription": "Current Status: %s",
+        "PlayersWithAccessTitle": "Players With Access to Hive",
+        "RunSearch": "Run Search",
+        "RunSearchDescription": "Search for specific information.",
+        "CopyIdToClipBoard": "Copy Hive ID to Clipboard",
+        "CopyIdToClipBoardDescription": "Copies the Hive ID to your clipboard.",
+        "IconColor": "orange",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "You do not have permission to access this.",
+        "DeleteHiveTitle": "Delete Hive",
+        "DeleteHiveDescription": "Permanently delete the hive with ID: %s",
+        "ListAllHives": "List All Hives",
+        "ListAllHivesDescription": "List all hives in the database.",
+        "ShowAllHivesOnMap": "Show/Hide All Hives on Map",
+        "ShowAllHivesOnMapDescription": "Toggle displaying all hives on the map.",
+        "Search": {
+            "InvalidSearchInput": "Invalid search input. Please try again.",
+            "Title": "Search",
+            "SearchLabel": "Search for specific information.",
+            "SearchDescription": "Enter the information you want to search for.",
+            "SearchPlaceholder": "Enter search term...",
+            "Submit": "Submit"
+        }
+    }
+
+
+}
+

@@ -1,0 +1,274 @@
+{
+    "SubmitText": "제출",
+    "BeeShop": {
+        "Invalid": "이 상점은 유효하지 않습니다. 서버 소유자에게 설정을 구성하도록 신고해 주세요.",
+        "OpenMenu": "양봉가",
+        "TargetShop": "양봉가와 대화하기",
+        "ShopTitle": "양봉 용품 구입",
+        "SellItems": "아이템 판매",
+        "InputSellAmount": "판매할 수량 입력",
+        "ShopDescription": "양봉에 도움이 되는 다양한 아이템을 구입하세요.",
+        "SellDescription": "양봉 아이템을 판매하세요.",
+        "SellTitle": "벌 관련 아이템 판매",
+        "SellItemFor": "%s를 개당 $%s에 판매.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "판매할 아이템",
+        "TransactionCompleted": "$%s에 판매 완료.",
+        "IconColor": "주황색",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "이전 메뉴로 돌아가기"
+    },
+    "HiveChange": {
+        "Dismantle": "벌통 해체",
+        "PlacingHive": "벌통 설치 중",
+        "ExtractWax": "%s 밀랍 추출 중",
+        "ExtractHoney": "%s 꿀 추출 중",
+        "RemovingWorkers": "%s 일벌 제거 중",
+        "AddingWorkers": "%s 일벌 추가 중",
+        "RemovingQueen": "여왕벌 제거 중",
+        "AddingQueen": "여왕벌 추가 중",
+        "Placing": "벌통 설치 중",
+        "Accessing": "벌통 접근 중",
+        "Adding": "벌통에 추가 중",
+        "Removing": "벌통에서 제거 중",
+        "MissingItem": "이 작업에 필요한 아이템이 부족합니다."
+    },
+    "ProgressBars": {
+        "Dismantle": "벌통 해체 중...",
+        "Accessing": "벌통 접근 중...",
+        "Placing": "벌통 설치 중...",
+        "Adding": "벌통에 추가 중...",
+        "Extracting": "벌통에서 추출 중..."
+    },
+    "HiveMenu": {
+        "Color": "주황색",
+        "WorkerInputHeader": "일벌 수",
+        "WorkersToAdd": "추가할 일벌",
+        "WorkersToRemove": "제거할 일벌",
+        "Slider_Add_Label": "최대 추가 가능",
+        "Slider__Remove_Label": "최대 제거 가능",
+        "ItemCountCheck": "이 아이템이 부족합니다.",
+        "Title": "벌통 관리",
+        "HiveHealthTitle": "벌통 건강 상태 개요",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "벌통의 현재 건강 상태: ",
+        "WaxCountTitle": "밀랍 관리",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "밀랍 생산 관리",
+        "HoneyCountTitle": "꿀 관리",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "꿀 생산 모니터링",
+        "QueenCountTitle": "여왕벌 상태",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "여왕벌 수 관리",
+        "WorkerCountTitle": "일벌 관리",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "일벌 수 관리",
+        "DestroyHiveTitle": "벌통 파괴",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "이는 벌통을 영구적으로 파괴합니다.",
+        "ManageAccess": "벌통 관리",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "벌통에 접근할 수 있는 사람을 관리합니다.",
+        "AddPlayerTitle": "%s를 벌통 접근에 추가.",
+        "AddPlayerDescription": "이는 %s에게 벌통 접근 권한을 주지만 파괴할 권리는 주지 않습니다.",
+        "TooFarFromHive": "벌통에서 너무 멀리 있습니다.",
+        "TargetTooFarFromHive": "대상이 벌통에서 너무 멀리 있습니다.",
+        "Removing": "벌통에서 제거 중",
+        "WaxToRemove": "제거할 밀랍",
+        "HoneyToRemove": "제거할 꿀"
+    },
+    "QueenMenu": {
+        "Color": "주황색",
+        "Title": "여왕벌 관리",
+        "DisplayQueenTitle": "벌통 내 여왕벌",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "벌통 내 여왕벌: %s ",
+        "AddQueenTitle": "여왕벌 추가",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "벌통에 여왕벌 추가",
+        "RemoveQueenTitle": "여왕벌 제거",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "벌통에서 여왕벌 제거",
+        "ItemCountCheck": "추가할 여왕벌이 부족합니다.",
+        "HiveFilled": "이 벌통에는 이미 여왕벌이 있습니다.",
+        "NoQueenInHive": "이 벌통에는 제거할 여왕벌이 없습니다."
+    },
+    "WorkerMenu": {
+        "Color": "주황색",
+        "Title": "일벌 관리",
+        "AddWorkerTitle": "일벌 추가",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "벌통 내 일벌",
+        "AddWorkerDescription": "벌통에 일벌 추가",
+        "DisplayWorkerDescription": "벌통 내 일벌: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "일벌 제거",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "벌통에서 일벌 제거",
+        "NoWorkers": "이 벌통에는 일벌이 없습니다.",
+        "HiveFilled": "이 벌통에는 이미 최대 수의 일벌이 있습니다.",
+        "WorkerInvCheck": "필요한 일벌이 부족합니다."
+    },
+    "HoneyMenu": {
+        "Color": "주황색",
+        "Title": "꿀 관리",
+        "DisplayHoneyType": "꿀 유형",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "이 꿀의 유형: %s ",
+        "DisplayHoneyCount": "꿀 양",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "현재 꿀 양: %s",
+        "ExtractHoneyTitle": "꿀 추출",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "벌통에서 모든 꿀 추출",
+        "NoHoney": "이 벌통에는 꿀이 없습니다."
+    },
+    "WaxMenu": {
+        "Color": "주황색",
+        "Title": "밀랍 관리",
+        "DisplayWaxCount": "밀랍 양",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "현재 밀랍 양: %s",
+        "ExtractWaxTitle": "벌통에서 밀랍 추출",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "벌통에서 모든 밀랍 추출",
+        "NoWax": "이 벌통에는 밀랍이 없습니다."
+    },
+    "Hive": {
+        "Access": "벌통 접근"
+    },
+    "Dismantle": {
+        "title": "확실합니까?",
+        "icon": "망치",
+        "description": "이는 벌통을 해체하고 내부의 아이템을 반환합니다."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "여기에 벌통을 설치할 수 없습니다. 다른 장소를 시도해 보세요.",
+        "BlacklistedZone": "금지된 구역에는 벌통을 설치할 수 없습니다.",
+        "MaxOwnedHivesReached": "허용된 벌통의 최대 수에 도달했습니다."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "이 벌통을 수정하려면 소유자여야 합니다."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "이 벌통을 수정하려면 허용 목록에 있어야 합니다."
+    },
+    "ManageAccess": {
+        "Color": "주황색",
+        "Title": "벌통 접근 관리",
+        "AddUser": "사용자 추가",
+        "RemovedUser": "사용자가 벌통 접근에서 제거되었습니다",
+        "UnableToRemove": "사용자를 벌통 접근에서 제거할 수 없습니다. 이를 하려면 소유자여야 합니다.",
+        "UnableToFindHive": "벌통 데이터를 찾을 수 없습니다. 나중에 다시 시도해 주세요.",
+        "UnableToAccess": "이 벌통에 접근할 수 없습니다.",
+        "AlreadyAdded": "사용자가 이미 벌통 접근에 추가되었습니다",
+        "UserAdded": "사용자가 벌통 접근에 추가되었습니다",
+        "UserList": "사용자 목록",
+        "AddClosestPersonTitle": "가장 가까운 사람 추가",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "가장 가까운 사람을 벌통 접근 목록에 추가.",
+        "RemovePlayerTitle": "사용자 제거",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "벌통 접근 목록에서 사용자 제거.",
+        "RemovePlayer": "벌통 접근 목록에서 %s 제거.",
+        "RemovedSuccess": "사용자가 벌통 접근에서 제거되었습니다.",
+        "RemovedError": "사용자를 벌통 접근에서 제거할 수 없습니다.",
+        "ViewAccessTitle": "접근 목록 보기",
+        "ViewAccessDescription": "이 벌통에 접근할 수 있는 사용자 목록 보기.",
+        "ViewAccessMenuTitle": "접근 목록",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "이 벌통에 접근할 수 있습니다.",
+        "SubViewAccessMenuTitle": "벌통에 접근할 수 있는 사용자 목록",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "%s를 벌통 접근에 추가.",
+        "AddPlayerDescription": "이는 %s에게 벌통 접근 권한을 주지만 파괴할 권리는 주지 않습니다.",
+        "TooFarFromHive": "벌통에서 너무 멀리 있습니다.",
+        "TargetTooFarFromHive": "대상이 벌통에서 너무 멀리 있습니다.",
+        "RemoveUserTitle": "사용자 제거",
+        "RemoveUserDescription": "벌통 접근 목록에서 사용자 제거.",
+        "UserListDescription": "벌통에 접근할 수 있는 사용자 목록",
+        "ManageAccessTitle": "벌통의 사용자 접근 관리",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "벌통에 접근할 수 있는 사용자 추가 또는 제거.",
+        "YouWereAdded": "벌통 접근 목록에 추가되었습니다.",
+        "NoPlayerNearby": "추가할 가까운 플레이어가 없습니다."
+    },
+    "Blips": {
+        "HiveBlipText": "벌통"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "실수를 했고 몇 마리의 벌이 당신을 쐈습니다!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "ID로 벌통 제거 [관리자 전용 명령]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "SQL에서 벌통의 ID"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "소유자 식별자로 벌통 제거 [관리자 전용 명령]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "벌통 소유자의 식별자"
+            }
+        },
+        "ShowAllHives": {
+            "help": "지도에 모든 벌통 표시 [관리자 전용 명령]"
+        },
+        "OpenAdminHives": {
+            "help": "관리자 벌통 관리 메뉴 열기 [관리자 전용 명령]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "밀랍: %s, 꿀: %s, 일벌: %s, 여왕벌: %s",
+        "JoinedNames": "%s, 식별자 %s",
+        "MainMenuTitle": "관리자 메뉴",
+        "ManageHiveByID": "벌통 ID 관리: %s",
+        "ManageHiveDescription": "벌통 관리 접근",
+        "ManageHiveOwnerTitle": "벌통 소유자: %s",
+        "ManageHiveOwnerDescription": "벌통의 소유자는 %s입니다",
+        "ManageHiveIDTitle": "벌통 ID: %s",
+        "ManageHiveIDDescription": "벌통의 ID는 %s입니다",
+        "MarkHiveCoordsTitle": "벌통 좌표 표시",
+        "MarkHiveCoordsDescription": "지도에서 벌통의 좌표를 표시.",
+        "TeleportToCoordsTitle": "벌통 좌표로 텔레포트",
+        "TeleportToCoordsDescription": "벌통의 좌표로 텔레포트.",
+        "AccessablePlayersTitle": "마지막 접근: ",
+        "AccessablePlayersDescription": "마지막 접근: %s",
+        "HiveStatusTitle": "벌통 상태: ",
+        "HiveStatusDescription": "현재 상태: %s",
+        "PlayersWithAccessTitle": "벌통에 접근할 수 있는 플레이어",
+        "RunSearch": "검색 실행",
+        "RunSearchDescription": "특정 데이터 검색.",
+        "CopyIdToClipBoard": "벌통 ID를 클립보드에 복사",
+        "CopyIdToClipBoardDescription": "벌통의 ID를 클립보드에 복사.",
+        "IconColor": "주황색",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "이를 사용할 권한이 없습니다.",
+        "DeleteHiveTitle": "벌통 삭제",
+        "DeleteHiveDescription": "ID가 %s인 벌통을 영구적으로 삭제",
+        "ShowAllHivesOnMap": "지도에서 모든 벌통 표시/숨기기",
+        "ShowAllHivesOnMapDescription": "지도에서 모든 벌통 표시를 전환합니다.",
+        "ListAllHives": "모든 벌통 나열",
+        "ListAllHivesDescription": "데이터베이스의 모든 벌통을 나열합니다.",
+        "Search": {
+            "InvalidSearchInput": "잘못된 검색 입력입니다. 다시 시도해 주세요.",
+            "Title": "검색",
+            "SearchLabel": "특정 데이터 검색.",
+            "SearchDescription": "검색하고 싶은 데이터를 입력하세요.",
+            "SearchPlaceholder": "검색어 입력...",
+            "Submit": "제출"
+        }
+    }
+}

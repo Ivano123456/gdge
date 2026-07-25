@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trgovina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="panel hidden" id="shopPanel">
+        <div class="backdrop"></div>
+        <div class="window">
+            <header class="header">
+                <div class="brand">
+                    <div class="brand-icon"></div>
+                    <div>
+                        <h1 class="title">TRGOVINA</h1>
+                        <span class="subtitle" id="shopSubtitle">Market</span>
+                    </div>
+                </div>
+            </header>
+            <div class="body">
+                <aside class="sidebar">
+                    <span class="section-label">KATEGORIJE</span>
+                    <nav class="cat-list" id="categoryList"></nav>
+                    <div class="pay-block">
+                        <span class="section-label">Plaćanje</span>
+                        <div class="pay-toggle" data-scope="shop">
+                            <button type="button" class="pay-opt active" data-pay="bank">Banka</button>
+                            <button type="button" class="pay-opt" data-pay="cash">Keš</button>
+                        </div>
+                    </div>
+                </aside>
+                <main class="main">
+                    <div class="toolbar">
+                        <span class="toolbar-title" id="toolbarTitle">Svi proizvodi</span>
+                        <input type="text" class="search" id="searchInput" placeholder="Pretraži proizvode..." autocomplete="off">
+                    </div>
+                    <div class="product-grid" id="productGrid"></div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel hidden" id="restockPanel">
+        <div class="backdrop"></div>
+        <div class="window window-sm">
+            <header class="header">
+                <div class="brand">
+                    <div class="brand-icon brand-icon-alt"></div>
+                    <div>
+                        <h1 class="title">DOPUNA STOKA</h1>
+                        <span class="subtitle" id="restockSubtitle">Market</span>
+                    </div>
+                </div>
+            </header>
+            <div class="restock-body">
+                <div class="toolbar">
+                    <span class="toolbar-title">Izaberi artikle za dopunu</span>
+                    <div class="pay-toggle" data-scope="restock">
+                        <button type="button" class="pay-opt active" data-pay="bank">Banka</button>
+                        <button type="button" class="pay-opt" data-pay="cash">Keš</button>
+                    </div>
+                </div>
+                <div class="restock-grid" id="restockGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

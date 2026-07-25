@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sr" style="background: transparent !important;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <title>Banka</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container hidden" id="main">
+        <div class="header">
+            <div class="header-left">
+                <div class="logo"><i class="fa-solid fa-building-columns"></i></div>
+                <span>Banka</span>
+            </div>
+        </div>
+
+        <div class="card-section">
+            <div class="card">
+                <div class="card-top">
+                    <span class="card-type">Debit</span>
+                    <i class="fa-solid fa-wifi contactless"></i>
+                </div>
+                <div class="chip"></div>
+                <div class="card-number" id="cardNumber">4821 •••• •••• ••••</div>
+                <div class="card-owner" id="cardOwner">—</div>
+            </div>
+            <div class="balance">
+                <div class="balance-block">
+                    <p>Stanje na računu</p>
+                    <h1 id="balance">$0</h1>
+                </div>
+                <div class="balance-block cash">
+                    <p>Gotovina</p>
+                    <h2 id="cashBalance">$0</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button type="button" class="active" data-action="withdraw">
+                <i class="fa-solid fa-arrow-up"></i> Podigni
+            </button>
+            <button type="button" data-action="deposit">
+                <i class="fa-solid fa-arrow-down"></i> Položi
+            </button>
+            <button type="button" data-action="transfer">
+                <i class="fa-solid fa-right-left"></i> Transfer
+            </button>
+        </div>
+
+        <div class="input-section">
+            <input type="text" inputmode="numeric" placeholder="Unesi iznos" id="amountInput" autocomplete="off">
+            <input type="text" inputmode="numeric" placeholder="ID igrača" id="transferId" class="hidden" autocomplete="off">
+            <button type="button" id="confirmButton">Podigni novac</button>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>

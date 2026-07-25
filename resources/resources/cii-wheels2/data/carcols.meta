@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVarGlobal>
+	<Wheels>
+    <!-- VWT_SPORT -->
+		<Item>
+		</Item>
+    <!-- VWT_MUSCLE -->
+		<Item>
+		<!-- Cii2 Preview Pack -->
+			<Item>
+				<wheelName>cii2_adv_1</wheelName>
+				<wheelVariation>cii2_adv_1_c</wheelVariation>
+				<modShopLabel>cii2_adv_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_adv_1_v</wheelName>
+				<wheelVariation>cii2_adv_1_v_c</wheelVariation>
+				<modShopLabel>cii2_adv_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_adv_7</wheelName>
+				<wheelVariation>cii2_adv_7_c</wheelVariation>
+				<modShopLabel>cii2_adv_7</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_adv_7_v</wheelName>
+				<wheelVariation>cii2_adv_7_v_c</wheelVariation>
+				<modShopLabel>cii2_adv_7_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_adv_8</wheelName>
+				<wheelVariation>cii2_adv_8_c</wheelVariation>
+				<modShopLabel>cii2_adv_8</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_adv_8_v</wheelName>
+				<wheelVariation>cii2_adv_8_v_c</wheelVariation>
+				<modShopLabel>cii2_adv_8_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_adv_9</wheelName>
+				<wheelVariation>cii2_adv_9_c</wheelVariation>
+				<modShopLabel>cii2_adv_9</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_adv_9_v</wheelName>
+				<wheelVariation>cii2_adv_9_v_c</wheelVariation>
+				<modShopLabel>cii2_adv_9_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_adv_10</wheelName>
+				<wheelVariation>cii2_adv_10_c</wheelVariation>
+				<modShopLabel>cii2_adv_10</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_adv_10_v</wheelName>
+				<wheelVariation>cii2_adv_10_v_c</wheelVariation>
+				<modShopLabel>cii2_adv_10_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_asa_3</wheelName>
+				<wheelVariation>cii2_asa_3_c</wheelVariation>
+				<modShopLabel>cii2_asa_3</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_asa_3_v</wheelName>
+				<wheelVariation>cii2_asa_3_v_c</wheelVariation>
+				<modShopLabel>cii2_asa_3_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_ham_1</wheelName>
+				<wheelVariation>cii2_ham_1_c</wheelVariation>
+				<modShopLabel>cii2_ham_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_ham_1_v</wheelName>
+				<wheelVariation>cii2_ham_1_v_c</wheelVariation>
+				<modShopLabel>cii2_ham_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_hre_3</wheelName>
+				<wheelVariation>cii2_hre_3_c</wheelVariation>
+				<modShopLabel>cii2_hre_3</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_hre_3_v</wheelName>
+				<wheelVariation>cii2_hre_3_v_c</wheelVariation>
+				<modShopLabel>cii2_hre_3_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_hre_11</wheelName>
+				<wheelVariation>cii2_hre_11_c</wheelVariation>
+				<modShopLabel>cii2_hre_11</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_hre_11_v</wheelName>
+				<wheelVariation>cii2_hre_11_v_c</wheelVariation>
+				<modShopLabel>cii2_hre_11_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_hre_21</wheelName>
+				<wheelVariation>cii2_hre_21_c</wheelVariation>
+				<modShopLabel>cii2_hre_21</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_hre_21_v</wheelName>
+				<wheelVariation>cii2_hre_21_v_c</wheelVariation>
+				<modShopLabel>cii2_hre_21_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_hre_23</wheelName>
+				<wheelVariation>cii2_hre_23_c</wheelVariation>
+				<modShopLabel>cii2_hre_23</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_hre_23_v</wheelName>
+				<wheelVariation>cii2_hre_23_v_c</wheelVariation>
+				<modShopLabel>cii2_hre_23_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_spe_1</wheelName>
+				<wheelVariation>cii2_spe_1_c</wheelVariation>
+				<modShopLabel>cii2_spe_1</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+			<Item>
+				<wheelName>cii2_spe_1_v</wheelName>
+				<wheelVariation>cii2_spe_1_v_c</wheelVariation>
+				<modShopLabel>cii2_spe_1_v</modShopLabel>
+				<rimRadius value="0.379500"/>
+				<rear value="false"/>
+			</Item>
+		<!-- Cii2 Preview Pack -->
+        </Item>
+    <!-- VWT_LOWRIDER -->
+		<Item>
+        </Item>
+    <!-- VWT_SUV -->
+		<Item>
+		</Item>
+    <!-- VWT_OFFROAD -->
+		<Item>
+        </Item>
+    <!-- VWT_TUNER -->
+		<Item>
+		</Item>
+    <!-- VWT_BIKE -->
+		<Item>
+        </Item>
+    <!-- VWT_HIEND -->
+		<Item>
+		</Item>
+    <!-- VWT_SUPERMOD1 -->
+		<Item>
+        </Item>
+    <!-- VWT_SUPERMOD2 -->
+		<Item>
+        </Item>
+	</Wheels>
+</CVehicleModelInfoVarGlobal>

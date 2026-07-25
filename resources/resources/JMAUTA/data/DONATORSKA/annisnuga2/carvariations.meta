@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+    <Item>
+      <modelName>annisnuga2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array"> <!--This is for a fivem bug it's not meant to be duplicated colors, sorry in advance-->
+            64      
+            37      
+            73      
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!--This is for a fivem bug it's not meant to be duplicated colors, sorry in advance-->
+            64      
+            37      
+            73      
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            70      
+            37      
+            73      
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            142     
+            37     
+            145     
+            8     
+          </indices>
+         </Item>
+         <Item>
+          <indices content="char_array">
+            145     
+            37     
+            159      
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            52      
+            37      
+            100       
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            89      
+            37      
+            100      
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            27      
+            37      
+            39      
+            8     
+          </indices>
+        </Item>
+        <Item>
+         <indices content="char_array">
+            4       
+            37       
+            5       
+            8     
+          </indices>
+        </Item>
+        <Item>
+        <indices content="char_array">
+            5       
+            37       
+            4       
+            8     
+          </indices>
+        </Item>
+        <Item>
+         <indices content="char_array">
+            11      
+            37      
+            12      
+            8     
+          </indices>
+        </Item>
+        <Item>
+         <indices content="char_array">
+            0       
+            37       
+            12      
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            111     
+            37     
+            112     
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            112     
+            37     
+            4       
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            7       
+            37       
+            111     
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            36      
+            37      
+            138       
+            8     
+          </indices>
+        </Item>
+        <Item>
+         <indices content="char_array">
+            61      
+            37      
+            64      
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            93     
+            37     
+            102      
+            8     
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>13503_annisnuga2_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="70"/>
+          </Item>
+          <Item>
+            <Name>White Plate 2</Name>
+            <Value value="30"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1"/>
+      <sirenSettings value="0"/>
+    </Item>
+    <Item>
+      <modelName>annisnuga2a</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array"> <!--This is for a fivem bug it's not meant to be duplicated colors, sorry in advance-->
+            64      
+            37      
+            73      
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!--This is for a fivem bug it's not meant to be duplicated colors, sorry in advance-->
+            64      
+            37      
+            73      
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            70      
+            44      
+            73      
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            142     
+            44     
+            145     
+            8     
+          </indices>
+         </Item>
+         <Item>
+          <indices content="char_array">
+            145     
+            44     
+            159      
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            52      
+            44      
+            100       
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            89      
+            44      
+            100      
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            27      
+            44      
+            39      
+            8     
+          </indices>
+        </Item>
+        <Item>
+         <indices content="char_array">
+            4       
+            44       
+            5       
+            8     
+          </indices>
+        </Item>
+        <Item>
+        <indices content="char_array">
+            5       
+            44       
+            4       
+            8     
+          </indices>
+        </Item>
+        <Item>
+         <indices content="char_array">
+            11      
+            44      
+            12      
+            8     
+          </indices>
+        </Item>
+        <Item>
+         <indices content="char_array">
+            0       
+            44       
+            12      
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            111     
+            44     
+            112     
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            112     
+            44     
+            4       
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            7       
+            44       
+            111     
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            36      
+            44      
+            138       
+            8     
+          </indices>
+        </Item>
+        <Item>
+         <indices content="char_array">
+            61      
+            44      
+            64      
+            8     
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            93     
+            44     
+            102      
+            8     
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>1351_annisnuga2a_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="70"/>
+          </Item>
+          <Item>
+            <Name>White Plate 2</Name>
+            <Value value="30"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1"/>
+      <sirenSettings value="0"/>
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

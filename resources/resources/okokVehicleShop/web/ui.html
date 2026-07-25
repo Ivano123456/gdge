@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@5.0/dist/style.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.1/spectrum.min.css" rel="stylesheet">
+		<link href="styles.css" rel="stylesheet">
+	</head>
+    <body>
+
+        <!-- Loading Data -->
+		<div class="loading">
+            <div class="container">
+                <div class="row h-100">
+                    <div class="loading-container">
+                        <span class="load"></span>
+                        <br>
+                        <div id="loading_data_card" class="loadingtxt"></div>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- Overlay -->
+        <div class="overlay-primary"></div>
+        <div class="overlay-secondary"></div>
+
+        <!-- Vehicle Listing Primary -->
+        <div id="vehicle-listing-primary" class="container-first"></div>
+
+        <!-- Vehicle Listing Secondary -->
+        <div id="vehicle-listing-secondary" class="container-second"></div>
+
+        <!-- Dashboard -->
+        <div class="container" id="dashboard"></div>
+
+        <!-- Stock -->
+        <div class="container" id="stock"></div>
+
+        <!-- Sales History -->
+        <div class="container" id="salesHistory"></div>
+
+        <!-- Employees -->
+        <div class="container" id="employees"></div>
+
+        <!-- Orders -->
+        <div class="container" id="orders"></div>
+
+        <!-- Customer Orders -->
+        <div class="container" id="customerorders"></div>
+
+        <!-- Logs -->
+        <div class="container" id="logs"></div>
+
+        <!-- Admin -->
+        <div class="container" id="admin"></div>
+
+        <!-- Vehicles List -->
+        <div class="container" id="vehiclesList"></div>
+
+        <!-- Vehicles Showcase -->
+        <div class="container" id="vehiclesShowcase"></div>
+
+        <!-- Buy Business Modal -->
+		<div id="buyBusinessModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+                    <span id="buy_business_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeBuyBusinessModal"><i class="fas fa-times"></i></span>
+                    <div id="buy_business_text" class="conf_fire text-center"></div>
+                    <div class="modal-footer">
+                        <button id="closeBuyBusinessButton" class="btn btn-dark-modal modal-buttons" data-bs-dismiss="modal"></button>
+                        <button id="buybusiness_btn_modal" class="btn btn-blue modal-buttons" data-bs-dismiss="modal"></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- Sell Business Modal -->
+		<div id="sellBusinessModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+                    <span id="sell_business_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeSellBusinessModal"><i class="fas fa-times"></i></span>
+                    <div id="sell_business_text" class="conf_fire text-center"></div>
+                    <div class="modal-footer">
+                        <button id="closeSellBusinessButton" class="btn btn-dark-modal modal-buttons" data-bs-dismiss="modal"></button>
+                        <button id="sellbusiness_btn_modal" class="btn btn-blue modal-buttons" data-bs-dismiss="modal"></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- Deposit Money Modal -->
+		<div id="depositModal" class="modal">
+			<div class="modal-content">
+                <div class="modal-body text-center">
+                    <span id="deposit_money_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeDepositModal"><i class="fas fa-times"></i></span>
+                    <div class="d-flex justify-content-center flex-column mt-3">
+                        <input min="0" type="number" id="deposit_money" class="form-control text-center" onkeyup="checkIfEmpty()">
+                        <button type="button" id="deposit_btn" class="btn btn-blue mt1 w100" disabled></button>
+                    </div>
+                </div>
+            </div>
+		</div>
+
+        <!-- Withdraw Money Modal -->
+		<div id="withdrawModal" class="modal">
+			<div class="modal-content">
+                <div class="modal-body text-center">
+                    <span id="withdraw_money_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeWithdrawModal"><i class="fas fa-times"></i></span>
+                    <div class="d-flex justify-content-center flex-column mt-3">
+                        <input min="0" type="number" id="withdraw_money" class="form-control text-center" onkeyup="checkIfEmpty()">
+                        <button type="button" id="withdraw_btn" class="btn btn-blue mt1 w100" disabled></button>
+                    </div>
+                </div>
+            </div>
+		</div>
+
+        <!-- Weekly Goal Modal -->
+		<div id="weeklyGoalModal" class="modal">
+			<div class="modal-content">
+                <div class="modal-body text-center">
+                    <span id="weekly_goal_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeWeeklyGoalModal"><i class="fas fa-times"></i></span>
+                    <div class="d-flex justify-content-center flex-column mt-3">
+                        <div>
+                            <div class="weekly-goal-options">
+                                <div id="goal-buttons" class="goal-buttons"></div>
+                                <div class="custom-goal">
+                                    <input min="0" type="number" id="custom-goal-input" class="form-control text-center" onkeyup="checkIfEmpty()">
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" id="set-goal-btn" class="btn btn-blue mt1 w100" disabled></button>
+                    </div>
+                </div>
+            </div>
+		</div>
+
+        <!-- Buy Vehicle Modal -->
+		<div id="buyVehicleModal" class="modal">
+			<div class="modal-content">
+                <div class="modal-body text-center">
+                    <span id="buy_vehicle_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeBuyVehicleModal"><i class="fas fa-times"></i></span>
+                    <div class="d-flex justify-content-center flex-column mt-3">
+                        <div id="buy_vehicle_text" class="vehicle-purchase-text"></div>
+                        <input min="0" type="number" id="buy_vehicle_price" class="form-control text-center" onkeyup="checkIfEmpty()">
+                        <button type="button" id="buy_vehicle_btn" class="btn btn-blue mt1 w100" disabled></button>
+                    </div>
+                </div>
+            </div>
+		</div>
+
+        <!-- Change Price Modal -->
+		<div id="changePriceModal" class="modal">
+			<div class="modal-content">
+                <div class="modal-body text-center">
+                    <span id="change_price_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeChangePriceModal"><i class="fas fa-times"></i></span>
+                    <div class="d-flex justify-content-center flex-column mt-3">
+                        <div id="old_price_title" class="mb-0425"></div>
+                        <input type="text" id="old_price" class="form-control text-center mb-1" readonly>
+                        <div id="min_price_title" class="mb-0425"></div>
+                        <input type="text" id="min_price" class="form-control text-center mb-1" readonly>
+                        <div id="max_price_title" class="mb-0425"></div>
+                        <input type="text" id="max_price" class="form-control text-center mb-1" readonly>
+                        <div id="new_price_title" class="mb-0425"></div>
+                        <input min="0" type="number" id="change_price_input" class="form-control text-center mb-1" onkeyup="checkIfEmpty()">
+                        <div id="discount_title" class="mb-0425"></div>
+                        <input min="0" type="number" id="change_discount_input" class="form-control text-center" onkeyup="checkIfEmpty()" placeholder="0">
+                        <button type="button" id="change_price_btn" class="btn btn-blue mt1 w100" disabled></button>
+                    </div>
+                </div>
+            </div>
+		</div>
+
+        <!-- Customer Order Modal -->
+		<div id="customerOrderModal" class="modal">
+			<div class="modal-content">
+                <div class="modal-body text-center">
+                    <span id="order_vehicle_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeCustomerOrderModal"><i class="fas fa-times"></i></span>
+                    <div class="d-flex justify-content-center flex-column mt-3">
+                        <div class="purchase-type-container">
+                            <button id="personal_order" type="button" class="btn btn-personal-purchase btn-inactive btn-active" onclick="personalPurchase = true"></button>
+                            <button id="society_order" type="button" class="btn btn-society-purchase  btn-inactive" onclick="personalPurchase = false"></button>
+                        </div>
+                        <div id="full_name_title" class="mb-0425"></div>
+                        <input type="text" id="full_name" class="form-control text-center mb-1" readonly>
+                        <div id="phone_number_title" class="mb-0425"></div>
+                        <input type="text" id="phone_number" class="form-control text-center mb-1" readonly>
+                        <div id="vehicle_title" class="mb-0425"></div>
+                        <input type="text" id="vehicle" class="form-control text-center mb-1" readonly>
+                        <div id="price_title" class="mb-0425"></div>
+                        <input type="text" id="price" class="form-control text-center mb-1" readonly>
+                        <button type="button" id="order_vehicle_btn" class="btn btn-blue mt1 w100"></button>
+                    </div>
+                </div>
+            </div>
+		</div>
+
+        <!-- My Orders Modal -->
+        <div id="myOrdersModal" class="modal">
+            <div class="modal-content w-auto">
+                <div class="modal-body text-center padding-1">
+                    <span id="my_orders_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeMyOrdersModal"><i class="fas fa-times"></i></span>
+                    <div id="my-orders-container"></div>
+                </div>
+            </div>
+        </div>
+
+		<!-- Hire Employee Modal -->
+        <div id="hireEmployeeModal" class="modal">
+			<div class="modal-content">
+                <div class="modal-body text-center">
+                    <span id="hire_employee_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeHireEmployeeModal"><i class="fas fa-times"></i></span>
+                    <select id="dropdown_to_hire" class="form-select form-select-lg" onchange="checkIfEmpty()"></select>
+                    <div class="d-flex justify-content-center flex-column">
+                        <button type="button" id="confirmHireEmployee" class="btn btn-blue mt1 w100" disabled></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- Edit Employee Modal -->
+		<div id="editEmployeeModal" class="modal">
+			<div class="modal-content">
+                <div class="modal-body text-center">
+                    <span id="edit_employee_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeEditEmployeeModal"><i class="fas fa-times"></i></span>
+                    <div class="d-flex justify-content-center flex-column mt-3">
+                        <div id="employee_name_title" class="mb-0425"></div>
+                        <input type="text" id="employee_name" class="form-control text-center mb-1" readonly>
+                        <div id="total_earned_title" class="mb-0425"></div>
+                        <input type="text" id="total_earned" class="form-control text-center mb-1" readonly>
+                        <div id="employee_grade_title" class="mb-0425"></div>
+                        <input type="text" id="employee_grade" class="form-control text-center mb-1" readonly>
+                        <div id="employee_grades_title" class="mb-0425"></div>
+                        <select id="employee_grades" class="form-select form-select-lg" onchange="checkIfEmpty()"></select>
+                        <div id="fire_employee_title_btn" class="fire-employee"></div>
+                        <button type="button" id="edit_employee_btn" class="btn btn-blue mt1 w100" disabled></button>
+                    </div>
+                </div>
+            </div>
+		</div>
+
+        <!-- Fire Employee Modal -->
+		<div id="fireEmployeeModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+                    <span id="fire_employee_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeFireEmployeeModal"><i class="fas fa-times"></i></span>
+                    <div id="fire_employee_text" class="conf_fire text-center"></div>
+                    <div class="modal-footer">
+                        <button id="cancel_fire_employee_btn" class="btn btn-dark-modal modal-buttons" data-bs-dismiss="modal"></button>
+                        <button id="fire_employee_btn_final" class="btn btn-blue modal-buttons" data-bs-dismiss="modal"></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- Buy Vehicle Modal -->
+		<div id="buyVehicleCustomerModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+                    <span id="buy_vehicle_customer_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeBuyVehicleCustomerModal"><i class="fas fa-times"></i></span>
+                    <div class="purchase-type-container">
+                        <button id="personal" type="button" class="btn btn-personal-purchase btn-inactive btn-active" onclick="personalPurchase = true"></button>
+                        <button id="society" type="button" class="btn btn-society-purchase  btn-inactive" onclick="personalPurchase = false"></button>
+                    </div>
+                    <div id="vehicle_buy_name_title" class="mb-0425 mt-1"></div>
+                    <input type="text" id="vehicle_buy_name" class="form-control text-center mb-1" readonly>
+                    <div id="vehicle_plate_name_title" class="mb-0425 mt-1"></div>
+                    <div class="plate-type-container">
+                        <button id="standard" type="button" class="btn btn-personal-purchase btn-inactive btn-active"></button>
+                        <button id="custom" type="button" class="btn btn-society-purchase btn-inactive"></button>
+                    </div>
+                    <input type="text" id="vehicle_plate" class="vehicle_plate form-control text-center mb-1" maxlength="8" pattern="[A-Za-z0-9]+" onkeyup="checkIfEmpty()" oninput="this.value = this.value.replace(/[^A-Za-z0-9]/g, '').toUpperCase()">
+                    <div id="vehicle_tradein_name_title" class="mb-0425 mt-1"></div>
+                    <select id="vehicle_tradein" class="form-select form-select-lg h-custom-vehicle" onchange="checkIfEmpty()"></select>
+                    <div id="buy_vehicle_text" class="conf_fire text-center"></div>
+
+                    <hr class="mg070">
+                    <div class="vehicle_tradein_div">
+                        <div id="vehicle_base_price_title"></div>
+                        <div id="vehicle_base_price_price"></div>
+                    </div>
+                    <div class="vehicle_platefee_div">
+                        <div id="vehicle_platefee_title"></div>
+                        <div id="vehicle_platefee_price" class="platefee-text"></div>
+                    </div>
+                    <div class="vehicle_tradein_div">
+                        <div id="vehicle_tradein_title"></div>
+                        <div id="vehicle_tradein_price" class="tradein-text"></div>
+                    </div>
+                    <div class="vehicle_buy_price">
+                        <div id="vehicle_buy_price_title"></div>
+                        <div id="vehicle_buy_price"></div>
+                    </div>
+
+                    <div class="modal-footer gap-1">
+                        <button id="finance_vehicle_btn" class="btn btn-dark-modal modal-buttons flex-1" data-bs-dismiss="modal"></button>
+                        <button id="buy_vehicle_btn_final" class="btn btn-blue modal-buttons flex-1" data-bs-dismiss="modal"></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- Finance Vehicle Modal -->
+        <div id="financeVehicleModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+                    <span id="finance_vehicle_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeFinanceVehicleModal"><i class="fas fa-times"></i></span>
+                    <div id="vehicle_finance_name_title" class="mb-0425 mt-1"></div>
+                    <input type="text" id="vehicle_finance_name" class="form-control text-center mb-1" readonly>
+                    <div id="vehicle_finance_price_title" class="mb-0425"></div>
+                    <input type="text" id="vehicle_finance_price" class="form-control text-center mb-1" readonly>
+                    <div id="vehicle_finance_interest_rate_title" class="mb-0425"></div>
+                    <input type="text" id="vehicle_finance_interest_rate" class="form-control text-center mb-1" readonly>
+                    <div id="vehicle_finance_period_title" class="mb-0425"></div>
+                    <input type="text" id="vehicle_finance_period" class="form-control text-center mb-1" readonly>
+                    <div id="vehicle_finance_monthly_payment_title" class="mb-0425"></div>
+                    <input type="text" id="vehicle_finance_monthly_payment" class="form-control text-center mb-1" readonly>
+                    <div id="vehicle_finance_total_price_title" class="mb-0425"></div>
+                    <input type="text" id="vehicle_finance_total_price" class="form-control text-center" readonly>
+                    <div class="modal-footer">
+                        <button id="cancel_finance_vehicle_btn" class="btn btn-dark-modal modal-buttons" data-bs-dismiss="modal"></button>
+                        <button id="finance_vehicle_btn_final" class="btn btn-blue modal-buttons" data-bs-dismiss="modal"></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- Financed Vehicles Modal -->
+        <div id="myFinancedVehiclesModal" class="modal">
+            <div class="modal-content w-auto">
+                <div class="modal-body text-center padding-1">
+                    <span id="my_financed_vehicles_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeMyFinancedVehiclesModal"><i class="fas fa-times"></i></span>
+                    <div id="my-financed-vehicles-container"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Financed Vehicle Info Modal -->
+        <div id="financedVehicleInfoModal" class="modal">
+			<div class="modal-content w-35">
+				<div class="modal-body text-center">
+                    <span id="finance_vehicle_info_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeFinanceVehicleInfoModal"><i class="fas fa-times"></i></span>
+                    <div class="d-flex-row-f">
+                        <div class="d-flex-col">
+                            <div id="vehicle_finance_name_info_title" class="mb-0425 mt-1"></div>
+                            <input type="text" id="vehicle_finance_info_name" class="form-control text-center mb-1 mr-1 w-custom-finance" readonly>
+                        </div>
+                        <div class="d-flex-col">
+                            <div id="vehicle_finance_monthly_payment_info_title" class="mb-0425"></div>
+                            <input type="text" id="vehicle_finance_monthly_payment_info" class="form-control text-center w-custom-finance" readonly>
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex-row-f">
+                        <div class="d-flex-col">
+                            <div id="vehicle_finance_total_amount_title" class="mb-0425"></div>
+                            <input type="text" id="vehicle_finance_total_amount" class="form-control text-center mr-1 w-custom-finance" readonly>
+                        </div>
+
+                        <div class="d-flex-col">
+                            <div id="vehicle_finance_remaining_value_title" class="mb-0425 mt-1"></div>
+                            <input type="text" id="vehicle_finance_remaining_value" class="form-control text-center w-custom-finance" readonly>
+                        </div>
+                    </div>
+
+                    <div class="payment-progress-container">
+                        <div id="payment_progress_title" class="mb-0425"></div>
+                        <div class="payment-progress-bar" id="payment-progress-bar">
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button id="make_finance_payment_btn" class="btn btn-dark-modal modal-buttons w-50" data-bs-dismiss="modal"></button>
+                        <button id="pay_off_loan_btn" class="btn btn-blue modal-buttons w-50" data-bs-dismiss="modal"></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- Test Drive Container -->
+        <div class="test-drive-container">
+            <div class="test-drive-container-content">
+                <div id="test-drive-text" class="test-drive-container-content-title"></div>
+            </div>
+        </div>
+
+        <!-- Edit Dealership Modal -->
+        <div id="editDealershipModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+                    <span id="edit_dealership_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeEditDealershipModal"><i class="fas fa-times"></i></span>
+                    <div id="dealership_name_title" class="mb-0425 mt-1"></div>
+                    <input type="text" id="dealership_name" class="form-control text-center mb-1" readonly>
+                    <div id="dealership_owner_name_title" class="mb-0425"></div>
+                    <input type="text" id="dealership_owner_name" class="form-control text-center mb-1" readonly>
+                    <div id="dealership_owner_id_title" class="mb-0425"></div>
+                    <input type="text" id="dealership_owner_id" class="form-control text-center mb-1" oninput="checkIfEmpty()">
+                    <div id="dealership_type_title" class="mb-0425"></div>
+                    <input type="text" id="dealership_type" class="form-control text-center mb-1" readonly>
+                    <div id="dealership_money_title" class="mb-0425"></div>
+                    <input min="0" type="number" id="dealership_money" class="form-control text-center" oninput="checkIfEmpty()">
+                    <div class="modal-footer">
+                        <button id="close-dealership-modal-btn" class="btn btn-dark-modal modal-buttons" data-bs-dismiss="modal"></button>
+                        <button id="confirm-dealership-modal-btn" class="btn btn-blue modal-buttons" data-bs-dismiss="modal" disabled></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- Edit Vehicle Modal -->
+        <div id="editVehicleModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+                    <span id="edit_vehicle_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeEditVehicleModal"><i class="fas fa-times"></i></span>
+                    <div id="vehicle_name_title" class="mb-0425 mt-1"></div>
+                    <input type="text" id="vehicle_name" class="form-control text-center mb-1" readonly>
+                    <div id="vehicle_category_title" class="mb-0425"></div>
+                    <select id="vehicle_category" class="form-select form-select-lg mb-1 h-custom-vehicle" onchange="checkIfEmpty()"></select>
+                    <div id="vehicle_type_title" class="mb-0425"></div>
+                    <select id="vehicle_type" class="form-select form-select-lg mb-1 h-custom-vehicle" onchange="checkIfEmpty()"></select>
+                    <div id="vehicle_min_price_title" class="mb-0425"></div>
+                    <input min="0" type="number" id="vehicle_min_price" class="form-control text-center mb-1" oninput="checkIfEmpty()">
+                    <div id="vehicle_max_price_title" class="mb-0425"></div>
+                    <input min="0" type="number" id="vehicle_max_price" class="form-control text-center mb-1" oninput="checkIfEmpty()">
+                    <span id="delete-vehicle-btn" class="delete-vehicle-btn"></span>
+                    <div class="modal-footer">
+                        <button id="cancel-edit-vehicle-btn" class="btn btn-dark-modal modal-buttons" data-bs-dismiss="modal"></button>
+                        <button id="confirm-edit-vehicle-btn" class="btn btn-blue modal-buttons" data-bs-dismiss="modal" disabled></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- Add Vehicle Modal -->
+        <div id="addVehicleModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+                    <span id="add_vehicle_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeAddVehicleModal"><i class="fas fa-times"></i></span>
+                    <div id="vehicle_name_add_title" class="mb-0425 mt-1"></div>
+                    <input type="text" id="vehicle_name_add" class="form-control text-center mb-1" oninput="checkIfEmpty()">
+                    <div id="vehicle_id_add_title" class="mb-0425"></div>
+                    <input type="text" id="vehicle_id_add" class="form-control text-center mb-1" oninput="checkIfEmpty()">
+                    <div id="vehicle_category_add_title" class="mb-0425"></div>
+                    <select id="vehicle_category_add" class="form-select form-select-lg mb-1  h-custom-vehicle" onchange="checkIfEmpty()"></select>
+                    <div id="vehicle_type_add_title" class="mb-0425"></div>
+                    <select id="vehicle_type_add" class="form-select form-select-lg mb-1 h-custom-vehicle" onchange="checkIfEmpty()"></select>
+                    <div id="vehicle_min_price_add_title" class="mb-0425"></div>
+                    <input min="0" type="number" id="vehicle_min_price_add" class="form-control text-center mb-1" oninput="checkIfEmpty()">
+                    <div id="vehicle_max_price_add_title" class="mb-0425"></div>
+                    <input min="0" type="number" id="vehicle_max_price_add" class="form-control text-center mb-1" oninput="checkIfEmpty()">
+                    <div class="modal-footer">
+                        <button id="cancel-add-vehicle-btn" class="btn btn-dark-modal modal-buttons" data-bs-dismiss="modal"></button>
+                        <button id="confirm-add-vehicle-btn" class="btn btn-blue modal-buttons" data-bs-dismiss="modal" disabled></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- Delete Vehicle Showcase Modal -->
+		<div id="deleteVehicleShowcaseModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+                    <span id="delete_vehicle_showcase_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeDeleteVehicleShowcaseModal"><i class="fas fa-times"></i></span>
+                    <div id="delete_vehicle_showcase_text" class="conf_fire text-center"></div>
+                    <div class="modal-footer">
+                        <button id="cancel_delete_vehicle_showcase_btn" class="btn btn-dark-modal modal-buttons" data-bs-dismiss="modal"></button>
+                        <button id="delete_vehicle_showcase_btn" class="btn btn-blue modal-buttons" data-bs-dismiss="modal"></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- Add Vehicle Showcase Modal -->
+        <div id="addVehicleShowcaseModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+                    <span id="add_vehicle_showcase_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeAddVehicleShowcaseModal"><i class="fas fa-times"></i></span>
+                    <div id="vehicle_name_showcase_add_title" class="mb-0425 mt-1"></div>
+                    <input type="text" id="vehicle_name_showcase_add" class="form-control text-center mb-1" oninput="checkIfEmpty()">
+                    <div id="vehicle_id_showcase_add_title" class="mb-0425"></div>
+                    <input type="text" id="vehicle_id_showcase_add" class="form-control text-center mb-1" oninput="checkIfEmpty()">
+                    <div id="vehicle_shop_showcase_add_title" class="mb-0425"></div>
+                    <select id="vehicle_shop_showcase_add" class="form-select form-select-lg mb-1 h-custom-vehicle" onchange="checkIfEmpty()"></select>
+                    <div id="vehicle_color_showcase_add_title" class="mb-0425"></div>
+                    <div class="d-flex-row">
+                        <div>
+                            <input type="text" id="vehicle_color_showcase_add" class="form-control text-center mb-1" oninput="checkIfEmpty()">
+                        </div>
+                        <div class="ml-05">
+                            <div class="color-picker-container">
+                                <input type="color" id="vehicle_color_picker_showcase_add" class="color-picker-vehicle" oninput="updateColorText()">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="vehicle_plate_showcase_add_title" class="mb-0425"></div>
+                    <input type="text" id="vehicle_plate_showcase_add" class="form-control text-center mb-1" maxlength="8" oninput="checkIfEmpty()">
+                    <div class="modal-footer">
+                        <button id="cancel-add-vehicle-showcase-btn" class="btn btn-dark-modal modal-buttons" data-bs-dismiss="modal"></button>
+                        <button id="confirm-add-vehicle-showcase-btn" class="btn btn-blue modal-buttons" data-bs-dismiss="modal" disabled></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- All Stock Modal -->
+		<div id="allStockModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+                    <span id="all_stock_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeAllStockModal"><i class="fas fa-times"></i></span>
+                    <div id="all_stock_text" class="conf_fire text-center"></div>
+                    <div class="modal-footer">
+                        <button id="closeAllStockButton" class="btn btn-dark-modal modal-buttons" data-bs-dismiss="modal"></button>
+                        <button id="allStock_btn_modal" class="btn btn-blue modal-buttons" data-bs-dismiss="modal"></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- Toggle Listed Modal -->
+		<div id="toggleListedModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+                    <span id="toggle_listed_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeToggleListedModal"><i class="fas fa-times"></i></span>
+                    <div id="toggle_listed_text" class="conf_fire text-center"></div>
+                    <div class="modal-footer">
+                        <button id="closeToggleListedButton" class="btn btn-dark-modal modal-buttons" data-bs-dismiss="modal"></button>
+                        <button id="toggleListed_btn_modal" class="btn btn-blue modal-buttons" data-bs-dismiss="modal"></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+        <!-- Sell Vehicle Modal -->
+		<div id="sellVehicleModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+                    <span id="sell_vehicle_title" class="modal-t"></span>
+                    <hr class="mg070">
+                    <span class="close-button" data-bs-dismiss="modal" id="closeSellVehicleModal"><i class="fas fa-times"></i></span>
+                    <div id="sell_vehicle_text" class="conf_fire text-center"></div>
+                    <div class="modal-footer">
+                        <button id="closeSellVehicleButton" class="btn btn-dark-modal modal-buttons" data-bs-dismiss="modal"></button>
+                        <button id="sellvehicle_btn_modal" class="btn btn-blue modal-buttons" data-bs-dismiss="modal"></button>
+                    </div>
+                </div>
+			</div>
+		</div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.1/spectrum.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@5.0" crossorigin="anonymous"></script>
+		<script src="scripts.js" type="text/javascript"></script>
+	</body>
+</html>

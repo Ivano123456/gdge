@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+    <Item>
+      <modelName>560sel87</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array"> <!-- Black -->
+            0
+            0
+            0
+            0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Pearl Gray Metallic -->
+            9
+            9
+            4
+            4
+			4
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Arctic White -->
+            111
+            111
+            0
+            4
+			4
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Anthracite Gray Metallic -->
+            2
+            2
+            4
+            32
+			32
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Black Pearl Metallic / Silver -->
+            0
+            9
+            65
+            0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Dark Green Metallic -->
+            49
+            49
+            4
+            106
+            106
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Sea Foam Green Metallic -->
+            170
+            170
+            4
+            106
+            106
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Diamond Blue Metallic / Blue-Gray -->
+            230
+            10
+            4
+            0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Bison Brown Metallic / Brown -->
+            187
+            95
+            3
+            104
+            104
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Desert Taupe Metallic -->
+            8
+            8
+            4
+            104
+            104
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Mocca -->
+            101
+            101
+            0
+            106
+            106
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Champagne Metallic / Bronze -->
+            99
+            187
+            4
+            104
+            104
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Desert Red -->
+            31
+            31
+            1
+            106
+            106
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Signal Red / Silver -->
+            27
+            6
+            0
+            106
+            106
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cabernet Red Metallic -->
+            34
+            34
+            4
+            106
+            106
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Light Ivory / Brown -->
+            107
+            187
+            0
+            104
+            104
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Pueblo Beige -->
+            99
+            99
+            0
+            0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Smoke Silver Metallic -->
+            6
+            6
+            4
+            111
+            111
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Astral Silver Metallic / Dark Gray -->
+            4
+            3
+            4
+            63
+            63
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Ascot Gray / Dark Gray -->
+            7
+            3
+            1
+            0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Agate Green -->
+            228
+            228
+            0
+            106
+            106
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Blue Green Metallic / Dark Gray -->
+            195
+            3
+            4
+            106
+            106
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Deep Blue -->
+            172
+            172
+            3
+            106
+            106
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Midnight Blue -->
+            164
+            164
+            0
+            5
+            5
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Nautical Blue Metallic / Blue -->
+            62
+            63
+            65
+            5
+            5
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>standard white</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>White Plate 2</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="2" />
+      <sirenSettings value="0" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

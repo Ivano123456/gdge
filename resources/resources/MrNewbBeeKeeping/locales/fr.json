@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Soumettre",
+    "BeeShop": {
+        "Invalid": "Ce magasin n'est pas valide. Veuillez signaler au propriétaire du serveur de configurer le config.",
+        "OpenMenu": "Apiculteur",
+        "TargetShop": "Parler à l'apiculteur",
+        "ShopTitle": "Acheter des fournitures d'apiculture",
+        "SellItems": "Vendre des articles",
+        "InputSellAmount": "Saisir le montant à vendre",
+        "ShopDescription": "Achetez divers articles pour vous aider dans l'apiculture.",
+        "SellDescription": "Vendez vos articles d'apiculture.",
+        "SellTitle": "Vendre des articles liés aux abeilles",
+        "SellItemFor": "Vendre %s pour $%s chacun.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Articles à vendre",
+        "TransactionCompleted": "Vente terminée pour $%s.",
+        "IconColor": "orange",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Retour au menu précédent"
+    },
+    "HiveChange": {
+        "Dismantle": "Démonter la ruche",
+        "PlacingHive": "Placement de la ruche",
+        "ExtractWax": "Extraction de %s cire",
+        "ExtractHoney": "Extraction de %s miel",
+        "RemovingWorkers": "Retrait de %s abeilles ouvrières",
+        "AddingWorkers": "Ajout de %s abeilles ouvrières",
+        "RemovingQueen": "Retrait de la reine",
+        "AddingQueen": "Ajout de la reine",
+        "Placing": "Placement de la ruche",
+        "Accessing": "Accès à la ruche",
+        "Adding": "Ajout à la ruche",
+        "Removing": "Retrait de la ruche",
+        "MissingItem": "Il vous manque l'article requis pour cette action."
+    },
+    "ProgressBars": {
+        "Dismantle": "Démontage de la ruche...",
+        "Accessing": "Accès à la ruche...",
+        "Placing": "Placement de la ruche...",
+        "Adding": "Ajout à la ruche...",
+        "Extracting": "Extraction de la ruche..."
+    },
+    "HiveMenu": {
+        "Color": "orange",
+        "WorkerInputHeader": "Nombre d'abeilles ouvrières",
+        "WorkersToAdd": "Ouvrières à ajouter",
+        "WorkersToRemove": "Ouvrières à retirer",
+        "Slider_Add_Label": "Maximum à ajouter",
+        "Slider__Remove_Label": "Maximum à retirer",
+        "ItemCountCheck": "Vous n'avez pas assez de cet article pour cela.",
+        "Title": "Gestion de la ruche",
+        "HiveHealthTitle": "Aperçu de la santé de la ruche",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "État de santé actuel de la ruche : ",
+        "WaxCountTitle": "Gestion de la cire d'abeille",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Gérer la production de cire d'abeille",
+        "HoneyCountTitle": "Gestion du miel",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Surveiller la production de miel",
+        "QueenCountTitle": "Statut de la reine",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Gérer le nombre de reines",
+        "WorkerCountTitle": "Gestion des abeilles ouvrières",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Gérer le nombre d'abeilles ouvrières",
+        "DestroyHiveTitle": "Détruire la ruche",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Ceci détruira définitivement la ruche.",
+        "ManageAccess": "Gérer la ruche",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Gérer qui peut accéder à la ruche.",
+        "AddPlayerTitle": "Ajouter %s à l'accès de la ruche.",
+        "AddPlayerDescription": "Ceci donnera à %s l'accès à la ruche mais pas le droit de la détruire.",
+        "TooFarFromHive": "Vous êtes trop loin de la ruche.",
+        "TargetTooFarFromHive": "La cible est trop loin de la ruche.",
+        "Removing": "Retrait de la ruche",
+        "WaxToRemove": "Cire à retirer",
+        "HoneyToRemove": "Miel à retirer"
+    },
+    "QueenMenu": {
+        "Color": "orange",
+        "Title": "Gestion de la reine",
+        "DisplayQueenTitle": "Reines dans la ruche",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Reines dans la ruche : %s ",
+        "AddQueenTitle": "Ajouter une reine",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Ajouter une reine à la ruche",
+        "RemoveQueenTitle": "Retirer la reine",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Retirer la reine de la ruche",
+        "ItemCountCheck": "Vous n'avez pas assez de reines à ajouter.",
+        "HiveFilled": "Cette ruche a déjà une reine.",
+        "NoQueenInHive": "Cette ruche n'a pas de reine à retirer."
+    },
+    "WorkerMenu": {
+        "Color": "orange",
+        "Title": "Gestion des abeilles ouvrières",
+        "AddWorkerTitle": "Ajouter une abeille ouvrière",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Abeilles ouvrières dans la ruche",
+        "AddWorkerDescription": "Ajouter une abeille ouvrière à la ruche",
+        "DisplayWorkerDescription": "Abeilles ouvrières dans la ruche : %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Retirer une abeille ouvrière",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Retirer une abeille ouvrière de la ruche",
+        "NoWorkers": "Cette ruche n'a pas d'abeilles ouvrières.",
+        "HiveFilled": "Cette ruche a déjà le nombre maximum d'abeilles ouvrières.",
+        "WorkerInvCheck": "Vous n'avez pas assez d'abeilles ouvrières pour cela."
+    },
+    "HoneyMenu": {
+        "Color": "orange",
+        "Title": "Gestion du miel",
+        "DisplayHoneyType": "Type de miel",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Ce miel est de type : %s ",
+        "DisplayHoneyCount": "Quantité de miel",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Quantité actuelle de miel : %s",
+        "ExtractHoneyTitle": "Extraire le miel",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Extraire tout le miel de la ruche",
+        "NoHoney": "Cette ruche n'a pas de miel."
+    },
+    "WaxMenu": {
+        "Color": "orange",
+        "Title": "Gestion de la cire d'abeille",
+        "DisplayWaxCount": "Quantité de cire d'abeille",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Quantité actuelle de cire d'abeille : %s",
+        "ExtractWaxTitle": "Extraire la cire de la ruche",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Extraire toute la cire d'abeille de la ruche",
+        "NoWax": "Cette ruche n'a pas de cire d'abeille."
+    },
+    "Hive": {
+        "Access": "Accéder à la ruche"
+    },
+    "Dismantle": {
+        "title": "Êtes-vous sûr ?",
+        "icon": "marteau",
+        "description": "Ceci démontera la ruche et retournera les articles à l'intérieur."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Impossible de placer la ruche ici. Essayez un autre endroit.",
+        "BlacklistedZone": "Vous ne pouvez pas placer une ruche dans une zone interdite.",
+        "MaxOwnedHivesReached": "Vous avez atteint le nombre maximum de ruches autorisées."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Vous devez être le propriétaire pour modifier cette ruche."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Vous devez être sur la liste autorisée pour modifier cette ruche."
+    },
+    "ManageAccess": {
+        "Color": "orange",
+        "Title": "Gérer l'accès à la ruche",
+        "AddUser": "Ajouter un utilisateur",
+        "RemovedUser": "Utilisateur retiré de l'accès à la ruche",
+        "UnableToRemove": "Impossible de retirer l'utilisateur de l'accès à la ruche. Vous devez être le propriétaire pour faire cela.",
+        "UnableToFindHive": "Impossible de trouver les données de la ruche. Veuillez réessayer plus tard.",
+        "UnableToAccess": "Vous n'avez pas accès à cette ruche.",
+        "AlreadyAdded": "L'utilisateur est déjà ajouté à l'accès de la ruche",
+        "UserAdded": "Utilisateur ajouté à l'accès de la ruche",
+        "UserList": "Liste d'utilisateurs",
+        "AddClosestPersonTitle": "Ajouter la personne la plus proche",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Ajouter la personne la plus proche à la liste d'accès de la ruche.",
+        "RemovePlayerTitle": "Retirer un utilisateur",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Retirer un utilisateur de la liste d'accès de la ruche.",
+        "RemovePlayer": "Retirer %s de la liste d'accès de la ruche.",
+        "RemovedSuccess": "Utilisateur retiré de l'accès à la ruche.",
+        "RemovedError": "Impossible de retirer l'utilisateur de l'accès à la ruche.",
+        "ViewAccessTitle": "Voir la liste d'accès",
+        "ViewAccessDescription": "Voir la liste des utilisateurs qui ont accès à cette ruche.",
+        "ViewAccessMenuTitle": "Liste d'accès",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "A accès à cette ruche.",
+        "SubViewAccessMenuTitle": "Liste des utilisateurs ayant accès à la ruche",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Ajouter %s à l'accès de la ruche.",
+        "AddPlayerDescription": "Ceci donnera à %s l'accès à la ruche mais pas le droit de la détruire.",
+        "TooFarFromHive": "Vous êtes trop loin de la ruche.",
+        "TargetTooFarFromHive": "La cible est trop loin de la ruche.",
+        "RemoveUserTitle": "Retirer un utilisateur",
+        "RemoveUserDescription": "Retirer un utilisateur de la liste d'accès de la ruche.",
+        "UserListDescription": "Liste des utilisateurs ayant accès à la ruche",
+        "ManageAccessTitle": "Gérer l'accès des utilisateurs à la ruche",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Ajouter ou retirer des utilisateurs ayant accès à la ruche.",
+        "YouWereAdded": "Vous avez été ajouté à la liste d'accès de la ruche.",
+        "NoPlayerNearby": "Aucun joueur à proximité à ajouter."
+    },
+    "Blips": {
+        "HiveBlipText": "Ruche d'abeilles"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Vous avez fait une erreur et quelques abeilles vous ont piqué !"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Retire une ruche d'abeilles par ID [COMMANDE ADMIN UNIQUEMENT]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "L'ID de la ruche d'abeilles depuis SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Retire une ruche d'abeilles par identifiant du propriétaire [COMMANDE ADMIN UNIQUEMENT]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "L'identifiant du propriétaire de la ruche d'abeilles"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Affiche toutes les ruches sur la carte [COMMANDE ADMIN UNIQUEMENT]"
+        },
+        "OpenAdminHives": {
+            "help": "Ouvre le menu de gestion admin des ruches [COMMANDE ADMIN UNIQUEMENT]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Cire : %s, Miel : %s, Ouvrières : %s, Reine : %s",
+        "JoinedNames": "%s, avec l'identifiant %s",
+        "MainMenuTitle": "Menu Admin",
+        "ManageHiveByID": "Gérer la ruche ID : %s",
+        "ManageHiveDescription": "Accéder à la gestion de la ruche",
+        "ManageHiveOwnerTitle": "Propriétaire de la ruche : %s",
+        "ManageHiveOwnerDescription": "Le propriétaire de la ruche est %s",
+        "ManageHiveIDTitle": "ID de la ruche : %s",
+        "ManageHiveIDDescription": "L'ID de la ruche est %s",
+        "MarkHiveCoordsTitle": "Marquer les coordonnées de la ruche",
+        "MarkHiveCoordsDescription": "Marquer les coordonnées de la ruche sur la carte.",
+        "TeleportToCoordsTitle": "Téléporter aux coordonnées de la ruche",
+        "TeleportToCoordsDescription": "Téléporter aux coordonnées de la ruche.",
+        "AccessablePlayersTitle": "Dernier accès : ",
+        "AccessablePlayersDescription": "Dernier accès : %s",
+        "HiveStatusTitle": "Statut de la ruche : ",
+        "HiveStatusDescription": "Statut actuel : %s",
+        "PlayersWithAccessTitle": "Joueurs ayant accès à la ruche",
+        "RunSearch": "Exécuter la recherche",
+        "RunSearchDescription": "Rechercher des données spécifiques.",
+        "CopyIdToClipBoard": "Copier l'ID de la ruche dans le presse-papiers",
+        "CopyIdToClipBoardDescription": "Copier l'ID de la ruche dans votre presse-papiers.",
+        "IconColor": "orange",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Vous n'avez pas la permission d'utiliser ceci.",
+        "DeleteHiveTitle": "Supprimer la ruche",
+        "DeleteHiveDescription": "Supprimer définitivement la ruche avec l'ID : %s",
+        "ShowAllHivesOnMap": "Afficher/Masquer toutes les ruches sur la carte",
+        "ShowAllHivesOnMapDescription": "Basculer l'affichage de toutes les ruches sur la carte.",
+        "ListAllHives": "Lister toutes les ruches",
+        "ListAllHivesDescription": "Lister toutes les ruches dans la base de données.",
+        "Search": {
+            "InvalidSearchInput": "Entrée de recherche invalide. Veuillez réessayer.",
+            "Title": "Recherche",
+            "SearchLabel": "Rechercher des données spécifiques.",
+            "SearchDescription": "Saisir les données que vous souhaitez rechercher.",
+            "SearchPlaceholder": "Saisir le terme de recherche...",
+            "Submit": "Soumettre"
+        }
+    }
+}

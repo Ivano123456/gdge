@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Отправить",
+    "BeeShop": {
+        "Invalid": "Этот магазин недопустим. Пожалуйста, сообщите владельцу сервера настроить параметры.",
+        "OpenMenu": "Пчеловод",
+        "TargetShop": "Поговорить с пчеловодом",
+        "ShopTitle": "Купить припасы для пчеловодства",
+        "SellItems": "Продать предметы",
+        "InputSellAmount": "Введите количество для продажи",
+        "ShopDescription": "Покупайте различные предметы, чтобы помочь с пчеловодством.",
+        "SellDescription": "Продавайте ваши предметы пчеловодства.",
+        "SellTitle": "Продать предметы, связанные с пчелами",
+        "SellItemFor": "Продать %s за $%s каждый.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Предметы для продажи",
+        "TransactionCompleted": "Продажа завершена за $%s.",
+        "IconColor": "оранжевый",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Назад к предыдущему меню"
+    },
+    "HiveChange": {
+        "Dismantle": "Разобрать улей",
+        "PlacingHive": "Размещение улья",
+        "ExtractWax": "Извлечение %s воска",
+        "ExtractHoney": "Извлечение %s меда",
+        "RemovingWorkers": "Удаление %s рабочих пчел",
+        "AddingWorkers": "Добавление %s рабочих пчел",
+        "RemovingQueen": "Удаление королевы",
+        "AddingQueen": "Добавление королевы",
+        "Placing": "Размещение улья",
+        "Accessing": "Доступ к улью",
+        "Adding": "Добавление в улей",
+        "Removing": "Удаление из улья",
+        "MissingItem": "У вас нет нужного предмета для этого действия."
+    },
+    "ProgressBars": {
+        "Dismantle": "Разборка улья...",
+        "Accessing": "Доступ к улью...",
+        "Placing": "Размещение улья...",
+        "Adding": "Добавление в улей...",
+        "Extracting": "Извлечение из улья..."
+    },
+    "HiveMenu": {
+        "Color": "оранжевый",
+        "WorkerInputHeader": "Количество рабочих пчел",
+        "WorkersToAdd": "Рабочие для добавления",
+        "WorkersToRemove": "Рабочие для удаления",
+        "Slider_Add_Label": "Максимум для добавления",
+        "Slider__Remove_Label": "Максимум для удаления",
+        "ItemCountCheck": "У вас недостаточно этого предмета для этого.",
+        "Title": "Управление ульем",
+        "HiveHealthTitle": "Обзор здоровья улья",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Текущее состояние здоровья улья: ",
+        "WaxCountTitle": "Управление пчелиным воском",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Управляйте производством пчелиного воска",
+        "HoneyCountTitle": "Управление медом",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Следите за производством меда",
+        "QueenCountTitle": "Статус королевы",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Управляйте количеством королев",
+        "WorkerCountTitle": "Управление рабочими пчелами",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Управляйте количеством рабочих пчел",
+        "DestroyHiveTitle": "Уничтожить улей",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Это навсегда уничтожит улей.",
+        "ManageAccess": "Управлять ульем",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Управляйте тем, кто может получить доступ к улью.",
+        "AddPlayerTitle": "Добавить %s к доступу к улью.",
+        "AddPlayerDescription": "Это даст %s доступ к улью, но не право уничтожить его.",
+        "TooFarFromHive": "Вы слишком далеко от улья.",
+        "TargetTooFarFromHive": "Цель слишком далеко от улья.",
+        "Removing": "Удаление из улья",
+        "WaxToRemove": "Воск для удаления",
+        "HoneyToRemove": "Мед для удаления"
+    },
+    "QueenMenu": {
+        "Color": "оранжевый",
+        "Title": "Управление королевой",
+        "DisplayQueenTitle": "Королевы в улье",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Королевы в улье: %s ",
+        "AddQueenTitle": "Добавить королеву",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Добавить королеву в улей",
+        "RemoveQueenTitle": "Удалить королеву",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Удалить королеву из улья",
+        "ItemCountCheck": "У вас недостаточно королев для добавления.",
+        "HiveFilled": "В этом улье уже есть королева.",
+        "NoQueenInHive": "В этом улье нет королевы для удаления."
+    },
+    "WorkerMenu": {
+        "Color": "оранжевый",
+        "Title": "Управление рабочими пчелами",
+        "AddWorkerTitle": "Добавить рабочую пчелу",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Рабочие пчелы в улье",
+        "AddWorkerDescription": "Добавить рабочую пчелу в улей",
+        "DisplayWorkerDescription": "Рабочие пчелы в улье: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Удалить рабочую пчелу",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Удалить рабочую пчелу из улья",
+        "NoWorkers": "В этом улье нет рабочих пчел.",
+        "HiveFilled": "В этом улье уже максимальное количество рабочих пчел.",
+        "WorkerInvCheck": "У вас недостаточно рабочих пчел для этого."
+    },
+    "HoneyMenu": {
+        "Color": "оранжевый",
+        "Title": "Управление медом",
+        "DisplayHoneyType": "Тип меда",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Этот мед типа: %s ",
+        "DisplayHoneyCount": "Количество меда",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Текущее количество меда: %s",
+        "ExtractHoneyTitle": "Извлечь мед",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Извлечь весь мед из улья",
+        "NoHoney": "В этом улье нет меда."
+    },
+    "WaxMenu": {
+        "Color": "оранжевый",
+        "Title": "Управление пчелиным воском",
+        "DisplayWaxCount": "Количество пчелиного воска",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Текущее количество пчелиного воска: %s",
+        "ExtractWaxTitle": "Извлечь воск из улья",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Извлечь весь пчелиный воск из улья",
+        "NoWax": "В этом улье нет пчелиного воска."
+    },
+    "Hive": {
+        "Access": "Получить доступ к улью"
+    },
+    "Dismantle": {
+        "title": "Вы уверены?",
+        "icon": "молоток",
+        "description": "Это разберет улей и вернет предметы внутри."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Не удалось разместить улей здесь. Попробуйте другое место.",
+        "BlacklistedZone": "Вы не можете поставить улей в запрещенной зоне.",
+        "MaxOwnedHivesReached": "Вы достигли максимального количества разрешенных ульев."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Вы должны быть владельцем, чтобы изменить этот улей."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Вы должны быть в списке разрешенных, чтобы изменить этот улей."
+    },
+    "ManageAccess": {
+        "Color": "оранжевый",
+        "Title": "Управление доступом к улью",
+        "AddUser": "Добавить пользователя",
+        "RemovedUser": "Пользователь удален из доступа к улью",
+        "UnableToRemove": "Невозможно удалить пользователя из доступа к улью. Вы должны быть владельцем, чтобы сделать это.",
+        "UnableToFindHive": "Невозможно найти данные улья. Пожалуйста, повторите попытку позже.",
+        "UnableToAccess": "У вас нет доступа к этому улью.",
+        "AlreadyAdded": "Пользователь уже добавлен к доступу к улью",
+        "UserAdded": "Пользователь добавлен к доступу к улью",
+        "UserList": "Список пользователей",
+        "AddClosestPersonTitle": "Добавить ближайшего человека",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Добавить ближайшего человека к списку доступа к улью.",
+        "RemovePlayerTitle": "Удалить пользователя",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Удалить пользователя из списка доступа к улью.",
+        "RemovePlayer": "Удалить %s из списка доступа к улью.",
+        "RemovedSuccess": "Пользователь удален из доступа к улью.",
+        "RemovedError": "Невозможно удалить пользователя из доступа к улью.",
+        "ViewAccessTitle": "Посмотреть список доступа",
+        "ViewAccessDescription": "Посмотреть список пользователей, которые имеют доступ к этому улью.",
+        "ViewAccessMenuTitle": "Список доступа",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Имеет доступ к этому улью.",
+        "SubViewAccessMenuTitle": "Список пользователей с доступом к улью",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Добавить %s к доступу к улью.",
+        "AddPlayerDescription": "Это даст %s доступ к улью, но не право уничтожить его.",
+        "TooFarFromHive": "Вы слишком далеко от улья.",
+        "TargetTooFarFromHive": "Цель слишком далеко от улья.",
+        "RemoveUserTitle": "Удалить пользователя",
+        "RemoveUserDescription": "Удалить пользователя из списка доступа к улью.",
+        "UserListDescription": "Список пользователей с доступом к улью",
+        "ManageAccessTitle": "Управление доступом пользователя к улью",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Добавить или удалить пользователей с доступом к улью.",
+        "YouWereAdded": "Вы были добавлены к списку доступа к улью.",
+        "NoPlayerNearby": "Рядом нет игрока для добавления."
+    },
+    "Blips": {
+        "HiveBlipText": "Пчелиный улей"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Вы сделали ошибку и несколько пчел вас ужалили!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Удалить пчелиный улей по ID [ТОЛЬКО КОМАНДА АДМИНА]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "ID пчелиного улья из SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Удалить пчелиный улей по идентификатору владельца [ТОЛЬКО КОМАНДА АДМИНА]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "Идентификатор владельца пчелиного улья"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Показать все ульи на карте [ТОЛЬКО КОМАНДА АДМИНА]"
+        },
+        "OpenAdminHives": {
+            "help": "Открыть меню управления ульями админа [ТОЛЬКО КОМАНДА АДМИНА]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Воск: %s, Мед: %s, Рабочие: %s, Королева: %s",
+        "JoinedNames": "%s с идентификатором %s",
+        "MainMenuTitle": "Меню админа",
+        "ManageHiveByID": "Управлять ульем ID: %s",
+        "ManageHiveDescription": "Доступ к управлению ульем",
+        "ManageHiveOwnerTitle": "Владелец улья: %s",
+        "ManageHiveOwnerDescription": "Владелец улья %s",
+        "ManageHiveIDTitle": "ID улья: %s",
+        "ManageHiveIDDescription": "ID улья %s",
+        "MarkHiveCoordsTitle": "Отметить координаты улья",
+        "MarkHiveCoordsDescription": "Отметить координаты улья на карте.",
+        "TeleportToCoordsTitle": "Телепортироваться к координатам улья",
+        "TeleportToCoordsDescription": "Телепортироваться к координатам улья.",
+        "AccessablePlayersTitle": "Последний доступ: ",
+        "AccessablePlayersDescription": "Последний доступ: %s",
+        "HiveStatusTitle": "Статус улья: ",
+        "HiveStatusDescription": "Текущий статус: %s",
+        "PlayersWithAccessTitle": "Игроки с доступом к улью",
+        "RunSearch": "Выполнить поиск",
+        "RunSearchDescription": "Поиск определенных данных.",
+        "CopyIdToClipBoard": "Скопировать ID улья в буфер обмена",
+        "CopyIdToClipBoardDescription": "Скопировать ID улья в ваш буфер обмена.",
+        "IconColor": "оранжевый",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "У вас нет разрешения использовать это.",
+        "DeleteHiveTitle": "Удалить улей",
+        "DeleteHiveDescription": "Навсегда удалить улей с ID: %s",
+        "ShowAllHivesOnMap": "Показать/Скрыть все ульи на карте",
+        "ShowAllHivesOnMapDescription": "Переключить отображение всех ульев на карте.",
+        "ListAllHives": "Показать все ульи",
+        "ListAllHivesDescription": "Показать все ульи в базе данных.",
+        "Search": {
+            "InvalidSearchInput": "Неверный ввод поиска. Пожалуйста, попробуйте еще раз.",
+            "Title": "Поиск",
+            "SearchLabel": "Поиск определенных данных.",
+            "SearchDescription": "Введите данные, которые хотите найти.",
+            "SearchPlaceholder": "Введите поисковый запрос...",
+            "Submit": "Отправить"
+        }
+    }
+}

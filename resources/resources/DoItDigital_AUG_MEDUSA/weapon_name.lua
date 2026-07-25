@@ -1,0 +1,1 @@
+AddTextEntry("WEAPON_AUG_MEDUSA", "AUG_MEDUSA")

@@ -1,0 +1,26 @@
+{
+    "header": {
+        "bodyListTitle": "Lista body kamera",
+        "bodyListSubtitle": "Ovde mozes videti sve aktivne body kamere",
+
+        "dashListTitle": "Lista dash kamera",
+        "dashListSubtitle": "Ovde mozes videti sve aktivne dash kamere",
+
+        "recordListTitle": "Lista snimaka",
+        "recordListSubtitle": "Ovde mozes videti sve snimke"
+    },
+    "search": "Pretrazi po imenu",
+    "grade": "cin",
+    "name": "ime",
+    "date": "datum",
+    "watch": "gledaj",
+    "category": "kategorija",
+    "bodycams": "body kamere",
+    "dashcams": "dash kamere",
+    "records": "snimci",
+    "close": "zatvori meni",
+    "recording": "snimanje",
+    "live": "uzivo",
+    "location": "lokacija",
+    "exitcam": "backspace / izadji iz kamere"
+}

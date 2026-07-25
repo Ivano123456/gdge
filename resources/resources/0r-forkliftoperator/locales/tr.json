@@ -1,0 +1,76 @@
+{
+    "employer": {
+        "interaction_label": "İşveren ile konuş"
+    },
+    "notification": {
+        "error": {
+            "enter_player_id": "Lütfen geçerli bir oyuncu ID'si girin.",
+            "not_team_owner": "Takımın sahibi değilsiniz.",
+            "already_in_team": "Oyuncu zaten bir takımda.",
+            "you_are_in_team": "Zaten bir takımdasınız.",
+            "team_full": "Takımınız dolu.",
+            "too_far_for_invite": "Davet göndermek için oyuncu çok uzakta.",
+            "not_in_team": "Bir takımda değilsiniz.",
+            "cant_invite_self": "Kendinizi davet edemezsiniz."
+        },
+        "info": {
+            "invite_declined": "%s çok oyunculu takım davetinizi reddetti.",
+            "invite_accepted": "%s çok oyunculu takım davetinizi kabul etti.",
+            "left_team": "Çok oyunculu takımdan ayrıldınız.",
+            "kicked_from_team": "%s tarafından çok oyunculu takımdan atıldınız.",
+            "job_completed": "Tebrikler! İşi tamamladınız. İşvereninizle konuşarak ödüllerinizi alın."
+        }
+    },
+    "target": {
+        "controller": {
+            "label": "Taşıyıcıyı başlat"
+        },
+        "management": {
+            "stop_job": "İşi durdur",
+            "complete_job": "İşi tamamla"
+        }
+    },
+    "alert": {
+        "multiplayer_invite": {
+            "title": "Çok Oyunculu Takım Daveti",
+            "content": "%s sizi çok oyunculu bir takıma davet etti. Daveti kabul etmek istiyor musunuz?",
+            "accept_button": "Kabul Et",
+            "decline_button": "Reddet"
+        }
+    },
+    "web": {
+        "header": {
+            "trucker": "FORKLİFT",
+            "job": "İŞ",
+            "description": "Ekibinizle birlikte teslimat görevlerini tamamlayın ve birlikte ödüller kazanın!"
+        },
+        "tabs": {
+            "player_list": "Oyuncu Listesi",
+            "task_type": "Görev Türü",
+            "profile": "Profil",
+            "job_details": "İş Detayları",
+            "job_clothings": "İş Kıyafetleri"
+        },
+        "buttons": {
+            "start_job": "İşi Başlat",
+            "invite_player": "Oyuncu Davet Et",
+            "change_clothes": "Kıyafetleri Değiştir"
+        },
+        "labels": {
+            "awards": "Ödüller",
+            "nickname": "Takma Ad",
+            "level": "Seviye",
+            "xp": "XP",
+            "job_step": "Bilgilendirme",
+            "job_step_description": "Akşam 22:00 ile sabah 06:00 saatleri arasında gece vardiyasında çalışırken ekstra vardiya kazancı elde edersin.",
+            "empty_slot": "Boş Slot",
+            "info_header": "Çok Oyunculu Takım Bilgisi",
+            "info_description": "Takımınızla birlikte çalışarak görevleri tamamlayın!",
+            "leader": "Lider",
+            "member": "Üye"
+        },
+        "inputs": {
+            "enter_player_id": "Oyuncu ID girin..."
+        }
+    }
+}

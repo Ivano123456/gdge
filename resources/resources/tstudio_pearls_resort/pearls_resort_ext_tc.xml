@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<timecycle_modifier_data version="1.000000">
+    <modifier name="lightpolution_pearls" numMods="16" userFlags="0">
+        <light_natural_amb_down_col_r>1.000 0.100</light_natural_amb_down_col_r>
+        <light_natural_amb_down_col_g>0.767 0.100</light_natural_amb_down_col_g>
+        <light_natural_amb_down_col_b>0.900 0.100</light_natural_amb_down_col_b>
+        <light_natural_amb_up_col_r>0.400 0.100</light_natural_amb_up_col_r>
+        <light_natural_amb_up_col_g>0.341 0.100</light_natural_amb_up_col_g>
+        <light_natural_amb_up_col_b>0.000 0.100</light_natural_amb_up_col_b>
+        <fog_near_col_r>1.000 0.020</fog_near_col_r>
+        <fog_near_col_g>0.345 0.020</fog_near_col_g>
+        <fog_near_col_b>0.000 0.020</fog_near_col_b>
+        <fog_near_col_a>1.000 0.020</fog_near_col_a>
+        <fog_col_r>1.000 0.020</fog_col_r>
+        <fog_col_g>0.220 0.020</fog_col_g>
+        <fog_col_b>0.000 0.020</fog_col_b>
+        <fog_col_a>1.000 0.020</fog_col_a>
+        <fog_horizon_tint_scale>4.000 4.000</fog_horizon_tint_scale>
+        <fog_hdr>0.050 0.900</fog_hdr>
+    </modifier>
+<timecycle_modifier_data version="1.000000">
+    <modifier name="NoAmbientmult_pearls" numMods="4" userFlags="0">
+        <lens_artefacts_intensity>1.000 0.000</lens_artefacts_intensity>
+        <temperature>15.000 0.000</temperature>
+        <natural_ambient_multiplier>-0.100 0.000</natural_ambient_multiplier>
+        <artificial_int_ambient_multiplier>0.000 0.000</artificial_int_ambient_multiplier>
+    </modifier>
+</timecycle_modifier_data>

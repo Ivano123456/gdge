@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background: rgba(0, 0, 0, 0.5);*/
+    overflow: hidden;
+    margin: 0;
+}
+.game-container {
+    position: relative;
+    width: 400px;
+    height: 197px;
+    overflow: hidden;
+    background-image: url("./image/image1.png");
+}
+
+.target-zone {
+    position: absolute;
+    left: 150px;
+    width: 50px;
+    height: 100%;
+    background: rgba(14, 69, 68, 0.75);
+}
+.moving-arrow {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 100%;
+    background: #0B5433;
+}
+
+.background {
+    background: #000;
+}
+
+.container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.container.active {
+    display: flex;
+}
+
+.left-counter {
+    position: absolute;
+    font-size: 24px;
+    left: 16%;
+    top: 32%;
+    color: #fff;
+}
+
+.right-counter {
+    position: absolute;
+    font-size: 24px;
+    right: 16%;
+    top: 32%;
+    color: #fff;
+}
+
+/* Animation keyframes */
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeOutScale {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+}
+
+/* Animate the container background */
+.container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+/* Active state triggers fade in */
+.container.active {
+    display: flex;
+    opacity: 1;
+}
+
+/* Game container animation wrapper */
+.game-container {
+    position: relative;
+    width: 400px;
+    height: 197px;
+    overflow: hidden;
+    background-image: url("./image/image1.png");
+    animation: fadeInScale 0.4s ease forwards;
+}
+
+.container.closing .game-container {
+    animation: fadeOutScale 0.3s ease forwards;
+}

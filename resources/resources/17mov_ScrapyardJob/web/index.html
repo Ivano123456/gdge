@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/stylesheets/fonts.css" />
+		<link rel="stylesheet" href="assets/stylesheets/style.css" />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="multiplayerLobby">
+			<div class="startJob" id="counter">
+				<div class="sideContainer">
+					<div class="decoLine">
+						<div class="decoLine">
+							<div
+								class="text"
+								style="clip-path: none; margin-left: 0"
+								data-translation="Progress:Title"
+							>
+								Progress
+							</div>
+							<div class="line"></div>
+						</div>
+					</div>
+					<div class="startBtn" id="progress"></div>
+				</div>
+			</div>
+
+			<div class="notifications"></div>
+
+			<div class="multiplayerMenu">
+				<div class="fixedSize">
+					<div class="jobTitle">
+						<div
+							class="title"
+							data-translation="Lobby:Header.Title"
+						>
+							WASTELAND METALS
+						</div>
+						<div
+							class="description"
+							data-translation="Lobby:Header.Subtitle"
+						>
+							MULTIPLAYER JOB
+						</div>
+					</div>
+
+					<div class="header">
+						<div class="backgroundText">
+							<div
+								class="bgText"
+								data-translation="Lobby:SubHeader.Title"
+							>
+								SCRAPYARD LOBBY
+							</div>
+							<div class="content">
+								<div class="decorationLine">
+									<div
+										class="text"
+										id="headerDecoText"
+										data-translation="Lobby:SubHeader.Subtitle"
+									>
+										SCRAPYARD LOBBY
+									</div>
+									<div class="decorationParent">
+										<div class="fullHeight"></div>
+										<img
+											id="headerDeco"
+											src="assets/images/decoration.svg"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="startJob" id="startJob">
+						<div class="gradient"></div>
+						<div class="decoLine">
+							<div class="decorationLine">
+								<div
+									class="text startJobClipPath"
+									style="
+										clip-path: polygon(
+											0% 0%,
+											0 51%,
+											26% 100%,
+											100% 99%,
+											100% 0
+										);
+									"
+									id="decoLineStart"
+									data-translation="Lobby:Button.Start.Title"
+								>
+									Start
+								</div>
+								<img
+									src="assets/images/decoration.svg"
+									height="17"
+								/>
+							</div>
+							<div class="line"></div>
+						</div>
+
+						<div
+							id="startBtn"
+							class="startBtn"
+							onclick="startJob()"
+							data-translation="Lobby:Button.Start.Value"
+						>
+							Start Job
+						</div>
+					</div>
+
+					<div class="mainScreen">
+						<div class="tabs">
+							<div class="tab activeTab" id="mainMenu">
+								<img src="assets/images/home.svg" />
+								<div
+									class="text"
+									data-translation="Lobby:Tabs.MainMenu"
+								>
+									MAIN MENU
+								</div>
+							</div>
+							<div class="tab" id="management">
+								<img src="assets/images/management.svg" />
+								<div
+									class="text"
+									data-translation="Lobby:Tabs.Management"
+								>
+									MANAGEMENT
+								</div>
+							</div>
+						</div>
+
+						<div class="tabsSlider">
+							<div
+								class="mainMenu slide"
+								style="min-width: 410px"
+							>
+								<div class="box" id="cloakroom">
+									<div class="icon">
+										<img
+											src="assets/images/clothingIcon.webp"
+											height="50px"
+										/>
+										<img
+											src="assets/images/strokes.svg"
+											height="40px"
+										/>
+									</div>
+									<div class="content">
+										<div
+											class="topic"
+											data-translation="Lobby:Clothes.Title"
+										>
+											Select Clothes
+										</div>
+										<div class="value">
+											<span
+												data-translation="Lobby:Clothes.Value"
+												>Clothes #</span
+											>
+											<span id="clothesId">1</span>
+										</div>
+									</div>
+
+									<div class="switch">
+										<div class="sliderParent">
+											<div class="fullHeight"></div>
+											<div class="activeSlider"></div>
+										</div>
+										<div class="switchFlex">
+											<div
+												class="option"
+												id="0"
+												data-translation="Lobby:Clothes.Civilian"
+											>
+												#1
+											</div>
+											<div
+												class="option"
+												id="1"
+												data-translation="Lobby:Clothes.Work"
+											>
+												#2
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="box" id="cashPercentage">
+									<div class="icon">
+										<img
+											src="assets/images/cash.svg"
+											height="50px"
+										/>
+										<img
+											src="assets/images/strokes.svg"
+											height="40px"
+										/>
+									</div>
+									<div class="content">
+										<div
+											class="topic"
+											data-translation="Lobby:CashPercentage.Title"
+										>
+											Percentage of your salary
+										</div>
+										<div class="value">
+											<span
+												data-translation="Lobby:CashPercentage.Value"
+												>Boss set it to:
+											</span>
+											<span class="salaryPercent"
+												>100%</span
+											>
+										</div>
+									</div>
+								</div>
+
+								<div class="myTeamParent">
+									<div class="decoLine">
+										<div class="decorationLine">
+											<div
+												class="text"
+												data-translation="Lobby:Team.Title"
+											>
+												Your Team
+											</div>
+											<img
+												src="assets/images/decoration.svg"
+												height="17"
+											/>
+										</div>
+										<div class="line"></div>
+									</div>
+
+									<div class="myTeam"></div>
+								</div>
+
+								<div class="nearbyPlayersParent">
+									<div class="decoLine">
+										<div class="decorationLine">
+											<div
+												class="text"
+												data-translation="Lobby:Nearby.Title"
+											>
+												Nearby Players
+											</div>
+											<img
+												src="assets/images/decoration.svg"
+												height="17"
+											/>
+										</div>
+										<div class="line"></div>
+									</div>
+
+									<div class="nearbyPlayers"></div>
+								</div>
+							</div>
+							<div class="management slide">
+								<div class="decoLine">
+									<div class="decorationLine">
+										<div
+											class="text"
+											data-translation="Lobby:ManageTeam.Title"
+										>
+											Manage Team
+										</div>
+										<img
+											src="assets/images/decoration.svg"
+											height="17"
+										/>
+									</div>
+									<div class="line"></div>
+								</div>
+
+								<div class="manageMyTeam"></div>
+
+								<div class="manageReward">
+									<div class="decoLine">
+										<div class="decorationLine">
+											<div
+												class="text"
+												data-translation="Lobby:ManageRewards.Title"
+											>
+												Manage Rewards Percentage
+											</div>
+											<img
+												src="assets/images/decoration.svg"
+												height="17"
+											/>
+										</div>
+										<div class="line"></div>
+									</div>
+
+									<div class="teamRewards"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tutorialScreen" id="inviteScreen">
+						<div class="background">
+							<div
+								class="title"
+								data-translation="Lobby:Invite.Title"
+							>
+								Invitation
+							</div>
+							<div class="text">
+								<span
+									data-translation="Lobby:Invite.Description"
+								>
+									You have received an invitation to join the
+									scrapyard job team from
+								</span>
+								<span class="inviterName"></span>
+							</div>
+						</div>
+
+						<div class="btns">
+							<div
+								class="btn closeTutorialBtn"
+								onclick="reactInvite(true)"
+								data-translation="Lobby:Invite.Accept"
+							>
+								Accept Invite
+							</div>
+							<div
+								class="btn dontShowTutorialBtn"
+								onclick="reactInvite(false)"
+								data-translation="Lobby:Invite.Deny"
+							>
+								Deny Invite
+							</div>
+						</div>
+					</div>
+
+					<div class="tutorialScreen" id="warningScreen">
+						<div class="background">
+							<div
+								class="title"
+								data-translation="Lobby:Penalty.Title"
+							>
+								WARNING
+							</div>
+							<div
+								class="text"
+								data-translation="Lobby:Penalty.Description"
+							>
+								You didn't return rented forklift, you can end
+								your work, but you will be charged a penalty.
+							</div>
+						</div>
+
+						<div class="btns">
+							<div
+								class="btn closeTutorialBtn"
+								onclick="reactWarning(true)"
+								data-translation="Lobby:Penalty.Accept"
+							>
+								Accept Penalty
+							</div>
+							<div
+								class="btn dontShowTutorialBtn"
+								onclick="reactWarning(false)"
+								data-translation="Lobby:Penalty.Deny"
+							>
+								Cancel
+							</div>
+						</div>
+					</div>
+
+					<div class="tutorialScreen" id="tutorialScreen">
+						<div class="background">
+							<div
+								class="title"
+								data-translation="Tutorial:Section.Title"
+							>
+								Tutorial
+							</div>
+							<div class="text"></div>
+						</div>
+						<div class="btns">
+							<div
+								class="btn closeTutorialBtn"
+								onclick="closeTutorial(false)"
+								data-translation="Tutorial:Button.Close"
+							>
+								Close Tutorial
+							</div>
+							<div
+								class="btn dontShowTutorialBtn"
+								onclick="closeTutorial(true)"
+								data-translation="Tutorial:Button.DontShowAgain"
+							>
+								Don't Show Again
+							</div>
+						</div>
+					</div>
+
+					<div class="tutorialScreen" id="customScreen">
+						<div class="background" style="margin-bottom: 10px">
+							<img id="customImg" class="customScreenImg" />
+						</div>
+						<div class="background">
+							<div class="title" id="customScreenSubTitle"></div>
+							<div class="text"></div>
+						</div>
+						<div class="btns">
+							<div
+								class="btn closeTutorialBtn"
+								onclick="closeCustomPanel(true)"
+								id="CustomConfirmBtn"
+							></div>
+							<div
+								class="btn dontShowTutorialBtn"
+								onclick="closeCustomPanel(false)"
+								id="CustomCloseBtn"
+							></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="floating-wrapper" style="display: none">
+			<div class="floating-container">
+				<div class="floating-icon">
+					<svg
+						width="8"
+						height="9"
+						viewBox="0 0 8 9"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M6.69229 4.125L3.58213 0.151172C3.53409 0.0902343 3.57745 0 3.65596 0H4.56182C4.61924 0 4.67432 0.0269532 4.70948 0.0714844L7.70127 3.89414C7.75309 3.96016 7.78125 4.04166 7.78125 4.12559C7.78125 4.20951 7.75309 4.29101 7.70127 4.35703L4.70948 8.17852C4.67432 8.22422 4.61924 8.25 4.56182 8.25H3.65596C3.57745 8.25 3.53409 8.15977 3.58213 8.09883L6.69229 4.125ZM3.12979 4.125L0.0196342 0.151172C-0.0284123 0.0902343 0.0149469 0 0.0934625 0H0.999321C1.05674 0 1.11182 0.0269532 1.14698 0.0714844L4.13877 3.89414C4.19059 3.96016 4.21875 4.04166 4.21875 4.12559C4.21875 4.20951 4.19059 4.29101 4.13877 4.35703L1.14698 8.17852C1.11182 8.22422 1.05674 8.25 0.999321 8.25H0.0934625C0.0149469 8.25 -0.0284123 8.15977 0.0196342 8.09883L3.12979 4.125Z"
+							fill="white"
+						/>
+					</svg>
+				</div>
+				<div class="floating-content">
+					<p class="title" data-translation="Hint:Title">
+						Unscrew the bolts
+					</p>
+					<p class="content" data-translation="Hint:Content">
+						Scroll to unscrew or screw in the bolt.
+					</p>
+				</div>
+			</div>
+			<svg
+				width="61"
+				height="106"
+				viewBox="0 0 61 106"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				class="floating-line"
+			>
+				<path
+					d="M2.00326 104.929L61.6923 1.64898C61.1422 1.23016 60.6522 0.700156 60.2823 0L0.299849 103.946C-0.689924 105.66 1.00394 106.66 2.00326 104.929Z"
+					fill="url(#paint0_linear_7203_195)"
+				/>
+				<path
+					d="M2.00326 104.929L61.6923 1.64898C61.1422 1.23016 60.6522 0.700156 60.2823 0L0.299849 103.946C-0.689924 105.66 1.00394 106.66 2.00326 104.929Z"
+					fill="url(#paint1_linear_7203_195)"
+				/>
+				<defs>
+					<linearGradient
+						id="paint0_linear_7203_195"
+						x1="61.1912"
+						y1="0.652885"
+						x2="1.13154"
+						y2="104.631"
+						gradientUnits="userSpaceOnUse"
+					>
+						<stop stop-color="#111111" stop-opacity="0.7" />
+						<stop
+							offset="1"
+							stop-color="#111111"
+							stop-opacity="0.135"
+						/>
+					</linearGradient>
+					<linearGradient
+						id="paint1_linear_7203_195"
+						x1="61.1912"
+						y1="0.652885"
+						x2="1.13154"
+						y2="104.631"
+						gradientUnits="userSpaceOnUse"
+					>
+						<stop stop-color="white" stop-opacity="0.15" />
+						<stop
+							offset="1"
+							stop-color="white"
+							stop-opacity="0.135"
+						/>
+					</linearGradient>
+				</defs>
+			</svg>
+		</div>
+
+		<div class="task-list-hint" style="display: none">
+			<div class="task-list-hint-icon">
+				<svg
+					width="8"
+					height="9"
+					viewBox="0 0 8 9"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M6.69229 4.125L3.58213 0.151172C3.53409 0.0902343 3.57745 0 3.65596 0H4.56182C4.61924 0 4.67432 0.0269532 4.70948 0.0714844L7.70127 3.89414C7.75309 3.96016 7.78125 4.04166 7.78125 4.12559C7.78125 4.20951 7.75309 4.29101 7.70127 4.35703L4.70948 8.17852C4.67432 8.22422 4.61924 8.25 4.56182 8.25H3.65596C3.57745 8.25 3.53409 8.15977 3.58213 8.09883L6.69229 4.125ZM3.12979 4.125L0.0196342 0.151172C-0.0284123 0.0902343 0.0149469 0 0.0934625 0H0.999321C1.05674 0 1.11182 0.0269532 1.14698 0.0714844L4.13877 3.89414C4.19059 3.96016 4.21875 4.04166 4.21875 4.12559C4.21875 4.20951 4.19059 4.29101 4.13877 4.35703L1.14698 8.17852C1.11182 8.22422 1.05674 8.25 0.999321 8.25H0.0934625C0.0149469 8.25 -0.0284123 8.15977 0.0196342 8.09883L3.12979 4.125Z"
+						fill="white"
+					/>
+				</svg>
+			</div>
+			<div class="task-list-hint-content">
+				<p class="hint" data-translation="TaskList:Hint:Description">
+					Press E to open
+				</p>
+				<p class="title">
+					<img
+						class="decoration"
+						src="assets/images/decoration.svg"
+					/>
+					<span data-translation="TaskList:Hint:Title"
+						>Task list</span
+					>
+				</p>
+			</div>
+		</div>
+
+		<div class="task-list" style="display: none">
+			<div class="task-list-header">
+				<div class="task-list-header-line"></div>
+				<div class="task-list-header-title">
+					<img
+						class="decoration"
+						src="assets/images/decoration.svg"
+					/>
+					<span data-translation="TaskList:Title">Task list</span>
+				</div>
+			</div>
+			<div class="task-list-content"></div>
+		</div>
+
+		<div class="cursor-wrench"></div>
+		<div class="crosshair"></div>
+
+		<script src="assets/scripts/app.js"></script>
+	</body>
+</html>

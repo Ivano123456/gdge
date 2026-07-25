@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sluzbe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nui://jamaica_utils/html/jamaica-panel.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toast-stack" id="notificationContainer"></div>
+
+    <div class="org-modal org-modal-list vehicle-shop-modal" id="vehicleShopMenu">
+        <header class="modal-bar">
+            <button type="button" class="bar-close-shop" onclick="closeVehicleShop()"><i class="fas fa-xmark"></i></button>
+            <div class="bar-titles">
+                <h2 id="vehicleShopTitle">Sluzbena vozila</h2>
+                <p>Garaza, impound i kupovina vozila</p>
+            </div>
+        </header>
+        <div class="modal-scroll list-scroll" id="vehicleShopContent"></div>
+    </div>
+
+    <div class="dock-panel f6-menu-container" id="f6Menu">
+        <div class="dock-inner">
+            <header class="dock-head">
+                <div class="dock-head-icon sluzbe-icon"><i class="fas fa-shield-halved"></i></div>
+                <div>
+                    <h1>Sluzbeni meni</h1>
+                    <p class="org-name" id="f6OrgName">Sluzba</p>
+                </div>
+            </header>
+            <div class="f6-scroll">
+                <section class="f6-block">
+                    <h3 class="f6-block-title"><i class="fas fa-hand"></i> Interakcija</h3>
+                    <div class="action-stack">
+                        <button type="button" class="action-line" onclick="f6Action('pretrazi')">
+                            <span class="action-line-icon"><i class="fas fa-magnifying-glass"></i></span>
+                            <span class="action-line-text"><strong>Pretrazi</strong><small>Inventar igraca u blizini</small></span>
+                        </button>
+                        <button type="button" class="action-line" onclick="f6Action('vezilice')">
+                            <span class="action-line-icon"><i class="fas fa-link"></i></span>
+                            <span class="action-line-text"><strong>Vezi lice</strong><small>Stavi lisice</small></span>
+                        </button>
+                        <button type="button" class="action-line" onclick="f6Action('odvezi')">
+                            <span class="action-line-icon"><i class="fas fa-unlock"></i></span>
+                            <span class="action-line-text"><strong>Odvezi lice</strong><small>Skini lisice</small></span>
+                        </button>
+                        <button type="button" class="action-line" onclick="f6Action('vuci')">
+                            <span class="action-line-icon"><i class="fas fa-people-carry-box"></i></span>
+                            <span class="action-line-text"><strong>Vuci / prestani</strong><small>Povuci vezanog igraca</small></span>
+                        </button>
+                        <button type="button" class="action-line" onclick="f6Action('staviUVozilo')">
+                            <span class="action-line-icon"><i class="fas fa-car-side"></i></span>
+                            <span class="action-line-text"><strong>Stavi u vozilo</strong><small>Usadi u najblize vozilo</small></span>
+                        </button>
+                        <button type="button" class="action-line" onclick="f6Action('izvadi')">
+                            <span class="action-line-icon"><i class="fas fa-door-open"></i></span>
+                            <span class="action-line-text"><strong>Izvadi iz vozila</strong><small>Izbaci iz vozila</small></span>
+                        </button>
+                    </div>
+                </section>
+                <section class="f6-block">
+                    <h3 class="f6-block-title"><i class="fas fa-car"></i> Vozila</h3>
+                    <div class="action-stack">
+                        <button type="button" class="action-line warning" onclick="f6Action('obij')">
+                            <span class="action-line-icon"><i class="fas fa-screwdriver-wrench"></i></span>
+                            <span class="action-line-text"><strong>Obij vozilo</strong><small>Otkljucaj vrata</small></span>
+                        </button>
+                        <button type="button" class="action-line" id="f6GpsBtn" onclick="f6Action('gps')">
+                            <span class="action-line-icon"><i class="fas fa-location-dot"></i></span>
+                            <span class="action-line-text"><strong>GPS na vozilo</strong><small>Prati vozilo (max 2)</small></span>
+                        </button>
+                    </div>
+                </section>
+            </div>
+            <footer class="dock-foot">
+                <span><kbd>ESC</kbd> zatvaranje</span>
+            </footer>
+        </div>
+    </div>
+
+    <script src="nui://game/ui/jquery.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

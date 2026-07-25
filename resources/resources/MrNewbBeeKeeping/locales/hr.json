@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Pošalji",
+    "BeeShop": {
+        "Invalid": "Ova trgovina nije valjana. Molimo prijavite vlasniku servera da postavi konfiguraciju.",
+        "OpenMenu": "Pčelar",
+        "TargetShop": "Razgovarajte s pčelarom",
+        "ShopTitle": "Kupite potrebštine za pčelarstvo",
+        "SellItems": "Prodajte predmete",
+        "InputSellAmount": "Unesite količinu za prodaju",
+        "ShopDescription": "Kupite različite predmete koji će vam pomoći u pčelarstvu.",
+        "SellDescription": "Prodajte svoje predmete za pčelarstvo.",
+        "SellTitle": "Prodajte predmete povezane s pčelama",
+        "SellItemFor": "Prodajte %s za $%s svaki.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Predmeti za prodaju",
+        "TransactionCompleted": "Prodaja završena za $%s.",
+        "IconColor": "narančasta",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Vrati se na prethodni izbornik"
+    },
+    "HiveChange": {
+        "Dismantle": "Demontiraj košnicu",
+        "PlacingHive": "Postavljanje košnice",
+        "ExtractWax": "Izvlačenje %s voska",
+        "ExtractHoney": "Izvlačenje %s meda",
+        "RemovingWorkers": "Uklanjanje %s radnih pčela",
+        "AddingWorkers": "Dodavanje %s radnih pčela",
+        "RemovingQueen": "Uklanjanje matice",
+        "AddingQueen": "Dodavanje matice",
+        "Placing": "Postavljanje košnice",
+        "Accessing": "Pristupanje košnici",
+        "Adding": "Dodavanje u košnicu",
+        "Removing": "Uklanjanje iz košnice",
+        "MissingItem": "Nedostaje vam potreban predmet za ovu radnju."
+    },
+    "ProgressBars": {
+        "Dismantle": "Demontiranje košnice...",
+        "Accessing": "Pristupanje košnici...",
+        "Placing": "Postavljanje košnice...",
+        "Adding": "Dodavanje u košnicu...",
+        "Extracting": "Izvlačenje iz košnice..."
+    },
+    "HiveMenu": {
+        "Color": "narančasta",
+        "WorkerInputHeader": "Broj radnih pčela",
+        "WorkersToAdd": "Radnice za dodavanje",
+        "WorkersToRemove": "Radnice za uklanjanje",
+        "Slider_Add_Label": "Maksimalno za dodavanje",
+        "Slider__Remove_Label": "Maksimalno za uklanjanje",
+        "ItemCountCheck": "Nemate dovoljno ovog predmeta za to.",
+        "Title": "Upravljanje košnicom",
+        "HiveHealthTitle": "Pregled zdravlja košnice",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Trenutno zdravstveno stanje košnice: ",
+        "WaxCountTitle": "Upravljanje pčelinjim voskom",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Upravljajte proizvodnjom pčelinjeg voska",
+        "HoneyCountTitle": "Upravljanje medom",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Pratite proizvodnju meda",
+        "QueenCountTitle": "Status matice",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Upravljajte brojem matica",
+        "WorkerCountTitle": "Upravljanje radnim pčelama",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Upravljajte brojem radnih pčela",
+        "DestroyHiveTitle": "Uništi košnicu",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Ovo će trajno uništiti košnicu.",
+        "ManageAccess": "Upravljaj košnicom",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Upravljajte tko može pristupiti košnici.",
+        "AddPlayerTitle": "Dodajte %s u pristup košnici.",
+        "AddPlayerDescription": "Ovo će dati %s pristup košnici, ali ne i pravo da je uništi.",
+        "TooFarFromHive": "Predaleko ste od košnice.",
+        "TargetTooFarFromHive": "Cilj je predaleko od košnice.",
+        "Removing": "Uklanjanje iz košnice",
+        "WaxToRemove": "Vosak za uklanjanje",
+        "HoneyToRemove": "Med za uklanjanje"
+    },
+    "QueenMenu": {
+        "Color": "narančasta",
+        "Title": "Upravljanje maticom",
+        "DisplayQueenTitle": "Matice u košnici",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Matice u košnici: %s ",
+        "AddQueenTitle": "Dodaj maticu",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Dodajte maticu u košnicu",
+        "RemoveQueenTitle": "Ukloni maticu",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Uklonite maticu iz košnice",
+        "ItemCountCheck": "Nemate dovoljno matica za dodavanje.",
+        "HiveFilled": "Ova košnica već ima maticu.",
+        "NoQueenInHive": "Ova košnica nema maticu za uklanjanje."
+    },
+    "WorkerMenu": {
+        "Color": "narančasta",
+        "Title": "Upravljanje radnim pčelama",
+        "AddWorkerTitle": "Dodaj radnu pčelu",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Radne pčele u košnici",
+        "AddWorkerDescription": "Dodajte radnu pčelu u košnicu",
+        "DisplayWorkerDescription": "Radne pčele u košnici: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Ukloni radnu pčelu",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Uklonite radnu pčelu iz košnice",
+        "NoWorkers": "Ova košnica nema radnih pčela.",
+        "HiveFilled": "Ova košnica već ima maksimalan broj radnih pčela.",
+        "WorkerInvCheck": "Nemate dovoljno radnih pčela za to."
+    },
+    "HoneyMenu": {
+        "Color": "narančasta",
+        "Title": "Upravljanje medom",
+        "DisplayHoneyType": "Vrsta meda",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Ovaj med je vrste: %s ",
+        "DisplayHoneyCount": "Količina meda",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Trenutna količina meda: %s",
+        "ExtractHoneyTitle": "Izvuci med",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Izvucite sav med iz košnice",
+        "NoHoney": "Ova košnica nema meda."
+    },
+    "WaxMenu": {
+        "Color": "narančasta",
+        "Title": "Upravljanje pčelinjim voskom",
+        "DisplayWaxCount": "Količina pčelinjeg voska",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Trenutna količina pčelinjeg voska: %s",
+        "ExtractWaxTitle": "Izvuci vosak iz košnice",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Izvucite sav pčelinji vosak iz košnice",
+        "NoWax": "Ova košnica nema pčelinjeg voska."
+    },
+    "Hive": {
+        "Access": "Pristupi košnici"
+    },
+    "Dismantle": {
+        "title": "Jeste li sigurni?",
+        "icon": "čekić",
+        "description": "Ovo će demontirati košnicu i vratiti predmete koji su u njoj."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Košnica se ne može postaviti ovdje. Pokušajte drugo mjesto.",
+        "BlacklistedZone": "Ne možete postaviti košnicu u zabranjenu zonu.",
+        "MaxOwnedHivesReached": "Dosegli ste maksimalan broj dozvoljenih košnica."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Morate biti vlasnik da biste modificirali ovu košnicu."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Morate biti na listi dozvoljenih da biste modificirali ovu košnicu."
+    },
+    "ManageAccess": {
+        "Color": "narančasta",
+        "Title": "Upravljaj pristupom košnici",
+        "AddUser": "Dodaj korisnika",
+        "RemovedUser": "Korisnik uklonjen iz pristupa košnici",
+        "UnableToRemove": "Nemoguće ukloniti korisnika iz pristupa košnici. Morate biti vlasnik da to učinite.",
+        "UnableToFindHive": "Nemoguće pronaći podatke o košnici. Molimo pokušajte kasnije.",
+        "UnableToAccess": "Nemate pristup ovoj košnici.",
+        "AlreadyAdded": "Korisnik je već dodan u pristup košnici",
+        "UserAdded": "Korisnik dodan u pristup košnici",
+        "UserList": "Lista korisnika",
+        "AddClosestPersonTitle": "Dodaj najbližu osobu",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Dodajte najbližu osobu na listu pristupa košnici.",
+        "RemovePlayerTitle": "Ukloni korisnika",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Uklonite korisnika s liste pristupa košnici.",
+        "RemovePlayer": "Uklonite %s s liste pristupa košnici.",
+        "RemovedSuccess": "Korisnik uklonjen iz pristupa košnici.",
+        "RemovedError": "Nemoguće ukloniti korisnika iz pristupa košnici.",
+        "ViewAccessTitle": "Prikaži listu pristupa",
+        "ViewAccessDescription": "Prikaži listu korisnika koji imaju pristup ovoj košnici.",
+        "ViewAccessMenuTitle": "Lista pristupa",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Ima pristup ovoj košnici.",
+        "SubViewAccessMenuTitle": "Lista korisnika s pristupom košnici",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Dodajte %s u pristup košnici.",
+        "AddPlayerDescription": "Ovo će dati %s pristup košnici, ali ne i pravo da je uništi.",
+        "TooFarFromHive": "Predaleko ste od košnice.",
+        "TargetTooFarFromHive": "Cilj je predaleko od košnice.",
+        "RemoveUserTitle": "Ukloni korisnika",
+        "RemoveUserDescription": "Uklonite korisnika s liste pristupa košnici.",
+        "UserListDescription": "Lista korisnika s pristupom košnici",
+        "ManageAccessTitle": "Upravljaj korisničkim pristupom košnici",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Dodajte ili uklonite korisnike s pristupom košnici.",
+        "YouWereAdded": "Dodani ste na listu pristupa košnici.",
+        "NoPlayerNearby": "Nema igrača u blizini za dodavanje."
+    },
+    "Blips": {
+        "HiveBlipText": "Pčelinja košnica"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Napravili ste grešku i neke vas pčele ubo!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Uklonite pčelinju košnicu po ID-u [SAMO ADMIN NAREDBA]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "ID pčelinje košnice iz SQL-a"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Uklonite pčelinju košnicu po identifikatoru vlasnika [SAMO ADMIN NAREDBA]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "Identifikator vlasnika pčelinje košnice"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Prikažite sve košnice na karti [SAMO ADMIN NAREDBA]"
+        },
+        "OpenAdminHives": {
+            "help": "Otvorite admin izbornik za upravljanje košnicama [SAMO ADMIN NAREDBA]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Vosak: %s, Med: %s, Radnice: %s, Matica: %s",
+        "JoinedNames": "%s, s identifikatorom %s",
+        "MainMenuTitle": "Admin izbornik",
+        "ManageHiveByID": "Upravljaj košnicom ID: %s",
+        "ManageHiveDescription": "Pristup upravljanju košnicom",
+        "ManageHiveOwnerTitle": "Vlasnik košnice: %s",
+        "ManageHiveOwnerDescription": "Vlasnik košnice je %s",
+        "ManageHiveIDTitle": "ID košnice: %s",
+        "ManageHiveIDDescription": "ID košnice je %s",
+        "MarkHiveCoordsTitle": "Označite koordinate košnice",
+        "MarkHiveCoordsDescription": "Označite koordinate košnice na karti.",
+        "TeleportToCoordsTitle": "Teleportiraj se na koordinate košnice",
+        "TeleportToCoordsDescription": "Teleportirajte se na koordinate košnice.",
+        "AccessablePlayersTitle": "Zadnji pristup: ",
+        "AccessablePlayersDescription": "Zadnji pristup: %s",
+        "HiveStatusTitle": "Status košnice: ",
+        "HiveStatusDescription": "Trenutni status: %s",
+        "PlayersWithAccessTitle": "Igrači s pristupom košnici",
+        "RunSearch": "Pokreni pretraživanje",
+        "RunSearchDescription": "Pretražite specifične podatke.",
+        "CopyIdToClipBoard": "Kopiraj ID košnice u međuspremnik",
+        "CopyIdToClipBoardDescription": "Kopirajte ID košnice u svoj međuspremnik.",
+        "IconColor": "narančasta",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Nemate dozvolu za korištenje ovoga.",
+        "DeleteHiveTitle": "Obriši košnicu",
+        "DeleteHiveDescription": "Trajno obriši košnicu s ID-om: %s",
+        "ShowAllHivesOnMap": "Prikaži/Sakrij sve košnice na karti",
+        "ShowAllHivesOnMapDescription": "Prebaci prikaz svih košnica na karti.",
+        "ListAllHives": "Prikaži sve košnice",
+        "ListAllHivesDescription": "Prikaži sve košnice u bazi podataka.",
+        "Search": {
+            "InvalidSearchInput": "Nevaljan unos za pretraživanje. Molimo pokušajte ponovno.",
+            "Title": "Pretraživanje",
+            "SearchLabel": "Pretražite specifične podatke.",
+            "SearchDescription": "Unesite podatke koje želite pretražiti.",
+            "SearchPlaceholder": "Unesite pojam za pretraživanje...",
+            "Submit": "Pošalji"
+        }
+    }
+}

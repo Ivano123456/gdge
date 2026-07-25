@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Υποβολή",
+    "BeeShop": {
+        "Invalid": "Αυτό το κατάστημα είναι άκυρο. Παρακαλώ ενημερώστε τον διαχειριστή του διακομιστή για να προσαρμόσει τη ρύθμιση.",
+        "OpenMenu": "Μελισσοκόμος",
+        "TargetShop": "Μιλήστε με τον μελισσοκόμο",
+        "ShopTitle": "Αγορά Εξοπλισμού Μελισσοκομίας",
+        "SellItems": "Πώληση Αντικειμένων",
+        "InputSellAmount": "Εισάγετε Ποσότητα προς Πώληση",
+        "ShopDescription": "Αγοράστε διάφορα αντικείμενα για να βοηθήσετε στη μελισσοκομία.",
+        "SellDescription": "Πουλήστε τα αντικείμενα μελισσοκομίας σας.",
+        "SellTitle": "Πώληση Σχετικών με Μέλισσες Αντικειμένων",
+        "SellItemFor": "Πώληση %s για $%s το καθένα.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Πωλούμενα Αντικείμενα",
+        "TransactionCompleted": "Η πώληση ολοκληρώθηκε για $%s.",
+        "IconColor": "πορτοκαλί",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Επιστροφή στο προηγούμενο μενού"
+    },
+    "HiveChange": {
+        "Dismantle": "Αποσυναρμολόγηση Κυψέλης",
+        "PlacingHive": "Τοποθέτηση κυψέλης",
+        "ExtractWax": "Εξαγωγή %s κεριού",
+        "ExtractHoney": "Εξαγωγή %s μελιού",
+        "RemovingWorkers": "Αφαίρεση %s εργατριών μελισσών",
+        "AddingWorkers": "Προσθήκη %s εργατριών μελισσών",
+        "RemovingQueen": "Αφαίρεση βασίλισσας",
+        "AddingQueen": "Προσθήκη βασίλισσας",
+        "Placing": "Τοποθέτηση κυψέλης στη θέση",
+        "Accessing": "Επιθεώρηση κυψέλης",
+        "Adding": "Προσθήκη στην κυψέλη",
+        "Removing": "Αφαίρεση από την κυψέλη",
+        "MissingItem": "Σας λείπει το απαιτούμενο αντικείμενο για αυτήν την ενέργεια."
+    },
+    "ProgressBars": {
+        "Dismantle": "Αποσυναρμολόγηση κυψέλης...",
+        "Accessing": "Πρόσβαση στην κυψέλη...",
+        "Placing": "Τοποθέτηση κυψέλης...",
+        "Adding": "Προσθήκη στην κυψέλη...",
+        "Extracting": "Εξαγωγή από την κυψέλη..."
+    },
+    "HiveMenu": {
+        "Color": "πορτοκαλί",
+        "WorkerInputHeader": "Αριθμός εργατριών μελισσών",
+        "WorkersToAdd": "Εργάτριες προς προσθήκη",
+        "WorkersToRemove": "Εργάτριες προς αφαίρεση",
+        "Slider_Add_Label": "Μέγιστο προς προσθήκη",
+        "Slider__Remove_Label": "Μέγιστο προς αφαίρεση",
+        "ItemCountCheck": "Δεν έχετε αρκετά από αυτό το αντικείμενο για να το κάνετε.",
+        "Title": "Διαχείριση Κυψέλης",
+        "HiveHealthTitle": "Επισκόπηση Υγείας Κυψέλης",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Τρέχουσα κατάσταση υγείας κυψέλης: ",
+        "WaxCountTitle": "Διαχείριση Κεριού",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Διαχείριση παραγωγής κεριού",
+        "HoneyCountTitle": "Διαχείριση Μελιού",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Εποπτεία παραγωγής μελιού",
+        "QueenCountTitle": "Κατάσταση Βασίλισσας",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Διαχείριση πληθυσμού βασίλισσας",
+        "WorkerCountTitle": "Διαχείριση Εργατριών",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Διαχείριση πληθυσμού εργατριών",
+        "DestroyHiveTitle": "Αποσυναρμολόγηση Κυψέλης",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Αυτό θα αποσυναρμολογήσει μόνιμα την κυψέλη.",
+        "ManageAccess": "Διαχείριση Κυψέλης",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Διαχείριση πρόσβασης στην κυψέλη.",
+        "AddPlayerTitle": "Προσθήκη %s στην πρόσβαση κυψέλης.",
+        "AddPlayerDescription": "Αυτό θα επιτρέψει στον %s να έχει πρόσβαση στην κυψέλη αλλά όχι να την αποσυναρμολογήσει.",
+        "TooFarFromHive": "Είστε πολύ μακριά από την κυψέλη.",
+        "TargetTooFarFromHive": "Ο στόχος είναι πολύ μακριά από την κυψέλη.",
+        "Removing": "Αφαίρεση από την κυψέλη",
+        "WaxToRemove": "Κερί προς αφαίρεση",
+        "HoneyToRemove": "Μέλι προς αφαίρεση"
+    },
+    "QueenMenu": {
+        "Color": "πορτοκαλί",
+        "Title": "Διαχείριση Βασίλισσας",
+        "DisplayQueenTitle": "Βασίλισσες στην κυψέλη",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Βασίλισσες στην κυψέλη: %s ",
+        "AddQueenTitle": "Προσθήκη Βασίλισσας",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Προσθήκη βασίλισσας στην κυψέλη",
+        "RemoveQueenTitle": "Αφαίρεση Βασίλισσας",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Αφαίρεση βασίλισσας από την κυψέλη",
+        "ItemCountCheck": "Δεν έχετε αρκετές βασίλισσες για να προσθέσετε.",
+        "HiveFilled": "Υπάρχει ήδη βασίλισσα σε αυτήν την κυψέλη.",
+        "NoQueenInHive": "Δεν υπάρχει βασίλισσα σε αυτήν την κυψέλη για αφαίρεση."
+    },
+    "WorkerMenu": {
+        "Color": "πορτοκαλί",
+        "Title": "Διαχείριση Εργατριών",
+        "AddWorkerTitle": "Προσθήκη Εργάτριας",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Εργάτριες στην κυψέλη",
+        "AddWorkerDescription": "Προσθήκη εργάτριας στην κυψέλη",
+        "DisplayWorkerDescription": "Εργάτριες στην κυψέλη: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Αφαίρεση Εργάτριας",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Αφαίρεση εργάτριας από την κυψέλη",
+        "NoWorkers": "Δεν υπάρχουν εργάτριες σε αυτήν την κυψέλη.",
+        "HiveFilled": "Υπάρχει ήδη ο μέγιστος αριθμός εργατριών σε αυτήν την κυψέλη.",
+        "WorkerInvCheck": "Δεν έχετε αρκετές εργάτριες για να το κάνετε."
+    },
+    "HoneyMenu": {
+        "Color": "πορτοκαλί",
+        "Title": "Διαχείριση Μελιού",
+        "DisplayHoneyType": "Τύπος Μελιού",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Αυτό το μέλι είναι τύπου: %s ",
+        "DisplayHoneyCount": "Ποσότητα Μελιού",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Τρέχουσα ποσότητα μελιού: %s",
+        "ExtractHoneyTitle": "Εξαγωγή Μελιού",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Εξαγωγή όλου του μελιού από την κυψέλη",
+        "NoHoney": "Δεν υπάρχει μέλι σε αυτήν την κυψέλη."
+    },
+    "WaxMenu": {
+        "Color": "πορτοκαλί",
+        "Title": "Διαχείριση Κεριού",
+        "DisplayWaxCount": "Ποσότητα Κεριού",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Τρέχουσα ποσότητα κεριού: %s",
+        "ExtractWaxTitle": "Εξαγωγή Κεριού από Κυψέλη",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Εξαγωγή όλου του κεριού από την κυψέλη",
+        "NoWax": "Δεν υπάρχει κερί σε αυτήν την κυψέλη."
+    },
+    "Hive": {
+        "Access": "Πρόσβαση στην κυψέλη"
+    },
+    "Dismantle": {
+        "title": "Είστε σίγουροι;",
+        "icon": "σφυρί",
+        "description": "Αυτό θα αποσυναρμολογήσει την κυψέλη και θα επιστρέψει τα αντικείμενα μέσα."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Δεν ήταν δυνατή η τοποθέτηση της κυψέλης σε αυτήν τη θέση. Παρακαλώ δοκιμάστε άλλη θέση.",
+        "BlacklistedZone": "Δεν μπορείτε να τοποθετήσετε κυψέλη σε απαγορευμένη ζώνη.",
+        "MaxOwnedHivesReached": "Έχετε φτάσει τον μέγιστο αριθμό κυψελών."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Πρέπει να είστε ο ιδιοκτήτης για να τροποποιήσετε αυτήν την κυψέλη."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Πρέπει να είστε στη λίστα επιτρεπόμενων για να τροποποιήσετε αυτήν την κυψέλη."
+    },
+    "ManageAccess": {
+        "Color": "πορτοκαλί",
+        "Title": "Διαχείριση Πρόσβασης Κυψέλης",
+        "AddUser": "Προσθήκη Χρήστη",
+        "RemovedUser": "Ο χρήστης αφαιρέθηκε από την πρόσβαση στην κυψέλη",
+        "UnableToRemove": "Δεν είναι δυνατή η αφαίρεση του χρήστη από την πρόσβαση στην κυψέλη. Πρέπει να είστε ο ιδιοκτήτης για να το κάνετε.",
+        "UnableToFindHive": "Δεν ήταν δυνατή η εύρεση δεδομένων κυψέλης. Παρακαλώ δοκιμάστε αργότερα.",
+        "UnableToAccess": "Δεν έχετε πρόσβαση σε αυτήν την κυψέλη.",
+        "AlreadyAdded": "Ο χρήστης έχει ήδη προστεθεί στην πρόσβαση στην κυψέλη",
+        "UserAdded": "Ο χρήστης προστέθηκε στην πρόσβαση στην κυψέλη",
+        "UserList": "Λίστα Χρηστών",
+        "AddClosestPersonTitle": "Προσθήκη Πλησιέστερου Ατόμου",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Προσθήκη του πλησιέστερου ατόμου στη λίστα πρόσβασης στην κυψέλη.",
+        "RemovePlayerTitle": "Αφαίρεση Χρήστη",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Αφαίρεση χρήστη από τη λίστα πρόσβασης στην κυψέλη.",
+        "RemovePlayer": "Αφαίρεση του %s από τη λίστα πρόσβασης στην κυψέλη.",
+        "RemovedSuccess": "Ο χρήστης αφαιρέθηκε από την πρόσβαση στην κυψέλη.",
+        "RemovedError": "Δεν ήταν δυνατή η αφαίρεση του χρήστη από την πρόσβαση στην κυψέλη.",
+        "ViewAccessTitle": "Προβολή Λίστας Πρόσβασης",
+        "ViewAccessDescription": "Προβολή της λίστας χρηστών με πρόσβαση σε αυτήν την κυψέλη.",
+        "ViewAccessMenuTitle": "Λίστα Πρόσβασης",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Έχει πρόσβαση σε αυτήν την κυψέλη.",
+        "SubViewAccessMenuTitle": "Λίστα χρηστών με πρόσβαση στην κυψέλη",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Προσθήκη %s στην πρόσβαση κυψέλης.",
+        "AddPlayerDescription": "Αυτό θα επιτρέψει στον %s να έχει πρόσβαση στην κυψέλη αλλά όχι να την αποσυναρμολογήσει.",
+        "TooFarFromHive": "Είστε πολύ μακριά από την κυψέλη.",
+        "TargetTooFarFromHive": "Ο στόχος είναι πολύ μακριά από την κυψέλη.",
+        "RemoveUserTitle": "Αφαίρεση Χρήστη",
+        "RemoveUserDescription": "Αφαίρεση χρήστη από τη λίστα πρόσβασης στην κυψέλη.",
+        "UserListDescription": "Λίστα χρηστών με πρόσβαση στην κυψέλη",
+        "ManageAccessTitle": "Διαχείριση Πρόσβασης Χρηστών Κυψέλης",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Προσθήκη ή αφαίρεση χρηστών με πρόσβαση στην κυψέλη.",
+        "YouWereAdded": "Προστέθηκε στη λίστα πρόσβασης στην κυψέλη.",
+        "NoPlayerNearby": "Δεν υπάρχει κοντά παίκτης για προσθήκη."
+    },
+    "Blips": {
+        "HiveBlipText": "Μελισσοκυψέλη"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Κάνατε λάθος και σας τσίμπησαν μερικές μέλισσες!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Αφαιρεί την κυψέλη με βάση το ID [ΜΟΝΟ ΓΙΑ ΔΙΑΧΕΙΡΙΣΤΕΣ]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "ID κυψέλης από SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Αφαιρεί την κυψέλη με βάση τον αναγνωριστικό ιδιοκτήτη [ΜΟΝΟ ΓΙΑ ΔΙΑΧΕΙΡΙΣΤΕΣ]",
+            "params": {
+                "name": "αναγνωριστικό",
+                "type": "string",
+                "help": "Αναγνωριστικό ιδιοκτήτη κυψέλης"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Εμφάνιση όλων των κυψελών στον χάρτη [ΜΟΝΟ ΓΙΑ ΔΙΑΧΕΙΡΙΣΤΕΣ]"
+        },
+        "OpenAdminHives": {
+            "help": "Άνοιγμα μενού διαχείρισης κυψελών διαχειριστή [ΜΟΝΟ ΓΙΑ ΔΙΑΧΕΙΡΙΣΤΕΣ]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Κερί: %s, Μέλι: %s, Εργάτριες: %s, Βασίλισσα: %s",
+        "JoinedNames": "%s, με αναγνωριστικό %s",
+        "MainMenuTitle": "Μενού Διαχειριστή",
+        "ManageHiveByID": "Διαχείριση κυψέλης ID: %s",
+        "ManageHiveDescription": "Πρόσβαση στη διαχείριση κυψέλης",
+        "ManageHiveOwnerTitle": "Ιδιοκτήτης κυψέλης: %s",
+        "ManageHiveOwnerDescription": "Ο ιδιοκτήτης της κυψέλης είναι %s",
+        "ManageHiveIDTitle": "ID κυψέλης: %s",
+        "ManageHiveIDDescription": "Το ID της κυψέλης είναι %s",
+        "MarkHiveCoordsTitle": "Σημείωση συντεταγμένων κυψέλης",
+        "MarkHiveCoordsDescription": "Σημείωση των συντεταγμένων της κυψέλης στον χάρτη.",
+        "TeleportToCoordsTitle": "Τηλεμεταφορά στις συντεταγμένες κυψέλης",
+        "TeleportToCoordsDescription": "Τηλεμεταφορά στις συντεταγμένες της κυψέλης.",
+        "AccessablePlayersTitle": "Ημερομηνία τελευταίας πρόσβασης: ",
+        "AccessablePlayersDescription": "Τελευταία πρόσβαση: %s",
+        "HiveStatusTitle": "Κατάσταση κυψέλης: ",
+        "HiveStatusDescription": "Τρέχουσα κατάσταση: %s",
+        "PlayersWithAccessTitle": "Παίκτες με πρόσβαση στην κυψέλη",
+        "RunSearch": "Εκτέλεση αναζήτησης",
+        "RunSearchDescription": "Αναζήτηση για συγκεκριμένες πληροφορίες.",
+        "CopyIdToClipBoard": "Αντιγραφή ID κυψέλης στο πρόχειρο",
+        "CopyIdToClipBoardDescription": "Αντιγράφει το ID της κυψέλης στο πρόχειρό σας.",
+        "IconColor": "πορτοκαλί",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Δεν έχετε άδεια πρόσβασης σε αυτό.",
+        "DeleteHiveTitle": "Διαγραφή κυψέλης",
+        "DeleteHiveDescription": "Διαγραφή της κυψέλης οριστικά με ID: %s",
+        "ShowAllHivesOnMap": "Εμφάνιση/Απόκρυψη όλων των κυψελών στον χάρτη",
+        "ShowAllHivesOnMapDescription": "Εναλλαγή εμφάνισης όλων των κυψελών στον χάρτη.",
+        "ListAllHives": "Λίστα όλων των κυψελών",
+        "ListAllHivesDescription": "Λίστα όλων των κυψελών στη βάση δεδομένων.",
+        "Search": {
+            "InvalidSearchInput": "Μη έγκυρη είσοδος αναζήτησης. Παρακαλώ δοκιμάστε ξανά.",
+            "Title": "Αναζήτηση",
+            "SearchLabel": "Αναζήτηση για συγκεκριμένες πληροφορίες.",
+            "SearchDescription": "Εισάγετε τις πληροφορίες που θέλετε να αναζητήσετε.",
+            "SearchPlaceholder": "Εισάγετε όρο αναζήτησης...",
+            "Submit": "Υποβολή"
+        }
+    }
+}

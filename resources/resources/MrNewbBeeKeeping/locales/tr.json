@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Gönder",
+    "BeeShop": {
+        "Invalid": "Bu mağaza geçersiz. Lütfen ayarları yapılandırması için sunucu sahibine bildirin.",
+        "OpenMenu": "Arıcı",
+        "TargetShop": "Arıcı ile konuş",
+        "ShopTitle": "Arıcılık malzemeleri satın al",
+        "SellItems": "Eşyaları sat",
+        "InputSellAmount": "Satış miktarını gir",
+        "ShopDescription": "Arıcılığa yardımcı olmak için çeşitli eşyalar satın alın.",
+        "SellDescription": "Arıcılık eşyalarınızı satın.",
+        "SellTitle": "Arı ile ilgili eşyaları sat",
+        "SellItemFor": "%s'ı $%s'dan sat.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Satılacak eşyalar",
+        "TransactionCompleted": "Satış $%s için tamamlandı.",
+        "IconColor": "turuncu",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Önceki menüye dön"
+    },
+    "HiveChange": {
+        "Dismantle": "Arı kovanını sökmek",
+        "PlacingHive": "Kovanı yerleştirme",
+        "ExtractWax": "%s balmumu çıkarma",
+        "ExtractHoney": "%s bal çıkarma",
+        "RemovingWorkers": "%s işçi arı çıkarma",
+        "AddingWorkers": "%s işçi arı ekleme",
+        "RemovingQueen": "Kraliçeyi çıkarma",
+        "AddingQueen": "Kraliçe ekleme",
+        "Placing": "Kovanı yerleştirme",
+        "Accessing": "Kovana erişim",
+        "Adding": "Kovana ekleme",
+        "Removing": "Kovandan çıkarma",
+        "MissingItem": "Bu eylem için gerekli eşyanız yok."
+    },
+    "ProgressBars": {
+        "Dismantle": "Kovan sökülüyor...",
+        "Accessing": "Kovana erişiliyor...",
+        "Placing": "Kovan yerleştiriliyor...",
+        "Adding": "Kovana ekleniyor...",
+        "Extracting": "Kovandan çıkarılıyor..."
+    },
+    "HiveMenu": {
+        "Color": "turuncu",
+        "WorkerInputHeader": "İşçi arı sayısı",
+        "WorkersToAdd": "Eklenecek işçiler",
+        "WorkersToRemove": "Çıkarılacak işçiler",
+        "Slider_Add_Label": "Maksimum eklenecek",
+        "Slider__Remove_Label": "Maksimum çıkarılacak",
+        "ItemCountCheck": "Bunun için yeterli eşyanız yok.",
+        "Title": "Kovanı yönet",
+        "HiveHealthTitle": "Kovan sağlığı genel bakış",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Kovanın mevcut sağlık durumu: ",
+        "WaxCountTitle": "Balmumu yönetimi",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Balmumu üretimini yönet",
+        "HoneyCountTitle": "Bal yönetimi",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Bal üretimini takip et",
+        "QueenCountTitle": "Kraliçe durumu",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Kraliçe sayısını yönet",
+        "WorkerCountTitle": "İşçi arı yönetimi",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "İşçi arı sayısını yönet",
+        "DestroyHiveTitle": "Kovanı yok et",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Bu kovanı kalıcı olarak yok eder.",
+        "ManageAccess": "Kovanı yönet",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Kovana kimlerin erişebileceğini yönet.",
+        "AddPlayerTitle": "%s'ı kovan erişimine ekle.",
+        "AddPlayerDescription": "Bu %s'a kovana erişim verir, ancak onu yok etme hakkı vermez.",
+        "TooFarFromHive": "Kovandan çok uzaksınız.",
+        "TargetTooFarFromHive": "Hedef kovandan çok uzak.",
+        "Removing": "Kovandan çıkarma",
+        "WaxToRemove": "Çıkarılacak balmumu",
+        "HoneyToRemove": "Çıkarılacak bal"
+    },
+    "QueenMenu": {
+        "Color": "turuncu",
+        "Title": "Kraliçe yönetimi",
+        "DisplayQueenTitle": "Kovandaki kraliçeler",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Kovandaki kraliçeler: %s ",
+        "AddQueenTitle": "Kraliçe ekle",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Kovana bir kraliçe ekle",
+        "RemoveQueenTitle": "Kraliçeyi çıkar",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Kraliçeyi kovandan çıkar",
+        "ItemCountCheck": "Eklemek için yeterli kraliçeniz yok.",
+        "HiveFilled": "Bu kovanda zaten bir kraliçe var.",
+        "NoQueenInHive": "Bu kovanda çıkarılacak kraliçe yok."
+    },
+    "WorkerMenu": {
+        "Color": "turuncu",
+        "Title": "İşçi arı yönetimi",
+        "AddWorkerTitle": "İşçi arı ekle",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Kovandaki işçi arılar",
+        "AddWorkerDescription": "Kovana bir işçi arı ekle",
+        "DisplayWorkerDescription": "Kovandaki işçi arılar: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "İşçi arıyı çıkar",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Kovandan bir işçi arı çıkar",
+        "NoWorkers": "Bu kovanda işçi arı yok.",
+        "HiveFilled": "Bu kovanda zaten maksimum sayıda işçi arı var.",
+        "WorkerInvCheck": "Bunun için yeterli işçi arınız yok."
+    },
+    "HoneyMenu": {
+        "Color": "turuncu",
+        "Title": "Bal yönetimi",
+        "DisplayHoneyType": "Bal türü",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Bu bal türü: %s ",
+        "DisplayHoneyCount": "Bal miktarı",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Mevcut bal miktarı: %s",
+        "ExtractHoneyTitle": "Bal çıkar",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Kovandaki tüm balı çıkar",
+        "NoHoney": "Bu kovanda bal yok."
+    },
+    "WaxMenu": {
+        "Color": "turuncu",
+        "Title": "Balmumu yönetimi",
+        "DisplayWaxCount": "Balmumu miktarı",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Mevcut balmumu miktarı: %s",
+        "ExtractWaxTitle": "Kovandan balmumu çıkar",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Kovandaki tüm balmumuyu çıkar",
+        "NoWax": "Bu kovanda balmumu yok."
+    },
+    "Hive": {
+        "Access": "Kovana erişim"
+    },
+    "Dismantle": {
+        "title": "Emin misiniz?",
+        "icon": "çekiç",
+        "description": "Bu kovanı söker ve içindeki eşyaları geri verir."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Kovan buraya yerleştirilemedi. Başka bir konum deneyin.",
+        "BlacklistedZone": "Yasaklı bir bölgeye kovan yerleştiremezsiniz.",
+        "MaxOwnedHivesReached": "İzin verilen maksimum kovan sayısına ulaştınız."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Bu kovanı değiştirmek için sahibi olmalısınız."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Bu kovanı değiştirmek için izin listesinde olmalısınız."
+    },
+    "ManageAccess": {
+        "Color": "turuncu",
+        "Title": "Kovan erişimini yönet",
+        "AddUser": "Kullanıcı ekle",
+        "RemovedUser": "Kullanıcı kovan erişiminden çıkarıldı",
+        "UnableToRemove": "Kullanıcı kovan erişiminden çıkarılamıyor. Bunu yapmak için sahibi olmalısınız.",
+        "UnableToFindHive": "Kovan verileri bulunamıyor. Lütfen daha sonra tekrar deneyin.",
+        "UnableToAccess": "Bu kovana erişiminiz yok.",
+        "AlreadyAdded": "Kullanıcı zaten kovan erişimine eklendi",
+        "UserAdded": "Kullanıcı kovan erişimine eklendi",
+        "UserList": "Kullanıcı listesi",
+        "AddClosestPersonTitle": "En yakın kişiyi ekle",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "En yakın kişiyi kovan erişim listesine ekle.",
+        "RemovePlayerTitle": "Kullanıcıyı çıkar",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Kovan erişim listesinden bir kullanıcı çıkar.",
+        "RemovePlayer": "%s'ı kovan erişim listesinden çıkar.",
+        "RemovedSuccess": "Kullanıcı kovan erişiminden çıkarıldı.",
+        "RemovedError": "Kullanıcı kovan erişiminden çıkarılamıyor.",
+        "ViewAccessTitle": "Erişim listesini görüntüle",
+        "ViewAccessDescription": "Bu kovana erişimi olan kullanıcıların listesini görüntüle.",
+        "ViewAccessMenuTitle": "Erişim listesi",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Bu kovana erişimi var.",
+        "SubViewAccessMenuTitle": "Kovan erişimi olan kullanıcıların listesi",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "%s'ı kovan erişimine ekle.",
+        "AddPlayerDescription": "Bu %s'a kovana erişim verir, ancak onu yok etme hakkı vermez.",
+        "TooFarFromHive": "Kovandan çok uzaksınız.",
+        "TargetTooFarFromHive": "Hedef kovandan çok uzak.",
+        "RemoveUserTitle": "Kullanıcıyı çıkar",
+        "RemoveUserDescription": "Kovan erişim listesinden bir kullanıcı çıkar.",
+        "UserListDescription": "Kovan erişimi olan kullanıcıların listesi",
+        "ManageAccessTitle": "Kullanıcının kovan erişimini yönet",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Kovan erişimi olan kullanıcıları ekle veya çıkar.",
+        "YouWereAdded": "Kovan erişim listesine eklendiniz.",
+        "NoPlayerNearby": "Eklemek için yakında oyuncu yok."
+    },
+    "Blips": {
+        "HiveBlipText": "Arı kovanı"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Bir hata yaptınız ve birkaç arı sizi soktu!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Arı kovanını ID ile kaldır [SADECE ADMİN KOMUTU]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "SQL'den arı kovanının ID'si"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Arı kovanını sahibinin tanımlayıcısı ile kaldır [SADECE ADMİN KOMUTU]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "Arı kovanı sahibinin tanımlayıcısı"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Haritada tüm kovanları göster [SADECE ADMİN KOMUTU]"
+        },
+        "OpenAdminHives": {
+            "help": "Admin kovan yönetim menüsünü aç [SADECE ADMİN KOMUTU]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Balmumu: %s, Bal: %s, İşçiler: %s, Kraliçe: %s",
+        "JoinedNames": "%s tanımlayıcısı ile %s",
+        "MainMenuTitle": "Admin Menüsü",
+        "ManageHiveByID": "Kovan ID'sini yönet: %s",
+        "ManageHiveDescription": "Kovan yönetimine erişim",
+        "ManageHiveOwnerTitle": "Kovan sahibi: %s",
+        "ManageHiveOwnerDescription": "Kovan sahibi %s",
+        "ManageHiveIDTitle": "Kovan ID'si: %s",
+        "ManageHiveIDDescription": "Kovan ID'si %s",
+        "MarkHiveCoordsTitle": "Kovan koordinatlarını işaretle",
+        "MarkHiveCoordsDescription": "Kovan koordinatlarını haritada işaretle.",
+        "TeleportToCoordsTitle": "Kovan koordinatlarına ışınlan",
+        "TeleportToCoordsDescription": "Kovan koordinatlarına ışınlan.",
+        "AccessablePlayersTitle": "Son erişim: ",
+        "AccessablePlayersDescription": "Son erişim: %s",
+        "HiveStatusTitle": "Kovan durumu: ",
+        "HiveStatusDescription": "Mevcut durum: %s",
+        "PlayersWithAccessTitle": "Kovan erişimi olan oyuncular",
+        "RunSearch": "Aramayı çalıştır",
+        "RunSearchDescription": "Belirli verileri ara.",
+        "CopyIdToClipBoard": "Kovan ID'sini panoya kopyala",
+        "CopyIdToClipBoardDescription": "Kovan ID'sini panonuza kopyala.",
+        "IconColor": "turuncu",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Bunu kullanma izniniz yok.",
+        "DeleteHiveTitle": "Kovanı sil",
+        "DeleteHiveDescription": "ID'li kovanı kalıcı olarak sil: %s",
+        "ShowAllHivesOnMap": "Haritada tüm kovanları göster/gizle",
+        "ShowAllHivesOnMapDescription": "Haritada tüm kovanların görünümünü değiştir.",
+        "ListAllHives": "Tüm kovanları listele",
+        "ListAllHivesDescription": "Veritabanındaki tüm kovanları listele.",
+        "Search": {
+            "InvalidSearchInput": "Geçersiz arama girişi. Lütfen tekrar deneyin.",
+            "Title": "Ara",
+            "SearchLabel": "Belirli verileri ara.",
+            "SearchDescription": "Aramak istediğiniz veriyi girin.",
+            "SearchPlaceholder": "Arama terimini girin...",
+            "Submit": "Gönder"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CMapParentTxds>
+  <txdRelationships>
+  
+    <Item>
+      <parent>tstudio_qx_cayotun_tex_parent</parent>
+      <child>tstudio_qx_cayotun_tex_tunel</child>
+    </Item>
+
+    <Item>
+      <parent>tstudio_qx_cayotun_tex_parent</parent>
+      <child>tstudio_qx_cayotun_tex_assets</child>
+    </Item>
+
+    <Item>
+      <parent>tstudio_qx_cayotun_tex_parent</parent>
+      <child>tstudio_qx_cayotun_tex_exterior</child>
+    </Item>
+
+    <Item>
+      <parent>tstudio_qx_cayotun_tex_parent</parent>
+      <child>tstudio_qx_cayotun_tex_pumpstation</child>
+    </Item>
+
+    <Item>
+      <parent>tstudio_qx_cayotun_tex_parent</parent>
+      <child>tstudio_qx_cayotun_tex_container</child>
+    </Item>
+
+    <Item>
+      <parent>tstudio_qx_cayotun_tex_parent</parent>
+      <child>tstudio_qx_cayotun_tex_cayo</child>
+    </Item>
+
+  </txdRelationships>
+</CMapParentTxds>

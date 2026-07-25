@@ -1,0 +1,274 @@
+{
+    "SubmitText": "ส่ง",
+    "BeeShop": {
+        "Invalid": "ร้านค้านี้ไม่ถูกต้อง กรุณารายงานให้เจ้าของเซิร์ฟเวอร์กำหนดค่าการตั้งค่า",
+        "OpenMenu": "นักเลี้ยงผึ้ง",
+        "TargetShop": "พูดคุยกับนักเลี้ยงผึ้ง",
+        "ShopTitle": "ซื้ออุปกรณ์เลี้ยงผึ้ง",
+        "SellItems": "ขายสินค้า",
+        "InputSellAmount": "ใส่จำนวนที่จะขาย",
+        "ShopDescription": "ซื้อสินค้าต่างๆ เพื่อช่วยในการเลี้ยงผึ้ง",
+        "SellDescription": "ขายสินค้าเลี้ยงผึ้งของคุณ",
+        "SellTitle": "ขายสินค้าที่เกี่ยวกับผึ้ง",
+        "SellItemFor": "ขาย %s ราคา $%s ต่อชิ้น",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "สินค้าที่จะขาย",
+        "TransactionCompleted": "การขายสมบูรณ์ได้เงิน $%s",
+        "IconColor": "ส้ม",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "กลับไปยังเมนูก่อนหน้า"
+    },
+    "HiveChange": {
+        "Dismantle": "รื้อถอนรังผึ้ง",
+        "PlacingHive": "วางรังผึ้ง",
+        "ExtractWax": "สกัด %s ขี้ผึ้ง",
+        "ExtractHoney": "สกัด %s น้ำผึ้ง",
+        "RemovingWorkers": "เอาผึ้งงาน %s ตัวออก",
+        "AddingWorkers": "เพิ่มผึ้งงาน %s ตัว",
+        "RemovingQueen": "เอาผึ้งราชินีออก",
+        "AddingQueen": "เพิ่มผึ้งราชินี",
+        "Placing": "วางรังผึ้ง",
+        "Accessing": "เข้าถึงรังผึ้ง",
+        "Adding": "เพิ่มไปยังรังผึ้ง",
+        "Removing": "เอาออกจากรังผึ้ง",
+        "MissingItem": "คุณไม่มีสิ่งของที่จำเป็นสำหรับการกระทำนี้"
+    },
+    "ProgressBars": {
+        "Dismantle": "กำลังรื้อถอนรังผึ้ง...",
+        "Accessing": "กำลังเข้าถึงรังผึ้ง...",
+        "Placing": "กำลังวางรังผึ้ง...",
+        "Adding": "กำลังเพิ่มไปยังรังผึ้ง...",
+        "Extracting": "กำลังสกัดจากรังผึ้ง..."
+    },
+    "HiveMenu": {
+        "Color": "ส้ม",
+        "WorkerInputHeader": "จำนวนผึ้งงาน",
+        "WorkersToAdd": "ผึ้งงานที่จะเพิ่ม",
+        "WorkersToRemove": "ผึ้งงานที่จะเอาออก",
+        "Slider_Add_Label": "สูงสุดที่จะเพิ่ม",
+        "Slider__Remove_Label": "สูงสุดที่จะเอาออก",
+        "ItemCountCheck": "คุณไม่มีสิ่งของนี้เพียงพอสำหรับการนี้",
+        "Title": "จัดการรังผึ้ง",
+        "HiveHealthTitle": "ภาพรวมสุขภาพรังผึ้ง",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "สถานะสุขภาพปัจจุบันของรังผึ้ง: ",
+        "WaxCountTitle": "จัดการขี้ผึ้ง",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "จัดการการผลิตขี้ผึ้ง",
+        "HoneyCountTitle": "จัดการน้ำผึ้ง",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "ติดตามการผลิตน้ำผึ้ง",
+        "QueenCountTitle": "สถานะผึ้งราชินี",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "จัดการจำนวนผึ้งราชินี",
+        "WorkerCountTitle": "จัดการผึ้งงาน",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "จัดการจำนวนผึ้งงาน",
+        "DestroyHiveTitle": "ทำลายรังผึ้ง",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "การนี้จะทำลายรังผึ้งอย่างถาวร",
+        "ManageAccess": "จัดการรังผึ้ง",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "จัดการว่าใครสามารถเข้าถึงรังผึ้งได้",
+        "AddPlayerTitle": "เพิ่ม %s ให้เข้าถึงรังผึ้ง",
+        "AddPlayerDescription": "การนี้จะให้ %s สามารถเข้าถึงรังผึ้งได้ แต่ไม่มีสิทธิ์ทำลาย",
+        "TooFarFromHive": "คุณอยู่ไกลจากรังผึ้งเกินไป",
+        "TargetTooFarFromHive": "เป้าหมายอยู่ไกลจากรังผึ้งเกินไป",
+        "Removing": "เอาออกจากรังผึ้ง",
+        "WaxToRemove": "ขี้ผึ้งที่จะเอาออก",
+        "HoneyToRemove": "น้ำผึ้งที่จะเอาออก"
+    },
+    "QueenMenu": {
+        "Color": "ส้ม",
+        "Title": "จัดการผึ้งราชินี",
+        "DisplayQueenTitle": "ผึ้งราชินีในรังผึ้ง",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "ผึ้งราชินีในรังผึ้ง: %s",
+        "AddQueenTitle": "เพิ่มผึ้งราชินี",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "เพิ่มผึ้งราชินีไปยังรังผึ้ง",
+        "RemoveQueenTitle": "เอาผึ้งราชินีออก",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "เอาผึ้งราชินีออกจากรังผึ้ง",
+        "ItemCountCheck": "คุณไม่มีผึ้งราชินีเพียงพอที่จะเพิ่ม",
+        "HiveFilled": "รังผึ้งนี้มีผึ้งราชินีแล้ว",
+        "NoQueenInHive": "รังผึ้งนี้ไม่มีผึ้งราชินีให้เอาออก"
+    },
+    "WorkerMenu": {
+        "Color": "ส้ม",
+        "Title": "จัดการผึ้งงาน",
+        "AddWorkerTitle": "เพิ่มผึ้งงาน",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "ผึ้งงานในรังผึ้ง",
+        "AddWorkerDescription": "เพิ่มผึ้งงานไปยังรังผึ้ง",
+        "DisplayWorkerDescription": "ผึ้งงานในรังผึ้ง: %s",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "เอาผึ้งงานออก",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "เอาผึ้งงานออกจากรังผึ้ง",
+        "NoWorkers": "รังผึ้งนี้ไม่มีผึ้งงาน",
+        "HiveFilled": "รังผึ้งนี้มีผึ้งงานเต็มจำนวนแล้ว",
+        "WorkerInvCheck": "คุณไม่มีผึ้งงานเพียงพอสำหรับการนี้"
+    },
+    "HoneyMenu": {
+        "Color": "ส้ม",
+        "Title": "จัดการน้ำผึ้ง",
+        "DisplayHoneyType": "ประเภทน้ำผึ้ง",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "น้ำผึ้งนี้เป็นประเภท: %s",
+        "DisplayHoneyCount": "จำนวนน้ำผึ้ง",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "จำนวนน้ำผึ้งปัจจุบัน: %s",
+        "ExtractHoneyTitle": "สกัดน้ำผึ้ง",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "สกัดน้ำผึ้งทั้งหมดจากรังผึ้ง",
+        "NoHoney": "รังผึ้งนี้ไม่มีน้ำผึ้ง"
+    },
+    "WaxMenu": {
+        "Color": "ส้ม",
+        "Title": "จัดการขี้ผึ้ง",
+        "DisplayWaxCount": "จำนวนขี้ผึ้ง",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "จำนวนขี้ผึ้งปัจจุบัน: %s",
+        "ExtractWaxTitle": "สกัดขี้ผึ้งจากรังผึ้ง",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "สกัดขี้ผึ้งทั้งหมดจากรังผึ้ง",
+        "NoWax": "รังผึ้งนี้ไม่มีขี้ผึ้ง"
+    },
+    "Hive": {
+        "Access": "เข้าถึงรังผึ้ง"
+    },
+    "Dismantle": {
+        "title": "คุณแน่ใจหรือไม่?",
+        "icon": "ค้อน",
+        "description": "การนี้จะรื้อถอนรังผึ้งและคืนสิ่งของที่อยู่ข้างใน"
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "ไม่สามารถวางรังผึ้งที่นี่ได้ ลองสถานที่อื่น",
+        "BlacklistedZone": "คุณไม่สามารถวางรังผึ้งในพื้นที่ต้องห้าม",
+        "MaxOwnedHivesReached": "คุณถึงจำนวนรังผึ้งสูงสุดที่อนุญาตแล้ว"
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "คุณต้องเป็นเจ้าของเพื่อแก้ไขรังผึ้งนี้"
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "คุณต้องอยู่ในรายการที่อนุญาตเพื่อแก้ไขรังผึ้งนี้"
+    },
+    "ManageAccess": {
+        "Color": "ส้ม",
+        "Title": "จัดการการเข้าถึงรังผึ้ง",
+        "AddUser": "เพิ่มผู้ใช้",
+        "RemovedUser": "ลบผู้ใช้ออกจากการเข้าถึงรังผึ้ง",
+        "UnableToRemove": "ไม่สามารถลบผู้ใช้ออกจากการเข้าถึงรังผึ้งได้ คุณต้องเป็นเจ้าของเพื่อทำเช่นนี้",
+        "UnableToFindHive": "ไม่สามารถหาข้อมูลรังผึ้งได้ กรุณาลองใหม่ภายหลัง",
+        "UnableToAccess": "คุณไม่มีสิทธิ์เข้าถึงรังผึ้งนี้",
+        "AlreadyAdded": "ผู้ใช้ถูกเพิ่มให้เข้าถึงรังผึ้งแล้ว",
+        "UserAdded": "ผู้ใช้ถูกเพิ่มให้เข้าถึงรังผึ้ง",
+        "UserList": "รายชื่อผู้ใช้",
+        "AddClosestPersonTitle": "เพิ่มคนที่ใกล้ที่สุด",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "เพิ่มคนที่ใกล้ที่สุดให้เข้าถึงรังผึ้ง",
+        "RemovePlayerTitle": "ลบผู้ใช้",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "ลบผู้ใช้ออกจากรายการเข้าถึงรังผึ้ง",
+        "RemovePlayer": "ลบ %s ออกจากรายการเข้าถึงรังผึ้ง",
+        "RemovedSuccess": "ลบผู้ใช้ออกจากการเข้าถึงรังผึ้งแล้ว",
+        "RemovedError": "ไม่สามารถลบผู้ใช้ออกจากการเข้าถึงรังผึ้งได้",
+        "ViewAccessTitle": "ดูรายการเข้าถึง",
+        "ViewAccessDescription": "ดูรายชื่อผู้ใช้ที่มีสิทธิ์เข้าถึงรังผึ้งนี้",
+        "ViewAccessMenuTitle": "รายการเข้าถึง",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "มีสิทธิ์เข้าถึงรังผึ้งนี้",
+        "SubViewAccessMenuTitle": "รายชื่อผู้ใช้ที่มีสิทธิ์เข้าถึงรังผึ้ง",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "เพิ่ม %s ให้เข้าถึงรังผึ้ง",
+        "AddPlayerDescription": "การนี้จะให้ %s สามารถเข้าถึงรังผึ้งได้ แต่ไม่มีสิทธิ์ทำลาย",
+        "TooFarFromHive": "คุณอยู่ไกลจากรังผึ้งเกินไป",
+        "TargetTooFarFromHive": "เป้าหมายอยู่ไกลจากรังผึ้งเกินไป",
+        "RemoveUserTitle": "ลบผู้ใช้",
+        "RemoveUserDescription": "ลบผู้ใช้ออกจากรายการเข้าถึงรังผึ้ง",
+        "UserListDescription": "รายชื่อผู้ใช้ที่มีสิทธิ์เข้าถึงรังผึ้ง",
+        "ManageAccessTitle": "จัดการการเข้าถึงรังผึ้งของผู้ใช้",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "เพิ่มหรือลบผู้ใช้ที่มีสิทธิ์เข้าถึงรังผึ้ง",
+        "YouWereAdded": "คุณถูกเพิ่มให้เข้าถึงรังผึ้งแล้ว",
+        "NoPlayerNearby": "ไม่มีผู้เล่นในบริเวณใกล้เคียงให้เพิ่ม"
+    },
+    "Blips": {
+        "HiveBlipText": "รังผึ้ง"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "คุณทำผิดพลาดและผึ้งมาต่อยคุณ!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "ลบรังผึ้งด้วย ID [คำสั่งแอดมินเท่านั้น]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "ID ของรังผึ้งจาก SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "ลบรังผึ้งด้วยตัวระบุเจ้าของ [คำสั่งแอดมินเท่านั้น]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "ตัวระบุเจ้าของรังผึ้ง"
+            }
+        },
+        "ShowAllHives": {
+            "help": "แสดงรังผึ้งทั้งหมดบนแผนที่ [คำสั่งแอดมินเท่านั้น]"
+        },
+        "OpenAdminHives": {
+            "help": "เปิดเมนูจัดการรังผึ้งแอดมิน [คำสั่งแอดมินเท่านั้น]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "ขี้ผึ้ง: %s, น้ำผึ้ง: %s, ผึ้งงาน: %s, ราชินี: %s",
+        "JoinedNames": "%s ด้วยตัวระบุ %s",
+        "MainMenuTitle": "เมนูแอดมิน",
+        "ManageHiveByID": "จัดการรังผึ้ง ID: %s",
+        "ManageHiveDescription": "เข้าถึงการจัดการรังผึ้ง",
+        "ManageHiveOwnerTitle": "เจ้าของรังผึ้ง: %s",
+        "ManageHiveOwnerDescription": "เจ้าของรังผึ้งคือ %s",
+        "ManageHiveIDTitle": "ID รังผึ้ง: %s",
+        "ManageHiveIDDescription": "ID รังผึ้งคือ %s",
+        "MarkHiveCoordsTitle": "ทำเครื่องหมายพิกัดรังผึ้ง",
+        "MarkHiveCoordsDescription": "ทำเครื่องหมายพิกัดรังผึ้งบนแผนที่",
+        "TeleportToCoordsTitle": "เทเลพอร์ตไปยังพิกัดรังผึ้ง",
+        "TeleportToCoordsDescription": "เทเลพอร์ตไปยังพิกัดรังผึ้ง",
+        "AccessablePlayersTitle": "การเข้าถึงล่าสุด: ",
+        "AccessablePlayersDescription": "การเข้าถึงล่าสุด: %s",
+        "HiveStatusTitle": "สถานะรังผึ้ง: ",
+        "HiveStatusDescription": "สถานะปัจจุบัน: %s",
+        "PlayersWithAccessTitle": "ผู้เล่นที่มีสิทธิ์เข้าถึงรังผึ้ง",
+        "RunSearch": "เรียกใช้การค้นหา",
+        "RunSearchDescription": "ค้นหาข้อมูลเฉพาะ",
+        "CopyIdToClipBoard": "คัดลอก ID รังผึ้งไปยังคลิปบอร์ด",
+        "CopyIdToClipBoardDescription": "คัดลอก ID รังผึ้งไปยังคลิปบอร์ดของคุณ",
+        "IconColor": "ส้ม",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "คุณไม่มีสิทธิ์ในการใช้งานนี้",
+        "DeleteHiveTitle": "ลบรังผึ้ง",
+        "DeleteHiveDescription": "ลบรังผึ้งอย่างถาวรด้วย ID: %s",
+        "ShowAllHivesOnMap": "แสดง/ซ่อนรังผึ้งทั้งหมดบนแผนที่",
+        "ShowAllHivesOnMapDescription": "สลับการแสดงรังผึ้งทั้งหมดบนแผนที่",
+        "ListAllHives": "แสดงรายการรังผึ้งทั้งหมด",
+        "ListAllHivesDescription": "แสดงรายการรังผึ้งทั้งหมดในฐานข้อมูล",
+        "Search": {
+            "InvalidSearchInput": "ข้อมูลการค้นหาไม่ถูกต้อง กรุณาลองใหม่",
+            "Title": "ค้นหา",
+            "SearchLabel": "ค้นหาข้อมูลเฉพาะ",
+            "SearchDescription": "ใส่ข้อมูลที่คุณต้องการค้นหา",
+            "SearchPlaceholder": "ใส่คำค้นหา...",
+            "Submit": "ส่ง"
+        }
+    }
+}

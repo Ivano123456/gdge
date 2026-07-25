@@ -1,0 +1,27 @@
+{
+    "pomoc": "Poziv u Pomoc",
+    "policajac_povredjen": "Sluzbenik Drzavne Sluzbe u nevolji.",
+    "civil_call": "Prijava od strane civila",
+    "shooting": "Pucnjava u toku." ,
+    "cooldown_panicbutton" : "Možete ponovo koristiti panic dugme za %s s.",
+    "panic_button_pressed": "Uspesno ste poslali poziv u pomoc svim raspolozivim patrolama",
+    "call_blips": {
+        "panic_button": "Panic Dugme",
+        "pucnjava": "Pucnjava",
+        "pucnjava_vozilo": "Pucnjava iz Vozila",
+        "fight_in_progress": "Tucnjava u Toku",
+        "OtimanjeVozila": "Otimanje vozila",
+        "obijanje_vozila": "Obijanje Vozila",
+        "Eksplozija":"Eksplozija",
+        "PrekoracenjeBrzine": "Prekoracenje Brzine"
+    },
+    "dispatch_accepted": "Uspesno ste prihvatili poziv od centrale!",
+    "dispatch_canceled": "Uspesno ste otkazali poziv od centrale!",
+    "pucnjava_vozilo": "Pucnjava iz Vozila",
+    "fight_in_progress": "Tucnjava u Toku",
+    "OtimanjeVozila": "Otimanje vozila od strane vlasnika",
+    "obijanje_vozila": "Neko obija vozilo",
+    "Eksplozija":"Eksplozija u toku!",
+    "radar_detect": "Detekcija Radara",
+    "PrekoracenjeBrzine": "Prekoracenje Brzine u Reonu"
+}

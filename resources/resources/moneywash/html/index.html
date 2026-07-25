@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jamaica Moneywash</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app" data-state="hidden">
+    <div class="noise"></div>
+    <div class="grid"></div>
+    <div class="smoke"></div>
+
+    <main class="panel">
+      <header class="topbar">
+        <div class="brand">
+          <p class="label">Underground Service</p>
+          <h1>Laundry Unit 07</h1>
+        </div>
+        <div class="session">
+          <span>Session <strong id="docSuffix">A-1001</strong></span>
+          <span id="stampTime">--:-- UTC</span>
+        </div>
+      </header>
+
+      <div class="status-row">
+        <span class="status-dot"></span>
+        <span class="status-text" id="statusText">SPREMNO</span>
+      </div>
+
+      <div class="tape">ILLEGAL OPERATIONS ONLY - NO WITNESSES - CASH RECYCLING ACTIVE</div>
+
+      <section class="state state-ready">
+        <div class="cards">
+          <article class="card">
+            <p class="card-label">Prljavi balans</p>
+            <p class="card-value" id="dirtyBalance">$0</p>
+          </article>
+          <article class="card">
+            <p class="card-label">Porez</p>
+            <p class="card-value" id="taxRate">30%</p>
+          </article>
+        </div>
+
+        <div class="input-wrap">
+          <label for="amountInput">Ubaci paket novca u masinu</label>
+          <div class="input-line">
+            <span>$</span>
+            <input id="amountInput" type="text" inputmode="numeric" autocomplete="off" placeholder="0" maxlength="10">
+          </div>
+          <div class="quick">
+            <button class="chip" data-pct="25">25%</button>
+            <button class="chip" data-pct="50">50%</button>
+            <button class="chip" data-pct="75">75%</button>
+            <button class="chip" data-pct="100">MAX</button>
+          </div>
+          <p class="field-error" id="amountError"></p>
+        </div>
+
+        <div class="receipt">
+          <div><span>Iznos</span><strong id="lineAmount">$0</strong></div>
+          <div><span>Porez (<span id="taxRateInline">30%</span>)</span><strong id="lineTax">-$0</strong></div>
+          <div class="net"><span>Isplata</span><strong id="lineNet">$0</strong></div>
+        </div>
+
+        <div class="actions">
+          <button class="btn btn-muted" data-action="cancel">Zatvori</button>
+          <button class="btn btn-main" id="washBtn" disabled>Operi Novac</button>
+        </div>
+      </section>
+
+      <section class="state state-washing">
+        <div class="washing-head danger">
+          <p>Pranje u toku - ne prekidaj</p>
+          <p id="washRemaining">00:30</p>
+        </div>
+
+        <div class="machine">
+          <div class="drum">
+            <div class="drum-ring"></div>
+            <div class="drum-ring inner"></div>
+            <div class="cash c1">$</div>
+            <div class="cash c2">$</div>
+            <div class="cash c3">$</div>
+            <div class="cash c4">$</div>
+          </div>
+          <div class="machine-side">
+            <span class="led red"></span>
+            <span class="led amber"></span>
+            <span class="led green"></span>
+          </div>
+        </div>
+
+        <div class="meter">
+          <div class="meter-fill" id="tapeFill"></div>
+          <span id="tapePercent">0%</span>
+        </div>
+        <p class="wash-amount" id="washAmount">$0</p>
+      </section>
+
+      <section class="state state-done">
+        <p class="done-title">Transakcija zavrsena</p>
+        <p class="done-amount" id="doneAmount">$0</p>
+        <p class="done-note">Sesija se zatvara...</p>
+      </section>
+
+      <section class="state state-cooldown">
+        <p class="cool-title">Sistem zakljucan</p>
+        <p class="cool-note">Sacekaj pre sledeceg pranja.</p>
+        <p class="cool-time" id="cooldownClock">00:00</p>
+        <button class="btn btn-muted" data-action="cancel">Zatvori</button>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

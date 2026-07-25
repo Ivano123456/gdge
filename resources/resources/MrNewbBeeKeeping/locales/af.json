@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Indien",
+    "BeeShop": {
+        "Invalid": "Hierdie winkel is ongeldig. Stel asseblief die bedienereienaar in kennis om die konfigurasie aan te pas.",
+        "OpenMenu": "Byeboer",
+        "TargetShop": "Praat met die Byeboer",
+        "ShopTitle": "Koop Byeboerdery Benodigdhede",
+        "SellItems": "Verkoop Items",
+        "InputSellAmount": "Voer hoeveelheid in om te verkoop",
+        "ShopDescription": "Koop verskeie items om te help met byeboerdery.",
+        "SellDescription": "Verkoop jou byeboerdery items.",
+        "SellTitle": "Verkoop Byverwante Items",
+        "SellItemFor": "Verkoop %s vir $%s elk.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Verkoopbare Items",
+        "TransactionCompleted": "Verkoop voltooi vir $%s.",
+        "IconColor": "oranje",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Keer terug na vorige kieslys"
+    },
+    "HiveChange": {
+        "Dismantle": "Demonteer Byekorf",
+        "PlacingHive": "Stel die korf op",
+        "ExtractWax": "Onttrek %s was",
+        "ExtractHoney": "Onttrek %s heuning",
+        "RemovingWorkers": "Verwyder %s werkerbye",
+        "AddingWorkers": "Voeg %s werkerbye by",
+        "RemovingQueen": "Verwyder die koninginby",
+        "AddingQueen": "Voeg die koninginby by",
+        "Placing": "Plaas die korf op ligging",
+        "Accessing": "Inspekteer die korf",
+        "Adding": "Voeg by die korf",
+        "Removing": "Verwyder uit die korf",
+        "MissingItem": "Jy kort die vereiste item om hierdie aksie uit te voer."
+    },
+    "ProgressBars": {
+        "Dismantle": "Demonteer die korf...",
+        "Accessing": "Toegang tot die korf...",
+        "Placing": "Plaas die korf...",
+        "Adding": "Voeg by die korf...",
+        "Extracting": "Onttrek uit die korf..."
+    },
+    "HiveMenu": {
+        "Color": "oranje",
+        "WorkerInputHeader": "Werkerby Telling",
+        "WorkersToAdd": "Werkerbye om by te voeg",
+        "WorkersToRemove": "Werkerbye om te verwyder",
+        "Slider_Add_Label": "Maksimum om by te voeg",
+        "Slider__Remove_Label": "Maksimum om te verwyder",
+        "ItemCountCheck": "Jy het nie genoeg van hierdie item om dit te doen nie.",
+        "Title": "Korfbestuur",
+        "HiveHealthTitle": "Korf Gesondheid Oorsig",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Huidige korf gesondheid status: ",
+        "WaxCountTitle": "Byewas Bestuur",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Bestuur byewas produksie",
+        "HoneyCountTitle": "Heuning Bestuur",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Oorsig oor heuning produksie",
+        "QueenCountTitle": "Koninginby Status",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Bestuur koninginby populasie",
+        "WorkerCountTitle": "Werkerby Bestuur",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Bestuur werkerby populasie",
+        "DestroyHiveTitle": "Demontage Korf",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Dit sal die korf permanent demonteer.",
+        "ManageAccess": "Bestuur Korf",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Bestuur wie toegang tot die korf het.",
+        "AddPlayerTitle": "Voeg %s by korf toegang.",
+        "AddPlayerDescription": "Dit sal %s toelaat om toegang tot die korf te hê maar nie dit te demonteer nie.",
+        "TooFarFromHive": "Jy is te ver van die korf af.",
+        "TargetTooFarFromHive": "Teiken is te ver van die korf af.",
+        "Removing": "Verwyder uit die korf",
+        "WaxToRemove": "Was om te verwyder",
+        "HoneyToRemove": "Heuning om te verwyder"
+    },
+    "QueenMenu": {
+        "Color": "oranje",
+        "Title": "Koninginby Bestuur",
+        "DisplayQueenTitle": "Koninginbye in Korf",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Koninginbye in korf: %s ",
+        "AddQueenTitle": "Voeg Koninginby By",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Voeg 'n koninginby by die korf",
+        "RemoveQueenTitle": "Verwyder Koninginby",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Verwyder 'n koninginby uit die korf",
+        "ItemCountCheck": "Jy het nie genoeg koninginne om enige in te sit nie.",
+        "HiveFilled": "Daar is reeds 'n koningin in hierdie korf.",
+        "NoQueenInHive": "Daar is geen koningin in hierdie korf om te verwyder nie."
+    },
+    "WorkerMenu": {
+        "Color": "oranje",
+        "Title": "Werkerby Bestuur",
+        "AddWorkerTitle": "Voeg Werkerby By",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Werkerbye in Korf",
+        "AddWorkerDescription": "Voeg 'n werkerby by die korf",
+        "DisplayWorkerDescription": "Werkerbye in korf: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Verwyder Werkerby",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Verwyder 'n werkerby uit die korf",
+        "NoWorkers": "Daar is geen werkerbye in hierdie korf nie.",
+        "HiveFilled": "Daar is reeds die maksimum aantal werkerbye in hierdie korf.",
+        "WorkerInvCheck": "Jy het nie genoeg werkerbye om dit te doen nie."
+    },
+    "HoneyMenu": {
+        "Color": "oranje",
+        "Title": "Heuning Bestuur",
+        "DisplayHoneyType": "Heuning Tipe",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Hierdie heuning is van tipe: %s ",
+        "DisplayHoneyCount": "Heuning Telling",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Huidige heuning telling: %s",
+        "ExtractHoneyTitle": "Onttrek Heuning",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Onttrek alle heuning uit die korf",
+        "NoHoney": "Daar is geen heuning in hierdie korf nie."
+    },
+    "WaxMenu": {
+        "Color": "oranje",
+        "Title": "Byewas Bestuur",
+        "DisplayWaxCount": "Byewas Telling",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Huidige byewas telling: %s",
+        "ExtractWaxTitle": "Onttrek Was uit Korf",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Onttrek alle byewas uit die korf",
+        "NoWax": "Daar is geen byewas in hierdie korf nie."
+    },
+    "Hive": {
+        "Access": "Toegang tot Korf"
+    },
+    "Dismantle": {
+        "title": "Is jy seker?",
+        "icon": "hamer",
+        "description": "Dit sal die korf demonteer en die items binne teruggee."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Kan nie korf op hierdie plek plaas nie. Probeer asseblief 'n ander plek.",
+        "BlacklistedZone": "Jy kan nie 'n korf in 'n verbode sone plaas nie.",
+        "MaxOwnedHivesReached": "Jy het die maksimum aantal korwe bereik."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Jy moet die eienaar wees om hierdie korf te verander."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Jy moet op die toelaatlys wees om hierdie korf te verander."
+    },
+    "ManageAccess": {
+        "Color": "oranje",
+        "Title": "Bestuur Korf Toegang",
+        "AddUser": "Voeg Gebruiker By",
+        "RemovedUser": "Gebruiker verwyder van korf toegang",
+        "UnableToRemove": "Kan nie gebruiker van korf toegang verwyder nie. Jy moet die eienaar wees om dit te doen.",
+        "UnableToFindHive": "Kan nie korfdata vind nie. Probeer asseblief later weer.",
+        "UnableToAccess": "Jy het nie toegang tot hierdie korf nie.",
+        "AlreadyAdded": "Gebruiker is reeds by korf toegang gevoeg",
+        "UserAdded": "Gebruiker by korf toegang gevoeg",
+        "UserList": "Gebruikerlys",
+        "AddClosestPersonTitle": "Voeg Naaste Persoon By",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Voeg die naaste persoon by korf toegang lys.",
+        "RemovePlayerTitle": "Verwyder Gebruiker",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Verwyder 'n gebruiker van korf toegang lys.",
+        "RemovePlayer": "Verwyder %s van korf toegang lys.",
+        "RemovedSuccess": "Gebruiker verwyder van korf toegang.",
+        "RemovedError": "Kan nie gebruiker van korf toegang verwyder nie.",
+        "ViewAccessTitle": "Bekyk Toegang Lys",
+        "ViewAccessDescription": "Bekyk die lys van gebruikers met toegang tot hierdie korf.",
+        "ViewAccessMenuTitle": "Toegang Lys",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Het toegang tot hierdie korf.",
+        "SubViewAccessMenuTitle": "Lys van gebruikers met toegang tot die korf",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Voeg %s by korf toegang.",
+        "AddPlayerDescription": "Dit sal %s toelaat om toegang tot die korf te hê maar nie dit te demonteer nie.",
+        "TooFarFromHive": "Jy is te ver van die korf af.",
+        "TargetTooFarFromHive": "Teiken is te ver van die korf af.",
+        "RemoveUserTitle": "Verwyder Gebruiker",
+        "RemoveUserDescription": "Verwyder 'n gebruiker van korf toegang lys.",
+        "UserListDescription": "Lys van gebruikers met toegang tot die korf",
+        "ManageAccessTitle": "Bestuur Korf Gebruiker Toegang",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Voeg gebruikers by of verwyder wie toegang tot die korf het.",
+        "YouWereAdded": "Jy is by die korf toegang lys gevoeg.",
+        "NoPlayerNearby": "Geen speler is naby om by te voeg nie."
+    },
+    "Blips": {
+        "HiveBlipText": "Byekorf"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Jy het 'n fout gemaak en sommige bye het jou gesteek!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Verwyder die byekorf volgens ID [ADMIN SLEGS OPDRAG]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "Byekorf ID vanaf SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Verwyder die byekorf volgens eienaar identifiseerder [ADMIN SLEGS OPDRAG]",
+            "params": {
+                "name": "identifiseerder",
+                "type": "string",
+                "help": "Byekorf eienaar identifiseerder"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Wys alle korwe op die kaart [ADMIN SLEGS OPDRAG]"
+        },
+        "OpenAdminHives": {
+            "help": "Maak die admin korfbestuur kieslys oop [ADMIN SLEGS OPDRAG]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Was: %s, Heuning: %s, Werkers: %s, Koningin: %s",
+        "JoinedNames": "%s, met identifiseerder %s",
+        "MainMenuTitle": "Admin Kieslys",
+        "ManageHiveByID": "Bestuur Korf ID: %s",
+        "ManageHiveDescription": "Toegang tot Korfbestuur",
+        "ManageHiveOwnerTitle": "Korf Eienaar: %s",
+        "ManageHiveOwnerDescription": "Eienaar van die korf is %s",
+        "ManageHiveIDTitle": "Korf ID: %s",
+        "ManageHiveIDDescription": "ID van die korf is %s",
+        "MarkHiveCoordsTitle": "Merk Korf Koördinate",
+        "MarkHiveCoordsDescription": "Merk die koördinate van die korf op die kaart.",
+        "TeleportToCoordsTitle": "Teleporteer na Korf Koördinate",
+        "TeleportToCoordsDescription": "Teleporteer na die koördinate van die korf.",
+        "AccessablePlayersTitle": "Laaste Toegangsdatum: ",
+        "AccessablePlayersDescription": "Laaste Toegang: %s",
+        "HiveStatusTitle": "Korf Status: ",
+        "HiveStatusDescription": "Huidige Status: %s",
+        "PlayersWithAccessTitle": "Spelers Met Toegang tot Korf",
+        "RunSearch": "Soek Uitvoer",
+        "RunSearchDescription": "Soek vir spesifieke inligting.",
+        "CopyIdToClipBoard": "Kopieer Korf ID na Knipbord",
+        "CopyIdToClipBoardDescription": "Kopieer die Korf ID na jou knipbord.",
+        "IconColor": "oranje",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Jy het nie toestemming om toegang te verkry nie.",
+        "DeleteHiveTitle": "Verwyder Korf",
+        "DeleteHiveDescription": "Verwyder die korf permanent met ID: %s",
+        "ShowAllHivesOnMap": "Wys/Verberg alle korwe op kaart",
+        "ShowAllHivesOnMapDescription": "Skakel die vertoning van alle korwe op die kaart.",
+        "ListAllHives": "Lys alle korwe",
+        "ListAllHivesDescription": "Lys alle korwe in die databasis.",
+        "Search": {
+            "InvalidSearchInput": "Ongeldige soekinvoer. Probeer asseblief weer.",
+            "Title": "Soek",
+            "SearchLabel": "Soek vir spesifieke inligting.",
+            "SearchDescription": "Voer die inligting in wat jy wil soek.",
+            "SearchPlaceholder": "Voer soekterm in...",
+            "Submit": "Indien"
+        }
+    }
+}

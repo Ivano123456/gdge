@@ -1,0 +1,18 @@
+{
+  "unlocked_door": "Vrata otključana",
+  "locked_door": "Vrata zaključana",
+  "lock_door": "[E] Zaključaj vrata",
+  "unlock_door": "[E] Otključaj vrata",
+  "door_lock": "Brava na vratima",
+  "passcode": "Šifra",
+  "lockpick_broke": "Polomio ti se alat za obijanje",
+  "pick_lock": "Obij bravu",
+  "add_lock": "Dodaj bravu",
+  "edit_lock": "Uredi bravu",
+  "remove_lock": "Ukloni bravu",
+  "cannot_unlock": "Ne možeš da otključaš vrata",
+  "cannot_lock": "Ne možeš da zaključaš vrata",
+  "create_modify_lock": "Kreiraj novu bravu ili izmeni postojeću",
+  "add_door_textui": "**Kreiranje novih vrata**  \nInterakcija sa [LMB]  \nOtkaži sa [RMB]",
+  "command_closest": "Otvori UI za najbližu bravu"
+}

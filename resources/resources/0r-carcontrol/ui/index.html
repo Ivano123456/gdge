@@ -1,0 +1,298 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/cfe5583873.js" crossorigin="anonymous"></script>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>0Resmon Carplay</title>
+</head>
+<body>
+    <div id="vehicle-container" class="vehicle-container" style="display: none;">
+        <div class="button2" id="cevir">
+            <img src="img/arac.png" alt="">
+        </div>
+        <div class="veh"></div>
+        <div class="hood"></div>
+        <div class="left-d-f"></div>
+        <div class="left-d-b"></div>
+        <div class="right-d-f"></div>
+        <div class="right-d-b"></div>
+        <div class="trunk"></div>
+        <div class="windows"></div>
+
+        
+        <div class="hoodselect" style="display: none;"></div>
+        <div class="left-d-f-select" style="display: none;"></div>
+        <div class="left-d-b-select" style="display: none;"></div>
+        <div class="right-d-f-select" style="display: none;"></div>
+        <div class="right-d-b-select" style="display: none;"></div>
+        <div class="trunkselect" style="display: none;"></div>
+        <div class="window1" style="display: none;"></div>
+        <div class="window2" style="display: none;"></div>
+    </div>
+
+
+    <div id="mainscreen" class="mainscreen" style="display: none;">
+        <div class="spotify" style="position: absolute; display: none;">
+            <div class="header-name2" style="position: absolute;">
+                <img id="header2" src="img/header.png" alt="">
+                <div class="text1">SYSTEM</div>
+                <div class="text2">CAR CONTROL</div>
+            </div>
+            <div class="container">
+                <div class="left-container">
+                    <div class="cont">
+                        <img id="spotify1" src="img/photo1.png" alt="">
+                        <div class="textler">
+                            <div class="header1">Playlist</div>
+                            <div class="header2">Adez’s Playlist</div>
+                            <div class="header3">Fun car songs from each other in one place, you can quickly click and listen!</div>
+                        </div>
+                        
+                        <div class="message-cont">
+                            <input type="text" class="form__input" id="music" placeholder="|" required="" />
+                        </div>
+                        <div class="submit"></div>
+                    </div>
+                    <img id="spotify2" src="img/spotify2.png" alt="">
+                </div>
+                <div class="right-container">
+                    <div class="playlist">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-main-screen2" style="position: absolute; display: none;">
+            <div class="weather">
+                <img id="hava" src="img/hava.png" alt="">
+                <div class="header">WEATHER</div>
+                <div class="header2">SUNNY</div>
+            </div>
+            <div class="miles">
+                <div class="text">195 <span>M</span></div>
+            </div>
+            <div class="locations">
+                <div class="location1">LOS SANTOS</div>
+                <div class="location2">Santos, felar st. 245</div>
+            </div>
+            <div class="vehicle">
+                <div class="header">
+                    <div class="name1">ZENO</div>
+                    <div class="name2">SUPERSPORT</div>
+                    <img id="araba" src="img/araba.png" alt="">
+                    <div class="km">KM <span>0.00</span></div>
+                </div>
+            </div>
+            <div class="right-cont2">
+                <div class="header">Condition of your vehicle</div>
+                <div class="safe">
+                    <div class="text">SAFE</div>
+                </div>
+
+                <div class="vehicle-progress">
+                    <div class="progress">
+                        <img src="img/engine.png" alt="">
+                        <div class="progress-bg">
+                            <div class="progress-inside" id="engine"></div>
+                        </div>
+                        <div class="yuzde" id="engine2">%86</div>
+                    </div>
+                    <div class="progress">
+                        <img src="img/egzoz.png" alt="">
+                        <div class="progress-bg">
+                            <div class="progress-inside" id="petrol"></div>
+                        </div>
+                        <div class="yuzde" id="petrol2">%86</div>
+                    </div>
+                    <!-- <div class="progress">
+                        <img src="img/bilinmeyen.png" alt="">
+                        <div class="progress-bg">
+                            <div class="progress-inside"></div>
+                        </div>
+                        <div class="yuzde">%86</div>
+                    </div> -->
+                    <div class="progress">
+                        <img src="img/brakes.png" alt="" >
+                        <div class="progress-bg">
+                            <div class="progress-inside" id="tyre"></div>
+                        </div>
+                        <div class="yuzde" id="tyre2">%86</div>
+                    </div>
+                    <div class="progress">
+                        <img src="img/armor.png" alt="">
+                        <div class="progress-bg">
+                            <div class="progress-inside" id="body"></div>
+                        </div>
+                        <div class="yuzde" id="body2">%86</div>
+                    </div>
+                    <div class="fuel">
+                        <img src="img/fuel.png" alt="">
+                        <div class="text"><span style="font-size: .9vh;">%</span>67</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-main-screen" style="display: none;">
+            <div class="header-cont">
+                <div class="header-name" style="position: absolute;">
+                    <img id="header" src="img/blue-header-bg.png" alt="">
+                    <div class="text1">SYSTEM</div>
+                    <div class="text2">CAR CONTROL</div>
+                </div>
+            </div>
+            <img id="top-bg" src="img/mavibg.png" alt="">
+        </div>
+        <div class="alt-kisim">
+            <div class="left-header-cont">
+                <div class="circle"></div>
+                <div class="header">SEAT <span style="color: rgba(255, 255, 255, 0.51);">BUTTONS</span></div>
+                <div class="line"></div>
+            </div>
+
+            <div class="left-cont">
+                <div class="seats">
+                    <div id="seat1" class="seat" style="border-radius: .463vh 0vh 0vh .463vh;">
+                        <img id="seat-icon" src="img/seat.png" alt="">
+                        <div class="text1">DRIVER SEAT</div>
+                        <div class="text2">CLICK TO SELECT</div>
+                    </div>
+                    <div id="seat2" class="seat" style="border-radius: 0vh .463vh .463vh 0vh;">
+                        <img id="seat-icon" src="img/seat.png" alt="">
+                        <div class="text1">FRONT SEAT</div>
+                        <div class="text2">CLICK TO SELECT</div>
+                    </div>
+                    <div id="seat3" class="seat" style="border-radius: .463vh 0vh 0vh .463vh;">
+                        <img id="seat-icon" src="img/seat.png" alt="">
+                        <div class="text1">BACK SEAT 1</div>
+                        <div class="text2">CLICK TO SELECT</div>
+                    </div>
+                    <div id="seat4" class="seat" style="border-radius: 0vh .463vh .463vh 0vh;">
+                        <img id="seat-icon" src="img/seat.png" alt="">
+                        <div class="text1">BACK SEAT 2</div>
+                        <div class="text2">CLICK TO SELECT</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="left-header-cont2">
+                <div class="circle"></div>
+                <div class="header">LIGHT <span style="color: rgba(255, 255, 255, 0.51);">BUTTONS</span></div>
+                <div class="line"></div>
+            </div>
+
+            <div class="left-bottom">
+                <div class="light1" id="isik">
+                    <img id="light" src="img/light.png" alt="">
+                    <div class="text1">HEAD LIGHT</div>
+                    <div class="text2">CLICK TO SELECT</div>
+                </div>
+                <div id="int" class="light2" style="border-radius: 0vh 0.463vh 0.463vh 0vh;">
+                    <img id="light" src="img/light.png" alt="">
+                    <div class="text1">INTE. LIGHT</div>
+                    <div class="text2">CLICK TO SELECT</div>
+                </div>
+            </div>
+            
+            <div class="right-header-cont">
+                <div class="circle"></div>
+                <div class="header">MODE <span style="color: rgba(255, 255, 255, 0.51);">BUTTONS</span></div>
+                <div class="line"></div>
+            </div>
+
+            <div class="main-buttons">
+                <div class="button" id="carmenu">
+                    <img src="img/sporticon.png" alt="">
+                </div>
+                <div class="button" id="spotify">
+                    <img src="img/music.png" alt="">
+                </div>
+                <div class="button" id="vehicle">
+                    <img src="img/arac.png" alt="" style="margin-left: .5vh;">
+                </div>
+                <div class="button" id="close">
+                    <img src="img/close.png" alt="" style="margin-left: .4vh;">
+                </div>
+            </div>
+
+            <div class="middle-cont">
+                <i id="sol" class='fas fa-chevron-left' style="z-index: 999; font-size: 2.5vh;"></i>
+                <img style="z-index: 9999;" id="photos" src="img/middle-photo.png" alt="">
+                <i id="sag" class='fas fa-chevron-right' style="z-index: 999; font-size: 2.5vh;"></i>
+                <img style="z-index: 999;" id="pause" src="img/resume.png" alt="">
+
+                <img style="z-index: 999;" id="vector1" src="img/vector1.png" alt="">
+                <img style="z-index: 999;" id="vector2" src="img/vector2.png" alt="">
+
+                <div class="music-name">
+                    <div class="name1">Not Playing</div>
+                    <!-- <div class="name2">Ice Spice, Niki Minaj</div> -->
+                </div>
+                <div class="range-container">
+                    <input type="range" class="custom-range" id="colorRange" min="0" max="100" value="0" />
+                </div>
+                <img id="volume" src="img/volume.png" alt="">
+                <div class="range-container2">
+                    <input type="range" class="custom-range2" id="colorRange2" min="0" max="100" value="50" />
+                </div>
+            </div>
+
+            <div class="right-cont">
+                <div class="modes">
+                    <div id="normal" class="mode" style="border-radius: .463vh 0vh 0vh .463vh;">
+                        <img style="margin-left: 1vh;" src="img/normal.png" alt="">
+                        <div class="text1" style="margin-left: 2.3vh;">NORMAL MODE</div>
+                        <div class="text2">CLICK TO SELECT</div>
+                    </div>
+                    <div id="drift" class="mode" style="border-radius: 0vh .463vh .463vh 0vh;">
+                        <img src="img/drifticon.png" alt="">
+                        <div class="text1">DRIFT MODE</div>
+                        <div class="text2">CLICK TO SELECT</div>
+                    </div>
+                    <div id="sport" class="mode" style="border-radius: .463vh 0vh 0vh .463vh;">
+                        <img style="margin-left: 1.2vh;" src="img/sporticon.png" alt="">
+                        <div class="text1">SPORT MODE</div>
+                        <div class="text2">CLICK TO SELECT</div>
+                    </div>
+                    <div id="openneon" class="mode" style="border-radius: 0vh .463vh .463vh 0vh;">
+                        <img src="img/neonicon.png" alt="">
+                        <div class="text1">NEON ON/OFF</div>
+                        <div class="text2">CLICK TO SELECT</div>
+                    </div>
+                    <div id="mode1" class="mode" style="border-radius: .463vh 0vh 0vh .463vh;">
+                        <img src="img/neonicon.png" alt="">
+                        <div class="text1" style="margin-left: 2.3vh;">MODE 1</div>
+                        <div class="text2">CLICK TO SELECT</div>
+                    </div>
+                    <div id="mode2" class="mode" style="border-radius: 0vh .463vh .463vh 0vh;">
+                        <img src="img/neonicon.png" alt="">
+                        <div class="text1" style="margin-left: 2.3vh;">MODE 2</div>
+                        <div class="text2">CLICK TO SELECT</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="right-header-cont2">
+                <div class="circle"></div>
+                <div class="header">EXTRA <span style="color: rgba(255, 255, 255, 0.51);">BUTTONS</span></div>
+                <div class="line"></div>
+            </div>
+            <div class="left-bottom2">
+                <div class="engine" id="toggleengine">
+                    <img id="engine1" src="img/light.png" alt="">
+                    <div class="text1">ENGINE ON/OFF</div>
+                    <div class="text2">CLICK TO SELECT</div>
+                </div>
+                <div id="hazard" class="light2" style="border-radius: 0vh 0.463vh 0.463vh 0vh;">
+                    <img id="light" src="img/light.png" alt="">
+                    <div class="text1">HAZARD LIGHT</div>
+                    <div class="text2">CLICK TO SELECT</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

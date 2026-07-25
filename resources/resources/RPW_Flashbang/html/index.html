@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flashbang UI</title>
+</head>
+<body>
+    <audio id="flashbangSound" src="flashbang.mp3"></audio>
+    <audio id="flashbangNine" src="flashbang_nine.mp3"></audio>
+    <audio id="distantSound" src="distant.mp3"></audio>
+
+    <script>
+        window.addEventListener("message", function (event) {
+            if (event.data.type === "playFlashbangSound") {
+                const sound = document.getElementById("flashbangSound");
+                sound.currentTime = 0;
+                sound.play();
+            } else if (event.data.type === "playDistantSound") {
+                const sound = document.getElementById("distantSound");
+                sound.currentTime = 0;
+                sound.play();
+            } else if (event.data.type === "playMultiFlashbang") {
+                const sound = document.getElementById("flashbangNine");
+                sound.currentTime = 0;
+                sound.play();
+            }
+        });
+    </script>
+</body>
+</html>

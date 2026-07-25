@@ -1,0 +1,66 @@
+-- Discord server: discord.gg/d3MBA
+
+Framework = {} -- ⚠️DO NOT MODIFY THIS!!!⚠️
+Framework.Resources = {} -- ⚠️DO NOT MODIFY THIS!!!⚠️
+
+
+Framework.CheckEmptyConfigValues = true -- [ true / false ] Set true if you want to check empty config values (print in console)  
+
+Framework.Database = 'oxmysql' -- [ 'mysql-async' / 'oxmysql' / 'ghmattimysql' ] Choose your SQL
+Framework.Framework = 'esx' -- [ 'qbcore' / 'esx' ] Choose your framework
+
+Framework.CoreObject = '' -- [ 'qb-core' / 'qbx-core' ] QBCore/QBx-Core only | ⚠️ Even if you are using QBx-Core, keep this set to 'qb-core' | If you are using ESX leave this empty: ''
+
+Framework.Inventory = 'ox_inventory' -- [ 'qb-inventory' / 'ps-inventory' / 'lj-inventory' / 'ox_inventory' / 'qs-inventory' ] Choose your inventory
+
+Framework.LicenseType = 'steam' -- [ 'license' / 'steam' / 'cid' = (QBCORE = Citizen ID, ESX = Multicharacter identifier) ]
+Framework.LicenseWithoutPrefix = true -- Remove [ license: / steam: ] Prefix from license
+
+-- ⚠️IF YOU'RE USING OX_TARGET SET Framework.Target = "qtarget"⚠️
+Framework.Target = 'qtarget' -- [ 'qb-target' / 'qtarget' / ⚠️IF YOU'RE USING OX_TARGET SET Framework.Target = "qtarget"⚠️ ] Set the target script name
+
+Framework.Menu = 'ox_lib' -- [ 'qb-menu' / 'ox_lib' (ox_contextmenu) / 'nh-context' ] Set the menu
+Framework.InputMenu = 'ox_lib' -- [ 'qb-input' / 'ox_lib' (ox_inputmenu) / 'nh-input' ] Set the target script name
+
+Framework.FuelScript = 'okokGasStation' -- [ 'LegacyFuel' / 'ox_fuel' / 'cdn-fuel' / 'ps-fuel' / 'lj-fuel' / 'okokGasStation' / 'other' ] Set the fuel script name  
+Framework.VehicleKeysScript = 'okokgarage' -- [ 'qbcore'  / 'qbx-core' / 't1ger' / 'qs-vehiclekeys' / 'jaksam' / 'renewed' / 'cd-garage' / 'wasabi' / '0r-vehiclekeys' / 'mrnewbvehiclekeys' / 'okokgarage' / 'other' ] Set the vehicle keys script (qbcore = default qb-vehiclekeys script)
+
+Framework.PhoneScript = 'lb-phone' -- [ 'qb-phone' / 'qs-smartphone' / 'gksphone' / 'lb-phone' / 'other' ] Set the phone script name (phone notifications)
+Framework.UseNotificationsScriptForPhoneNotifications = false -- [ true / false ] Set true if you want to use notifications script for phone notifications / mail notifications
+
+Framework.ProgressBarScript = 'ox_lib' -- [ 'qbcore' / 'esx' / 'ox_lib' / 'ox_lib_circle' / 'mythic' / 'other' ] Set the progressbar script
+
+Framework.Cloathing = 'illenium-appearance' -- codem-appearance / tgiann-clothing / esx_skin / fivem-appearance / illenium-appearance / ox_appearance / qb-clothing
+
+-- 👮 POLICE & DISPATCH SETTINGS 👮 --
+Framework.PoliceJobs = {
+    'police',
+}
+
+Framework.Notifications = 'ox_lib' -- [ 'qbcore' / 'esx' / 'okok' / 'codem' / 'ox_lib' / 'other' ] Set the notifications script
+Framework.NotificationsSettings = {
+    Info = 'primary',
+    Error = 'error', 
+    Success = 'success',    
+}
+
+Framework.BlackMoney = {
+    Mode = 'item', -- [ 'item' / 'account' ] Choose if black money is handled as an inventory item or account, DEPENDING ON YOUR SERVER FRAMEWORK!
+    Name = 'black_money', -- The item name or account name depending on the mode, ⚠️DEPENDING ON YOUR SERVER FRAMEWORK!: (black_money / dirty_money / markedbills) QBCORE: (markedbills)⚠️
+}
+
+
+Framework.SpecificItemLabels = false -- [ true / false ] Set true if you want to use specific item labels for each item (item-laebls/labels.lua)
+
+Framework.AcePermissions = {"command"} -- Add ace permissions here / Default: {"command"} gives admin access to all commands
+
+Framework.InventoryImgPath = { -- Default path to inventory image file
+    ["ox_inventory"]   = "ox_inventory/web/images/",
+    ["qb-inventory"]   = "qb-inventory/html/images/",
+    ["lj-inventory"]   = "lj-inventory/html/images/",
+    ["ps-inventory"]   = "ps-inventory/html/images/",
+    ["qs-inventory"]   = "qs-inventory/html/images/",
+    ["mf-inventory"]   = "mf-inventory/nui/items/",
+    -- Here you can add your own inventory icons path 
+    -- ["other-inventory"]   = "other-inventory/images/",
+}

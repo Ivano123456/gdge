@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent V6</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="rentContainer">
+        <!-- Corner Decorations -->
+        <div class="corner top-left"></div>
+        <div class="corner top-right"></div>
+        <div class="corner bottom-left"></div>
+        <div class="corner bottom-right"></div>
+
+        <!-- Header -->
+        <div class="header">
+            <div class="header-left">
+                <h1 class="title" id="headerTitle">RENT CAR</h1>
+            </div>
+            <div class="header-right">
+                <div class="user-info">
+                    <div class="user-details">
+                        <span class="username">virtuoso</span>
+                        <div class="balance-wrapper">
+                            <svg class="balance-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v12M8 10h8M8 14h8"/>
+                            </svg>
+                            <span class="balance">25,000$</span>
+                        </div>
+                    </div>
+                    <div class="avatar">
+                        <img id="userAvatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar" referrerpolicy="no-referrer" crossorigin="anonymous">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Left Sidebar - Vehicle List -->
+            <div class="sidebar">
+                <div class="sidebar-title">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7"/>
+                        <rect x="14" y="3" width="7" height="7"/>
+                        <rect x="14" y="14" width="7" height="7"/>
+                        <rect x="3" y="14" width="7" height="7"/>
+                    </svg>
+                    <span id="sidebarTitle">Vozila</span>
+                </div>
+
+                <div id="vehicleList"></div>
+            </div>
+
+            <!-- Center - Vehicle Display -->
+            <div class="vehicle-display">
+                <h2 class="neon-title" id="panelTitle">Renta Car<br><span>V6</span></h2>
+                
+                <div class="diamond-frame">
+                    <div class="diamond-outer"></div>
+                    <div class="diamond-inner"></div>
+                    <div class="vehicle-preview">
+                        <img id="mainVehicleImage" src="https://docs.fivem.net/vehicles/faggio.webp" alt="Selected Vehicle">
+                    </div>
+                </div>
+
+                <!-- Color Picker -->
+                <div class="color-section">
+                    <div class="section-label">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <circle cx="12" cy="12" r="4"/>
+                        </svg>
+                        <span>Boja Vozila</span>
+                    </div>
+                    <div class="color-picker">
+                        <div class="color-swatch" data-color="red" style="background: #e63946;">
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                        </div>
+                        <div class="color-swatch" data-color="orange" style="background: #f77f00;">
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                        </div>
+                        <div class="color-swatch" data-color="blue" style="background: #4361ee;">
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                        </div>
+                        <div class="color-swatch active" data-color="green" style="background: #39ff14;">
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                        </div>
+                        <div class="color-swatch" data-color="yellow" style="background: #ffbe0b;">
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                        </div>
+                        <div class="color-swatch" data-color="white" style="background: #ffffff;">
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                        </div>
+                        <div class="color-swatch" data-color="black" style="background: #1a1a1a;">
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Price Display -->
+                <div class="price-display">
+                    <div class="price-info">
+                        <span class="price-title">Ukupna Cijena</span>
+                        <span class="total-price" id="totalPrice">75$</span>
+                    </div>
+                </div>
+
+                <!-- Rent Controls -->
+                <div class="rent-controls">
+                    <div class="time-selector">
+                        <button class="arrow-btn" onclick="changeTime(-1)">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="15 18 9 12 15 6"/>
+                            </svg>
+                        </button>
+                        <div class="time-display">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            <div class="time-text">
+                                <span class="time-label">Vrijeme Renta</span>
+                                <span class="time-value" id="rentTime">1 Minuta</span>
+                            </div>
+                        </div>
+                        <button class="arrow-btn" onclick="changeTime(1)">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="9 18 15 12 9 6"/>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="payment-buttons">
+                        <button class="pay-btn card-btn" onclick="rent('card')">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/>
+                                <line x1="1" y1="10" x2="23" y2="10"/>
+                            </svg>
+                            <span>Kartica</span>
+                        </button>
+                        <button class="pay-btn cash-btn" onclick="rent('cash')">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="6" width="20" height="12" rx="2"/>
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M6 12h.01M18 12h.01"/>
+                            </svg>
+                            <span>Cash</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

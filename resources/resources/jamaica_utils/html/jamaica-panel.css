@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --panel: rgba(15, 23, 42, 0.96);
+    --panel-2: rgba(30, 41, 59, 0.92);
+    --line: rgba(51, 65, 85, 0.55);
+    --text: #f8fafc;
+    --muted: #94a3b8;
+    --dim: #64748b;
+    --blue: #3b82f6;
+    --blue-light: #60a5fa;
+    --blue-dim: rgba(59, 130, 246, 0.14);
+    --navy: #1e3a8a;
+    --green: #22c55e;
+    --amber: #f59e0b;
+    --red: #ef4444;
+    --r: 12px;
+    --r-sm: 8px;
+    --shadow: 0 28px 56px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    background: transparent;
+    color: var(--text);
+    overflow: hidden;
+    user-select: none;
+}
+
+input { user-select: text; }
+
+input[type='number'] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-thumb {
+    background: rgba(71, 85, 105, 0.85);
+    border-radius: 99px;
+}
+
+@keyframes slideDock {
+    from { opacity: 0; transform: translateY(-50%) translateX(24px); }
+    to { opacity: 1; transform: translateY(-50%) translateX(0); }
+}
+
+@keyframes toastIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes toastOut {
+    to { opacity: 0; transform: translateY(-6px); }
+}
+
+@keyframes barShrink {
+    from { transform: scaleX(1); }
+    to { transform: scaleX(0); }
+}
+
+.panel-title {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.interaction-tip {
+    position: fixed;
+    bottom: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 18px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--r-sm);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    z-index: 50;
+    pointer-events: none;
+}
+
+.interaction-tip.hidden { display: none; }

@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Pateikti",
+    "BeeShop": {
+        "Invalid": "Šis parduotuvė nėra galiojanti. Prašome pranešti serverio savininkui nustatyti konfigūraciją.",
+        "OpenMenu": "Bitininkas",
+        "TargetShop": "Kalbėkitės su bitininku",
+        "ShopTitle": "Pirkti bitininkystės reikmenis",
+        "SellItems": "Parduoti daiktus",
+        "InputSellAmount": "Įveskite pardavimo kiekį",
+        "ShopDescription": "Pirkite įvairius daiktus, kurie padės bitininkystėje.",
+        "SellDescription": "Parduokite savo bitininkystės daiktus.",
+        "SellTitle": "Parduoti su bitėmis susijusius daiktus",
+        "SellItemFor": "Parduoti %s už $%s kiekvieną.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Pardavimui skirti daiktai",
+        "TransactionCompleted": "Pardavimas užbaigtas už $%s.",
+        "IconColor": "oranžinė",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Grįžti į ankstesnį meniu"
+    },
+    "HiveChange": {
+        "Dismantle": "Išardyti avilį",
+        "PlacingHive": "Avilio statymas",
+        "ExtractWax": "Išgaunama %s vaško",
+        "ExtractHoney": "Išgaunama %s medaus",
+        "RemovingWorkers": "Šalinamos %s darbininkės bitės",
+        "AddingWorkers": "Pridedamos %s darbininkės bitės",
+        "RemovingQueen": "Šalinama karalienė",
+        "AddingQueen": "Pridedama karalienė",
+        "Placing": "Avilio statymas",
+        "Accessing": "Prieiga prie avilio",
+        "Adding": "Pridėjimas į avilį",
+        "Removing": "Šalinimas iš avilio",
+        "MissingItem": "Jums trūksta reikalingo daikto šiam veiksmui."
+    },
+    "ProgressBars": {
+        "Dismantle": "Ardomas avilius...",
+        "Accessing": "Prieinama prie avilio...",
+        "Placing": "Statomas avilius...",
+        "Adding": "Pridedama į avilį...",
+        "Extracting": "Išgaunama iš avilio..."
+    },
+    "HiveMenu": {
+        "Color": "oranžinė",
+        "WorkerInputHeader": "Darbininkių bičių skaičius",
+        "WorkersToAdd": "Pridedamos darbininkės",
+        "WorkersToRemove": "Šalinamos darbininkės",
+        "Slider_Add_Label": "Maksimalus pridėjimui",
+        "Slider__Remove_Label": "Maksimalus šalinimui",
+        "ItemCountCheck": "Neturite pakankamai šio daikto tam.",
+        "Title": "Avilio valdymas",
+        "HiveHealthTitle": "Avilio sveikatos apžvalga",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Dabartinis avilio sveikatos būvis: ",
+        "WaxCountTitle": "Bičių vaško valdymas",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Valdyti bičių vaško gamybą",
+        "HoneyCountTitle": "Medaus valdymas",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Stebėti medaus gamybą",
+        "QueenCountTitle": "Karalienės būklė",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Valdyti karalienių skaičių",
+        "WorkerCountTitle": "Darbininkių bičių valdymas",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Valdyti darbininkių bičių skaičių",
+        "DestroyHiveTitle": "Sunaikinti avilį",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Tai visam laikui sunaikins avilį.",
+        "ManageAccess": "Valdyti avilį",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Valdyti kas gali pasiekti avilį.",
+        "AddPlayerTitle": "Pridėti %s prie avilio prieigos.",
+        "AddPlayerDescription": "Tai suteiks %s prieigą prie avilio, bet ne teisę jį sunaikinti.",
+        "TooFarFromHive": "Esate per toli nuo avilio.",
+        "TargetTooFarFromHive": "Taikinys per toli nuo avilio.",
+        "Removing": "Šalinimas iš avilio",
+        "WaxToRemove": "Šalinamas vaškas",
+        "HoneyToRemove": "Šalinamas medus"
+    },
+    "QueenMenu": {
+        "Color": "oranžinė",
+        "Title": "Karalienės valdymas",
+        "DisplayQueenTitle": "Karalienės avilyje",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Karalienės avilyje: %s ",
+        "AddQueenTitle": "Pridėti karalienę",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Pridėti karalienę į avilį",
+        "RemoveQueenTitle": "Pašalinti karalienę",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Pašalinti karalienę iš avilio",
+        "ItemCountCheck": "Neturite pakankamai karalienių pridėjimui.",
+        "HiveFilled": "Šiame avilyje jau yra karalienė.",
+        "NoQueenInHive": "Šiame avilyje nėra karalienės šalinimui."
+    },
+    "WorkerMenu": {
+        "Color": "oranžinė",
+        "Title": "Darbininkių bičių valdymas",
+        "AddWorkerTitle": "Pridėti darbininkę bitę",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Darbininkės bitės avilyje",
+        "AddWorkerDescription": "Pridėti darbininkę bitę į avilį",
+        "DisplayWorkerDescription": "Darbininkės bitės avilyje: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Pašalinti darbininkę bitę",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Pašalinti darbininkę bitę iš avilio",
+        "NoWorkers": "Šiame avilyje nėra darbininkių bičių.",
+        "HiveFilled": "Šiame avilyje jau yra maksimalus darbininkių bičių skaičius.",
+        "WorkerInvCheck": "Neturite pakankamai darbininkių bičių tam."
+    },
+    "HoneyMenu": {
+        "Color": "oranžinė",
+        "Title": "Medaus valdymas",
+        "DisplayHoneyType": "Medaus tipas",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Šis medus yra tipo: %s ",
+        "DisplayHoneyCount": "Medaus kiekis",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Dabartinis medaus kiekis: %s",
+        "ExtractHoneyTitle": "Išgauti medų",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Išgauti visą medų iš avilio",
+        "NoHoney": "Šiame avilyje nėra medaus."
+    },
+    "WaxMenu": {
+        "Color": "oranžinė",
+        "Title": "Bičių vaško valdymas",
+        "DisplayWaxCount": "Bičių vaško kiekis",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Dabartinis bičių vaško kiekis: %s",
+        "ExtractWaxTitle": "Išgauti vašką iš avilio",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Išgauti visą bičių vašką iš avilio",
+        "NoWax": "Šiame avilyje nėra bičių vaško."
+    },
+    "Hive": {
+        "Access": "Pasiekti avilį"
+    },
+    "Dismantle": {
+        "title": "Ar tikrai?",
+        "icon": "plaktukas",
+        "description": "Tai išardys avilį ir grąžins jame esančius daiktus."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Nepavyko pastatyti avilio čia. Bandykite kitą vietą.",
+        "BlacklistedZone": "Negalite pastatyti avilio draudžiamoje zonoje.",
+        "MaxOwnedHivesReached": "Pasiekėte maksimalų leidžiamų avilių skaičių."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Turite būti savininku, kad galėtumėte keisti šį avilį."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Turite būti leidžiamųjų sąraše, kad galėtumėte keisti šį avilį."
+    },
+    "ManageAccess": {
+        "Color": "oranžinė",
+        "Title": "Valdyti avilio prieigą",
+        "AddUser": "Pridėti vartotoją",
+        "RemovedUser": "Vartotojas pašalintas iš avilio prieigos",
+        "UnableToRemove": "Nepavyksta pašalinti vartotojo iš avilio prieigos. Turite būti savininku, kad tai padarytumėte.",
+        "UnableToFindHive": "Nepavyksta rasti avilio duomenų. Bandykite vėliau.",
+        "UnableToAccess": "Neturite prieigos prie šio avilio.",
+        "AlreadyAdded": "Vartotojas jau pridėtas prie avilio prieigos",
+        "UserAdded": "Vartotojas pridėtas prie avilio prieigos",
+        "UserList": "Vartotojų sąrašas",
+        "AddClosestPersonTitle": "Pridėti artimiausią asmenį",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Pridėti artimiausią asmenį prie avilio prieigos sąrašo.",
+        "RemovePlayerTitle": "Pašalinti vartotoją",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Pašalinti vartotoją iš avilio prieigos sąrašo.",
+        "RemovePlayer": "Pašalinti %s iš avilio prieigos sąrašo.",
+        "RemovedSuccess": "Vartotojas pašalintas iš avilio prieigos.",
+        "RemovedError": "Nepavyksta pašalinti vartotojo iš avilio prieigos.",
+        "ViewAccessTitle": "Peržiūrėti prieigos sąrašą",
+        "ViewAccessDescription": "Peržiūrėti vartotojų, turinčių prieigą prie šio avilio, sąrašą.",
+        "ViewAccessMenuTitle": "Prieigos sąrašas",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Turi prieigą prie šio avilio.",
+        "SubViewAccessMenuTitle": "Vartotojų su prieiga prie avilio sąrašas",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Pridėti %s prie avilio prieigos.",
+        "AddPlayerDescription": "Tai suteiks %s prieigą prie avilio, bet ne teisę jį sunaikinti.",
+        "TooFarFromHive": "Esate per toli nuo avilio.",
+        "TargetTooFarFromHive": "Taikinys per toli nuo avilio.",
+        "RemoveUserTitle": "Pašalinti vartotoją",
+        "RemoveUserDescription": "Pašalinti vartotoją iš avilio prieigos sąrašo.",
+        "UserListDescription": "Vartotojų su prieiga prie avilio sąrašas",
+        "ManageAccessTitle": "Valdyti vartotojų prieigą prie avilio",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Pridėti arba pašalinti vartotojus su prieiga prie avilio.",
+        "YouWereAdded": "Jūs buvote pridėtas prie avilio prieigos sąrašo.",
+        "NoPlayerNearby": "Nėra žaidėjo šalia pridėjimui."
+    },
+    "Blips": {
+        "HiveBlipText": "Bičių avilius"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Padarėte klaidą ir kelios bitės jus įgėlė!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Pašalinti bičių avilį pagal ID [TIK ADMIN KOMANDA]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "Bičių avilio ID iš SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Pašalinti bičių avilį pagal savininko identifikatorių [TIK ADMIN KOMANDA]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "Bičių avilio savininko identifikatorius"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Rodyti visus avilius žemėlapyje [TIK ADMIN KOMANDA]"
+        },
+        "OpenAdminHives": {
+            "help": "Atidaryti admin avilių valdymo meniu [TIK ADMIN KOMANDA]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Vaškas: %s, Medus: %s, Darbininkės: %s, Karalienė: %s",
+        "JoinedNames": "%s, su identifikatoriumi %s",
+        "MainMenuTitle": "Admin meniu",
+        "ManageHiveByID": "Valdyti avilį ID: %s",
+        "ManageHiveDescription": "Prieiga prie avilio valdymo",
+        "ManageHiveOwnerTitle": "Avilio savininkas: %s",
+        "ManageHiveOwnerDescription": "Avilio savininkas yra %s",
+        "ManageHiveIDTitle": "Avilio ID: %s",
+        "ManageHiveIDDescription": "Avilio ID yra %s",
+        "MarkHiveCoordsTitle": "Pažymėti avilio koordinates",
+        "MarkHiveCoordsDescription": "Pažymėti avilio koordinates žemėlapyje.",
+        "TeleportToCoordsTitle": "Teleportuotis į avilio koordinates",
+        "TeleportToCoordsDescription": "Teleportuotis į avilio koordinates.",
+        "AccessablePlayersTitle": "Paskutinė prieiga: ",
+        "AccessablePlayersDescription": "Paskutinė prieiga: %s",
+        "HiveStatusTitle": "Avilio būklė: ",
+        "HiveStatusDescription": "Dabartinė būklė: %s",
+        "PlayersWithAccessTitle": "Žaidėjai su prieiga prie avilio",
+        "RunSearch": "Vykdyti paiešką",
+        "RunSearchDescription": "Ieškoti specifinių duomenų.",
+        "CopyIdToClipBoard": "Kopijuoti avilio ID į iškarpinę",
+        "CopyIdToClipBoardDescription": "Kopijuoti avilio ID į jūsų iškarpinę.",
+        "IconColor": "oranžinė",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Neturite leidimo naudoti šį.",
+        "DeleteHiveTitle": "Ištrinti avilį",
+        "DeleteHiveDescription": "Visam laikui ištrinti avilį su ID: %s",
+        "ShowAllHivesOnMap": "Rodyti/Slėpti visus avilius žemėlapyje",
+        "ShowAllHivesOnMapDescription": "Perjungti visų avilių rodymą žemėlapyje.",
+        "ListAllHives": "Išvardinti visus avilius",
+        "ListAllHivesDescription": "Išvardinti visus avilius duomenų bazėje.",
+        "Search": {
+            "InvalidSearchInput": "Neteisingas paieškos įvedimas. Bandykite dar kartą.",
+            "Title": "Paieška",
+            "SearchLabel": "Ieškoti specifinių duomenų.",
+            "SearchDescription": "Įveskite duomenis, kuriuos norite ieškoti.",
+            "SearchPlaceholder": "Įveskite paieškos terminą...",
+            "Submit": "Pateikti"
+        }
+    }
+}

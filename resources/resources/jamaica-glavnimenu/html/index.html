@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamaica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="hidden">
+        <div class="bg-layer"></div>
+        <div class="glow glow-red"></div>
+        <div class="glow glow-purple"></div>
+
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-top">JAMAICA</div>
+                <div class="brand-bottom">ROLEPLAY</div>
+            </div>
+
+            <nav class="nav" id="nav"></nav>
+
+            <div class="profile-card">
+                <img class="profile-avatar" id="profileAvatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="" referrerpolicy="no-referrer" crossorigin="anonymous">
+                <div class="profile-info">
+                    <div class="profile-name" id="profileName">Igrac</div>
+                    <div class="profile-rank">Jamaica Member</div>
+                    <div class="profile-xp">
+                        <div class="xp-bar"><div class="xp-fill" id="xpFill"></div></div>
+                        <span id="xpText">0 XP</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main">
+            <header class="topbar">
+                <div class="topbar-left">
+                    <div class="page-icon" id="pageIcon">&#9733;</div>
+                    <div>
+                        <h1 class="page-title" id="pageTitle">Kutije</h1>
+                        <p class="page-desc" id="pageDesc">Otvori premium i standard kutije — klikni sliku za pregled nagrada.</p>
+                    </div>
+                </div>
+                <div class="topbar-right">
+                    <div class="wallet-strip">
+                        <button class="wallet-btn wallet-btn-credits" id="btnBuyCredits">
+                            <span class="wallet-btn-icon">+</span>
+                            <span class="wallet-btn-text">Kupi GC</span>
+                        </button>
+                        <div class="wallet-balance">
+                            <div class="wallet-balance-icon">◆</div>
+                            <div class="wallet-balance-info">
+                                <span class="wallet-balance-label">Vaše stanje</span>
+                                <div class="wallet-balances-row">
+                                    <span class="wallet-balance-value"><span id="goldBalance">0</span> <small>GC</small></span>
+                                    <span class="wallet-balance-sc"><span id="standardBalance">0</span> <small>SC</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="wallet-btn wallet-btn-cart" id="btnCart">
+                            <span class="wallet-btn-icon">🛒</span>
+                            <span class="wallet-btn-text">Korpa</span>
+                            <span class="cart-count" id="cartCount">0</span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <section class="content" id="content"></section>
+        </main>
+
+        <div class="modal hidden" id="caseModal">
+            <div class="modal-card case-result">
+                <div class="modal-glow"></div>
+                <h2>Cestitamo!</h2>
+                <div class="case-result-media" id="caseResultMedia"></div>
+                <div class="case-result-label" id="caseResultLabel"></div>
+                <div class="case-result-type" id="caseResultType"></div>
+                <div class="modal-actions">
+                    <button class="btn btn-green" id="btnCollect">PRIKUPI</button>
+                    <button class="btn btn-outline" id="btnSell">PRODAJ</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal hidden" id="cartModal">
+            <div class="modal-card cart-card">
+                <h2>Korpa</h2>
+                <div id="cartItems" class="cart-items"></div>
+                <div class="cart-footer">
+                    <div class="cart-total" id="cartTotal">Ukupno: 0 GC</div>
+                    <button class="btn btn-green full" id="btnCheckout">KUPI SVE</button>
+                    <button class="btn btn-outline full" id="btnCloseCart">Zatvori</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal hidden" id="caseContentsModal">
+            <div class="modal-card case-contents-card">
+                <div class="case-contents-header">
+                    <div>
+                        <h2 id="caseContentsTitle">Nagrade u kutiji</h2>
+                        <p class="case-contents-sub" id="caseContentsSub"></p>
+                    </div>
+                    <button type="button" class="case-contents-close" id="btnCloseCaseContents" aria-label="Zatvori">&times;</button>
+                </div>
+                <div class="case-contents-grid" id="caseContentsGrid"></div>
+            </div>
+        </div>
+
+        <div class="toast hidden" id="toast"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

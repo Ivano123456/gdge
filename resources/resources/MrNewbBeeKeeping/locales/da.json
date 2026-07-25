@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Indsend",
+    "BeeShop": {
+        "Invalid": "Denne butik er ugyldig. Informér venligst serverejeren om at justere konfigurationen.",
+        "OpenMenu": "Biavler",
+        "TargetShop": "Tal med biavleren",
+        "ShopTitle": "Køb biavlsudstyr",
+        "SellItems": "Sælg varer",
+        "InputSellAmount": "Indtast antal til salg",
+        "ShopDescription": "Køb forskellige varer til at hjælpe med biavl.",
+        "SellDescription": "Sælg dine biavlsvarer.",
+        "SellTitle": "Sælg bierelaterede varer",
+        "SellItemFor": "Sælg %s for $%s stykket.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Sælgbare varer",
+        "TransactionCompleted": "Salg gennemført for $%s.",
+        "IconColor": "orange",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Tilbage til forrige menu"
+    },
+    "HiveChange": {
+        "Dismantle": "Demonter bikube",
+        "PlacingHive": "Opsætter bikube",
+        "ExtractWax": "Udtrækker %s voks",
+        "ExtractHoney": "Udtrækker %s honning",
+        "RemovingWorkers": "Fjerner %s arbejderbier",
+        "AddingWorkers": "Tilføjer %s arbejderbier",
+        "RemovingQueen": "Fjerner dronningbien",
+        "AddingQueen": "Tilføjer dronningbien",
+        "Placing": "Placerer bikube på placering",
+        "Accessing": "Inspicerer bikube",
+        "Adding": "Tilføjer til bikube",
+        "Removing": "Fjerner fra bikube",
+        "MissingItem": "Du mangler det nødvendige element for at udføre denne handling."
+    },
+    "ProgressBars": {
+        "Dismantle": "Demonterer bikube...",
+        "Accessing": "Adgang til bikube...",
+        "Placing": "Placerer bikube...",
+        "Adding": "Tilføjer til bikube...",
+        "Extracting": "Udtrækker fra bikube..."
+    },
+    "HiveMenu": {
+        "Color": "orange",
+        "WorkerInputHeader": "Antal arbejderbier",
+        "WorkersToAdd": "Arbejderbier at tilføje",
+        "WorkersToRemove": "Arbejderbier at fjerne",
+        "Slider_Add_Label": "Maks at tilføje",
+        "Slider__Remove_Label": "Maks at fjerne",
+        "ItemCountCheck": "Du har ikke nok af denne vare til at gøre dette.",
+        "Title": "Bikubeadministration",
+        "HiveHealthTitle": "Bikubens sundhedsoversigt",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Nuværende bikubens sundhedsstatus: ",
+        "WaxCountTitle": "Bivoksadministration",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Administrer produktion af bivoks",
+        "HoneyCountTitle": "Honningadministration",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Overvåg produktion af honning",
+        "QueenCountTitle": "Dronningbi-status",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Administrer dronningbi-population",
+        "WorkerCountTitle": "Arbejderbi-administration",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Administrer arbejderbi-population",
+        "DestroyHiveTitle": "Demonter bikube",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Dette vil permanent demontere bikuben.",
+        "ManageAccess": "Administrer bikube",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Administrer hvem der har adgang til bikuben.",
+        "AddPlayerTitle": "Tilføj %s til bikubeadgang.",
+        "AddPlayerDescription": "Dette vil give %s adgang til bikuben, men ikke demontere den.",
+        "TooFarFromHive": "Du er for langt fra bikuben.",
+        "TargetTooFarFromHive": "Mål er for langt fra bikuben.",
+        "Removing": "Fjerner fra bikube",
+        "WaxToRemove": "Voks at fjerne",
+        "HoneyToRemove": "Honning at fjerne"
+    },
+    "QueenMenu": {
+        "Color": "orange",
+        "Title": "Dronningbi-administration",
+        "DisplayQueenTitle": "Dronningbier i bikube",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Dronningbier i bikube: %s ",
+        "AddQueenTitle": "Tilføj dronningbi",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Tilføj en dronningbi til bikuben",
+        "RemoveQueenTitle": "Fjern dronningbi",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Fjern en dronningbi fra bikuben",
+        "ItemCountCheck": "Du har ikke nok dronningbier til at tilføje nogen.",
+        "HiveFilled": "Der er allerede en dronningbi i denne bikube.",
+        "NoQueenInHive": "Der er ingen dronningbi i denne bikube at fjerne."
+    },
+    "WorkerMenu": {
+        "Color": "orange",
+        "Title": "Arbejderbi-administration",
+        "AddWorkerTitle": "Tilføj arbejderbi",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Arbejderbier i bikube",
+        "AddWorkerDescription": "Tilføj en arbejderbi til bikuben",
+        "DisplayWorkerDescription": "Arbejderbier i bikube: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Fjern arbejderbi",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Fjern en arbejderbi fra bikuben",
+        "NoWorkers": "Der er ingen arbejderbier i denne bikube.",
+        "HiveFilled": "Der er allerede det maksimale antal arbejderbier i denne bikube.",
+        "WorkerInvCheck": "Du har ikke nok arbejderbier til at gøre dette."
+    },
+    "HoneyMenu": {
+        "Color": "orange",
+        "Title": "Honningadministration",
+        "DisplayHoneyType": "Honningtype",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Denne honning er af typen: %s ",
+        "DisplayHoneyCount": "Honningantal",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Nuværende honningantal: %s",
+        "ExtractHoneyTitle": "Udtræk honning",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Udtræk al honning fra bikuben",
+        "NoHoney": "Der er ingen honning i denne bikube."
+    },
+    "WaxMenu": {
+        "Color": "orange",
+        "Title": "Bivoksadministration",
+        "DisplayWaxCount": "Bivoksantal",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Nuværende bivoksantal: %s",
+        "ExtractWaxTitle": "Udtræk voks fra bikube",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Udtræk al bivoks fra bikuben",
+        "NoWax": "Der er ingen bivoks i denne bikube."
+    },
+    "Hive": {
+        "Access": "Adgang til bikube"
+    },
+    "Dismantle": {
+        "title": "Er du sikker?",
+        "icon": "hammer",
+        "description": "Dette vil demontere bikuben og returnere elementerne indeni."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Kan ikke placere bikube på denne placering. Prøv venligst et andet sted.",
+        "BlacklistedZone": "Du kan ikke placere en bikube i en sortlistet zone.",
+        "MaxOwnedHivesReached": "Du har nået det maksimale antal bikuber."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Du skal være ejer for at ændre denne bikube."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Du skal være på tilladelseslisten for at ændre denne bikube."
+    },
+    "ManageAccess": {
+        "Color": "orange",
+        "Title": "Administrer bikubeadgang",
+        "AddUser": "Tilføj bruger",
+        "RemovedUser": "Bruger fjernet fra bikubeadgang",
+        "UnableToRemove": "Kan ikke fjerne bruger fra bikubeadgang. Du skal være ejer for at gøre dette.",
+        "UnableToFindHive": "Kan ikke finde bikubedata. Prøv venligst igen senere.",
+        "UnableToAccess": "Du har ikke adgang til denne bikube.",
+        "AlreadyAdded": "Bruger er allerede tilføjet til bikubeadgang",
+        "UserAdded": "Bruger tilføjet til bikubeadgang",
+        "UserList": "Brugerliste",
+        "AddClosestPersonTitle": "Tilføj nærmeste person",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Tilføj nærmeste person til bikubeadgangslisten.",
+        "RemovePlayerTitle": "Fjern bruger",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Fjern en bruger fra bikubeadgangslisten.",
+        "RemovePlayer": "Fjern %s fra bikubeadgangslisten.",
+        "RemovedSuccess": "Bruger fjernet fra bikubeadgang.",
+        "RemovedError": "Kan ikke fjerne bruger fra bikubeadgang.",
+        "ViewAccessTitle": "Vis adgangsliste",
+        "ViewAccessDescription": "Vis listen over brugere med adgang til denne bikube.",
+        "ViewAccessMenuTitle": "Adgangsliste",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Har adgang til denne bikube.",
+        "SubViewAccessMenuTitle": "Liste over brugere med adgang til bikuben",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Tilføj %s til bikubeadgang.",
+        "AddPlayerDescription": "Dette vil give %s adgang til bikuben, men ikke demontere den.",
+        "TooFarFromHive": "Du er for langt fra bikuben.",
+        "TargetTooFarFromHive": "Mål er for langt fra bikuben.",
+        "RemoveUserTitle": "Fjern bruger",
+        "RemoveUserDescription": "Fjern en bruger fra bikubeadgangslisten.",
+        "UserListDescription": "Liste over brugere med adgang til bikuben",
+        "ManageAccessTitle": "Administrer bikubebrugeradgang",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Tilføj eller fjern brugere med adgang til bikuben.",
+        "YouWereAdded": "Du blev tilføjet til bikubeadgangslisten.",
+        "NoPlayerNearby": "Ingen spiller er i nærheden til at tilføje."
+    },
+    "Blips": {
+        "HiveBlipText": "Bikube"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Du lavede en fejl og nogle bier stak dig!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Fjerner bikuben efter ID [KUN ADMIN KOMMANDO]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "Bikube-ID fra SQL"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Fjerner bikuben efter ejeridentifikator [KUN ADMIN KOMMANDO]",
+            "params": {
+                "name": "identifikator",
+                "type": "string",
+                "help": "Bikubeejeridentifikator"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Vis alle bikuber på kortet [KUN ADMIN KOMMANDO]"
+        },
+        "OpenAdminHives": {
+            "help": "Åbn admin bikubeadministrationsmenu [KUN ADMIN KOMMANDO]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Voks: %s, Honning: %s, Arbejderbier: %s, Dronning: %s",
+        "JoinedNames": "%s, med identifikator %s",
+        "MainMenuTitle": "Adminmenu",
+        "ManageHiveByID": "Administrer bikube-ID: %s",
+        "ManageHiveDescription": "Adgang til bikubeadministration",
+        "ManageHiveOwnerTitle": "Bikubeejer: %s",
+        "ManageHiveOwnerDescription": "Ejer af bikuben er %s",
+        "ManageHiveIDTitle": "Bikube-ID: %s",
+        "ManageHiveIDDescription": "ID for bikuben er %s",
+        "MarkHiveCoordsTitle": "Markér bikubekoordinater",
+        "MarkHiveCoordsDescription": "Markér bikubens koordinater på kortet.",
+        "TeleportToCoordsTitle": "Teleportér til bikubekoordinater",
+        "TeleportToCoordsDescription": "Teleportér til bikubens koordinater.",
+        "AccessablePlayersTitle": "Sidste adgangsdato: ",
+        "AccessablePlayersDescription": "Sidste adgang: %s",
+        "HiveStatusTitle": "Bikubestatus: ",
+        "HiveStatusDescription": "Nuværende status: %s",
+        "PlayersWithAccessTitle": "Spillere med adgang til bikube",
+        "RunSearch": "Kør søgning",
+        "RunSearchDescription": "Søg efter specifik information.",
+        "CopyIdToClipBoard": "Kopiér bikube-ID til udklipsholder",
+        "CopyIdToClipBoardDescription": "Kopierer bikube-ID til din udklipsholder.",
+        "IconColor": "orange",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Du har ikke tilladelse til at få adgang til dette.",
+        "DeleteHiveTitle": "Slet bikube",
+        "DeleteHiveDescription": "Slet bikuben permanent med ID: %s",
+        "ShowAllHivesOnMap": "Vis/Skjul alle bikuber på kortet",
+        "ShowAllHivesOnMapDescription": "Skift visning af alle bikuber på kortet.",
+        "ListAllHives": "List alle bikuber",
+        "ListAllHivesDescription": "List alle bikuber i databasen.",
+        "Search": {
+            "InvalidSearchInput": "Ugyldigt søgeinput. Prøv venligst igen.",
+            "Title": "Søg",
+            "SearchLabel": "Søg efter specifik information.",
+            "SearchDescription": "Indtast den information, du vil søge efter.",
+            "SearchPlaceholder": "Indtast søgeterm...",
+            "Submit": "Indsend"
+        }
+    }
+}

@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Lähetä",
+    "BeeShop": {
+        "Invalid": "Tämä kauppa on virheellinen. Ilmoita palvelimen omistajalle konfiguraation säätämisestä.",
+        "OpenMenu": "Mehiläishoitaja",
+        "TargetShop": "Puhu mehiläishoitajan kanssa",
+        "ShopTitle": "Osta mehiläishoidon tarvikkeita",
+        "SellItems": "Myy tavaroita",
+        "InputSellAmount": "Syötä myytävä määrä",
+        "ShopDescription": "Osta erilaisia tavaroita mehiläishoidon avuksi.",
+        "SellDescription": "Myy mehiläishoidon tavaroitasi.",
+        "SellTitle": "Myy mehiläisaiheisia tavaroita",
+        "SellItemFor": "Myy %s hintaan $%s kappale.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Myytävät tavarat",
+        "TransactionCompleted": "Myynti valmistui hintaan $%s.",
+        "IconColor": "oranssi",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Palaa edelliseen valikkoon"
+    },
+    "HiveChange": {
+        "Dismantle": "Pura pesä",
+        "PlacingHive": "Asetetaan pesää",
+        "ExtractWax": "Poimitaan %s vahaa",
+        "ExtractHoney": "Poimitaan %s hunajaa",
+        "RemovingWorkers": "Poistetaan %s työläismehiläistä",
+        "AddingWorkers": "Lisätään %s työläismehiläistä",
+        "RemovingQueen": "Poistetaan kuningatar",
+        "AddingQueen": "Lisätään kuningatar",
+        "Placing": "Asetetaan pesä paikalleen",
+        "Accessing": "Tarkistetaan pesää",
+        "Adding": "Lisätään pesään",
+        "Removing": "Poistetaan pesästä",
+        "MissingItem": "Sinulta puuttuu vaadittu tavara tähän toimintoon."
+    },
+    "ProgressBars": {
+        "Dismantle": "Puretaan pesää...",
+        "Accessing": "Käytetään pesää...",
+        "Placing": "Asetetaan pesää...",
+        "Adding": "Lisätään pesään...",
+        "Extracting": "Poimitaan pesästä..."
+    },
+    "HiveMenu": {
+        "Color": "oranssi",
+        "WorkerInputHeader": "Työläismehiläisten määrä",
+        "WorkersToAdd": "Lisättävät työläiset",
+        "WorkersToRemove": "Poistettavat työläiset",
+        "Slider_Add_Label": "Enintään lisättäviä",
+        "Slider__Remove_Label": "Enintään poistettavia",
+        "ItemCountCheck": "Sinulla ei ole tarpeeksi tätä tavaraa tähän.",
+        "Title": "Pesän hallinta",
+        "HiveHealthTitle": "Pesän terveyden yleiskatsaus",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Nykyinen pesän terveystila: ",
+        "WaxCountTitle": "Mehiläisvahan hallinta",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Hallinnoi mehiläisvahan tuotantoa",
+        "HoneyCountTitle": "Hunajan hallinta",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Valvo hunajan tuotantoa",
+        "QueenCountTitle": "Kuningattaren tila",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Hallinnoi kuningattaren määrää",
+        "WorkerCountTitle": "Työläismehiläisten hallinta",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Hallinnoi työläismehiläisten määrää",
+        "DestroyHiveTitle": "Pura pesä",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "Tämä purkaa pesän pysyvästi.",
+        "ManageAccess": "Hallinnoi pesää",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Hallinnoi kuka pääsee pesään.",
+        "AddPlayerTitle": "Lisää %s pesän käyttöoikeuteen.",
+        "AddPlayerDescription": "Tämä antaa %s:lle pääsyn pesään muttei oikeutta purkaa sitä.",
+        "TooFarFromHive": "Olet liian kaukana pesästä.",
+        "TargetTooFarFromHive": "Kohde on liian kaukana pesästä.",
+        "Removing": "Poistetaan pesästä",
+        "WaxToRemove": "Poistettava vaha",
+        "HoneyToRemove": "Poistettava hunaja"
+    },
+    "QueenMenu": {
+        "Color": "oranssi",
+        "Title": "Kuningattaren hallinta",
+        "DisplayQueenTitle": "Kuningattaret pesässä",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Kuningattaret pesässä: %s ",
+        "AddQueenTitle": "Lisää kuningatar",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Lisää kuningatar pesään",
+        "RemoveQueenTitle": "Poista kuningatar",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Poista kuningatar pesästä",
+        "ItemCountCheck": "Sinulla ei ole tarpeeksi kuningattaria lisättäväksi.",
+        "HiveFilled": "Tässä pesässä on jo kuningatar.",
+        "NoQueenInHive": "Tässä pesässä ei ole kuningatarta poistettavaksi."
+    },
+    "WorkerMenu": {
+        "Color": "oranssi",
+        "Title": "Työläismehiläisten hallinta",
+        "AddWorkerTitle": "Lisää työläismehiläinen",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Työläismehiläiset pesässä",
+        "AddWorkerDescription": "Lisää työläismehiläinen pesään",
+        "DisplayWorkerDescription": "Työläismehiläiset pesässä: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Poista työläismehiläinen",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Poista työläismehiläinen pesästä",
+        "NoWorkers": "Tässä pesässä ei ole työläismehiläisiä.",
+        "HiveFilled": "Tässä pesässä on jo maksimimäärä työläismehiläisiä.",
+        "WorkerInvCheck": "Sinulla ei ole tarpeeksi työläismehiläisiä tähän."
+    },
+    "HoneyMenu": {
+        "Color": "oranssi",
+        "Title": "Hunajan hallinta",
+        "DisplayHoneyType": "Hunajan tyyppi",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "Tämä hunaja on tyyppiä: %s ",
+        "DisplayHoneyCount": "Hunajan määrä",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Nykyinen hunajan määrä: %s",
+        "ExtractHoneyTitle": "Poimi hunajaa",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Poimi kaikki hunaja pesästä",
+        "NoHoney": "Tässä pesässä ei ole hunajaa."
+    },
+    "WaxMenu": {
+        "Color": "oranssi",
+        "Title": "Mehiläisvahan hallinta",
+        "DisplayWaxCount": "Mehiläisvahan määrä",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Nykyinen mehiläisvahan määrä: %s",
+        "ExtractWaxTitle": "Poimi vahaa pesästä",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Poimi kaikki mehiläisvaha pesästä",
+        "NoWax": "Tässä pesässä ei ole mehiläisvahaa."
+    },
+    "Hive": {
+        "Access": "Käytä pesää"
+    },
+    "Dismantle": {
+        "title": "Oletko varma?",
+        "icon": "vasara",
+        "description": "Tämä purkaa pesän ja palauttaa sisällä olevat tavarat."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Pesää ei voitu asettaa tähän paikkaan. Kokeile toista paikkaa.",
+        "BlacklistedZone": "Et voi asettaa pesää kielletylle alueelle.",
+        "MaxOwnedHivesReached": "Olet saavuttanut sallittujen pesien enimmäismäärän."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Sinun täytyy olla omistaja muuttaaksesi tätä pesää."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Sinun täytyy olla sallittujen listalla muuttaaksesi tätä pesää."
+    },
+    "ManageAccess": {
+        "Color": "oranssi",
+        "Title": "Hallinnoi pesän käyttöoikeutta",
+        "AddUser": "Lisää käyttäjä",
+        "RemovedUser": "Käyttäjä poistettu pesän käyttöoikeudesta",
+        "UnableToRemove": "Käyttäjää ei voida poistaa pesän käyttöoikeudesta. Sinun täytyy olla omistaja tehdäksesi tämän.",
+        "UnableToFindHive": "Pesän tietoja ei löydy. Yritä myöhemmin uudelleen.",
+        "UnableToAccess": "Sinulla ei ole pääsyä tähän pesään.",
+        "AlreadyAdded": "Käyttäjä on jo lisätty pesän käyttöoikeuteen",
+        "UserAdded": "Käyttäjä lisätty pesän käyttöoikeuteen",
+        "UserList": "Käyttäjälista",
+        "AddClosestPersonTitle": "Lisää lähin henkilö",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Lisää lähin henkilö pesän käyttöoikeuslistaan.",
+        "RemovePlayerTitle": "Poista käyttäjä",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Poista käyttäjä pesän käyttöoikeuslistasta.",
+        "RemovePlayer": "Poista %s pesän käyttöoikeuslistasta.",
+        "RemovedSuccess": "Käyttäjä poistettu pesän käyttöoikeudesta.",
+        "RemovedError": "Käyttäjää ei voida poistaa pesän käyttöoikeudesta.",
+        "ViewAccessTitle": "Näytä käyttöoikeuslista",
+        "ViewAccessDescription": "Näytä lista käyttäjistä, joilla on pääsy tähän pesään.",
+        "ViewAccessMenuTitle": "Käyttöoikeuslista",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Pääsee tähän pesään.",
+        "SubViewAccessMenuTitle": "Lista käyttäjistä, joilla on pääsy pesään",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Lisää %s pesän käyttöoikeuteen.",
+        "AddPlayerDescription": "Tämä antaa %s:lle pääsyn pesään muttei oikeutta purkaa sitä.",
+        "TooFarFromHive": "Olet liian kaukana pesästä.",
+        "TargetTooFarFromHive": "Kohde on liian kaukana pesästä.",
+        "RemoveUserTitle": "Poista käyttäjä",
+        "RemoveUserDescription": "Poista käyttäjä pesän käyttöoikeuslistasta.",
+        "UserListDescription": "Lista käyttäjistä, joilla on pääsy pesään",
+        "ManageAccessTitle": "Hallinnoi pesän käyttäjien pääsyä",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Lisää tai poista käyttäjiä, joilla on pääsy pesään.",
+        "YouWereAdded": "Sinut lisättiin pesän käyttöoikeuslistaan.",
+        "NoPlayerNearby": "Lähellä ei ole pelaajaa lisättäväksi."
+    },
+    "Blips": {
+        "HiveBlipText": "Mehiläispesä"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Teit virheen ja jotkut mehiläiset pistivät sinua!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Poistaa mehiläispesän ID:n perusteella [VAIN ADMIN-KOMENTO]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "Mehiläispesän ID SQL:stä"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Poistaa mehiläispesän omistajan tunnisteen perusteella [VAIN ADMIN-KOMENTO]",
+            "params": {
+                "name": "tunniste",
+                "type": "string",
+                "help": "Mehiläispesän omistajan tunniste"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Näyttää kaikki pesät kartalla [VAIN ADMIN-KOMENTO]"
+        },
+        "OpenAdminHives": {
+            "help": "Avaa admin-pesien hallintavalikon [VAIN ADMIN-KOMENTO]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Vaha: %s, Hunaja: %s, Työläiset: %s, Kuningatar: %s",
+        "JoinedNames": "%s, tunnisteella %s",
+        "MainMenuTitle": "Admin-valikko",
+        "ManageHiveByID": "Hallinnoi pesää ID: %s",
+        "ManageHiveDescription": "Pääsy pesän hallintaan",
+        "ManageHiveOwnerTitle": "Pesän omistaja: %s",
+        "ManageHiveOwnerDescription": "Pesän omistaja on %s",
+        "ManageHiveIDTitle": "Pesän ID: %s",
+        "ManageHiveIDDescription": "Pesän ID on %s",
+        "MarkHiveCoordsTitle": "Merkitse pesän koordinaatit",
+        "MarkHiveCoordsDescription": "Merkitse pesän koordinaatit kartalle.",
+        "TeleportToCoordsTitle": "Teleporttaa pesän koordinaatteihin",
+        "TeleportToCoordsDescription": "Teleporttaa pesän koordinaatteihin.",
+        "AccessablePlayersTitle": "Viimeinen käyttöpäivä: ",
+        "AccessablePlayersDescription": "Viimeinen käyttö: %s",
+        "HiveStatusTitle": "Pesän tila: ",
+        "HiveStatusDescription": "Nykyinen tila: %s",
+        "PlayersWithAccessTitle": "Pelaajat, joilla on pääsy pesään",
+        "RunSearch": "Suorita haku",
+        "RunSearchDescription": "Hae tiettyä tietoa.",
+        "CopyIdToClipBoard": "Kopioi pesän ID leikepöydälle",
+        "CopyIdToClipBoardDescription": "Kopioi pesän ID leikepöydällesi.",
+        "IconColor": "oranssi",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Sinulla ei ole lupaa käyttää tätä.",
+        "DeleteHiveTitle": "Poista pesä",
+        "DeleteHiveDescription": "Poista pesä pysyvästi ID:llä: %s",
+        "ShowAllHivesOnMap": "Näytä/Piilota kaikki pesät kartalla",
+        "ShowAllHivesOnMapDescription": "Vaihda kaikkien pesien näyttämistä kartalla.",
+        "ListAllHives": "Listaa kaikki pesät",
+        "ListAllHivesDescription": "Listaa kaikki pesät tietokannassa.",
+        "Search": {
+            "InvalidSearchInput": "Virheellinen hakusyöte. Yritä uudelleen.",
+            "Title": "Haku",
+            "SearchLabel": "Hae tiettyä tietoa.",
+            "SearchDescription": "Syötä tieto, jota haluat hakea.",
+            "SearchPlaceholder": "Syötä hakusana...",
+            "Submit": "Lähetä"
+        }
+    }
+}

@@ -1,0 +1,274 @@
+{
+    "SubmitText": "送信",
+    "BeeShop": {
+        "Invalid": "このショップは無効です。サーバーオーナーに設定の修正を報告してください。",
+        "OpenMenu": "養蜂家",
+        "TargetShop": "養蜂家と話す",
+        "ShopTitle": "養蜂用品を購入",
+        "SellItems": "アイテムを売る",
+        "InputSellAmount": "売却する数量を入力",
+        "ShopDescription": "養蜂に役立つ様々なアイテムを購入してください。",
+        "SellDescription": "養蜂用のアイテムを売却してください。",
+        "SellTitle": "蜂関連のアイテムを売る",
+        "SellItemFor": "%sを1つ$%sで売る。",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "売却アイテム",
+        "TransactionCompleted": "$%sで売却完了。",
+        "IconColor": "オレンジ",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "前のメニューに戻る"
+    },
+    "HiveChange": {
+        "Dismantle": "巣箱の解体",
+        "PlacingHive": "巣箱の設置中",
+        "ExtractWax": "%s 蜜蝋の抽出中",
+        "ExtractHoney": "%s はちみつの抽出中",
+        "RemovingWorkers": "%s 働き蜂の除去中",
+        "AddingWorkers": "%s 働き蜂の追加中",
+        "RemovingQueen": "女王蜂の除去中",
+        "AddingQueen": "女王蜂の追加中",
+        "Placing": "巣箱の設置中",
+        "Accessing": "巣箱へのアクセス中",
+        "Adding": "巣箱に追加中",
+        "Removing": "巣箱から除去中",
+        "MissingItem": "この操作に必要なアイテムが不足しています。"
+    },
+    "ProgressBars": {
+        "Dismantle": "巣箱を解体中...",
+        "Accessing": "巣箱にアクセス中...",
+        "Placing": "巣箱を設置中...",
+        "Adding": "巣箱に追加中...",
+        "Extracting": "巣箱から抽出中..."
+    },
+    "HiveMenu": {
+        "Color": "オレンジ",
+        "WorkerInputHeader": "働き蜂の数",
+        "WorkersToAdd": "追加する働き蜂",
+        "WorkersToRemove": "除去する働き蜂",
+        "Slider_Add_Label": "追加の最大数",
+        "Slider__Remove_Label": "除去の最大数",
+        "ItemCountCheck": "このアイテムが不足しています。",
+        "Title": "巣箱管理",
+        "HiveHealthTitle": "巣箱の健康状態概要",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "巣箱の現在の健康状態: ",
+        "WaxCountTitle": "蜜蝋管理",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "蜜蝋の生産を管理",
+        "HoneyCountTitle": "はちみつ管理",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "はちみつの生産を監視",
+        "QueenCountTitle": "女王蜂の状態",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "女王蜂の数を管理",
+        "WorkerCountTitle": "働き蜂管理",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "働き蜂の数を管理",
+        "DestroyHiveTitle": "巣箱を破壊",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "これは巣箱を永久に破壊します。",
+        "ManageAccess": "巣箱の管理",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "巣箱にアクセスできる人を管理。",
+        "AddPlayerTitle": "%sを巣箱のアクセスに追加。",
+        "AddPlayerDescription": "これは%sに巣箱へのアクセスを与えますが、破壊する権利は与えません。",
+        "TooFarFromHive": "巣箱から離れすぎています。",
+        "TargetTooFarFromHive": "ターゲットが巣箱から離れすぎています。",
+        "Removing": "巣箱から除去中",
+        "WaxToRemove": "除去する蜜蝋",
+        "HoneyToRemove": "除去するはちみつ"
+    },
+    "QueenMenu": {
+        "Color": "オレンジ",
+        "Title": "女王蜂管理",
+        "DisplayQueenTitle": "巣箱内の女王蜂",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "巣箱内の女王蜂: %s ",
+        "AddQueenTitle": "女王蜂を追加",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "巣箱に女王蜂を追加",
+        "RemoveQueenTitle": "女王蜂を除去",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "巣箱から女王蜂を除去",
+        "ItemCountCheck": "追加するための女王蜂が不足しています。",
+        "HiveFilled": "この巣箱にはすでに女王蜂がいます。",
+        "NoQueenInHive": "この巣箱には除去する女王蜂がいません。"
+    },
+    "WorkerMenu": {
+        "Color": "オレンジ",
+        "Title": "働き蜂管理",
+        "AddWorkerTitle": "働き蜂を追加",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "巣箱内の働き蜂",
+        "AddWorkerDescription": "巣箱に働き蜂を追加",
+        "DisplayWorkerDescription": "巣箱内の働き蜂: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "働き蜂を除去",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "巣箱から働き蜂を除去",
+        "NoWorkers": "この巣箱には働き蜂がいません。",
+        "HiveFilled": "この巣箱にはすでに最大数の働き蜂がいます。",
+        "WorkerInvCheck": "必要な働き蜂が不足しています。"
+    },
+    "HoneyMenu": {
+        "Color": "オレンジ",
+        "Title": "はちみつ管理",
+        "DisplayHoneyType": "はちみつの種類",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "このはちみつの種類は: %s ",
+        "DisplayHoneyCount": "はちみつの量",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "現在のはちみつの量: %s",
+        "ExtractHoneyTitle": "はちみつを抽出",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "巣箱からすべてのはちみつを抽出",
+        "NoHoney": "この巣箱にははちみつがありません。"
+    },
+    "WaxMenu": {
+        "Color": "オレンジ",
+        "Title": "蜜蝋管理",
+        "DisplayWaxCount": "蜜蝋の量",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "現在の蜜蝋の量: %s",
+        "ExtractWaxTitle": "巣箱から蜜蝋を抽出",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "巣箱からすべての蜜蝋を抽出",
+        "NoWax": "この巣箱には蜜蝋がありません。"
+    },
+    "Hive": {
+        "Access": "巣箱にアクセス"
+    },
+    "Dismantle": {
+        "title": "本当によろしいですか？",
+        "icon": "ハンマー",
+        "description": "これは巣箱を解体し、中のアイテムを返却します。"
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "ここに巣箱を設置できませんでした。別の場所を試してください。",
+        "BlacklistedZone": "禁止されたゾーンに巣箱を設置することはできません。",
+        "MaxOwnedHivesReached": "許可された巣箱の最大数に達しました。"
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "この巣箱を変更するには所有者である必要があります。"
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "この巣箱を変更するには許可リストに入っている必要があります。"
+    },
+    "ManageAccess": {
+        "Color": "オレンジ",
+        "Title": "巣箱アクセス管理",
+        "AddUser": "ユーザーを追加",
+        "RemovedUser": "ユーザーが巣箱アクセスから除去されました",
+        "UnableToRemove": "ユーザーを巣箱アクセスから除去できません。これを行うには所有者である必要があります。",
+        "UnableToFindHive": "巣箱データが見つかりません。後でもう一度お試しください。",
+        "UnableToAccess": "この巣箱にアクセスできません。",
+        "AlreadyAdded": "ユーザーはすでに巣箱アクセスに追加されています",
+        "UserAdded": "ユーザーが巣箱アクセスに追加されました",
+        "UserList": "ユーザーリスト",
+        "AddClosestPersonTitle": "最も近い人を追加",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "最も近い人を巣箱アクセスリストに追加。",
+        "RemovePlayerTitle": "ユーザーを除去",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "巣箱アクセスリストからユーザーを除去。",
+        "RemovePlayer": "%sを巣箱アクセスリストから除去。",
+        "RemovedSuccess": "ユーザーが巣箱アクセスから除去されました。",
+        "RemovedError": "ユーザーを巣箱アクセスから除去できません。",
+        "ViewAccessTitle": "アクセスリストを表示",
+        "ViewAccessDescription": "この巣箱にアクセスできるユーザーのリストを表示。",
+        "ViewAccessMenuTitle": "アクセスリスト",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "この巣箱にアクセスできます。",
+        "SubViewAccessMenuTitle": "巣箱にアクセスできるユーザーのリスト",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "%sを巣箱のアクセスに追加。",
+        "AddPlayerDescription": "これは%sに巣箱へのアクセスを与えますが、破壊する権利は与えません。",
+        "TooFarFromHive": "巣箱から離れすぎています。",
+        "TargetTooFarFromHive": "ターゲットが巣箱から離れすぎています。",
+        "RemoveUserTitle": "ユーザーを除去",
+        "RemoveUserDescription": "巣箱アクセスリストからユーザーを除去。",
+        "UserListDescription": "巣箱にアクセスできるユーザーのリスト",
+        "ManageAccessTitle": "巣箱のユーザーアクセス管理",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "巣箱にアクセスできるユーザーを追加または除去。",
+        "YouWereAdded": "巣箱アクセスリストに追加されました。",
+        "NoPlayerNearby": "追加する近くのプレイヤーがいません。"
+    },
+    "Blips": {
+        "HiveBlipText": "蜂の巣箱"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "ミスをして、何匹かの蜂に刺されました！"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "IDで蜂の巣箱を除去 [管理者専用コマンド]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "SQLからの蜂の巣箱のID"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "所有者識別子で蜂の巣箱を除去 [管理者専用コマンド]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "蜂の巣箱所有者の識別子"
+            }
+        },
+        "ShowAllHives": {
+            "help": "マップ上にすべての巣箱を表示 [管理者専用コマンド]"
+        },
+        "OpenAdminHives": {
+            "help": "管理者巣箱管理メニューを開く [管理者専用コマンド]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "蜜蝋: %s, はちみつ: %s, 働き蜂: %s, 女王蜂: %s",
+        "JoinedNames": "%s, 識別子 %s",
+        "MainMenuTitle": "管理者メニュー",
+        "ManageHiveByID": "巣箱 ID を管理: %s",
+        "ManageHiveDescription": "巣箱管理へのアクセス",
+        "ManageHiveOwnerTitle": "巣箱の所有者: %s",
+        "ManageHiveOwnerDescription": "巣箱の所有者は %s です",
+        "ManageHiveIDTitle": "巣箱ID: %s",
+        "ManageHiveIDDescription": "巣箱のIDは %s です",
+        "MarkHiveCoordsTitle": "巣箱の座標をマーク",
+        "MarkHiveCoordsDescription": "マップ上で巣箱の座標をマーク。",
+        "TeleportToCoordsTitle": "巣箱の座標にテレポート",
+        "TeleportToCoordsDescription": "巣箱の座標にテレポート。",
+        "AccessablePlayersTitle": "最後のアクセス: ",
+        "AccessablePlayersDescription": "最後のアクセス: %s",
+        "HiveStatusTitle": "巣箱の状態: ",
+        "HiveStatusDescription": "現在の状態: %s",
+        "PlayersWithAccessTitle": "巣箱にアクセスできるプレイヤー",
+        "RunSearch": "検索を実行",
+        "RunSearchDescription": "特定のデータを検索。",
+        "CopyIdToClipBoard": "巣箱IDをクリップボードにコピー",
+        "CopyIdToClipBoardDescription": "巣箱のIDをクリップボードにコピー。",
+        "IconColor": "オレンジ",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "これを使用する権限がありません。",
+        "DeleteHiveTitle": "巣箱を削除",
+        "DeleteHiveDescription": "ID: %s の巣箱を永久に削除",
+        "ShowAllHivesOnMap": "マップ上のすべての巣箱を表示/非表示",
+        "ShowAllHivesOnMapDescription": "マップ上のすべての巣箱の表示を切り替えます。",
+        "ListAllHives": "すべての巣箱をリスト表示",
+        "ListAllHivesDescription": "データベース内のすべての巣箱をリスト表示します。",
+        "Search": {
+            "InvalidSearchInput": "無効な検索入力です。もう一度お試しください。",
+            "Title": "検索",
+            "SearchLabel": "特定のデータを検索。",
+            "SearchDescription": "検索したいデータを入力してください。",
+            "SearchPlaceholder": "検索語を入力...",
+            "Submit": "送信"
+        }
+    }
+}

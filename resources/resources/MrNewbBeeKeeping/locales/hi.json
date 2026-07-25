@@ -1,0 +1,274 @@
+{
+    "SubmitText": "जमा करें",
+    "BeeShop": {
+        "Invalid": "यह दुकान अमान्य है। कृपया सर्वर मालिक को कॉन्फ़िगरेशन सेट करने के लिए रिपोर्ट करें।",
+        "OpenMenu": "मधुमक्खी पालक",
+        "TargetShop": "मधुमक्खी पालक से बात करें",
+        "ShopTitle": "मधुमक्खी पालन सामग्री खरीदें",
+        "SellItems": "वस्तुएं बेचें",
+        "InputSellAmount": "बेचने की मात्रा दर्ज करें",
+        "ShopDescription": "मधुमक्खी पालन में मदद के लिए विभिन्न वस्तुएं खरीदें।",
+        "SellDescription": "अपनी मधुमक्खी पालन वस्तुएं बेचें।",
+        "SellTitle": "मधुमक्खी संबंधी वस्तुएं बेचें",
+        "SellItemFor": "%s को $%s प्रत्येक में बेचें।",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "बेचने की वस्तुएं",
+        "TransactionCompleted": "$%s में बिक्री पूर्ण।",
+        "IconColor": "नारंगी",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "पिछले मेनू में वापस जाएं"
+    },
+    "HiveChange": {
+        "Dismantle": "छत्ता हटाएं",
+        "PlacingHive": "छत्ता लगाया जा रहा है",
+        "ExtractWax": "%s मोम निकाला जा रहा है",
+        "ExtractHoney": "%s शहद निकाला जा रहा है",
+        "RemovingWorkers": "%s कार्यकर्ता मधुमक्खियां हटाई जा रही हैं",
+        "AddingWorkers": "%s कार्यकर्ता मधुमक्खियां जोड़ी जा रही हैं",
+        "RemovingQueen": "रानी मधुमक्खी हटाई जा रही है",
+        "AddingQueen": "रानी मधुमक्खी जोड़ी जा रही है",
+        "Placing": "छत्ता लगाया जा रहा है",
+        "Accessing": "छत्ते तक पहुंच",
+        "Adding": "छत्ते में जोड़ा जा रहा है",
+        "Removing": "छत्ते से हटाया जा रहा है",
+        "MissingItem": "इस क्रिया के लिए आपके पास आवश्यक वस्तु नहीं है।"
+    },
+    "ProgressBars": {
+        "Dismantle": "छत्ता हटाया जा रहा है...",
+        "Accessing": "छत्ते तक पहुंच...",
+        "Placing": "छत्ता लगाया जा रहा है...",
+        "Adding": "छत्ते में जोड़ा जा रहा है...",
+        "Extracting": "छत्ते से निकाला जा रहा है..."
+    },
+    "HiveMenu": {
+        "Color": "नारंगी",
+        "WorkerInputHeader": "कार्यकर्ता मधुमक्खियों की संख्या",
+        "WorkersToAdd": "जोड़ने वाली कार्यकर्ता",
+        "WorkersToRemove": "हटाने वाली कार्यकर्ता",
+        "Slider_Add_Label": "अधिकतम जोड़ने के लिए",
+        "Slider__Remove_Label": "अधिकतम हटाने के लिए",
+        "ItemCountCheck": "आपके पास इसके लिए पर्याप्त वस्तु नहीं है।",
+        "Title": "छत्ता प्रबंधन",
+        "HiveHealthTitle": "छत्ता स्वास्थ्य अवलोकन",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "छत्ते की वर्तमान स्वास्थ्य स्थिति: ",
+        "WaxCountTitle": "मधुमक्खी मोम प्रबंधन",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "मधुमक्खी मोम उत्पादन का प्रबंधन करें",
+        "HoneyCountTitle": "शहद प्रबंधन",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "शहद उत्पादन की निगरानी करें",
+        "QueenCountTitle": "रानी मधुमक्खी स्थिति",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "रानी मधुमक्खियों की संख्या का प्रबंधन करें",
+        "WorkerCountTitle": "कार्यकर्ता मधुमक्खी प्रबंधन",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "कार्यकर्ता मधुमक्खियों की संख्या का प्रबंधन करें",
+        "DestroyHiveTitle": "छत्ता नष्ट करें",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "यह छत्ते को स्थायी रूप से नष्ट कर देगा।",
+        "ManageAccess": "छत्ता प्रबंधित करें",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "प्रबंधित करें कि छत्ते तक कौन पहुंच सकता है।",
+        "AddPlayerTitle": "%s को छत्ता पहुंच में जोड़ें।",
+        "AddPlayerDescription": "यह %s को छत्ते तक पहुंच देगा लेकिन इसे नष्ट करने का अधिकार नहीं।",
+        "TooFarFromHive": "आप छत्ते से बहुत दूर हैं।",
+        "TargetTooFarFromHive": "लक्ष्य छत्ते से बहुत दूर है।",
+        "Removing": "छत्ते से हटाया जा रहा है",
+        "WaxToRemove": "हटाने वाला मोम",
+        "HoneyToRemove": "हटाने वाला शहद"
+    },
+    "QueenMenu": {
+        "Color": "नारंगी",
+        "Title": "रानी मधुमक्खी प्रबंधन",
+        "DisplayQueenTitle": "छत्ते में रानी मधुमक्खियां",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "छत्ते में रानी मधुमक्खियां: %s ",
+        "AddQueenTitle": "रानी मधुमक्खी जोड़ें",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "छत्ते में रानी मधुमक्खी जोड़ें",
+        "RemoveQueenTitle": "रानी मधुमक्खी हटाएं",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "छत्ते से रानी मधुमक्खी हटाएं",
+        "ItemCountCheck": "आपके पास जोड़ने के लिए पर्याप्त रानी मधुमक्खियां नहीं हैं।",
+        "HiveFilled": "इस छत्ते में पहले से ही एक रानी मधुमक्खी है।",
+        "NoQueenInHive": "इस छत्ते में हटाने के लिए कोई रानी मधुमक्खी नहीं है।"
+    },
+    "WorkerMenu": {
+        "Color": "नारंगी",
+        "Title": "कार्यकर्ता मधुमक्खी प्रबंधन",
+        "AddWorkerTitle": "कार्यकर्ता मधुमक्खी जोड़ें",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "छत्ते में कार्यकर्ता मधुमक्खियां",
+        "AddWorkerDescription": "छत्ते में कार्यकर्ता मधुमक्खी जोड़ें",
+        "DisplayWorkerDescription": "छत्ते में कार्यकर्ता मधुमक्खियां: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "कार्यकर्ता मधुमक्खी हटाएं",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "छत्ते से कार्यकर्ता मधुमक्खी हटाएं",
+        "NoWorkers": "इस छत्ते में कोई कार्यकर्ता मधुमक्खियां नहीं हैं।",
+        "HiveFilled": "इस छत्ते में पहले से ही अधिकतम संख्या में कार्यकर्ता मधुमक्खियां हैं।",
+        "WorkerInvCheck": "आपके पास इसके लिए पर्याप्त कार्यकर्ता मधुमक्खियां नहीं हैं।"
+    },
+    "HoneyMenu": {
+        "Color": "नारंगी",
+        "Title": "शहद प्रबंधन",
+        "DisplayHoneyType": "शहद का प्रकार",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "यह शहद इस प्रकार का है: %s ",
+        "DisplayHoneyCount": "शहद की मात्रा",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "शहद की वर्तमान मात्रा: %s",
+        "ExtractHoneyTitle": "शहद निकालें",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "छत्ते से सारा शहद निकालें",
+        "NoHoney": "इस छत्ते में कोई शहद नहीं है।"
+    },
+    "WaxMenu": {
+        "Color": "नारंगी",
+        "Title": "मधुमक्खी मोम प्रबंधन",
+        "DisplayWaxCount": "मधुमक्खी मोम की मात्रा",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "मधुमक्खी मोम की वर्तमान मात्रा: %s",
+        "ExtractWaxTitle": "छत्ते से मोम निकालें",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "छत्ते से सारा मधुमक्खी मोम निकालें",
+        "NoWax": "इस छत्ते में कोई मधुमक्खी मोम नहीं है।"
+    },
+    "Hive": {
+        "Access": "छत्ते तक पहुंच"
+    },
+    "Dismantle": {
+        "title": "क्या आप निश्चित हैं?",
+        "icon": "हथौड़ा",
+        "description": "यह छत्ते को हटा देगा और अंदर की वस्तुओं को वापस कर देगा।"
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "यहां छत्ता नहीं लगाया जा सका। दूसरी जगह की कोशिश करें।",
+        "BlacklistedZone": "आप प्रतिबंधित क्षेत्र में छत्ता नहीं लगा सकते।",
+        "MaxOwnedHivesReached": "आपने अनुमतित छत्तों की अधिकतम संख्या तक पहुंच गए हैं।"
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "इस छत्ते को संशोधित करने के लिए आपको मालिक होना चाहिए।"
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "इस छत्ते को संशोधित करने के लिए आपको अनुमति सूची में होना चाहिए।"
+    },
+    "ManageAccess": {
+        "Color": "नारंगी",
+        "Title": "छत्ता पहुंच प्रबंधित करें",
+        "AddUser": "उपयोगकर्ता जोड़ें",
+        "RemovedUser": "उपयोगकर्ता को छत्ता पहुंच से हटाया गया",
+        "UnableToRemove": "उपयोगकर्ता को छत्ता पहुंच से हटाने में असमर्थ। यह करने के लिए आपको मालिक होना चाहिए।",
+        "UnableToFindHive": "छत्ता डेटा खोजने में असमर्थ। कृपया बाद में पुनः प्रयास करें।",
+        "UnableToAccess": "आपको इस छत्ते तक पहुंच नहीं है।",
+        "AlreadyAdded": "उपयोगकर्ता पहले से ही छत्ता पहुंच में जोड़ा गया है",
+        "UserAdded": "उपयोगकर्ता छत्ता पहुंच में जोड़ा गया",
+        "UserList": "उपयोगकर्ता सूची",
+        "AddClosestPersonTitle": "निकटतम व्यक्ति जोड़ें",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "निकटतम व्यक्ति को छत्ता पहुंच सूची में जोड़ें।",
+        "RemovePlayerTitle": "उपयोगकर्ता हटाएं",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "छत्ता पहुंच सूची से उपयोगकर्ता हटाएं।",
+        "RemovePlayer": "%s को छत्ता पहुंच सूची से हटाएं।",
+        "RemovedSuccess": "उपयोगकर्ता को छत्ता पहुंच से हटा दिया गया।",
+        "RemovedError": "उपयोगकर्ता को छत्ता पहुंच से हटाने में असमर्थ।",
+        "ViewAccessTitle": "पहुंच सूची देखें",
+        "ViewAccessDescription": "उन उपयोगकर्ताओं की सूची देखें जिनके पास इस छत्ते तक पहुंच है।",
+        "ViewAccessMenuTitle": "पहुंच सूची",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "इस छत्ते तक पहुंच है।",
+        "SubViewAccessMenuTitle": "छत्ते तक पहुंच वाले उपयोगकर्ताओं की सूची",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "%s को छत्ता पहुंच में जोड़ें।",
+        "AddPlayerDescription": "यह %s को छत्ते तक पहुंच देगा लेकिन इसे नष्ट करने का अधिकार नहीं।",
+        "TooFarFromHive": "आप छत्ते से बहुत दूर हैं।",
+        "TargetTooFarFromHive": "लक्ष्य छत्ते से बहुत दूर है।",
+        "RemoveUserTitle": "उपयोगकर्ता हटाएं",
+        "RemoveUserDescription": "छत्ता पहुंच सूची से उपयोगकर्ता हटाएं।",
+        "UserListDescription": "छत्ते तक पहुंच वाले उपयोगकर्ताओं की सूची",
+        "ManageAccessTitle": "छत्ते के लिए उपयोगकर्ता पहुंच प्रबंधित करें",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "छत्ते तक पहुंच वाले उपयोगकर्ताओं को जोड़ें या हटाएं।",
+        "YouWereAdded": "आपको छत्ता पहुंच सूची में जोड़ा गया था।",
+        "NoPlayerNearby": "जोड़ने के लिए कोई खिलाड़ी आसपास नहीं है।"
+    },
+    "Blips": {
+        "HiveBlipText": "मधुमक्खी छत्ता"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "आपने गलती की और कुछ मधुमक्खियों ने आपको डंक मारा!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "ID द्वारा मधुमक्खी छत्ता हटाएं [केवल ADMIN कमांड]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "SQL से मधुमक्खी छत्ते की ID"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "मालिक पहचानकर्ता द्वारा मधुमक्खी छत्ता हटाएं [केवल ADMIN कमांड]",
+            "params": {
+                "name": "identifier",
+                "type": "string",
+                "help": "मधुमक्खी छत्ते के मालिक की पहचानकर्ता"
+            }
+        },
+        "ShowAllHives": {
+            "help": "मानचित्र पर सभी छत्ते दिखाएं [केवल ADMIN कमांड]"
+        },
+        "OpenAdminHives": {
+            "help": "admin छत्ता प्रबंधन मेनू खोलें [केवल ADMIN कमांड]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "मोम: %s, शहद: %s, कार्यकर्ता: %s, रानी: %s",
+        "JoinedNames": "%s, पहचानकर्ता %s के साथ",
+        "MainMenuTitle": "Admin मेनू",
+        "ManageHiveByID": "छत्ता ID प्रबंधित करें: %s",
+        "ManageHiveDescription": "छत्ता प्रबंधन तक पहुंच",
+        "ManageHiveOwnerTitle": "छत्ता मालिक: %s",
+        "ManageHiveOwnerDescription": "छत्ते का मालिक %s है",
+        "ManageHiveIDTitle": "छत्ता ID: %s",
+        "ManageHiveIDDescription": "छत्ते की ID %s है",
+        "MarkHiveCoordsTitle": "छत्ता निर्देशांक चिह्नित करें",
+        "MarkHiveCoordsDescription": "मानचित्र पर छत्ते के निर्देशांक चिह्नित करें।",
+        "TeleportToCoordsTitle": "छत्ता निर्देशांक पर टेलीपोर्ट करें",
+        "TeleportToCoordsDescription": "छत्ते के निर्देशांक पर टेलीपोर्ट करें।",
+        "AccessablePlayersTitle": "अंतिम पहुंच: ",
+        "AccessablePlayersDescription": "अंतिम पहुंच: %s",
+        "HiveStatusTitle": "छत्ता स्थिति: ",
+        "HiveStatusDescription": "वर्तमान स्थिति: %s",
+        "PlayersWithAccessTitle": "छत्ते तक पहुंच वाले खिलाड़ी",
+        "RunSearch": "खोज चलाएं",
+        "RunSearchDescription": "विशिष्ट डेटा खोजें।",
+        "CopyIdToClipBoard": "छत्ता ID को क्लिपबोर्ड में कॉपी करें",
+        "CopyIdToClipBoardDescription": "छत्ते की ID को अपने क्लिपबोर्ड में कॉपी करें।",
+        "IconColor": "नारंगी",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "आपको इसका उपयोग करने की अनुमति नहीं है।",
+        "DeleteHiveTitle": "छत्ता हटाएं",
+        "DeleteHiveDescription": "ID के साथ छत्ते को स्थायी रूप से हटाएं: %s",
+        "ShowAllHivesOnMap": "मानचित्र पर सभी छत्ते दिखाएं/छुपाएं",
+        "ShowAllHivesOnMapDescription": "मानचित्र पर सभी छत्तों का प्रदर्शन टॉगल करें।",
+        "ListAllHives": "सभी छत्तों की सूची बनाएं",
+        "ListAllHivesDescription": "डेटाबेस में सभी छत्तों की सूची बनाएं।",
+        "Search": {
+            "InvalidSearchInput": "अमान्य खोज इनपुट। कृपया पुनः प्रयास करें।",
+            "Title": "खोज",
+            "SearchLabel": "विशिष्ट डेटा खोजें।",
+            "SearchDescription": "वह डेटा दर्ज करें जिसे आप खोजना चाहते हैं।",
+            "SearchPlaceholder": "खोज शब्द दर्ज करें...",
+            "Submit": "जमा करें"
+        }
+    }
+}

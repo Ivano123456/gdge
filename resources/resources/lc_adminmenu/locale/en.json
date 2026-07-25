@@ -1,0 +1,524 @@
+{
+  "hello": "Hello",
+  "loading": "Loading...",
+  "permissions": "Permissions",
+  "permission_group": "Permission group",
+  "permissions_source": "Permissions source",
+  "group_tier": "Group Tier",
+  "change": "Change",
+  "browsing_history": "History",
+  "browsing_history_empty": "Browsing history is empty",
+  "player": "Player",
+  "select_player": "Select player...",
+  "start_typing_to_search_player": "Start typing to search for players...",
+  "no_players_found": "No players found.",
+  "group": "Group",
+  "select_group": "Select permission group...",
+  "search_group": "Search permission group...",
+  "no_groups_found": "No permission groups found.",
+  "session_time": "Session Time",
+  "search_placeholder": "Search...",
+  "health": "Health",
+  "armor": "Armor",
+  "playtime": "Playtime",
+  "trust_score": "Trust score",
+  "joined_at": "Joined",
+  "actions": {
+    "open_profile": "Open profile",
+    "revive": "Revive",
+    "heal": "Heal",
+    "spectate": "Spectate",
+    "spectate_stop": "Stop spectating",
+    "previous_next_player": "Previous/Next player",
+    "take_screenshot": "Take screenshot",
+    "teleport": "Teleport",
+    "bring": "Bring",
+    "bring_back": "Bring back",
+    "view_inv": "Open inventory",
+    "clear_inv": "Clear inventory",
+    "confiscate_inv": "Confiscate inventory",
+    "return_inv": "Return inventory",
+    "set_routing_bucket": "Set Routing Bucket",
+    "routing_bucket_description": "Set Player's Routing Bucket (Default: 0)",
+    "ban": "Ban",
+    "kick": "Kick"
+  },
+  "admin_chat": {
+    "title": "Admin Chat",
+    "send_player_profile": "Send player profile",
+    "send_report": "Send report",
+    "input_placeholder": "Message...",
+    "open_report": "Open report",
+    "share_on_admin_chat": "Share on Admin Chat"
+  },
+  "modals": {
+    "submit": "Submit",
+    "save": "Save",
+    "continue": "Continue",
+    "next": "Next",
+    "open": "Open",
+    "back": "Back",
+    "close": "Close",
+    "delete": "Delete",
+    "yes": "Yes",
+    "no": "No",
+    "add": "Add",
+    "are_you_sure": "Are you sure?",
+    "enter_details": "Enter details",
+    "disconnect_instantly": "Disconnect instantly",
+    "ban": {
+      "title": "Banning player",
+      "presets": "Preset",
+      "custom": "Custom",
+      "duration_placeholder": "Choose duration",
+      "reason_placeholder": "Reason..."
+    },
+    "kick": {
+      "title": "Kicking player",
+      "description": "Enter kick reason",
+      "placeholder": "Reason..."
+    },
+    "offline_ban": {
+      "title": "Banning offline player",
+      "description": "To ban an offline player, you need to search for their set of IDs, you can do this by typing one of them below with the prefix.",
+      "player_not_found": "Player not found"
+    },
+    "announcement": {
+      "title": "Announcement",
+      "description": "Enter announcement message and choose duration.",
+      "placeholder": "Message...",
+      "duration": "Duration",
+      "send_to_discord": "Send to discord"
+    },
+    "link_confirmation": {
+      "title": "You are leaving admin menu",
+      "description": "Do you wish to continue? You will be redirected to:"
+    },
+    "add_admin": {
+      "trigger": "Add Admin",
+      "title": "Adding admin"
+    },
+    "admin_profile": "Admin Details",
+    "edit_profile": "Edit Profile",
+    "create_permission_group": {
+      "title": "Create permission group",
+      "group_name": "Group name",
+      "use_custom_tier": "Use custom tier",
+      "custom_tier_placeholder": "Enter custom tier (1-999)...",
+      "discord_role_id_placeholder": "Enter Discord role ID...",
+      "group_name_placeholder": "Enter group name...",
+      "create_group": "Create group",
+      "creating": "Creating...",
+      "group_name_required": "Group name is required",
+      "custom_tier_invalid": "Custom tier must be a number between 1-999",
+      "group_name_already_exists": "Group name already exists",
+      "cannot_create_group": "You cannot create a group with a tier higher or equal to your own",
+      "failed_to_create_group": "Failed to create permission group"
+    },
+    "change_order_of_permission_groups": "Are you sure you want to change the order of the permission groups?",
+    "update_permission_group_permissions": "Are you sure you want to save the permissions of this group?",
+    "permission_group_info": {
+      "title": "Permission Group Info",
+      "non_editable_label": "Non Editable",
+      "non_editable": "This group is non-editable. It can only be edited by the server developers."
+    },
+    "delete_permission_group": "Are you sure you want to delete the \"%s\" group? This group is currently being used by %s admin(s).",
+    "logout": "You are about to logout from the admin panel and end your admin session.",
+    "find_report_by_id": {
+      "trigger": "Find by ID",
+      "title": "Find report by ID"
+    }
+  },
+  "tables": {
+    "sort_by": "Sort by",
+    "order_by": "Order by",
+    "ascending": "Ascending",
+    "descending": "Descending",
+    "page": "Page",
+    "of": "of",
+    "rows_per_page": "Rows per page",
+    "view": "View",
+    "refresh": "Refresh"
+  },
+  "sidebar": {
+    "member_since": "Member since",
+    "dashboard": "Dashboard",
+    "player_list": "Players",
+    "reports": "Reports",
+    "player_profile": "Player's profile",
+    "ban_list": "Ban list",
+    "admin_list": "Administrators",
+    "permission_groups": "Permission groups",
+    "resources": "Resources",
+    "preferences": "Preferences",
+    "announcement": "Announcement",
+    "online": "ONLINE"
+  },
+  "admin_functions": {
+    "admin_crosshair": "Admin Crosshair",
+    "player_names": "Player Names",
+    "esp": "ESP",
+    "noclip": "NoClip",
+    "freecam": "FreeCam",
+    "invisibility": "Invisibility",
+    "godmode": "GodMode"
+  },
+  "dashboard": {
+    "current_players": "Current players",
+    "avg_players_24h": "Avg. players (24H)",
+    "online_administrators": "Online administrators",
+    "players_per_administrator": "Players per admin",
+    "active_players_per_hour": "Active players (%sH)",
+    "latest_activity": "Latest activity",
+    "clear_feed": "Clear",
+    "tabs": {
+      "activity_stats": "Activity Stats",
+      "world_options": "World Options"
+    },
+    "world_options": {
+      "current_weather": "Current Weather",
+      "weather_options": "Weather Options",
+      "weather": "Weather",
+      "select_weather": "Select a weather...",
+      "blackout": "Blackout",
+      "dynamic_weather": "Dynamic Weather",
+      "tsunami": "Tsunami",
+      "time": "Time",
+      "time_options": "Time Options",
+      "hour": "Hour",
+      "minute": "Minute",
+      "freeze_time": "Freeze Time",
+      "time_scale": "Time Scale",
+      "time_scale_description": "1 minute in GTA = %s seconds"
+    }
+  },
+  "user_page": {
+    "identifiers_modal": {
+      "trigger": "Identifiers",
+      "title": "Identifiers",
+      "description": "Click to copy."
+    },
+    "overview": {
+      "title": "Overview",
+      "character_info": "Informations",
+      "high_balance_warning": "Warning! This player has $",
+      "licenses": "Licenses",
+      "account_edit_modal": {
+        "title": "Updating account",
+        "description": "Enter new account balance"
+      },
+      "character_edit_modal": {
+        "trigger": "Edit",
+        "title": "Player details edition"
+      }
+    },
+    "vehicles": {
+      "title": "Vehicles",
+      "search_placeholder": "Plate, model",
+      "table": {
+        "plate": "Plate",
+        "model": "Model"
+      },
+      "add_modal": {
+        "trigger": "Add vehicle",
+        "title": "Adding vehicle",
+        "description": "Enter valid model",
+        "placeholder": "Model"
+      },
+      "delete_modal": {
+        "trigger": "Delete vehicle",
+        "description": "Are you sure you want to delete that vehicle?"
+      }
+    },
+    "actions": "Actions",
+    "history": {
+      "title": "History",
+      "history_empty": "This player's history is empty.",
+      "note": "Note",
+      "add_modal": {
+        "trigger": "Add",
+        "title": "New note",
+        "description": "Enter note description",
+        "placeholder": "Description..."
+      },
+      "delete_modal": {
+        "description": "Are you sure you want to delete that note?"
+      }
+    }
+  },
+  "bans": {
+    "no_bans_to_show": "There are no bans... yet",
+    "table": {
+      "id": "Ban ID",
+      "nick": "Nick",
+      "reason": "Reason",
+      "expiration": "Expiration",
+      "banned_by": "Administrator",
+      "edit_ban_modal": {
+        "trigger": "Edit ban",
+        "current_duration": "Current ban duration"
+      },
+      "unban_modal": {
+        "trigger": "Unban",
+        "description": "Are you sure you want to delete that ban?"
+      }
+    }
+  },
+  "admin_list": {
+    "member_since": "Member since",
+    "online_first": "Online first",
+    "offline_first": "Offline first",
+    "most_recent_login_first": "Most recent login first",
+    "oldest_login_first": "Oldest login first",
+    "stats": {
+      "title": "Statistics",
+      "last_login": "Last Login",
+      "playtime": "Playtime",
+      "players_spectated": "Players Spectated",
+      "players_banned": "Players Banned",
+      "players_kicked": "Players Kicked",
+      "reports_involved_in": "Reports Involved In",
+      "reports_closed": "Reports Closed",
+      "bans_deleted": "Bans Deleted",
+      "player_notes_added": "Player Notes Added",
+      "player_notes_deleted": "Player Notes Deleted",
+      "accounts_edited": "Accounts Edited",
+      "characters_edited": "Characters Edited",
+      "announcements_sent": "Announcements Sent"
+    },
+    "change_group": {
+      "title": "Change Admin Group",
+      "cant_change_own_group": "You cannot change your own permissions group.",
+      "select_group": "Select permission group...",
+      "search_group": "Search permission group...",
+      "no_permission_group_found": "No permission group found.",
+      "instructions": [
+        "Editing this admin's group will change their permissions source to \"database\".",
+        "It means that their Framework and ACE permissions will be ignored and they will have access to the admin menu until they are manually removed from the Administrators page.",
+        "Do you want to continue?"
+      ]
+    },
+    "revoke_access": {
+      "title": "Revoke Access",
+      "description": "Are you sure you want to delete this user as an administrator?"
+    }
+  },
+  "reports": {
+    "report": "Report",
+    "player_report": "Player report",
+    "your_reports": "Your reports",
+    "report_default_message_author": "Administration",
+    "report_default_message": "If you want to add some details, you can do it on this chat.",
+    "report_description": "Report description:",
+    "successfully_sent_report": "Successfully notified administration, Report ID: %s",
+    "report_sending_error": "Couldn't send report. Please contact administration on our discord server.",
+    "open_report_creator": "Open profile",
+    "chat": "Chat",
+    "report_type": "Report type",
+    "active": "Active",
+    "closed": "Closed",
+    "read_status": "Read status",
+    "all": "All",
+    "unread": "Unread",
+    "read": "Read",
+    "recent_activity": "Recent activity",
+    "mark_all_as_read": "Mark all as read",
+    "no_report_selected": "No report selected. Pick one from the list to start.",
+    "no_active_reports": "There are no active reports yet.",
+    "no_closed_reports": "There are no closed reports yet.",
+    "report_not_found": "Report with this ID doesn't exist.",
+    "window": {
+      "title": "Tickets",
+      "choose_type": "Choose report type",
+      "error": "Error",
+      "suggestion": "Suggestion",
+      "textarea_placeholder": "Describe your problem / suggestion (Minimum 10 characters)",
+      "send_report": "Send report",
+      "no_reports": "You have no active reports.",
+      "chat_input_placeholder": "Enter your message",
+      "report_closed": "This ticket has been closed"
+    }
+  },
+  "notifications": {
+    "unable_to_open_profile": {
+      "title": "Unable to retrieve player data.",
+      "description": "Please try again later."
+    },
+    "new_report": {
+      "title": "New report",
+      "description": "Someone just sent a new report."
+    },
+    "new_report_message": {
+      "title": "New message",
+      "description": "Someone just sent a new message in a report with ID: %s"
+    },
+    "character_edit_success": "Successfully saved character.",
+    "character_edit_failed": {
+      "title": "Unable to save character",
+      "description": "Make sure that data you entered is valid."
+    },
+    "administrator_add": {
+      "success": "Successfully added new administrator",
+      "not_online": "This player is not online",
+      "unknown_error": "Failed to add new administrator"
+    },
+    "trust_score": {
+      "recently_resetted": {
+        "title": "Unable to reset trust score",
+        "description": "This player's trust score has been resetted recently. It can be done again in %s second(s)"
+      },
+      "recently_decreased": {
+        "title": "Unable to decrease trust score",
+        "description": "This player's trust score has been decreased recently. It can be done again in %s second(s)"
+      },
+      "recently_increased": {
+        "title": "Unable to increase trust score",
+        "description": "This player's trust score has been increased recently. It can be done again in %s second(s)"
+      }
+    },
+    "cant_delete_permission_group": "You cannot delete a group with a tier higher or equal to your own",
+    "cant_update_permission_group_permissions": "You cannot update a group with a tier higher or equal to your own",
+    "cant_update_permission_group_discord_role_id": "You cannot update a group with a tier higher or equal to your own",
+    "cant_update_admin_group": "You cannot update a group with a tier higher or equal to your own",
+    "cant_update_admin_group_permissions": "You cannot update a group with a tier higher or equal to your own",
+    "cant_stop_admin_menu_resource": "You cannot stop the admin menu resource from here.",
+    "cant_restart_admin_menu_resource": "You cannot restart the admin menu resource from here.",
+    "resource_restarted_successfully": "Resource restarted successfully.",
+    "multiple_sessions_warning": {
+      "title": "Multiple sessions detected",
+      "description": "You are now logged in from multiple clients. This may cause instability."
+    },
+    "session_closed": {
+      "title": "Session closed",
+      "description": "Your other admin session has been closed."
+    },
+    "welcome": {
+      "title": "Welcome %s!",
+      "description": "Admin session has been started."
+    },
+    "permission_group_not_found": {
+      "title": "Invalid permission group",
+      "description": "You have invalid permission group (**%s**).\n\nYour permissions have been set to default.\n\nYou have limited access to the admin menu."
+    },
+    "nickname_taken": {
+      "title": "Nickname already taken",
+      "description": "Please choose a different name."
+    },
+    "cannot_add_admin": {
+      "title": "Cannot add admin",
+      "description": "You cannot add an admin with higher or equal tier than your own."
+    },
+    "this_admin_already_exists": {
+      "title": "Cannot add admin",
+      "description": "This player is already an admin."
+    },
+    "player_offline": "This player is offline",
+    "cannot_revoke_access": {
+      "title": "Cannot revoke access",
+      "description": "You cannot revoke access of an admin with higher or equal tier than your own."
+    },
+    "logged_out": {
+      "title": "Logged out",
+      "description": "Admin session has been closed."
+    },
+    "access_revoked": {
+      "title": "Access denied",
+      "description": "You no longer have access to use the admin panel."
+    },
+    "access_denied": {
+      "title": "Access denied",
+      "description": "You don't have permissions to use the admin panel."
+    },
+    "player_banned": {
+      "title": "Player banned",
+      "description": "Successfully banned player"
+    },
+    "open_rate_limit": "Please wait a moment before opening the admin panel again"
+  },
+  "preferences": {
+    "map": {
+      "title": "Map",
+      "description": "Do you want to see map in player's profile? Disable this option when having performance issues."
+    },
+    "mute_report_message_notifications": {
+      "title": "Mute report notifications",
+      "description": "You'll no longer see notifications about new messages in reports."
+    },
+    "reduced_motion": {
+      "title": "Reduced motion",
+      "description": "Toggle this option if you don't want to see animations between pages."
+    },
+    "admin_chat_opacity": {
+      "title": "Admin Chat opacity",
+      "description": "Use this option to adjust the admin chat opacity when admin panel is not visible."
+    },
+    "safe_noclip": {
+      "title": "Safe NoClip",
+      "description": "If this option is enabled, you'll be teleported to the ground after turning off NoClip."
+    },
+    "theme": {
+      "title": "Theme",
+      "description": "Choose color of the components.",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "small_menu_position": {
+      "title": "Small Menu Position",
+      "description": "Use this option to adjust the small menu position."
+    },
+    "reset": "Reset preferences"
+  },
+  "controls_helper": {
+    "move": "Move",
+    "up": "Up",
+    "down": "Down",
+    "move_slow": "Move Slow",
+    "move_fast": "Move Fast",
+    "change_speed": "Change speed",
+    "noclip_controls": {
+      "forward": "W",
+      "backward": "S",
+      "up": "Q",
+      "down": "Z",
+      "change_speed": "LSHIFT"
+    }
+  },
+  "feed_messages": {
+    "player": "Player: ",
+    "reason": "Reason: ",
+    "administrator": "Administrator: ",
+    "player_joined": "Player joined",
+    "player_left": "Player left",
+    "reports": {
+      "new_report": "New report",
+      "report_closed": "Report closed",
+      "report_reopened": "Report reopened",
+      "author": "Author: ",
+      "report_id": "Report ID: "
+    },
+    "announcement": "Announcement",
+    "announcement_from": "From: ",
+    "sent_to_discord": "Sent to Discord"
+  },
+  "summon_player": {
+    "trigger": "Summon player",
+    "confirmation": "Are you sure you want to summon this player? Enter the duration of the notification.",
+    "attention": "ATTENTION",
+    "summon_message": "You have been summoned by the <span class=\"text-red-500 font-semibold\">Administration</span> due to a rules violation.<br>Join our Discord server to avoid further consequences.",
+    "discord_link": "discord.gg/yourserver",
+    "close_message": "Understood"
+  },
+  "permission_groups": {
+    "permissions_of": "Permissions of group \"%s\"",
+    "set_discord_role_id": "Set Discord Role ID",
+    "small_menu_permissions": "Small Menu Permissions",
+    "general_permissions": "General Permissions"
+  },
+  "resources": {
+    "location": "Location",
+    "author": "Author",
+    "start_resource_confirmation": "Are you sure you want to start this resource?",
+    "stop_resource_confirmation": "Are you sure you want to stop this resource?",
+    "restart_resource_confirmation": "Are you sure you want to restart this resource?"
+  }
+}

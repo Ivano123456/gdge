@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamaica — Dokumenti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="stage">
+        <article class="doc doc-premium doc-premium--id" id="id-card">
+            <div class="prem-watermark" aria-hidden="true">JAMAICA</div>
+            <div class="prem-layout">
+                <aside class="prem-left">
+                    <figure class="prem-photo">
+                        <img src="" alt="" class="photo" id="player-photo">
+                    </figure>
+                    <div class="prem-left-foot">
+                        <div class="prem-fingerprint" aria-hidden="true"></div>
+                        <div class="prem-seal">
+                            <img src="assets/obelix-logo.png" alt="" class="prem-seal-img">
+                            <span class="prem-seal-text">Republic<br>of Jamaica</span>
+                        </div>
+                    </div>
+                    <div class="prem-code-wrap">
+                        <span class="prem-code-lbl">IDENTIFICATION CODE</span>
+                        <span class="prem-code-val mono" data-field="id_kod">—</span>
+                    </div>
+                </aside>
+                <div class="prem-right">
+                    <header class="prem-header">
+                        <span class="prem-gov">GOVERNMENT OF JAMAICA</span>
+                        <h1 class="prem-heading">
+                            <span class="prem-heading-white">JAMAICA</span>
+                            <span class="prem-heading-accent">IDENTITY CARD</span>
+                        </h1>
+                    </header>
+                    <div class="prem-name-bar">
+                        <span data-field="puno_ime">—</span>
+                    </div>
+                    <div class="prem-grid">
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">DATE OF BIRTH</span>
+                            <span class="prem-grid-val" data-field="datum_rodjenja">—</span>
+                        </div>
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">GENDER</span>
+                            <span class="prem-grid-val" data-field="pol">—</span>
+                        </div>
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">NATIONALITY</span>
+                            <span class="prem-grid-val" data-field="nacionalnost">—</span>
+                        </div>
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">PERSONAL NO.</span>
+                            <span class="prem-grid-val mono" data-field="citizenid">—</span>
+                        </div>
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">PARISH</span>
+                            <span class="prem-grid-val" data-field="parish">—</span>
+                        </div>
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">ISSUED</span>
+                            <span class="prem-grid-val" data-field="datum_izdavanja">—</span>
+                        </div>
+                    </div>
+                    <div class="prem-sign-block">
+                        <span class="prem-grid-lbl">SIGNATURE</span>
+                        <span class="prem-sign-accent" data-field="potpis">—</span>
+                        <div class="prem-sign-rule" aria-hidden="true"></div>
+                        <p class="prem-expires-line">EXPIRES <strong data-field="datum_isteka_exp">—</strong></p>
+                    </div>
+                    <p class="prem-disclaimer">This card is property of the Government of Jamaica. If found, return to the nearest government office. Unauthorized duplication is prohibited by law.</p>
+                </div>
+            </div>
+        </article>
+
+        <article class="doc doc-premium doc-premium--dl" id="drivers-license">
+            <div class="prem-watermark" aria-hidden="true">JAMAICA</div>
+            <div class="prem-layout">
+                <aside class="prem-left">
+                    <figure class="prem-photo">
+                        <img src="" alt="" class="photo" id="player-photo2">
+                    </figure>
+                    <div class="prem-left-foot">
+                        <div class="prem-fingerprint" aria-hidden="true"></div>
+                        <div class="prem-seal">
+                            <img src="assets/obelix-logo.png" alt="" class="prem-seal-img">
+                            <span class="prem-seal-text">City of<br>Jamaica</span>
+                        </div>
+                    </div>
+                    <div class="prem-code-wrap">
+                        <span class="prem-code-lbl">IDENTIFICATION CODE</span>
+                        <span class="prem-code-val mono" data-field="broj_dozvole">—</span>
+                    </div>
+                </aside>
+                <div class="prem-right">
+                    <header class="prem-header">
+                        <span class="prem-gov">GOVERNMENT OF JAMAICA</span>
+                        <h1 class="prem-heading">
+                            <span class="prem-heading-white">JAMAICA</span>
+                            <span class="prem-heading-accent">DRIVER LICENSE</span>
+                        </h1>
+                    </header>
+                    <div class="prem-name-bar">
+                        <span data-field="puno_ime">—</span>
+                    </div>
+                    <div class="prem-grid">
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">DATE OF BIRTH</span>
+                            <span class="prem-grid-val" data-field="datum_rodjenja">—</span>
+                        </div>
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">GENDER</span>
+                            <span class="prem-grid-val" data-field="pol">—</span>
+                        </div>
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">HEIGHT</span>
+                            <span class="prem-grid-val" data-field="visina">—</span>
+                        </div>
+                        <div class="prem-grid-cell prem-grid-cell--full">
+                            <span class="prem-grid-lbl">CLASS</span>
+                            <span class="prem-grid-val" data-field="kategorije">—</span>
+                        </div>
+                    </div>
+                    <div class="dl-cats" id="dl-cat-badges" aria-label="Kategorije vozačke"></div>
+                    <div class="prem-sign-block">
+                        <span class="prem-grid-lbl">SIGNATURE</span>
+                        <span class="prem-sign-accent" data-field="potpis">—</span>
+                        <div class="prem-sign-rule" aria-hidden="true"></div>
+                        <p class="prem-expires-line">EXPIRES <strong data-field="datum_isteka_exp">—</strong></p>
+                    </div>
+                    <p class="prem-disclaimer">This card is property of the Government of Jamaica. If found, return to the nearest government office. Unauthorized duplication is prohibited by law.</p>
+                </div>
+            </div>
+        </article>
+
+        <article class="doc doc-premium doc-badge" id="service-badge" data-badge-job="">
+            <div class="badge-stripe" aria-hidden="true"></div>
+            <div class="prem-watermark badge-watermark" aria-hidden="true">OFFICIAL</div>
+            <div class="prem-layout">
+                <aside class="prem-left">
+                    <div class="badge-emblem" id="badge-emblem" aria-hidden="true"></div>
+                    <figure class="prem-photo badge-photo">
+                        <img src="" alt="" class="photo" id="player-photo-badge">
+                    </figure>
+                    <div class="prem-left-foot">
+                        <div class="prem-fingerprint" aria-hidden="true"></div>
+                        <div class="prem-seal badge-seal-wrap">
+                            <span class="badge-seal-icon" id="badge-seal-icon" aria-hidden="true"></span>
+                            <span class="prem-seal-text" id="badge-seal-text">—</span>
+                        </div>
+                    </div>
+                    <div class="prem-code-wrap">
+                        <span class="prem-code-lbl">BADGE NUMBER</span>
+                        <span class="prem-code-val mono" data-field="broj_znacke">—</span>
+                    </div>
+                </aside>
+                <div class="prem-right">
+                    <header class="prem-header">
+                        <span class="prem-gov" data-field="sluzba">—</span>
+                        <h1 class="prem-heading">
+                            <span class="prem-heading-white" data-field="naslov">—</span>
+                            <span class="prem-heading-accent" data-field="podnaslov">OFFICIAL BADGE</span>
+                        </h1>
+                    </header>
+                    <div class="prem-name-bar">
+                        <span data-field="puno_ime">—</span>
+                    </div>
+                    <div class="prem-grid">
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">RANK</span>
+                            <span class="prem-grid-val" data-field="rang">—</span>
+                        </div>
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">GENDER</span>
+                            <span class="prem-grid-val" data-field="pol">—</span>
+                        </div>
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">UNIT ID</span>
+                            <span class="prem-grid-val mono" data-field="broj_dozvole">—</span>
+                        </div>
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">ISSUED</span>
+                            <span class="prem-grid-val" data-field="datum_izdavanja">—</span>
+                        </div>
+                    </div>
+                    <div class="badge-auth-bar">
+                        <span class="badge-auth-lbl">AUTHORIZED OFFICER</span>
+                        <span class="badge-auth-val" data-field="potpis">—</span>
+                    </div>
+                    <p class="prem-disclaimer badge-disclaimer">Official identification of a sworn law enforcement / tactical officer. Misuse or forgery is a criminal offense.</p>
+                </div>
+            </div>
+        </article>
+
+        <article class="doc doc-premium doc-premium--wp" id="weapon-permit">
+            <div class="prem-watermark" aria-hidden="true">JAMAICA</div>
+            <div class="prem-layout">
+                <aside class="prem-left">
+                    <figure class="prem-photo">
+                        <img src="" alt="" class="photo" id="player-photo3">
+                    </figure>
+                    <div class="prem-left-foot">
+                        <div class="prem-fingerprint" aria-hidden="true"></div>
+                        <div class="prem-seal">
+                            <img src="assets/obelix-logo.png" alt="" class="prem-seal-img">
+                            <span class="prem-seal-text">MUP<br>Jamaica</span>
+                        </div>
+                    </div>
+                    <div class="prem-code-wrap">
+                        <span class="prem-code-lbl">PERMIT NUMBER</span>
+                        <span class="prem-code-val mono" data-field="broj_dozvole">—</span>
+                    </div>
+                </aside>
+                <div class="prem-right">
+                    <header class="prem-header">
+                        <span class="prem-gov">GOVERNMENT OF JAMAICA</span>
+                        <h1 class="prem-heading">
+                            <span class="prem-heading-white">JAMAICA</span>
+                            <span class="prem-heading-accent">WEAPON PERMIT</span>
+                        </h1>
+                    </header>
+                    <div class="prem-name-bar">
+                        <span data-field="puno_ime">—</span>
+                    </div>
+                    <div class="prem-grid">
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">DATE OF BIRTH</span>
+                            <span class="prem-grid-val" data-field="datum_rodjenja">—</span>
+                        </div>
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">GENDER</span>
+                            <span class="prem-grid-val" data-field="pol">—</span>
+                        </div>
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">PERMIT TYPE</span>
+                            <span class="prem-grid-val" data-field="tip_oruzja">—</span>
+                        </div>
+                        <div class="prem-grid-cell">
+                            <span class="prem-grid-lbl">ISSUED</span>
+                            <span class="prem-grid-val" data-field="issuedDate">—</span>
+                        </div>
+                    </div>
+                    <div class="prem-sign-block">
+                        <span class="prem-grid-lbl">SIGNATURE</span>
+                        <span class="prem-sign-accent" data-field="potpis">—</span>
+                        <div class="prem-sign-rule" aria-hidden="true"></div>
+                        <p class="prem-expires-line">EXPIRES <strong data-field="datum_isteka_exp">—</strong></p>
+                    </div>
+                    <p class="prem-disclaimer">This permit is property of the Government of Jamaica. Carry at all times when armed. Unauthorized duplication is prohibited by law.</p>
+                </div>
+            </div>
+        </article>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,274 @@
+{
+    "SubmitText": "Arrr! Submit",
+    "BeeShop": {
+        "Invalid": "This shop be cursed! Tell the captain to fix the charts.",
+        "OpenMenu": "Beekeeper Pirate",
+        "TargetShop": "Speak with the Beekeeper Pirate",
+        "ShopTitle": "Plunder Beekeeping Supplies",
+        "SellItems": "Sell Yer Booty",
+        "InputSellAmount": "How much loot ye be sellin'?",
+        "ShopDescription": "Buy all sorts o' things to help with yer beekeepin'.",
+        "SellDescription": "Sell yer bee booty.",
+        "SellTitle": "Sell Bee-Related Booty",
+        "SellItemFor": "Sell %s for $%s doubloons each.",
+        "ShopIcon": "fas fa-store",
+        "SellIcon": "fas fa-coins",
+        "OpenSellMenu": "Booty to Sell",
+        "TransactionCompleted": "Ye sold yer loot for $%s doubloons.",
+        "IconColor": "gold",
+        "ReturnIcon": "fas fa-arrow-left",
+        "ReturnText": "Back to the last port"
+    },
+    "HiveChange": {
+        "Dismantle": "Scuttle the Hive",
+        "PlacingHive": "Plantin' the hive, matey",
+        "ExtractWax": "Scrapin' %s wax",
+        "ExtractHoney": "Plunderin' %s honey",
+        "RemovingWorkers": "Bootin' %s worker bees",
+        "AddingWorkers": "Recruitin' %s worker bees",
+        "RemovingQueen": "Mutiny! Tossin' the queen bee",
+        "AddingQueen": "Crownin' the queen bee",
+        "Placing": "Placin' the hive at yer mark",
+        "Accessing": "Inspectin' the hive",
+        "Adding": "Addin' to the hive",
+        "Removing": "Removin' from the hive",
+        "MissingItem": "Ye be missin' the loot for this deed."
+    },
+    "ProgressBars": {
+        "Dismantle": "Scuttlin' the hive...",
+        "Accessing": "Boardin' the hive...",
+        "Placing": "Plantin' the hive...",
+        "Adding": "Addin' to the hive...",
+        "Extracting": "Plunderin' the hive..."
+    },
+    "HiveMenu": {
+        "Color": "gold",
+        "WorkerInputHeader": "Crew Bee Count",
+        "WorkersToAdd": "Crew Bees to Recruit",
+        "WorkersToRemove": "Crew Bees to Boot",
+        "Slider_Add_Label": "Max to Recruit",
+        "Slider__Remove_Label": "Max to Boot",
+        "ItemCountCheck": "Ye don't have enough booty for this.",
+        "Title": "Hive Command",
+        "HiveHealthTitle": "Hive Health Log",
+        "HiveHealthIcon": "fa-regular fa-heart",
+        "HiveHealthDescription": "Hive be at: ",
+        "WaxCountTitle": "Wax Command",
+        "WaxCountIcon": "fa-solid fa-bug",
+        "WaxCountDescription": "Manage yer wax loot",
+        "HoneyCountTitle": "Honey Command",
+        "HoneyCountIcon": "fa-solid fa-bug",
+        "HoneyCountDescription": "Oversee yer honey loot",
+        "QueenCountTitle": "Queen Bee Status",
+        "QueenCountIcon": "fa-solid fa-bug",
+        "QueenCountDescription": "Manage yer queen bee crew",
+        "WorkerCountTitle": "Crew Bee Command",
+        "WorkerCountIcon": "fa-solid fa-bug",
+        "WorkerCountDescription": "Manage yer crew bee crew",
+        "DestroyHiveTitle": "Scuttle Hive",
+        "DestroyHiveIcon": "fa-solid fa-hammer",
+        "DestroyHiveDescription": "This will scuttle the hive for good, matey.",
+        "ManageAccess": "Command Hive",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Manage who can board the hive.",
+        "AddPlayerTitle": "Add %s to hive crew.",
+        "AddPlayerDescription": "This lets %s board the hive but not scuttle it.",
+        "TooFarFromHive": "Ye be too far from the hive, matey.",
+        "TargetTooFarFromHive": "Target be too far from the hive.",
+        "Removing": "Bootin' from the hive",
+        "WaxToRemove": "Wax to boot",
+        "HoneyToRemove": "Honey to boot"
+    },
+    "QueenMenu": {
+        "Color": "gold",
+        "Title": "Queen Bee Command",
+        "DisplayQueenTitle": "Queen Bees in Hive",
+        "DisplayQueenIcon": "fa-solid fa-bug",
+        "DisplayQueenDescription": "Queen bees in hive: %s ",
+        "AddQueenTitle": "Crown Queen Bee",
+        "AddQueenIcon": "fa-solid fa-bug",
+        "AddQueenDescription": "Crown a queen bee in the hive",
+        "RemoveQueenTitle": "Boot Queen Bee",
+        "RemoveQueenIcon": "fa-solid fa-bug",
+        "RemoveQueenDescription": "Boot a queen bee from the hive",
+        "ItemCountCheck": "Ye don't have enough queens to crown any.",
+        "HiveFilled": "There be a queen in this hive already.",
+        "NoQueenInHive": "No queen bee in this hive to boot."
+    },
+    "WorkerMenu": {
+        "Color": "gold",
+        "Title": "Crew Bee Command",
+        "AddWorkerTitle": "Recruit Crew Bee",
+        "AddWorkerIcon": "fa-solid fa-bug",
+        "DisplayWorkerTitle": "Crew Bees in Hive",
+        "AddWorkerDescription": "Recruit a crew bee to the hive",
+        "DisplayWorkerDescription": "Crew bees in hive: %s ",
+        "DisplayWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerTitle": "Boot Crew Bee",
+        "RemoveWorkerIcon": "fa-solid fa-bug",
+        "RemoveWorkerDescription": "Boot a crew bee from the hive",
+        "NoWorkers": "No crew bees in this hive, matey.",
+        "HiveFilled": "There be the max crew bees in this hive already.",
+        "WorkerInvCheck": "Ye don't have enough crew bees for this."
+    },
+    "HoneyMenu": {
+        "Color": "gold",
+        "Title": "Honey Command",
+        "DisplayHoneyType": "Type o' Honey",
+        "DisplayHoneyTypeIcon": "fa-solid fa-bug",
+        "DisplayHoneyTypeDescription": "This honey be type: %s ",
+        "DisplayHoneyCount": "Honey Count",
+        "DisplayHoneyCountIcon": "fa-solid fa-bug",
+        "DisplayHoneyCountDescription": "Current honey count: %s",
+        "ExtractHoneyTitle": "Plunder Honey",
+        "ExtractHoneyIcon": "fa-solid fa-bug",
+        "ExtractHoneyDescription": "Plunder all honey from the hive",
+        "NoHoney": "No honey in this hive, matey."
+    },
+    "WaxMenu": {
+        "Color": "gold",
+        "Title": "Wax Command",
+        "DisplayWaxCount": "Wax Count",
+        "DisplayWaxCountIcon": "fa-solid fa-bug",
+        "DisplayWaxCountDescription": "Current wax count: %s",
+        "ExtractWaxTitle": "Plunder Wax from Hive",
+        "ExtractWaxIcon": "fa-solid fa-bug",
+        "ExtractWaxDescription": "Plunder all wax from the hive",
+        "NoWax": "No wax in this hive, matey."
+    },
+    "Hive": {
+        "Access": "Board Hive"
+    },
+    "Dismantle": {
+        "title": "Ye Sure, Matey?",
+        "icon": "hammer",
+        "description": "This will scuttle the hive and return the loot inside."
+    },
+    "HivePlacement": {
+        "CouldNotPlaceHive": "Can't plant the hive here, matey. Try another spot.",
+        "BlacklistedZone": "Ye can't plant a hive in a forbidden zone.",
+        "MaxOwnedHivesReached": "Ye reached the max hives allowed, matey."
+    },
+    "OwnershipMode": {
+        "MustBeOwner": "Ye must be the captain to alter this hive."
+    },
+    "AllowListMode": {
+        "MustBeAllowed": "Ye must be on the crew list to alter this hive."
+    },
+    "ManageAccess": {
+        "Color": "gold",
+        "Title": "Manage Hive Crew",
+        "AddUser": "Add Crew",
+        "RemovedUser": "Crew booted from hive",
+        "UnableToRemove": "Can't boot crew from hive. Ye must be captain.",
+        "UnableToFindHive": "Can't find hive data. Try again later, matey.",
+        "UnableToAccess": "Ye can't board this hive.",
+        "AlreadyAdded": "Crew already be on the hive list",
+        "UserAdded": "Crew added to hive list",
+        "UserList": "Crew List",
+        "AddClosestPersonTitle": "Add Closest Matey",
+        "AddClosestPersonIcon": "fa-solid fa-bug",
+        "AddClosestPersonDescription": "Add the closest matey to the hive crew list.",
+        "RemovePlayerTitle": "Boot Crew",
+        "RemovePlayerIcon": "fa-solid fa-bug",
+        "RemovePlayerDescription": "Boot a matey from the hive crew list.",
+        "RemovePlayer": "Boot %s from the hive crew list.",
+        "RemovedSuccess": "Crew booted from hive.",
+        "RemovedError": "Can't boot crew from hive.",
+        "ViewAccessTitle": "View Crew List",
+        "ViewAccessDescription": "View the list of mateys with access to this hive.",
+        "ViewAccessMenuTitle": "Crew List",
+        "ViewAccessIcon": "fa-solid fa-bug",
+        "SubViewAccessTitle": "%s",
+        "SubViewAccessDescription": "Has access to this hive.",
+        "SubViewAccessMenuTitle": "List of mateys with access to the hive",
+        "SubViewAccessIcon": "fa-solid fa-bug",
+        "AddPlayerTitle": "Add %s to hive crew.",
+        "AddPlayerDescription": "This lets %s board the hive but not scuttle it.",
+        "TooFarFromHive": "Ye be too far from the hive, matey.",
+        "TargetTooFarFromHive": "Target be too far from the hive.",
+        "RemoveUserTitle": "Boot Crew",
+        "RemoveUserDescription": "Boot a matey from the hive crew list.",
+        "UserListDescription": "List of mateys with access to the hive",
+        "ManageAccessTitle": "Manage Hive Crew Access",
+        "ManageAccessIcon": "fa-solid fa-bug",
+        "ManageAccessDescription": "Add or boot mateys who can board the hive.",
+        "YouWereAdded": "Ye were added to the hive crew list.",
+        "NoPlayerNearby": "No matey nearby to add."
+    },
+    "Blips": {
+        "HiveBlipText": "Bee Hive (Pirate)"
+    },
+    "HiveTarget": {
+        "HiveIcon": "fa-solid fa-jar",
+        "ShopIcon": "fa-solid fa-hand-holding-dollar"
+    },
+    "Fails": {
+        "Stung": "Ye messed up and the bees stung ye, matey!"
+    },
+    "Commands": {
+        "RemoveHiveByID": {
+            "help": "Scuttle the bee hive by ID [CAPTAIN ONLY COMMAND]",
+            "params": {
+                "name": "id",
+                "type": "string",
+                "help": "Beehive ID from the treasure map"
+            }
+        },
+        "RemoveHiveByOwner": {
+            "help": "Scuttle the bee hive by owner mark [CAPTAIN ONLY COMMAND]",
+            "params": {
+                "name": "mark",
+                "type": "string",
+                "help": "Beehive owner mark"
+            }
+        },
+        "ShowAllHives": {
+            "help": "Show all hives on the map [CAPTAIN ONLY COMMAND]"
+        },
+        "OpenAdminHives": {
+            "help": "Open the captain's hive management menu [CAPTAIN ONLY COMMAND]"
+        }
+    },
+    "AdminMenu": {
+        "StatusMenuData": "Wax: %s, Honey: %s, Crew: %s, Queen: %s",
+        "JoinedNames": "%s, with mark %s",
+        "MainMenuTitle": "Captain's Menu",
+        "ManageHiveByID": "Manage Hive ID: %s",
+        "ManageHiveDescription": "Board Hive Management",
+        "ManageHiveOwnerTitle": "Hive Captain: %s",
+        "ManageHiveOwnerDescription": "Captain of the hive be %s",
+        "ManageHiveIDTitle": "Hive ID: %s",
+        "ManageHiveIDDescription": "ID of the hive be %s",
+        "MarkHiveCoordsTitle": "Mark Hive Coordinates",
+        "MarkHiveCoordsDescription": "Mark the coordinates of the hive on the map.",
+        "TeleportToCoordsTitle": "Teleport To Hive Coordinates",
+        "TeleportToCoordsDescription": "Teleport to the coordinates of the hive.",
+        "AccessablePlayersTitle": "Last Boarded Date: ",
+        "AccessablePlayersDescription": "Last Boarded: %s",
+        "HiveStatusTitle": "Hive Status: ",
+        "HiveStatusDescription": "Current Status: %s",
+        "PlayersWithAccessTitle": "Crew With Access to Hive",
+        "RunSearch": "Run Search",
+        "RunSearchDescription": "Search for pirate info.",
+        "CopyIdToClipBoard": "Copy Hive ID to Treasure Map",
+        "CopyIdToClipBoardDescription": "Copies the Hive ID to yer treasure map.",
+        "IconColor": "gold",
+        "Icon": "fa-solid fa-hammer",
+        "NoPermission": "Ye don't have permission to board this.",
+        "DeleteHiveTitle": "Delete Hive",
+        "DeleteHiveDescription": "Scuttle the hive for good with ID: %s",
+        "ShowAllHivesOnMap": "Show/Hide All Hives on the Chart",
+        "ShowAllHivesOnMapDescription": "Toggle displayin' all hives on the chart, matey.",
+        "ListAllHives": "List All Hives",
+        "ListAllHivesDescription": "List all hives in the treasure log, arrr!",
+        "Search": {
+            "InvalidSearchInput": "Invalid search input, matey. Try again.",
+            "Title": "Search",
+            "SearchLabel": "Search for pirate info.",
+            "SearchDescription": "Enter the info ye want to search for.",
+            "SearchPlaceholder": "Enter search term, matey...",
+            "Submit": "Arrr! Submit"
+        }
+    }
+}
